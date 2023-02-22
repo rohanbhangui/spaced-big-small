@@ -17,6 +17,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
 
   return (
     <>{title}</>
+    
   )
 }
 

@@ -1,5 +1,7 @@
 "use client";
 
+import { theme } from "@/assets/styles/themeConfig";
+import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./GlobalStyles";
 
 const RootLayout = ({
@@ -15,9 +17,11 @@ const RootLayout = ({
       */}
       <head />
       <body>
-        <GlobalStyles />
-        {children}
-        </body>
+        <ThemeProvider theme={theme}>
+          <GlobalStyles />
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
