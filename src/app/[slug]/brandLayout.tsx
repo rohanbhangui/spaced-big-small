@@ -1,7 +1,7 @@
 'use client';
 
 import { desktop, smallTablet, tablet, desktopFHD, largeDesktop, phone, smallDesktop } from "@/assets/styles/themeConfig";
-import Tooltip from "@/components/Tooltip";
+import CustomTooltip from "@/components/Tooltip";
 import { useWindowDimensions } from "@/utils/hooks";
 import Image from "next/image";
 import { useRef, useEffect, useState } from "react";
@@ -9,6 +9,24 @@ import styled from "styled-components";
 import { Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
+import Popup from 'reactjs-popup';
+
+enum tooltipPositions {
+  'top left',
+  'top center',
+  'top right',
+  'right top',
+  'right center',
+  'right bottom',
+  'bottom left',
+  'bottom center',
+  'bottom right',
+  'left top',
+  'left center',
+  'left bottom',
+  'center center',
+};
+
 
 export type Position = {
   left: string;
@@ -44,6 +62,9 @@ export type BrandDataProps = {
     hover_position: {
       default: Position;
       smallTablet?: Position;
+    },
+    tooltip?: {
+      placement?: tooltipPositions;
     }
   }[],
   tags: string[];
@@ -275,6 +296,70 @@ const HighlightsGrid = styled.div`
   }
 `
 
+const ToolTipButton = styled.div<{ position?: Position }>`
+  background: white;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  ${({ position }) => position ? `
+    left: ${position.left};
+    top: ${position.top};
+  ` : ``}
+`
+
+const StyledPopup = styled(Popup)`
+  // use your custom style for ".popup-overlay"
+  &-overlay {
+    border-radius: 1rem;
+    border: 1px solid red;
+  }
+  // use your custom style for ".popup-content"
+  &-content {
+    width: auto !important;
+    border-radius: 1rem !important;
+
+    .flex {
+      display: flex;
+      align-items: center;
+
+      .img-container {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 3rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+          height: 3rem;
+          width: 3rem;
+          object-fit: contain;
+        }
+      }
+
+      .overlay-content {
+        flex: 1;
+        margin: 0 1rem 0 0.5rem;
+        white-space: nowrap;
+        font-size: 1rem;
+        color: black;
+
+        .title {
+          font-weight: 600;
+        }
+
+        .subtitle {
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+`;
+
 const TagList = styled.div`
   margin: 2rem auto 0;
   padding: 0 1rem;
@@ -444,15 +529,28 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
       <HighlightsGrid>
         <h2>Highlights</h2>
         <div className="grid">
-          {highlightGrid.map(({id, img, img_alt, hover_name, hover_link, hover_thumbnail, hover_position}, index) => (
+          {highlightGrid.map(({id, img, img_alt, hover_name, hover_link, hover_thumbnail, hover_position, tooltip}, index) => (
             <div className={`img ${id}`} key={id}>
-              <Tooltip 
+              <StyledPopup on={['hover']} trigger={<ToolTipButton position={hover_position.smallTablet} />} position={tooltip?.placement ?? 'top center'}>
+                <a href={hover_link} className="flex">
+                  <div className="img-container">
+                    <Image src={JSON.parse(hover_thumbnail)} alt={img_alt} />
+                  </div>
+                  <div className="overlay-content">
+                    <div className="title">{hover_name}</div>
+                    {/* { subtitle ? (
+                      <div className="subtitle">{subtitle}</div>
+                    ): null } */}
+                  </div>
+                </a>
+              </StyledPopup>
+              {/* <CustomTooltip
                 title={hover_name}
                 thumbnail_alt={img_alt}
                 thumbnail={hover_thumbnail}
                 position={hover_position.smallTablet}
                 url={hover_link}
-              />
+              /> */}
               <Image
                 src={JSON.parse(img)} alt={img_alt} />
             </div>

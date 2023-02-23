@@ -69,6 +69,9 @@
                     "left": "80%",
                     "top": "80%"
                 }
+            },
+            "tooltip": {
+                "placement": "left center"
             }
         },
         {
@@ -84,9 +87,12 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "50%",
+                    "top": "45%"
                 }
+            },
+            "tooltip": {
+                "placement": "left center"
             }
         },
         {
@@ -102,9 +108,12 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "80%",
+                    "top": "70%"
                 }
+            },
+            "tooltip": {
+                "placement": "right center"
             }
         },
         {
@@ -120,8 +129,8 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "50%",
+                    "top": "30%"
                 }
             }
         },
@@ -138,9 +147,12 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "30%",
+                    "top": "50%"
                 }
+            },
+            "tooltip": {
+                "placement": "left center"
             }
         }
     ],

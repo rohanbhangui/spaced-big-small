@@ -4,6 +4,7 @@ import { theme } from "@/assets/styles/themeConfig";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "@/assets/styles/GlobalStyles";
 import { useEffect } from "react";
+import 'reactjs-popup/dist/index.css';
 
 const RootLayout = ({
   children,
