@@ -1,5 +1,9 @@
 {
     "title": "Floyd",
+    "link": {
+        "url": "https://floydhome.com",
+        "label": "floydhome.com"
+    },
     "theme": {
         "colors": {
             "primary": "#F04029",

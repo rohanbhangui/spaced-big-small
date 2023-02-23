@@ -11,6 +11,10 @@ import 'swiper/swiper-bundle.min.css';
 
 export type BrandDataProps = {
   title: string;
+  link: {
+    url: string;
+    label: string;
+  };
   theme: {
     colors: {
       primary: string;
@@ -34,7 +38,8 @@ export type BrandDataProps = {
       left: string;
       top: string;
     }
-  }[]
+  }[],
+  tags: string[];
 }
 
 const RestrictContainer = styled.div`
@@ -45,7 +50,7 @@ const RestrictContainer = styled.div`
     max-width: ${smallTablet}px;
   }
 
-  @media ${({ theme }) => theme.mediaQuery.desktop} {
+  @media ${({ theme }) => theme.mediaQuery.tablet} {
     max-width: ${tablet}px;
   }
 
@@ -74,6 +79,7 @@ const Container = styled.main<{ background: string; color: string; }>`
   overflow:hidden;
 
   .invisible-text {
+    pointer-events: none;
     position: relative;
     width: 100%;
 
@@ -110,13 +116,44 @@ const Container = styled.main<{ background: string; color: string; }>`
 
   .content {
     width: 90%;
-    margin: 4rem 0;
+    margin: 4rem 0 7rem;
     padding: 0 1rem;
     line-height: 1.4;
 
     @media ${({ theme }) => theme.mediaQuery.tablet} {
       width: 80%;
-      margin: 6rem 0;
+      margin: 6rem 0 10rem;
+    }
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+
+    .brand-link-button {
+      ${({ color, background }) => color && background ? `
+        color: ${background};
+        background: ${color};
+      ` : ``};
+      
+      display: inline-block;
+      border-radius: 1rem;
+      font-weight: 600;
+      padding: 1rem 3rem;
+      text-align: center;
+      border: none;
+      margin: 3rem 0;
+      text-align: center;
+
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        border-radius: 1.5rem;
+        margin: 7rem 0;
+      }
+
+      &:active {
+        position: relative;
+        top: 1px;
+      }
     }
   }
 `;
@@ -172,7 +209,11 @@ const MontageCarousel = styled.section`
 `
 
 const HighlightsGrid = styled.div`
-  margin: 4rem;
+  margin: 4rem 1rem 0;
+
+  @media ${({ theme }) => theme.mediaQuery.tablet} {
+    margin: 4rem 4rem 0;
+  }
   
   .grid {
     margin-top: 2rem;
@@ -224,6 +265,98 @@ const HighlightsGrid = styled.div`
   }
 `
 
+const TagList = styled.div`
+  margin: 2rem auto 0;
+  padding: 0 1rem;
+  max-width: ${tablet}px;
+  text-align: center;
+
+  @media ${({ theme }) => theme.mediaQuery.tablet} {
+    margin: 2rem auto 0;
+  }
+
+  .tag {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 0.6rem;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+`
+
+const Footer = styled.div<{ color: string; }>`
+  margin: 2rem auto 4rem;
+  padding: 0 1rem;
+  max-width: ${smallTablet}px;
+
+  @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+    margin: 4rem auto;
+  }
+
+  @media ${({ theme }) => theme.mediaQuery.smallDesktop} {
+    margin: 7rem auto;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+
+    .footer-content {
+      flex: 0 0 100%;
+      margin-bottom: 1rem;
+      margin-top: 4rem;
+      text-align: center;
+
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        flex: 1;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+        text-align: left;
+      }
+    }
+
+    .button {
+      flex: 0 0 100%;
+
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        flex: 1;
+      }
+
+      a {
+        white-space: nowrap;
+        color: ${({ color }) => color };
+        background: transparent;
+        display: inline-block;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        padding: 1rem 3rem;
+        text-align: center ${({ color }) => color };
+        border: 2px solid ;
+        text-align: center;
+        display: inline-block;
+
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          border-radius: 1rem;
+        }
+      }
+    }
+  }
+
+`
+
 const renderNumberOfMontageSlides = (width: number): number => {
   if (width !== 0) {
     if (width >= desktopFHD) return 2.3
@@ -245,6 +378,8 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
     description,
     montageItems,
     highlightGrid,
+    link,
+    tags
   } = data;
 
   const { width } = useWindowDimensions()
@@ -303,6 +438,25 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
           ))}
         </div>
       </HighlightsGrid>
+      <div className="flex-center">
+        <a href={`${link.url}?ref=spaced`} target="_blank" rel="noopener noreferrer" className="h5 brand-link-button">{link.label}</a>
+      </div>
+      <TagList>
+        {tags.map((tag) => (
+          <div className="h2 tag" key={tag}>{tag}</div>
+        ))}
+      </TagList>
+      <Footer color={theme.colors.primary}>
+        <div className="flex">
+          <div className="footer-content">
+            <div className="h5">Have a brand in mind?</div>
+            <div className="h5">Drop us a note!</div>
+          </div>
+          <div className="button">
+            <a href="mailto:rohan@bhangui.com" className="h6">Message Us</a>
+          </div>
+        </div>
+      </Footer>
     </Container>
     
   )
