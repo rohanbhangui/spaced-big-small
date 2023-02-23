@@ -42,74 +42,110 @@
     "highlightGrid": [
         {
             "id": "a",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "Travel Pack 3",
+            "hover_thumbnail": "aersf/AER21033_travelpack3small_black_34hero.jpg",
+            "hover_link": "https://www.aersf.com/travel-pack-3-small-black",
             "img": "aersf/AER21033_travelpack3small_ls_6.jpg",
-            "img_alt": "Travel Pack 2",
+            "img_alt": "Travel Pack 3",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "90%"
+                }
             }
         },
         {
             "id": "b",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "Fit Pack 2",
+            "hover_thumbnail": "aersf/11002_fp2_black_34.jpeg",
+            "hover_link": "https://www.aersf.com/fit-pack-2-black",
             "img": "aersf/eac1c981a4a9179d51473f135e40705c_1600x.webp",
             "img_alt": "Fit Pack 2",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         },
         {
             "id": "c",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "Day Sling 3 Max",
+            "hover_thumbnail": "aersf/AER21038_daysling3max_black_front.jpg",
+            "hover_link": "https://www.aersf.com/day-sling-3-max-black",
             "img": "aersf/opumo-aer_0000_AER21038_daysling3max_ls_7.webp",
             "img_alt": "Day Sling 3 Max",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         },
         {
             "id": "d",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "Duffle Pack 3",
+            "hover_thumbnail": "aersf/AER11011_duffelpack3_black_34hero.jpg",
+            "hover_link": "https://www.aersf.com/duffel-pack-3-black",
             "img": "aersf/FfRttmBUcAE7Irm.jpeg",
             "img_alt": "Duffle Pack 3",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         },
         {
             "id": "e",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "Day Pack 2",
+            "hover_thumbnail": "aersf/AER31009_daypack2_black_34hero.jpg",
+            "hover_link": "https://www.aersf.com/day-pack-2-black",
             "img": "aersf/aer_hp_apple.jpg",
             "img_alt": "Day Pack 2",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         },
         {
             "id": "f",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "Flight Pack 3",
+            "hover_thumbnail": "aersf/AER21037_flightpack3_black_34hero.jpg",
+            "hover_link": "https://www.aersf.com/flight-pack-3-black",
             "img": "aersf/aer_sf_flight_pack_2__army_gre_1596292353_463f5198_progressive.jpg",
-            "img_alt": "Flight Pack 2",
+            "img_alt": "Flight Pack 3",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         }
     ],

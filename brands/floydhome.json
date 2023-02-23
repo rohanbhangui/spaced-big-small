@@ -37,74 +37,110 @@
     "highlightGrid": [
         {
             "id": "a",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "The Bed Frame",
+            "hover_thumbnail": "floydhome/Queen_Qtr_NoFeature_Post_3.webp",
+            "hover_link": "https://floydhome.com/products/the-bed-frame?variant=36971988287650",
             "img": "floydhome/fa93a0f57fbf4f0e87e81d2444edc16b.webp",
-            "img_alt": "the bed frame",
+            "img_alt": "The Bed Frame",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "80%"
+                }
             }
         },
         {
             "id": "b",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "The Squishy Chair",
+            "hover_thumbnail": "floydhome/squishy-chair-sun-1.webp",
+            "hover_link": "https://floydhome.com/products/the-squishy-chair?_pos=1&_psq=Squish+Chair&_ss=e&_v=1.0&variant=42282592698530",
             "img": "floydhome/ProductSelector1_db3efb9b-9f20-49fb-9ffc-f3fb1e2866bb.webp",
-            "img_alt": "squishy chair",
+            "img_alt": "The Squishy Chair",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "80%",
+                    "top": "80%"
+                }
             }
         },
         {
             "id": "c",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "The Media Console",
+            "hover_thumbnail": "floydhome/Floyd_Media_Console_AllShelves_Default_Black-Ash_Post.webp",
+            "hover_link": "https://floydhome.com/products/the-media-console?_pos=1&_sid=41a1ae960&_ss=r&variant=36999671644322",
             "img": "floydhome/ProductSelector2_0f5e6b7b-08f8-468c-b069-aac1a99ae174.webp",
-            "img_alt": " the media console",
+            "img_alt": "The Media Console",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         },
         {
             "id": "d",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "The Modular Table",
+            "hover_thumbnail": "floydhome/ModularTableSmallWalnut.3Qtr.0001-min.webp",
+            "hover_link": "https://floydhome.com/products/the-modular-table?_pos=1&_sid=a32fe99bb&_ss=r&variant=39791920316578",
             "img": "floydhome/ProductSelector1_b2319b58-5744-483c-af4a-81cb3a568fef.webp",
-            "img_alt": "the modular table",
+            "img_alt": "The Modular Table",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         },
         {
             "id": "e",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "Three Unit Dresser",
+            "hover_thumbnail": "floydhome/Config10_MapleTop_MapleCases_MapleDrawerFaces_2077a354-1635-4579-860d-ffb0032b5912.webp",
+            "hover_link": "https://floydhome.com/products/the-dresser-system-three-unit?_pos=1&_psq=dresser&_ss=e&_v=1.0&configuration=3M1&variant=42819824976034",
             "img": "floydhome/The_Dresser_WL_Square.webp",
-            "img_alt": "the dresser",
+            "img_alt": "Three Unit Dresser",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         },
         {
             "id": "f",
-            "hover_name": "Lorem Ipesum",
-            "hover_thumbnail": "",
-            "hover_link": "",
+            "hover_name": "Outdoor Sets",
+            "hover_thumbnail": "floydhome/OutdoorConfig1_Default_Green.0001-min.webp",
+            "hover_link": "https://floydhome.com/products/outdoor-sets?_pos=3&_psq=outdoor&_ss=e&_v=1.0&configuration=os1&variant=39653239750818",
             "img": "floydhome/Photo-Gallery-7.jpg",
-            "img_alt": "the outdoor set",
+            "img_alt": "Outdoor Sets",
             "hover_position": {
-                "left": "10%",
-                "top": "15%"
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "10%",
+                    "top": "15%"
+                }
             }
         }
     ],

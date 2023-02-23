@@ -1,6 +1,7 @@
 'use client';
 
 import { desktop, smallTablet, tablet, desktopFHD, largeDesktop, phone, smallDesktop } from "@/assets/styles/themeConfig";
+import Tooltip from "@/components/Tooltip";
 import { useWindowDimensions } from "@/utils/hooks";
 import Image from "next/image";
 import { useRef, useEffect, useState } from "react";
@@ -8,6 +9,11 @@ import styled from "styled-components";
 import { Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
+
+export type Position = {
+  left: string;
+  top: string;
+}
 
 export type BrandDataProps = {
   title: string;
@@ -36,8 +42,8 @@ export type BrandDataProps = {
     img: string;
     img_alt: string;
     hover_position: {
-      left: string;
-      top: string;
+      default: Position;
+      smallTablet?: Position;
     }
   }[],
   tags: string[];
@@ -229,6 +235,8 @@ const HighlightsGrid = styled.div`
       "d d d d e e e e f f f f";
 
     .img {
+      position: relative;
+
       &.a {
         grid-area: a;
       }
@@ -436,8 +444,15 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
       <HighlightsGrid>
         <h2>Highlights</h2>
         <div className="grid">
-          {highlightGrid.map(({id, img, img_alt}, index) => (
+          {highlightGrid.map(({id, img, img_alt, hover_name, hover_link, hover_thumbnail, hover_position}, index) => (
             <div className={`img ${id}`} key={id}>
+              <Tooltip 
+                title={hover_name}
+                thumbnail_alt={img_alt}
+                thumbnail={hover_thumbnail}
+                position={hover_position.smallTablet}
+                url={hover_link}
+              />
               <Image
                 src={JSON.parse(img)} alt={img_alt} />
             </div>

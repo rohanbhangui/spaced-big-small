@@ -57,10 +57,12 @@ const Layout = async ({params}: PageProps) => {
   const highlightGrid = await Promise.all(
     data.highlightGrid.map(async (item) => {
       const img = await import(`@/assets/img/${item.img}`);
+      const thumbnail = await import(`@/assets/img/${item.hover_thumbnail}`);
 
       return {
         ...item,
-        img: JSON.stringify(img)
+        img: JSON.stringify(img),
+        hover_thumbnail: JSON.stringify(thumbnail)
       }
     })
   )
