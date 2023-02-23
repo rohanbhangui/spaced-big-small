@@ -326,6 +326,10 @@ const Footer = styled.div<{ color: string; }>`
         margin-top: 0rem;
         text-align: left;
       }
+
+      .h5 {
+        margin-bottom: 0;
+      }
     }
 
     .button {
