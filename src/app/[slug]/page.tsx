@@ -42,10 +42,34 @@ const Layout = async ({params}: PageProps) => {
   // headerImage
   const headerImage = await import(`@/assets/img/${data.headerImage}`);
   
+  // montage Images
+  const montageItems = await Promise.all(
+    data.montageItems.map(async(item) => {
+      const imported = await import(`@/assets/img/${item.img}`);
+      return {
+        ...item,
+        img: JSON.stringify(imported)
+      }
+    })
+  );
+
+  // highlightGrid
+  const highlightGrid = await Promise.all(
+    data.highlightGrid.map(async (item) => {
+      const img = await import(`@/assets/img/${item.img}`);
+
+      return {
+        ...item,
+        img: JSON.stringify(img)
+      }
+    })
+  )
 
   return <BrandLayout data={{
     ...data,
-    headerImage,
+    headerImage: JSON.stringify(headerImage),
+    montageItems,
+    highlightGrid,
   }} />;
 }
 

@@ -8,5 +8,90 @@
     },
     "headerImage": "floydhome/floyd-2048px-3311.webp",
     "description": "Floyd makes furniture for keeping. Simple to assemble, easy to move, shipped to your door. A timeless solution to a modern lifestyle.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "floydhome/Floyd_Mattress_Detroit_10.webp",
+            "img_alt": "floyd home image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "floydhome/37767bafa78e435dad79a247f3e20ee3.webp",
+            "img_alt": "floyd home image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "floydhome/41751602_992502527600582_3406078540842532864_n.jpg",
+            "img_alt": "floyd home image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Lorem Ipesum",
+            "hover_thumbnail": "",
+            "img": "floydhome/fa93a0f57fbf4f0e87e81d2444edc16b.webp",
+            "img_alt": "the bed frame",
+            "hover_position": {
+                "left": "10%",
+                "top": "15%"
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Lorem Ipesum",
+            "hover_thumbnail": "",
+            "img": "floydhome/ProductSelector1_db3efb9b-9f20-49fb-9ffc-f3fb1e2866bb.webp",
+            "img_alt": "squishy chair",
+            "hover_position": {
+                "left": "10%",
+                "top": "15%"
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Lorem Ipesum",
+            "hover_thumbnail": "",
+            "img": "floydhome/ProductSelector2_0f5e6b7b-08f8-468c-b069-aac1a99ae174.webp",
+            "img_alt": " the media console",
+            "hover_position": {
+                "left": "10%",
+                "top": "15%"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Lorem Ipesum",
+            "hover_thumbnail": "",
+            "img": "floydhome/ProductSelector1_b2319b58-5744-483c-af4a-81cb3a568fef.webp",
+            "img_alt": "the modular table",
+            "hover_position": {
+                "left": "10%",
+                "top": "15%"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Lorem Ipesum",
+            "hover_thumbnail": "",
+            "img": "floydhome/The_Dresser_WL_Square.webp",
+            "img_alt": "the dresser",
+            "hover_position": {
+                "left": "10%",
+                "top": "15%"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Lorem Ipesum",
+            "hover_thumbnail": "",
+            "img": "floydhome/Photo-Gallery-7.jpg",
+            "img_alt": "the outdoor set",
+            "hover_position": {
+                "left": "10%",
+                "top": "15%"
+            }
+        }
+    ],
     "tags": ["productivity", "floyd", "furniture", "home decor", "minimalist", "modern", "sustainable", "affordable", "wood", "workspace", "modular"]
 }
