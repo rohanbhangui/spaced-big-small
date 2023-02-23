@@ -204,6 +204,7 @@ const MontageCarousel = styled.section`
     .swiper-horizontal > .swiper-scrollbar {
       left: 16%;
       width: 68%;
+      bottom: var(--swiper-scrollbar-bottom,2.5rem);
     }
   }
 `
