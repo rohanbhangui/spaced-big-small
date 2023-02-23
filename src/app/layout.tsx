@@ -2,13 +2,30 @@
 
 import { theme } from "@/assets/styles/themeConfig";
 import { ThemeProvider } from "styled-components";
-import GlobalStyles from "./GlobalStyles";
+import GlobalStyles from "@/assets/styles/GlobalStyles";
+import { useEffect } from "react";
 
 const RootLayout = ({
   children,
 }: {
   children: React.ReactNode
 }) => {
+  useEffect(() => {
+
+    // Helper function
+    const domReady = (cb: () => void) => {
+      document.readyState === 'interactive' || document.readyState === 'complete'
+        ? cb()
+        : document.addEventListener('DOMContentLoaded', cb);
+    };
+
+    domReady(() => {
+      // Display body when DOM is loaded
+      document.body.style.visibility = 'visible';
+    });
+
+  }, [])
+  
   return (
     <html lang="en">
       {/*
@@ -21,6 +38,7 @@ const RootLayout = ({
           <GlobalStyles />
           {children}
         </ThemeProvider>
+        <noscript><style jsx>{`body { visibility: visible; }`}</style></noscript>
       </body>
     </html>
   )

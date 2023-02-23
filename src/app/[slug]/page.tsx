@@ -28,8 +28,6 @@ const fetchData = async (params: PageProps["params"]) => {
   const slug = params?.slug;
   const fileName = JSON.parse(fs.readFileSync(`brands/${slug}.json`, 'utf-8'));
 
-  console.log("DEBUG", fileName)
-
   return fileName as BrandDataProps;
 }
 
@@ -41,7 +39,14 @@ const Layout = async ({params}: PageProps) => {
     return <NotFound />;
   }
 
-  return <BrandLayout data={data} />;
+  // headerImage
+  const headerImage = await import(`@/assets/img/${data.headerImage}`);
+  
+
+  return <BrandLayout data={{
+    ...data,
+    headerImage,
+  }} />;
 }
 
 export default Layout;

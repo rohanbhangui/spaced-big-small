@@ -32,6 +32,7 @@ const theme = {
     desktop: `(min-width: ${desktop}px)`,
     largeDesktop: `(min-width: ${largeDesktop}px)`,
     desktopFHD: `(min-width: ${desktopFHD}px)`,
+    desktopQHD: `(min-width: ${desktopQHD}px)`,
   },
   fonts: {
     primary: "'GeneralSans', sans-serif",

@@ -2,9 +2,10 @@
     "title": "Floyd",
     "theme": {
         "colors": {
-            "primary:": "#F04029",
+            "primary": "#F04029",
             "background": "#FFD2CC"
         }
     },
+    "headerImage": "floydhome/floyd-2048px-3311.webp",
     "description": "Floyd makes furniture for keeping. Simple to assemble, easy to move, shipped to your door. A timeless solution to a modern lifestyle."
 }

@@ -43,6 +43,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ${Typography}
+
+  img{
+    width: 100%;
+    display: block;
+  }
 `;
 
 export default GlobalStyle;
