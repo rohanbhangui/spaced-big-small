@@ -32,6 +32,7 @@ export type BrandDataProps = {
     id: string;
     hover_name: string;
     hover_thumbnail: string;
+    hover_link: string;
     img: string;
     img_alt: string;
     hover_position: {

@@ -1,37 +1,42 @@
 {
-    "title": "Floyd",
+    "title": "Aer",
     "link": {
-        "url": "https://floydhome.com",
-        "label": "floydhome.com"
+        "url": "https://www.aersf.com/?ref=spaced",
+        "label": "aersf.com"
     },
     "theme": {
         "colors": {
-            "primary": "#F04029",
-            "background": "#FFD2CC"
+            "primary": "#000000",
+            "background": "#FFFFFF"
         }
     },
-    "headerImage": "floydhome/floyd-2048px-3311.webp",
-    "description": "Floyd makes furniture for keeping. Simple to assemble, easy to move, shipped to your door. A timeless solution to a modern lifestyle.",
+    "headerImage": "aersf/AER21047_citypackpro_lifestyle_18.jpg",
+    "description": "Modern gym bags, best travel backpacks, and laptop work backpacks designed for city travel. Making the very best travel gear for wherever life takes you.",
     "montageItems": [
         {
             "id": "0",
-            "img": "floydhome/Floyd_Mattress_Detroit_10.webp",
-            "img_alt": "floyd home image montage shot"
+            "img": "aersf/21022_travelpack2small_lifestyle_4.jpg",
+            "img_alt": "aer sf image montage shot"
         },
         {
             "id": "1",
-            "img": "floydhome/37767bafa78e435dad79a247f3e20ee3.webp",
-            "img_alt": "floyd home image montage shot"
+            "img": "aersf/CjZF0PsUkAEcMgX.jpeg",
+            "img_alt": "aer sf image montage shot"
         },
         {
             "id": "2",
-            "img": "floydhome/Best-Apartment-Couch-Floyd-Sofa.webp",
-            "img_alt": "floyd home image montage shot"
+            "img": "aersf/hp_travelpack3.jpg",
+            "img_alt": "aer sf image montage shot"
         },
         {
             "id": "3",
-            "img": "floydhome/41751602_992502527600582_3406078540842532864_n.jpg",
-            "img_alt": "floyd home image montage shot"
+            "img": "aersf/aer_hp_work2_1.jpg",
+            "img_alt": "aer sf image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "aersf/FN5V2QHVcAkH1xP.jpeg",
+            "img_alt": "aer sf image montage shot"
         }
     ],
     "highlightGrid": [
@@ -40,8 +45,8 @@
             "hover_name": "Lorem Ipesum",
             "hover_thumbnail": "",
             "hover_link": "",
-            "img": "floydhome/fa93a0f57fbf4f0e87e81d2444edc16b.webp",
-            "img_alt": "the bed frame",
+            "img": "aersf/AER21033_travelpack3small_ls_6.jpg",
+            "img_alt": "Travel Pack 2",
             "hover_position": {
                 "left": "10%",
                 "top": "15%"
@@ -52,8 +57,8 @@
             "hover_name": "Lorem Ipesum",
             "hover_thumbnail": "",
             "hover_link": "",
-            "img": "floydhome/ProductSelector1_db3efb9b-9f20-49fb-9ffc-f3fb1e2866bb.webp",
-            "img_alt": "squishy chair",
+            "img": "aersf/eac1c981a4a9179d51473f135e40705c_1600x.webp",
+            "img_alt": "Fit Pack 2",
             "hover_position": {
                 "left": "10%",
                 "top": "15%"
@@ -64,8 +69,8 @@
             "hover_name": "Lorem Ipesum",
             "hover_thumbnail": "",
             "hover_link": "",
-            "img": "floydhome/ProductSelector2_0f5e6b7b-08f8-468c-b069-aac1a99ae174.webp",
-            "img_alt": " the media console",
+            "img": "aersf/opumo-aer_0000_AER21038_daysling3max_ls_7.webp",
+            "img_alt": "Day Sling 3 Max",
             "hover_position": {
                 "left": "10%",
                 "top": "15%"
@@ -76,8 +81,8 @@
             "hover_name": "Lorem Ipesum",
             "hover_thumbnail": "",
             "hover_link": "",
-            "img": "floydhome/ProductSelector1_b2319b58-5744-483c-af4a-81cb3a568fef.webp",
-            "img_alt": "the modular table",
+            "img": "aersf/FfRttmBUcAE7Irm.jpeg",
+            "img_alt": "Duffle Pack 3",
             "hover_position": {
                 "left": "10%",
                 "top": "15%"
@@ -88,8 +93,8 @@
             "hover_name": "Lorem Ipesum",
             "hover_thumbnail": "",
             "hover_link": "",
-            "img": "floydhome/The_Dresser_WL_Square.webp",
-            "img_alt": "the dresser",
+            "img": "aersf/aer_hp_apple.jpg",
+            "img_alt": "Day Pack 2",
             "hover_position": {
                 "left": "10%",
                 "top": "15%"
@@ -100,13 +105,13 @@
             "hover_name": "Lorem Ipesum",
             "hover_thumbnail": "",
             "hover_link": "",
-            "img": "floydhome/Photo-Gallery-7.jpg",
-            "img_alt": "the outdoor set",
+            "img": "aersf/aer_sf_flight_pack_2__army_gre_1596292353_463f5198_progressive.jpg",
+            "img_alt": "Flight Pack 2",
             "hover_position": {
                 "left": "10%",
                 "top": "15%"
             }
         }
     ],
-    "tags": ["productivity", "floyd", "furniture", "home decor", "minimalist", "modern", "sustainable", "affordable", "wood", "workspace", "modular"]
+    "tags": ["productivity", "aer", "san francisco", "travel", "minimalist", "modern", "sustainable", "backpack", "duffel"]
 }
