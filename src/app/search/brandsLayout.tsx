@@ -74,6 +74,13 @@ const Grid = styled.div`
   .brand-tile {
     aspect-ratio: 4/3;
     position: relative;
+    transition: border-radius 0.25s ease-in-out;
+    border-radius: 0rem;
+    overflow: hidden;
+
+    &:hover {
+      border-radius: 1rem;
+    }
 
     .overlay {
       position: absolute;
