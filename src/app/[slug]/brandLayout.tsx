@@ -300,7 +300,7 @@ const ToolTipButton = styled.div<{ position?: Position }>`
   background: white;
   height: 1rem;
   width: 1rem;
-  border-radius: 2rem;
+  border-radius: 5rem;
   box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.3);
   cursor: pointer;
 
@@ -323,6 +323,10 @@ const StyledPopup = styled(Popup)`
     width: auto !important;
     border-radius: 1rem !important;
 
+    a {
+      outline: none;
+    }
+
     .flex {
       display: flex;
       align-items: center;
@@ -337,6 +341,7 @@ const StyledPopup = styled(Popup)`
           height: 100%;
           height: 3rem;
           width: 3rem;
+          border-radius: 0.75rem;
           object-fit: contain;
         }
       }

@@ -53,8 +53,8 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "50%",
-                    "top": "90%"
+                    "left": "40%",
+                    "top": "50%"
                 }
             }
         },
@@ -71,8 +71,8 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "50%",
+                    "top": "50%"
                 }
             }
         },
@@ -89,9 +89,12 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "85%",
+                    "top": "70%"
                 }
+            },
+            "tooltip": {
+                "placement": "left center"
             }
         },
         {
@@ -107,9 +110,12 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "50%",
+                    "top": "30%"
                 }
+            },
+            "tooltip": {
+                "placement": "right center"
             }
         },
         {
@@ -125,9 +131,12 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "55%",
+                    "top": "55%"
                 }
+            },
+            "tooltip": {
+                "placement": "bottom center"
             }
         },
         {
@@ -143,9 +152,12 @@
                     "top": "15%"
                 },
                 "smallTablet": {
-                    "left": "10%",
-                    "top": "15%"
+                    "left": "50%",
+                    "top": "25%"
                 }
+            },
+            "tooltip": {
+                "placement": "left center"
             }
         }
     ],
