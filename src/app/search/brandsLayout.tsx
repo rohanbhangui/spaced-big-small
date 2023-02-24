@@ -7,6 +7,7 @@ import { BrandDataProps } from "../[slug]/brandLayout";
 import Image from "next/image";
 import Link from 'next/link';
 import { useDebounce } from "@/utils/hooks";
+import { useRouter } from "next/navigation";
 
 type BrandOrder = BrandDataProps & {
   count: number;
@@ -78,10 +79,20 @@ const Grid = styled.div`
 `
 
 const Search = ({ brands }: { brands: BrandDataProps[] }) => {
+  const router = useRouter();
   const [ search, setSearch ] = useState('');
   const debouncedSearch = useDebounce(search, 500);
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
   
+  useEffect(() => {
+    // Set query param when the state variable changes
+    if(search) {
+      router.push(`search?query=${search}`);
+    } else {
+      router.push(`search`);
+    }
+  }, [search]);
+
   useEffect(() => {
     const terms = debouncedSearch.trim().split(" ").filter(Boolean);
 
@@ -123,6 +134,12 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
     const brandList = filterBrands.sort((a, b) => a.count - b.count)
 
     setFilteredBrands(terms.length > 0 ? filterBrands : brands);
+
+    if(debouncedSearch) {
+      router.push(`search?query=${debouncedSearch}`);
+    } else {
+      router.push(`search`);
+    }
   }, [debouncedSearch])
   
   return (
