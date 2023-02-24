@@ -35,6 +35,7 @@ export type Position = {
 
 export type BrandDataProps = {
   title: string;
+  path: string;
   link: {
     url: string;
     label: string;
