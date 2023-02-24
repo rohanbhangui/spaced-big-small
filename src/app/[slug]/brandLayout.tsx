@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import Popup from 'reactjs-popup';
 import { PopupPosition } from "reactjs-popup/dist/types";
+import Link from "next/link";
 
 enum tooltipPositions {
   'top left',
@@ -569,7 +570,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
       </div>
       <TagList>
         {tags.map((tag) => (
-          <div className="h2 tag" key={tag}>{tag}</div>
+          <Link href={`/search?query=${tag}`} key={tag}><div className="h2 tag" >{tag}</div></Link>
         ))}
       </TagList>
       <Footer color={theme.colors.primary}>

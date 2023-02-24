@@ -7,7 +7,7 @@ import { BrandDataProps } from "../[slug]/brandLayout";
 import Image from "next/image";
 import Link from 'next/link';
 import { useDebounce } from "@/utils/hooks";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 type BrandOrder = BrandDataProps & {
   count: number;
@@ -18,18 +18,37 @@ const Container = styled.div`
     max-width: ${smallTablet}px;
     width: 100%;
     margin: 2rem auto;
+    display: flex;
+    align-items: stretch;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.33);
+    transition: border-bottom 0.25s ease-in-out;
+    padding: 0 0.5rem;
+
+    &:focus-within {
+      border-bottom: 2px solid rgba(0, 0, 0, 1);
+    }
 
     input {
       width: 100%;
-      padding: 1rem;
+      padding: 0.5rem 1rem;
       font-size: 2rem;
       border: none;
-      border-bottom: 2px solid rgba(0, 0, 0, 0.33);
       outline: none;
-      transition: border-bottom 0.25s ease-in-out;
+    }
 
-      &:focus {
-        border-bottom: 2px solid rgba(0, 0, 0, 1);
+    i.fa-xmark, i.fa-magnifying-glass {
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    i.fa-xmark {
+      color: rgba(0, 0, 0, 0.33);
+      cursor: pointer;
+      margin-left: 1rem;
+
+      &:hover {
+        color: rgba(0, 0, 0, 1);
       }
     }
   }
@@ -80,22 +99,18 @@ const Grid = styled.div`
 
 const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   const router = useRouter();
-  const [ search, setSearch ] = useState('');
+  const searchParams = useSearchParams();
+  const [ search, setSearch ] = useState(searchParams.get('query') ?? '');
   const debouncedSearch = useDebounce(search, 500);
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
-  
-  useEffect(() => {
-    // Set query param when the state variable changes
-    if(search) {
-      router.push(`search?query=${search}`);
-    } else {
-      router.push(`search`);
-    }
-  }, [search]);
+
+  const onClear = () => {
+    setSearch('');
+  }
 
   useEffect(() => {
     const terms = debouncedSearch.trim().split(" ").filter(Boolean);
-
+    
     const filterBrands = brands.map((brand) => {
 
       // check the tags count
@@ -145,8 +160,13 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   return (
     <Container>
       <div className="search-bar">
+        <i className="fa-regular fa-magnifying-glass" />
         <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
-        <div className="underline"></div>
+        { search.trim() === "" ? (
+          null
+        ): (
+          <i onClick={onClear} className="fa-regular fa-xmark" />
+        )}
       </div>
       <Grid>
         {

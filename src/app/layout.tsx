@@ -5,6 +5,7 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyles from "@/assets/styles/GlobalStyles";
 import { useEffect } from "react";
 import 'reactjs-popup/dist/index.css';
+import Script from "next/script";
 
 const RootLayout = ({
   children,
@@ -36,6 +37,7 @@ const RootLayout = ({
       <head />
       <body>
         <ThemeProvider theme={theme}>
+          <Script src="https://kit.fontawesome.com/ceecfad9a8.js" crossOrigin="anonymous" />
           <GlobalStyles />
           {children}
         </ThemeProvider>
