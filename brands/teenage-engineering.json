@@ -1,0 +1,173 @@
+{
+    "title": "Teenage Engineering",
+    "path": "teenage-engineering",
+    "link": {
+      "url": "https://teenage.engineering/",
+      "label": "teenage.engineering"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#000000",
+        "background": "#cccccc"
+      }
+    },
+    "headerImage": "teenageengineering/d9ce41a0-1ef4-11ed-b76f-9cff7c0cac1c.cf.jpg",
+    "description": "Teenage engineering creates high quality, well designed, electronic products for all people who love sound and music.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "teenageengineering/6023f87fbbdc320004def5d8_1024.webp",
+        "img_alt": "teenage engineering image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "teenageengineering/4ddf69a9-6541-40c4-9424-c185ddeb7a9d.jpg",
+        "img_alt": "teenage engineering image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "teenageengineering/od4red.webp",
+        "img_alt": "teenage engineering image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "teenageengineering/teenage-engineering-raw-aluminum-pc-case.webp",
+        "img_alt": "teenage engineering image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "TX-6",
+        "hover_thumbnail": "teenageengineering/42fec5b0-70f8-4baa-ab96-9fc033642b4b_TX-6_store_front.webp",
+        "hover_link": "https://teenage.engineering/store/tx-6/",
+        "img": "teenageengineering/4ddf69a9-6541-40c4-9424-c185ddeb7a9d.jpg",
+        "img_alt": "TX-6",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "55%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "OP-1 Portable Synthesizer",
+        "hover_thumbnail": "teenageengineering/teenageengineering_7af0c1f5-82bd-4076-a617-dece6d6a7528_op-1.webp",
+        "hover_link": "https://teenage.engineering/store/op-1/",
+        "img": "teenageengineering/20070190-43d3-4cde-88d2-447b5ec39f11_1x1-OP1-05.webp",
+        "img_alt": "OP-1 Portable Synthesizer",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "60%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Line Module",
+        "hover_thumbnail": "teenageengineering/4bb19a07-2d12-4c60-9633-aa248b3614c7_ZM-4_store_front.webp",
+        "hover_link": "https://teenage.engineering/store/line-module/",
+        "img": "teenageengineering/4bb19a07-2d12-4c60-9633-aa248b3614c7_ZM-4_store_front.webp",
+        "img_alt": "Line Module",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "OB-4 Off-White Set",
+        "hover_thumbnail": "teenageengineering/ae2c6c73-9e12-481a-b81d-b0fa00a3c70c_store_front601.webp",
+        "hover_link": "https://teenage.engineering/store/ob-4-off-white-set/",
+        "img": "teenageengineering/72b8e628-8db9-4f29-8e36-dd7fc5694294_OB-4_disk_cropped.webp",
+        "img_alt": "OB-4 Off-White Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "M1-Personal Monitor",
+        "hover_thumbnail": "teenageengineering/85685db7-e39b-4c29-a96d-ebaebe038f1c_Hedgehog.front.mic.4096__.webp",
+        "hover_link": "https://teenage.engineering/store/m-1/",
+        "img": "teenageengineering/tps_1335_482802_April20869-482802-scaled-1-1920x1080.jpg",
+        "img_alt": "M1-Personal Monitor",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "65%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "OD-11 White",
+        "hover_thumbnail": "teenageengineering/teenageengineering_9acffa8e-2586-4f25-a369-429ce4766a2e_od-11+white.webp",
+        "hover_link": "https://teenage.engineering/store/od-11/?color=white",
+        "img": "teenageengineering/30f14dec-4ff1-4c12-bf73-c4003a1bd363_1x1-OD-11-white-top.webp",
+        "img_alt": "OD-11 White",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "30%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "productivity",
+      "floyd",
+      "furniture",
+      "home decor",
+      "minimalist",
+      "modern",
+      "sustainable",
+      "affordable",
+      "wood",
+      "workspace",
+      "modular"
+    ]
+  }

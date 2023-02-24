@@ -83,9 +83,10 @@ const Grid = styled.div`
       inset: 0;
       background: rgba(0, 0, 0, 0.25);
 
-      .h4 {
+      .titling {
         color: white;
         font-weight: 600;
+        font-size: 1.5rem;
       }
     }
 
@@ -151,11 +152,15 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
     setFilteredBrands(terms.length > 0 ? filterBrands : brands);
 
     if(debouncedSearch) {
-      router.push(`search?query=${debouncedSearch}`);
+      router.replace(`search?query=${debouncedSearch}`);
     } else {
-      router.push(`search`);
+      router.replace(`search`);
     }
   }, [debouncedSearch])
+
+  useEffect(() => {
+    setSearch(searchParams.get("query") ?? "")
+  }, [searchParams])
   
   return (
     <Container>
@@ -173,7 +178,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
           filteredBrands.map(item => (
             <Link href={`/${item.path}`} className="brand-tile" key={item.title}>
               <div className="overlay">
-                <div className="h4">{item.title}</div>
+                <div className="titling">{item.title}</div>
               </div>
               <Image src={JSON.parse(item.headerImage)} alt={item.title} />
             </Link>

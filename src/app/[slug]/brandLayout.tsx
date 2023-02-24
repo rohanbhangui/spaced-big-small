@@ -402,7 +402,7 @@ const Footer = styled.div<{ color: string; }>`
   }
 
   @media ${({ theme }) => theme.mediaQuery.smallDesktop} {
-    margin: 7rem auto;
+    margin: 9rem auto 7rem;
   }
 
   .flex {
