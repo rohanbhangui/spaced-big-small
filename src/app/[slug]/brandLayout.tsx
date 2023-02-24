@@ -10,6 +10,7 @@ import { Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import Popup from 'reactjs-popup';
+import { PopupPosition } from "reactjs-popup/dist/types";
 
 enum tooltipPositions {
   'top left',
@@ -65,7 +66,7 @@ export type BrandDataProps = {
       smallTablet?: Position;
     },
     tooltip?: {
-      placement?: tooltipPositions;
+      placement?: PopupPosition;
     }
   }[],
   tags: string[];
