@@ -1,11 +1,11 @@
 'use client';
 
-import { desktop, smallTablet, tablet, desktopFHD, largeDesktop, phone, smallDesktop } from "@/assets/styles/themeConfig";
+import { desktop, smallTablet, tablet, desktopFHD, largeDesktop, phone, smallDesktop, ThemeType } from "@/assets/styles/themeConfig";
 import CustomTooltip from "@/components/Tooltip";
-import { useWindowDimensions } from "@/utils/hooks";
+import { useMediaQuery, useWindowDimensions } from "@/utils/hooks";
 import Image from "next/image";
 import { useRef, useEffect, useState } from "react";
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 import { Navigation, Pagination, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
@@ -149,9 +149,13 @@ const Container = styled.main<{ background: string; color: string; }>`
 
   .content {
     width: 90%;
-    margin: 4rem 0 7rem;
+    margin: 4rem 0 4rem;
     padding: 0 1rem;
     line-height: 1.4;
+
+    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+      margin: 4rem 0 7rem;
+    }
 
     @media ${({ theme }) => theme.mediaQuery.tablet} {
       width: 80%;
@@ -248,6 +252,19 @@ const HighlightsGrid = styled.div`
   @media ${({ theme }) => theme.mediaQuery.tablet} {
     margin: 4rem 4rem 0;
   }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .mobile-only {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.33);
+
+    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+      display: none;
+    }
+  }
   
   .grid {
     margin-top: 2rem;
@@ -256,40 +273,72 @@ const HighlightsGrid = styled.div`
     /* grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(3, 1fr); */
     grid-template-areas: 
+      "a a"
+      "a a"
+      "b b"
+      "c c"
+      "d d"
+      "d d"
+      "e e"
+      "f f";
+
+    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+      grid-template-areas: 
       "a a a a a a a b b b b b"
       "a a a a a a a c c c c c"
       "d d d d e e e e f f f f";
+    }
 
     .img {
       position: relative;
 
       &.a {
         grid-area: a;
+        aspect-ratio: 1/1;
+
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          aspect-ratio: auto;
+        }
       }
 
       &.b {
         grid-area: b;
-        aspect-ratio: 730/580;
+        aspect-ratio: 3/2;
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          aspect-ratio: 730/580;
+        }
       }
 
       &.c {
         grid-area: c;
-        aspect-ratio: 730/580;
+        aspect-ratio: 3/2;
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          aspect-ratio: 730/580;
+        }
       }
 
       &.d {
         grid-area: d;
         aspect-ratio: 1/1;
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          aspect-ratio: 1/1;
+        }
       }
 
       &.e {
         grid-area: e;
-        aspect-ratio: 1/1;
+        aspect-ratio: 3/2;
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          aspect-ratio: 1/1;
+        }
       }
 
       &.f {
         grid-area: f;
-        aspect-ratio: 1/1;
+        aspect-ratio: 3/2;
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          aspect-ratio: 1/1;
+        }
       }
 
       img {
@@ -388,6 +437,11 @@ const TagList = styled.div`
     margin: 0 0.6rem;
     transition: color 0.3s ease-in-out;
     cursor: pointer;
+    display: block;
+
+    @media ${({ theme }) => theme.mediaQuery.phone} {
+      display: inline-block;
+    }
 
     &:hover {
       color: rgba(0, 0, 0, 1);
@@ -482,10 +536,13 @@ const renderNumberOfMontageSlides = (width: number): number => {
     if (width >= phone) return 1.8
   }
 
-  return 1.8
+  return 1.2
 }
 
 const BrandLayout = ({data}: { data: BrandDataProps }) => {
+  const masterTheme = useTheme() as ThemeType;
+  const isSmallTabletUp = useMediaQuery(`${masterTheme.mediaQuery.smallTablet}`);
+
   const {
     title,
     headerImage,
@@ -548,31 +605,34 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
       </MontageCarousel>
       <HighlightsGrid>
         <h2>Our Picks</h2>
+        <p className="mobile-only">Tap to see more.</p>
         <div className="grid">
           {highlightGrid.map(({id, img, img_alt, hover_name, hover_subtitle = "", hover_link, hover_thumbnail, hover_position, tooltip}, index) => (
             <div className={`img ${id}`} key={id}>
-              <StyledPopup on={['hover']} trigger={<ToolTipButton position={hover_position.smallTablet} />} position={tooltip?.placement ?? 'top center'}>
+              {isSmallTabletUp ? (
+                <>
+                  <StyledPopup on={['hover']} trigger={<ToolTipButton position={hover_position.smallTablet} />} position={tooltip?.placement ?? 'top center'}>
+                    <a href={hover_link} className="flex">
+                      <div className="img-container">
+                        <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
+                      </div>
+                      <div className="overlay-content">
+                        <div className="title">{hover_name}</div>
+                        { hover_subtitle ? (
+                          <div className="subtitle">{hover_subtitle}</div>
+                        ): null }
+                      </div>
+                    </a>
+                  </StyledPopup>
+                  <Image
+                    src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
+                </>
+              ): (
                 <a href={hover_link} className="flex">
-                  <div className="img-container">
-                    <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
-                  </div>
-                  <div className="overlay-content">
-                    <div className="title">{hover_name}</div>
-                    { hover_subtitle ? (
-                      <div className="subtitle">{hover_subtitle}</div>
-                    ): null }
-                  </div>
+                  <Image
+                    src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
                 </a>
-              </StyledPopup>
-              {/* <CustomTooltip
-                title={hover_name}
-                thumbnail_alt={img_alt}
-                thumbnail={hover_thumbnail}
-                position={hover_position.smallTablet}
-                url={hover_link}
-              /> */}
-              <Image
-                src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
+              )}
             </div>
           ))}
         </div>
