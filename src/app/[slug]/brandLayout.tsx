@@ -200,6 +200,7 @@ const MontageCarousel = styled.section`
 
     .img-container {
       aspect-ratio: 758/912;
+      position: relative;
 
       img {
         object-fit: cover;
@@ -338,6 +339,7 @@ const StyledPopup = styled(Popup)`
         height: 3rem;
         width: 3rem;
         border-radius: 3rem;
+        position: relative;
 
         img {
           width: 100%;
@@ -505,11 +507,11 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
       <RestrictContainer>
         <div className="header-image">
           <Image
-            src={JSON.parse(headerImage)}
+            src={`/img/${headerImage}`}
             alt={title}
-            width={1400}
-            placeholder="blur"
+          
             priority
+            fill
           />
         </div>
         <div className="content h3">
@@ -529,7 +531,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
                 <SwiperSlide key={id}>
                   <div className="img-container">
                     <Image
-                      src={JSON.parse(img)} alt={img_alt} placeholder="blur" />
+                      src={`/img/${img}`} alt={img_alt} fill />
                   </div>
                 </SwiperSlide>
               ))}
@@ -545,7 +547,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
               <StyledPopup on={['hover']} trigger={<ToolTipButton position={hover_position.smallTablet} />} position={tooltip?.placement ?? 'top center'}>
                 <a href={hover_link} className="flex">
                   <div className="img-container">
-                    <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
+                    <Image quality={50} width={64} height={64} src={`/img/${hover_thumbnail}`} alt={img_alt} />
                   </div>
                   <div className="overlay-content">
                     <div className="title">{hover_name}</div>
@@ -563,7 +565,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
                 url={hover_link}
               /> */}
               <Image
-                src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
+                src={`/img/${img}`} fill alt={img_alt} quality={90} />
             </div>
           ))}
         </div>

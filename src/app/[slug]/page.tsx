@@ -39,40 +39,42 @@ const Layout = async ({params}: PageProps) => {
     return <NotFound />;
   }
 
-  // headerImage
-  const headerImage = await import(`@/assets/img/${data.headerImage}`);
+  // // headerImage
+  // const headerImage = await import(`@/assets/img/${data.headerImage}`);
   
-  // montage Images
-  const montageItems = await Promise.all(
-    data.montageItems.map(async(item) => {
-      const imported = await import(`@/assets/img/${item.img}`);
-      return {
-        ...item,
-        img: JSON.stringify(imported)
-      }
-    })
-  );
+  // // montage Images
+  // const montageItems = await Promise.all(
+  //   data.montageItems.map(async(item) => {
+  //     const imported = await import(`@/assets/img/${item.img}`);
+  //     return {
+  //       ...item,
+  //       img: JSON.stringify(imported)
+  //     }
+  //   })
+  // );
 
-  // highlightGrid
-  const highlightGrid = await Promise.all(
-    data.highlightGrid.map(async (item) => {
-      const img = await import(`@/assets/img/${item.img}`);
-      const thumbnail = await import(`@/assets/img/${item.hover_thumbnail}`);
+  // // highlightGrid
+  // const highlightGrid = await Promise.all(
+  //   data.highlightGrid.map(async (item) => {
+  //     const img = await import(`@/assets/img/${item.img}`);
+  //     const thumbnail = await import(`@/assets/img/${item.hover_thumbnail}`);
 
-      return {
-        ...item,
-        img: JSON.stringify(img),
-        hover_thumbnail: JSON.stringify(thumbnail)
-      }
-    })
-  )
+  //     return {
+  //       ...item,
+  //       img: JSON.stringify(img),
+  //       hover_thumbnail: JSON.stringify(thumbnail)
+  //     }
+  //   })
+  // )
 
-  return <BrandLayout data={{
-    ...data,
-    headerImage: JSON.stringify(headerImage),
-    montageItems,
-    highlightGrid,
-  }} />;
+  // return <BrandLayout data={{
+  //   ...data,
+  //   headerImage: JSON.stringify(headerImage),
+  //   montageItems,
+  //   highlightGrid,
+  // }} />;
+
+  return <BrandLayout data={data} />
 }
 
 export default Layout;
