@@ -108,7 +108,7 @@ const Grid = styled.div`
 const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [ search, setSearch ] = useState(searchParams.get('query') ?? '');
+  const [ search, setSearch ] = useState(searchParams?.get('query') ?? '');
   const debouncedSearch = useDebounce(search, 500);
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
 
@@ -166,7 +166,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   }, [debouncedSearch])
 
   useEffect(() => {
-    setSearch(searchParams.get("query") ?? "")
+    setSearch(searchParams?.get("query") ?? "")
   }, [searchParams])
   
   return (
