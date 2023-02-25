@@ -38,11 +38,12 @@
     "highlightGrid": [
       {
         "id": "a",
-        "hover_name": "White Runner+",
+        "hover_name": "Runner+",
+        "hover_subtitle": "White",
         "hover_thumbnail": "nobull/WhiteWhite_RunnerPlus_DoubleEyelet_Updated_3_Web_750x750_crop_center.jpg",
         "hover_link": "https://www.nobullproject.com/products/white-runner-plus-mens",
         "img": "nobull/WhiteWhite_RunnerPlus_Location_1500-1000-3_1.webp",
-        "img_alt": "White Runner+",
+        "img_alt": "Runner+",
         "hover_position": {
           "default": {
             "left": "10%",
@@ -56,11 +57,12 @@
       },
       {
         "id": "b",
-        "hover_name": "White Gum Court Trainers",
+        "hover_name": "Gum Court Trainers",
+        "hover_subtitle": "White",
         "hover_thumbnail": "nobull/WhiteGumTennisShoeConcrete_1500_1000-3_1_2410242e-fca9-4d88-bde9-c69c15f51fbe_750x750_crop_center.jpg",
         "hover_link": "https://www.nobullproject.com/products/white-gum-court-trainer-womens",
         "img": "nobull/WhiteGumCourt_Volleyball_Location_1500_1000-20.webp",
-        "img_alt": "White Gum Court Trainers",
+        "img_alt": "Gum Court Trainers",
         "hover_position": {
           "default": {
             "left": "10%",
@@ -77,11 +79,12 @@
       },
       {
         "id": "c",
-        "hover_name": "Men's NOBULL Tee (Iris)",
+        "hover_name": "Men's NOBULL Tee",
+        "hover_subtitle": "Iris",
         "hover_thumbnail": "nobull/IrisMensTee_1500_1000-4_1_750x750_crop_center.jpg",
         "hover_link": "https://www.nobullproject.com/products/mens-nobull-tee-bright-colors",
         "img": "nobull/IrisMensTee_1500_1000-3_1.webp",
-        "img_alt": "Men's NOBULL Tee (Iris)",
+        "img_alt": "Men's NOBULL Tee",
         "hover_position": {
           "default": {
             "left": "10%",
@@ -99,6 +102,7 @@
       {
         "id": "d",
         "hover_name": "V-neck Sports Bra",
+        "hover_subtitle": "Costal Blue Matte",
         "hover_thumbnail": "nobull/CoastalVNeckBra_1500_1000-1_750x750_crop_center.jpg",
         "hover_link": "https://www.nobullproject.com/products/v-neck-sports-bra-matte",
         "img": "nobull/CoastalVNeckBra_1500_1000-3.webp",
@@ -119,11 +123,12 @@
       },
       {
         "id": "e",
-        "hover_name": "High-top Dark Grey Wild Granite Trainer+",
+        "hover_name": "High-top Trainer+",
+        "hover_subtitle": "Dark Grey Wild Granite",
         "hover_thumbnail": "nobull/DarkGrey_Wild_TrainerPlus_HT_1500-1000-3_1_386ace9a-cc96-4cf4-9986-d971faba396e_750x750_crop_center.jpg",
         "hover_link": "https://www.nobullproject.com/products/high-top-dark-grey-wild-granite-trainer-plus-mens",
         "img": "nobull/DarkGrey_Wild_TrainerPlus_HT_1500-1000-5.webp",
-        "img_alt": "High-top Dark Grey Wild Granite Trainer+",
+        "img_alt": "High-top Trainer+",
         "hover_position": {
           "default": {
             "left": "10%",
@@ -138,6 +143,7 @@
       {
         "id": "f",
         "hover_name": "Men's Arctic Sleeveless Pullover",
+        "hover_subtitle": "Moonstruck",
         "hover_thumbnail": "nobull/MoonstruckFleecePullover_1500_1000-1_750x750_crop_center.jpg",
         "hover_link": "https://www.nobullproject.com/products/mens-arctic-sleeveless-pullover",
         "img": "nobull/MoonstruckFleecePullover_1500_1000-4.webp",

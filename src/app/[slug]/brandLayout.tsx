@@ -58,6 +58,7 @@ export type BrandDataProps = {
   highlightGrid: {
     id: string;
     hover_name: string;
+    hover_subtitle?: string;
     hover_thumbnail: string;
     hover_link: string;
     img: string;
@@ -351,7 +352,7 @@ const StyledPopup = styled(Popup)`
 
       .overlay-content {
         flex: 1;
-        margin: 0 1rem 0 0.5rem;
+        margin: 0 1rem 0;
         white-space: nowrap;
         font-size: 1rem;
         color: black;
@@ -361,7 +362,8 @@ const StyledPopup = styled(Popup)`
         }
 
         .subtitle {
-          color: rgba(0, 0, 0, 0.5);
+          color: rgba(0, 0, 0, 0.33);
+          font-size: 0.8rem;
         }
       }
     }
@@ -540,7 +542,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
       <HighlightsGrid>
         <h2>Our Picks</h2>
         <div className="grid">
-          {highlightGrid.map(({id, img, img_alt, hover_name, hover_link, hover_thumbnail, hover_position, tooltip}, index) => (
+          {highlightGrid.map(({id, img, img_alt, hover_name, hover_subtitle = "", hover_link, hover_thumbnail, hover_position, tooltip}, index) => (
             <div className={`img ${id}`} key={id}>
               <StyledPopup on={['hover']} trigger={<ToolTipButton position={hover_position.smallTablet} />} position={tooltip?.placement ?? 'top center'}>
                 <a href={hover_link} className="flex">
@@ -549,9 +551,9 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
                   </div>
                   <div className="overlay-content">
                     <div className="title">{hover_name}</div>
-                    {/* { subtitle ? (
-                      <div className="subtitle">{subtitle}</div>
-                    ): null } */}
+                    { hover_subtitle ? (
+                      <div className="subtitle">{hover_subtitle}</div>
+                    ): null }
                   </div>
                 </a>
               </StyledPopup>
