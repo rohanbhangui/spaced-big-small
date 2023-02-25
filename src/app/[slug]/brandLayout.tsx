@@ -12,6 +12,7 @@ import 'swiper/swiper-bundle.min.css';
 import Popup from 'reactjs-popup';
 import { PopupPosition } from "reactjs-popup/dist/types";
 import Link from "next/link";
+import BrandHeader from "@/components/BrandHeader";
 
 enum tooltipPositions {
   'top left',
@@ -500,6 +501,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
 
   return (
     <Container background={theme.colors.background} color={theme.colors.primary}>
+      <BrandHeader background={theme.colors.background} href={`${link.url}?ref=spaced`} />
       <Title color={theme.colors.primary}>{title}</Title>
       <div className="invisible-text">
         <div className="inner">{title}</div>
@@ -571,7 +573,9 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
         </div>
       </HighlightsGrid>
       <div className="flex-center">
-        <a href={`${link.url}?ref=spaced`} target="_blank" rel="noopener noreferrer" className="h5 brand-link-button">{link.label}</a>
+        <Link href={`${link.url}?ref=spaced`} target="_blank" rel="noopener noreferrer" className="h5 brand-link-button">
+          {link.label}
+        </Link>
       </div>
       <TagList>
         {tags.map((tag) => (
