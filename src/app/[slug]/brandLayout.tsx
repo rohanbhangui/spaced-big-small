@@ -560,7 +560,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
                 url={hover_link}
               /> */}
               <Image
-                src={JSON.parse(img)} alt={img_alt} />
+                src={JSON.parse(img)} alt={img_alt} quality={100} placeholder="blur" />
             </div>
           ))}
         </div>
