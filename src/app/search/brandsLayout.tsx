@@ -187,7 +187,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
               <div className="overlay">
                 <div className="titling">{item.title}</div>
               </div>
-              <Image src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" quality={50} />
+              <Image width={480} src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" quality={50} />
             </Link>
           ))
         }
