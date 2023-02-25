@@ -509,6 +509,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
             alt={title}
             width={1400}
             placeholder="blur"
+            priority
           />
         </div>
         <div className="content h3">
