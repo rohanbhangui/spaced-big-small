@@ -307,6 +307,7 @@ const ToolTipButton = styled.div<{ position?: Position }>`
   border-radius: 5rem;
   box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.3);
   cursor: pointer;
+  z-index: 10;
 
   position: absolute;
   transform: translateX(-50%) translateY(-50%);

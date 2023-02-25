@@ -47,6 +47,7 @@ const GlobalStyle = createGlobalStyle`
   img{
     width: 100%;
     display: block;
+    z-index: 0;
   }
 
   @keyframes anvil {
