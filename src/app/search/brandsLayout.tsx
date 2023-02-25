@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import { useDebounce } from "@/utils/hooks";
 import { useRouter, useSearchParams } from "next/navigation";
+import BrandHeader from "@/components/BrandHeader";
 
 type BrandOrder = BrandDataProps & {
   count: number;
@@ -171,6 +172,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   
   return (
     <Container>
+      <BrandHeader background={"#FFFFFF"} />
       <div className="search-bar">
         <i className="fa-regular fa-magnifying-glass" />
         <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />

@@ -4,13 +4,13 @@ import Link from "next/link";
 import styled from "styled-components";
 import tinycolor from "tinycolor2";
 
-const Header = styled.header`
+const Header = styled.header<{ hasHref: boolean; }>`
   max-width: ${smallDesktop}px;
   margin: 0 auto;
   width: 100%;
   padding: 0.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: ${({ hasHref }) => hasHref ? "space-between" : "center"};
 
   .img-container {
     position: relative;
@@ -34,22 +34,26 @@ const Header = styled.header`
 
 const BrandHeader = ({
   background,
-  href
+  href = ""
 }: {
   background: string;
-  href: string;
+  href?: string;
 }) => {
   const logo = tinycolor(background).isDark() ? "/logo-white.svg" : "/logo.svg"
   return (
-    <Header>
+    <Header hasHref={href!==""}>
       <Link href="/search">
         <div className="img-container">
           <Image src={logo} width={50} height={50} alt="Spaced" />
         </div>
       </Link>
-      <Link className="link-button" href={href} rel="noopener noreferrer" target="_blank">
-        Go to site <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
-      </Link>
+      { href === "" ?
+        null
+      : (
+        <Link className="link-button" href={href} rel="noopener noreferrer" target="_blank">
+          Go to site <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
+        </Link>
+      )}
     </Header>
   )
 }
