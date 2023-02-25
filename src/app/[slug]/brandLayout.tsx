@@ -507,6 +507,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
           <Image
             src={JSON.parse(headerImage)}
             alt={title}
+            width={1400}
           />
         </div>
         <div className="content h3">
@@ -570,7 +571,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
       </div>
       <TagList>
         {tags.map((tag) => (
-          <Link href={`/search?query=${tag}`} key={tag}><div className="h2 tag" >{tag}</div></Link>
+          <Link href={`/search?query=${tag}`} key={tag}><div className="h2 tag">{tag}</div></Link>
         ))}
       </TagList>
       <Footer color={theme.colors.primary}>
