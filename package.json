@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "appdir",
+    "@netlify/plugin-nextjs": "4.28.4-appdir.0",
     "@next/font": "^13.1.6",
     "@types/node": "18.14.0",
     "@types/react": "18.0.28",
