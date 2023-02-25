@@ -535,7 +535,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
         </div>
       </MontageCarousel>
       <HighlightsGrid>
-        <h2>Highlights</h2>
+        <h2>Our Picks</h2>
         <div className="grid">
           {highlightGrid.map(({id, img, img_alt, hover_name, hover_link, hover_thumbnail, hover_position, tooltip}, index) => (
             <div className={`img ${id}`} key={id}>
