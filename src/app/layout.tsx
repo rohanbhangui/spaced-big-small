@@ -35,7 +35,7 @@ const RootLayout = ({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
+      <body style={{ visibility: "hidden" }}>
         <ThemeProvider theme={theme}>
           <Script src="https://kit.fontawesome.com/ceecfad9a8.js" crossOrigin="anonymous" />
           <GlobalStyles />
