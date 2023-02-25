@@ -508,6 +508,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
             src={JSON.parse(headerImage)}
             alt={title}
             width={1400}
+            placeholder="blur"
           />
         </div>
         <div className="content h3">
