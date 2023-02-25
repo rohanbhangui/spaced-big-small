@@ -1,0 +1,171 @@
+{
+    "title": "Poster Lad",
+    "path": "poster-lad",
+    "link": {
+      "url": "https://posterlad.com/",
+      "label": "posterlad.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#000000",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "posterlad/10-Poster-Mockup_62c17a34-01d2-492c-9487-e9ee219455e1.webp",
+    "description": "Posterlad brighten up your walls with art featuring simple shapes and vivid colors created by Czech designer Vratislav Pecka.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "posterlad/217826638_1430258557355426_9037246723303664458_n.jpg",
+        "img_alt": "posterlad image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "posterlad/ahoy-poster-ig@2x.png",
+        "img_alt": "posterlad image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "posterlad/productimage_large.jpg",
+        "img_alt": "posterlad image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "posterlad/147-c_Interior_Frame_8x12.jpg",
+        "img_alt": "posterlad image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Citadel",
+        "hover_thumbnail": "posterlad/2021_006_color_1800x1800.webp",
+        "hover_link": "https://posterlad.com/products/citadel",
+        "img": "posterlad/2021_006_real_2000x.webp",
+        "img_alt": "Citadel",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "65%",
+            "top": "60%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Connections",
+        "hover_thumbnail": "posterlad/2021_040_color_750x.jpg",
+        "hover_link": "https://posterlad.com/products/connections",
+        "img": "posterlad/2021_040_real_2560x.jpg",
+        "img_alt": "Connections",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "65%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Water and Sand",
+        "hover_thumbnail": "posterlad/2023_002_color_1800x1800.jpg",
+        "hover_link": "https://posterlad.com/collections/all/products/water-and-sand",
+        "img": "posterlad/2023_002_close_2560x.webp",
+        "img_alt": "Water and Sand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Oh My Goodness",
+        "hover_thumbnail": "posterlad/2023_025_color_750x.webp",
+        "hover_link": "https://posterlad.com/collections/all/products/oh-my-goodness",
+        "img": "posterlad/2023_025_real_2560x.jpg",
+        "img_alt": "Oh My Goodness",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Circuit",
+        "hover_thumbnail": "posterlad/2022_039_color_750x.jpg",
+        "hover_link": "https://posterlad.com/collections/all/products/circuit",
+        "img": "posterlad/2022_039_close_1800x1800.webp",
+        "img_alt": "Circuit",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "80%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Annular",
+        "hover_thumbnail": "posterlad/2022_073_color_750x.webp",
+        "hover_link": "https://posterlad.com/collections/all/products/annular",
+        "img": "posterlad/2022_073_real_1800x1800.jpg",
+        "img_alt": "Annular",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "30%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "poster",
+      "art",
+      "czech",
+      "minimal",
+      "bauhaus",
+      "colorful",
+      "european",
+      "vratislav pecka",
+      "lad"
+    ]
+  }

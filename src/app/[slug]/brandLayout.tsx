@@ -526,7 +526,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
                 <SwiperSlide key={id}>
                   <div className="img-container">
                     <Image
-                      src={JSON.parse(img)} alt={img_alt} />
+                      src={JSON.parse(img)} alt={img_alt} placeholder="blur" />
                   </div>
                 </SwiperSlide>
               ))}
@@ -542,7 +542,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
               <StyledPopup on={['hover']} trigger={<ToolTipButton position={hover_position.smallTablet} />} position={tooltip?.placement ?? 'top center'}>
                 <a href={hover_link} className="flex">
                   <div className="img-container">
-                    <Image quality={10} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
+                    <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
                   </div>
                   <div className="overlay-content">
                     <div className="title">{hover_name}</div>

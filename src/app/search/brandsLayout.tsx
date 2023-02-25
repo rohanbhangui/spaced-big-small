@@ -117,22 +117,22 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   }
 
   useEffect(() => {
-    const terms = debouncedSearch.trim().split(" ").filter(Boolean);
+    const terms = debouncedSearch.trim().split(" ").filter(Boolean).map(item => item.toLowerCase());
     
     const filterBrands = brands.map((brand) => {
 
       // check the tags count
-      const tagsCount = brand.tags.filter(elem => terms.includes(elem)).length;
+      const tagsCount = brand.tags.filter(elem => terms.includes(elem.toLowerCase())).length;
 
       // check the description instance counts
       const descriptionInstanceCount = terms.reduce((acc, curr) => {
-        const matches = brand.description.split(curr).length - 1;
+        const matches = brand.description.toLowerCase().split(curr).length - 1;
         return acc + matches;
       }, 0);
 
       //check the title
       const titleInstanceCount = terms.reduce((acc, curr) => {
-        const matches = brand.title.split(curr).length - 1;
+        const matches = brand.title.toLowerCase().split(curr).length - 1;
         return acc + matches;
       }, 0);
 
@@ -187,7 +187,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
               <div className="overlay">
                 <div className="titling">{item.title}</div>
               </div>
-              <Image src={JSON.parse(item.headerImage)} alt={item.title} />
+              <Image src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" />
             </Link>
           ))
         }
