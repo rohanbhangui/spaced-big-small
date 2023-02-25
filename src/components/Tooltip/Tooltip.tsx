@@ -1,4 +1,4 @@
-import { Position } from "@/app/[slug]/brandLayout";
+import { Position } from "@/app/brands/[slug]/brandLayout";
 import styled from "styled-components";
 import Image from "next/image";
 

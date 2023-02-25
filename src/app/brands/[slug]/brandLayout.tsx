@@ -461,6 +461,11 @@ const Footer = styled.div<{ color: string; }>`
         @media ${({ theme }) => theme.mediaQuery.smallTablet} {
           border-radius: 1rem;
         }
+
+        &:active {
+          position: relative;
+          top: 1px;
+        }
       }
     }
   }

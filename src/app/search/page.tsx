@@ -1,6 +1,6 @@
 import NotFound from '@/components/NotFound';
 import fs from 'fs';
-import { BrandDataProps } from '../[slug]/brandLayout';
+import { BrandDataProps } from '../brands/[slug]/brandLayout';
 
 import PageLayout from './brandsLayout';
 

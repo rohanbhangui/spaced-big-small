@@ -3,7 +3,7 @@
 import { smallTablet, tablet } from "@/assets/styles/themeConfig";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import { BrandDataProps } from "../[slug]/brandLayout";
+import { BrandDataProps } from "../brands/[slug]/brandLayout";
 import Image from "next/image";
 import Link from 'next/link';
 import { useDebounce } from "@/utils/hooks";
@@ -185,7 +185,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
       <Grid>
         {
           filteredBrands.map(item => (
-            <Link href={`/${item.path}`} className="brand-tile" key={item.title}>
+            <Link href={`/brands/${item.path}`} className="brand-tile" key={item.title}>
               <div className="overlay">
                 <div className="titling">{item.title}</div>
               </div>
