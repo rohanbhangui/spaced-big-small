@@ -1,0 +1,182 @@
+{
+    "title": "MOFT",
+    "path": "moft",
+    "link": {
+      "url": "https://www.moft.us/",
+      "label": "moft.us"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#C9451A",
+        "background": "#0F216B"
+      }
+    },
+    "headerImage": "moft/Screen-Shot-2020-04-13-at-10.55.53-AM.jpg",
+    "description": "MOFT is a brand that specializes in creating innovative, portable laptop stands and accessories that provide users with a comfortable and ergonomic work setup on the go.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "moft/hq4al3ohemt0n35gj0qc.webp",
+        "img_alt": "moft image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "moft/MOFT-X-Tablet-cover.jpg",
+        "img_alt": "moft image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "moft/AtyG6UZjdnoKXTnYJm4UmR.jpg",
+        "img_alt": "moft image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "moft/Gear-Moft-Slim-Laptop-stands-all-colors-SOURCE-Moft.webp",
+        "img_alt": "moft image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Non-adhesive Laptop Stand",
+        "hover_subtitle": "Space Grey",
+        "hover_thumbnail": "moft/MOFT-WorldsFirstInvisibleLaptop_PhoneandTabletStand-08.jpg",
+        "hover_link": "https://www.moft.us/products/moft-stand-non-adhesive-version?variant=31686447202391",
+        "img": "moft/MOFTLaptopStand_Non-adhesiveVersion-hole.jpg",
+        "img_alt": "Non-adhesive Laptop Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "47%",
+            "top": "60%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Snap-on Phone Stand & Wallet",
+        "hover_subtitle": "Beach White",
+        "hover_thumbnail": "moft/iPhone14ProMaxStand.png",
+        "hover_link": "https://www.moft.us/products/moft-snap-on-phone-stand-wallet-magsafe-compatible?variant=39959424860247",
+        "img": "moft/iPhone14StandMOFT.webp",
+        "img_alt": "Snap-on Phone Stand & Wallet",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Snap Case - MagSafe-Enhanced",
+        "hover_subtitle": "Clear",
+        "hover_thumbnail": "moft/iphone14promaxcase.webp",
+        "hover_link": "https://www.moft.us/products/snap-phone-case?variant=39942588629079",
+        "img": "moft/iPhoneCase_44e23465-8ee3-4a83-8766-a0cc7fbed7af.png",
+        "img_alt": "Snap Case - MagSafe-Enhanced",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "55%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Snap Float Folio for iPads",
+        "hover_subtitle": "Jet Black",
+        "hover_thumbnail": "moft/MS026-1-12.9-BK_07.jpg",
+        "hover_link": "https://www.moft.us/products/ipad-folio?variant=39996687581271",
+        "img": "moft/ipadfolio6.jpg",
+        "img_alt": "Snap Float Folio for iPads",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "63%",
+            "top": "50%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Smart Desk Mat",
+        "hover_subtitle": "Sienna Brown",
+        "hover_thumbnail": "moft/20220106-_-_1.png",
+        "hover_link": "https://www.moft.us/products/smart-desk-mat?variant=39546363936855",
+        "img": "moft/deskmat.jpg",
+        "img_alt": "Smart Desk Mat",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Flip Laptop iPhone Mount",
+        "hover_subtitle": "Grey",
+        "hover_thumbnail": "moft/07_5c16108d-c4af-4b45-b852-1b25692f8977.png",
+        "hover_link": "https://www.moft.us/products/laptop-iphone-mount?variant=39999036457047",
+        "img": "moft/05_726fb2ee-8e4b-486f-bcfb-fee08dcd5a4d.png",
+        "img_alt": "Flip Laptop iPhone Mount",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "workout",
+      "shoes",
+      "clothing",
+      "apparel",
+      "shirt",
+      "tee",
+      "bag",
+      "duffle",
+      "train",
+      "run",
+      "hightop",
+      "shorts",
+      "gym",
+      "outdoor"
+    ]
+  }
