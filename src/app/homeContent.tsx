@@ -228,7 +228,7 @@ const Text = [
   "Car",
   "Wardrobe",
   "Night Out",
-]
+].sort((a, b) => 0.5 - Math.random())
 
 const HomeLayout = ({ data }: { data: BrandDataProps[]}) => {
   const theme = useTheme() as ThemeType;
@@ -270,7 +270,7 @@ const HomeLayout = ({ data }: { data: BrandDataProps[]}) => {
       </TitleSection>
       <BrandMarquee>
         <Marquee pauseOnHover gradient={false}>
-          {data.sort((a, b) => 0.5 - Math.random()).map(item => (
+          {data.map(item => (
             <Link href={`/brands/${item.path}`} className="brand-tile" key={item.title}>
               <div className="overlay">
                 <div className="titling">{item.title}</div>
