@@ -6,6 +6,7 @@ import GlobalStyles from "@/assets/styles/GlobalStyles";
 import { useEffect } from "react";
 import 'reactjs-popup/dist/index.css';
 import Script from "next/script";
+import { AnalyticsWrapper } from "./components/analytics";
 
 const RootLayout = ({
   children,
@@ -40,6 +41,7 @@ const RootLayout = ({
           <Script src="https://kit.fontawesome.com/ceecfad9a8.js" crossOrigin="anonymous" />
           <GlobalStyles />
           {children}
+          <AnalyticsWrapper />
         </ThemeProvider>
         <noscript><style jsx>{`body { visibility: visible; }`}</style></noscript>
       </body>
