@@ -1,6 +1,6 @@
 'use client';
 
-import { smallTablet, tablet } from "@/assets/styles/themeConfig";
+import { largeDesktop, smallTablet } from "@/assets/styles/themeConfig";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { BrandDataProps } from "../brands/[slug]/brandLayout";
@@ -59,7 +59,7 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 0.8rem;
-  max-width: ${tablet}px;
+  max-width: ${largeDesktop}px;
   width: 100%;
   margin: 2rem auto;
   padding: 0 0.8rem;
