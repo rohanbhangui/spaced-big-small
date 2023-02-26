@@ -17,9 +17,10 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
 
   const title = `Spacd - ${data.title}`;
   const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/${data.headerImage.split("/").at(-1)}`;
+  const url = `${process.env.NEXT_PUBLIC_HOST}/brands/${data.path}`;
 
   return { 
-    title: title,
+    title,
     description: data.description,
     applicationName: title,
     keywords: data.tags,
@@ -33,9 +34,9 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
       },
     },
     openGraph: {
-      title: title,
+      title,
       description: data.description,
-      url: `${process.env.NEXT_PUBLIC_HOST}/brands/${data.path}`,
+      url,
       siteName: 'Spacd',
       images: [
         {
@@ -47,9 +48,10 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
     },
     twitter: {
       card: 'summary_large_image',
-      title: title,
+      title,
       description: data.description,
       images: [seo_img],
+      url
     },
   }
 }
