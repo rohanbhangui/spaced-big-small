@@ -1,0 +1,177 @@
+{
+    "title": "Unimatic Watches",
+    "path": "unimatic-watches",
+    "link": {
+      "url": "https://www.unimaticwatches.com/",
+      "label": "unimaticwatches.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#c4fa3c",
+        "background": "#1e2825"
+      }
+    },
+    "headerImage": "unimaticwatches/m01.avif",
+    "description": "Unimatic Watches is an Italian watch brand that produces minimalist and functional timepieces. Their watches are known for their sleek design, high-quality materials, and attention to detail, and are often favored by enthusiasts of both fashion and horology.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "unimaticwatches/m11.avif",
+        "img_alt": "unimatic watches image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "unimaticwatches/w2000_q80.avif",
+        "img_alt": "unimatic watches image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "unimaticwatches/w2000_q80 (1).avif",
+        "img_alt": "unimatic watches image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "unimaticwatches/UNIMATIC-x-Massena-LAB-Marine-_U1-MLM-1.jpg",
+        "img_alt": "unimatic watches image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "U1 Classic",
+        "hover_subtitle": "",
+        "hover_thumbnail": "unimaticwatches/UC-1-Hero.png.webp",
+        "hover_link": "https://www.unimaticwatches.com/uc1/",
+        "img": "unimaticwatches/U1-C-mini-scaled.webp",
+        "img_alt": "U1 Classic",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "58%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "U2S-T-MP",
+        "hover_subtitle": "",
+        "hover_thumbnail": "unimaticwatches/U2S-T-MP-Hero.png.webp",
+        "hover_link": "https://www.unimaticwatches.com/u2s-t-mp/",
+        "img": "unimaticwatches/w2000_q80 (2).avif",
+        "img_alt": "U2S-T-MP",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "U1S-FAI",
+        "hover_subtitle": "",
+        "hover_thumbnail": "unimaticwatches/compressed_U1S-FAI-Hero-1.png.webp",
+        "hover_link": "https://www.unimaticwatches.com/u1s-fai/",
+        "img": "unimaticwatches/2021-11-02-14-08-03-ARadius4Smoothing2-scaled.jpg",
+        "img_alt": "U1S-FAI",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "28%",
+            "top": "55%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "U1-PAN",
+        "hover_subtitle": "",
+        "hover_thumbnail": "unimaticwatches/U1-PAN-Hero-v2.png.webp",
+        "hover_link": "https://www.unimaticwatches.com/u1-pan/",
+        "img": "unimaticwatches/Unimatic+U1-PAN+-+2022+Watch+Vault+11.jpg",
+        "img_alt": "U1-PAN",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "U2S-M",
+        "hover_subtitle": "",
+        "hover_thumbnail": "unimaticwatches/U2S-M-Hero.png.webp",
+        "hover_link": "https://www.unimaticwatches.com/u2s-m/",
+        "img": "unimaticwatches/2021-12-04_14-57-10__B_Radius4_Smoothing2.jpg",
+        "img_alt": "U2S-M",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "U1S-MB",
+        "hover_subtitle": "",
+        "hover_thumbnail": "unimaticwatches/U1S-MB-Hero.png.webp",
+        "hover_link": "https://www.unimaticwatches.com/u1s-mb/",
+        "img": "unimaticwatches/U1S-MB-02.webp",
+        "img_alt": "U1S-MB",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "minimal",
+      "watch",
+      "seiko",
+      "fashion",
+      "tech",
+      "pockets",
+      "wearable",
+      "unimatic",
+      "watches"
+    ]
+  }
