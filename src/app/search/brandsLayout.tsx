@@ -103,6 +103,26 @@ const Grid = styled.div`
       height: 100%;
       object-fit: cover;
     }
+
+    .direct {
+      position: absolute;
+      right: 0.75rem;
+      top: 0.75rem;
+      color: white;
+      border-radius: 2rem;
+      height: 2rem;
+      width: 2rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      transition: 0.1s ease-in-out;
+
+      &:hover {
+        background: rgba(255, 255, 255, 1);
+        color: black;
+      }
+    }
   }
 `
 
@@ -185,12 +205,18 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
       <Grid>
         {
           filteredBrands.map(item => (
-            <Link href={`/brands/${item.path}`} className="brand-tile" key={item.title}>
-              <div className="overlay">
-                <div className="titling">{item.title}</div>
-              </div>
+            <div className="brand-tile" key={item.title}>
+              <Link className="direct" href={item.link.url } rel="noopener noreferrer" target="_blank">
+                <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
+              </Link>
+              <Link href={`/brands/${item.path}`}>
+                <div className="overlay">
+                  <div className="titling">{item.title}</div>
+                </div>
+              </Link>
               <Image width={480} src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" quality={50} />
-            </Link>
+            </div>
+            
           ))
         }
       </Grid>
