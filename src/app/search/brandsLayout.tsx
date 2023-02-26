@@ -18,12 +18,16 @@ const Container = styled.div`
   .search-bar {
     max-width: ${largeDesktop}px;
     width: 100%;
-    margin: 2rem auto;
+    margin: 1rem auto 0;
     display: flex;
     align-items: stretch;
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.33); */
     transition: border-bottom 0.25s ease-in-out;
     padding: 0 1.5rem;
+
+    @media ${({ theme }) => theme.mediaQuery.tablet} {
+      margin: 2rem auto;
+    }
 
     /* &:focus-within {
       border-bottom: 2px solid rgba(0, 0, 0, 1);
@@ -32,9 +36,14 @@ const Container = styled.div`
     input {
       width: 100%;
       padding: 0.5rem 1rem;
-      font-size: 2rem;
+      font-size: 1.2rem;
       border: none;
       outline: none;
+
+      @media ${({ theme }) => theme.mediaQuery.tablet} {
+        font-size: 2rem;
+      }
+
     }
 
     i.fa-xmark, i.fa-magnifying-glass {
@@ -46,7 +55,11 @@ const Container = styled.div`
     i.fa-xmark {
       color: rgba(0, 0, 0, 0.33);
       cursor: pointer;
-      margin-left: 1rem;
+      margin-left: 0.5rem;
+
+      @media ${({ theme }) => theme.mediaQuery.tablet} {
+        margin-left: 1rem;
+      }
 
       &:hover {
         color: rgba(0, 0, 0, 1);
@@ -61,7 +74,7 @@ const Grid = styled.div`
   grid-gap: 0.8rem;
   max-width: ${largeDesktop}px;
   width: 100%;
-  margin: 2rem auto;
+  margin: 1rem auto 2rem;
   padding: 0 0.8rem;
 
   @media ${({ theme }) => theme.mediaQuery.phone} {
@@ -70,6 +83,7 @@ const Grid = styled.div`
 
   @media ${({ theme }) => theme.mediaQuery.tablet} {
     grid-template-columns: repeat(3, 1fr);
+    margin: 2rem auto;
   }
 
   .brand-tile {
