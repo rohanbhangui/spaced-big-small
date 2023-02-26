@@ -228,7 +228,7 @@ const Text = [
   "Car",
   "Wardrobe",
   "Night Out",
-].sort((a, b) => 0.5 - Math.random())
+]
 
 const HomeLayout = ({ data }: { data: BrandDataProps[]}) => {
   const theme = useTheme() as ThemeType;
