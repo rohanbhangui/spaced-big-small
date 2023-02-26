@@ -41,6 +41,8 @@ const theme = {
     midGrey: '#666',
     lightGrey: '#999',
     transparentGrey: 'rgba(0, 0, 0, 0.33)',
+    primary: "#FF9900",
+    background: "#FFF9C5"
   }
 };
 

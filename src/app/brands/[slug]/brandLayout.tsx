@@ -675,7 +675,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
             <div className="h5">Drop us a note!</div>
           </div>
           <div className="button">
-            <a href="mailto:rohan@bhangui.com" className="h6">Message Us</a>
+            <a href="mailto:hello@plaen.co" className="h6">Message Us</a>
           </div>
         </div>
       </Footer>

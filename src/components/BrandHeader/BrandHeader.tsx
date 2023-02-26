@@ -1,5 +1,5 @@
-import { smallDesktop, tablet } from "@/assets/styles/themeConfig"
-import Image from "next/image"
+import { smallDesktop, tablet } from "@/assets/styles/themeConfig";
+import Image from "next/image";
 import Link from "next/link";
 import styled from "styled-components";
 import tinycolor from "tinycolor2";
@@ -35,10 +35,12 @@ const Header = styled.header<{ hasHref: boolean; background: string; }>`
 
 const BrandHeader = ({
   background,
-  href = ""
+  href = "",
+  text = "Go to site",
 }: {
   background: string;
   href?: string;
+  text?: string;
 }) => {
   const logo = tinycolor(background).isDark() ? "/logo-white.svg" : "/logo.svg"
   return (
@@ -52,7 +54,7 @@ const BrandHeader = ({
         null
       : (
         <Link className="link-button" href={href} rel="noopener noreferrer" target="_blank">
-          Go to site <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
+          {text} <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
         </Link>
       )}
     </Header>

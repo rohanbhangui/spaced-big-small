@@ -1,3 +1,8 @@
+import BrandHeader from "@/components/BrandHeader";
+import HomeLayout from "./homeContent";
+import fs from 'fs';
+import NotFound from "@/components/NotFound";
+
 export const generateMetadata = async () => {
 
   const title = `Spacd - Find Small Business Brands`;
@@ -50,8 +55,50 @@ export const generateMetadata = async () => {
   }
 }
 
-const Home = () => {
-  return <>This is the home page</>
+const fetchBrands = async () => {
+  // get list of files from the brands folder
+  const files = fs.readdirSync('brands');
+
+  // get each json
+  const brandFiles = files.map((fileName) => {
+      const slug = fileName.replace('.json', '');
+      const readFile = fs.readFileSync(`brands/${fileName}`, 'utf-8');
+
+      const { montageItems, highlightGrid, ...rest } = JSON.parse(readFile);
+
+      return {
+        ...rest,
+      }
+  });
+
+  // Return the pages static props
+  return brandFiles;
+}
+
+const Home = async (): Promise<JSX.Element> => {
+  let brandsData;
+
+  try {
+    brandsData = await fetchBrands();
+  } catch (err) {
+    return <NotFound />;
+  }
+
+  const brands = await Promise.all(
+    brandsData.map(async(item) => {
+      const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
+      const headerImage = await import(`@/assets/img/${headerImg}`);
+
+      return {
+        ...rest,
+        headerImage: JSON.stringify(headerImage)
+      }
+    })
+  )
+
+  return (
+    <HomeLayout data={brands} />
+  )
 }
 
 export default Home;
