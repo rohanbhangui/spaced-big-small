@@ -81,6 +81,10 @@ const Grid = styled.div`
 
     &:hover {
       border-radius: 1rem;
+
+      .direct {
+        display: inline-flex;
+      }
     }
 
     .overlay {
@@ -112,7 +116,7 @@ const Grid = styled.div`
       border-radius: 2rem;
       height: 2rem;
       width: 2rem;
-      display: inline-flex;
+      display: none;
       align-items: center;
       justify-content: center;
       z-index: 10;
