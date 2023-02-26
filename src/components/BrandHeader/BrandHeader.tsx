@@ -1,4 +1,4 @@
-import { smallDesktop } from "@/assets/styles/themeConfig";
+import { desktop, smallDesktop } from "@/assets/styles/themeConfig";
 import Image from "next/image";
 import Link from "next/link";
 import styled from "styled-components";
@@ -11,6 +11,10 @@ const Header = styled.header<{ hasHref: boolean; background: string; }>`
   padding: 0.5rem;
   display: flex;
   justify-content: ${({ hasHref }) => hasHref ? "space-between" : "center"};
+
+  @media ${({ theme }) => theme.mediaQuery.desktopFHD} {
+    max-width: ${desktop}px;
+  }
 
   .img-container {
     position: relative;
