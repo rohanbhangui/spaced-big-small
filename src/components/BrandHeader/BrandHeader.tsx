@@ -4,7 +4,7 @@ import Link from "next/link";
 import styled from "styled-components";
 import tinycolor from "tinycolor2";
 
-const Header = styled.header<{ hasHref: boolean; }>`
+const Header = styled.header<{ hasHref: boolean; background: string; }>`
   max-width: ${smallDesktop}px;
   margin: 0 auto;
   width: 100%;
@@ -20,10 +20,11 @@ const Header = styled.header<{ hasHref: boolean; }>`
     padding: 0.5rem 1rem;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.5);
+    color: ${({ background }) => tinycolor(background).isDark() ? "rgba(255, 255, 255, 0.5)" : "rgba(0, 0, 0, 0.5)"};
     transition: color 0.1s ease-in-out;
 
     &:hover {
-      color: rgba(0, 0, 0, 1);
+      color: ${({ background }) => tinycolor(background).isDark() ? "rgba(255, 255, 255, 1)" : "rgba(0, 0, 0, 1)"};
     }
 
     i {
@@ -41,7 +42,7 @@ const BrandHeader = ({
 }) => {
   const logo = tinycolor(background).isDark() ? "/logo-white.svg" : "/logo.svg"
   return (
-    <Header hasHref={href!==""}>
+    <Header hasHref={href!==""} background={background}>
       <Link href="/search">
         <div className="img-container">
           <Image src={logo} width={50} height={50} alt="Spaced" />

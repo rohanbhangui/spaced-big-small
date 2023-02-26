@@ -13,6 +13,7 @@ import Popup from 'reactjs-popup';
 import { PopupPosition } from "reactjs-popup/dist/types";
 import Link from "next/link";
 import BrandHeader from "@/components/BrandHeader";
+import tinycolor from "tinycolor2";
 
 enum tooltipPositions {
   'top left',
@@ -152,6 +153,7 @@ const Container = styled.main<{ background: string; color: string; }>`
     margin: 4rem 0 4rem;
     padding: 0 1rem;
     line-height: 1.4;
+    color: ${({ background }) => tinycolor(background).isDark() ? "#FFFFFF" : "#000000"};
 
     @media ${({ theme }) => theme.mediaQuery.smallTablet} {
       margin: 4rem 0 7rem;
@@ -246,7 +248,7 @@ const MontageCarousel = styled.section`
   }
 `
 
-const HighlightsGrid = styled.div`
+const HighlightsGrid = styled.div<{ background: string; }>`
   margin: 4rem 1rem 0;
 
   @media ${({ theme }) => theme.mediaQuery.tablet} {
@@ -255,11 +257,12 @@ const HighlightsGrid = styled.div`
 
   h2 {
     margin-bottom: 0;
+    color: ${({ background }) => tinycolor(background).isDark() ? "#FFFFFF" : "#000000"};
   }
 
   .mobile-only {
     font-weight: normal;
-    color: rgba(0, 0, 0, 0.33);
+    color: ${({ background }) => tinycolor(background).isDark() ? "rgba(255, 255, 255, 0.33)" : "rgba(0, 0, 0, 0.33)"};
 
     @media ${({ theme }) => theme.mediaQuery.smallTablet} {
       display: none;
@@ -270,17 +273,18 @@ const HighlightsGrid = styled.div`
     margin-top: 2rem;
     display: grid;
     grid-gap: 0.8rem;
-    /* grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(3, 1fr); */
+    width: 100%;
+    grid-template-columns: repeat(12,1fr);
+    /*grid-template-rows: repeat(3, 1fr); */
     grid-template-areas: 
-      "a a"
-      "a a"
-      "b b"
-      "c c"
-      "d d"
-      "d d"
-      "e e"
-      "f f";
+      "a a a a a a a a a a a a"
+      "a a a a a a a a a a a a"
+      "b b b b b b b b b b b b"
+      "c c c c c c c c c c c c"
+      "d d d d d d d d d d d d"
+      "d d d d d d d d d d d d"
+      "e e e e e e e e e e e e"
+      "f f f f f f f f f f f f";
 
     @media ${({ theme }) => theme.mediaQuery.smallTablet} {
       grid-template-areas: 
@@ -420,7 +424,7 @@ const StyledPopup = styled(Popup)`
   }
 `;
 
-const TagList = styled.div`
+const TagList = styled.div<{ background: string; }>`
   margin: 2rem auto 0;
   padding: 0 1rem;
   max-width: ${tablet}px;
@@ -431,7 +435,7 @@ const TagList = styled.div`
   }
 
   .tag {
-    color: rgba(0, 0, 0, 0.5);
+    color: ${({ background }) => tinycolor(background).isDark() ? "rgba(255, 255, 255, 0.5)" : "rgba(0, 0, 0, 0.5)"};
     font-weight: 600;
     display: inline-block;
     margin: 0 0.6rem;
@@ -444,12 +448,12 @@ const TagList = styled.div`
     }
 
     &:hover {
-      color: rgba(0, 0, 0, 1);
+      color: ${({ background }) => tinycolor(background).isDark() ? "rgba(255, 255, 255, 1)" : "rgba(0, 0, 0, 1)"};
     }
   }
 `
 
-const Footer = styled.div<{ color: string; }>`
+const Footer = styled.div<{ color: string; background: string; }>`
   margin: 2rem auto 4rem;
   padding: 0 1rem;
   max-width: ${smallTablet}px;
@@ -489,6 +493,7 @@ const Footer = styled.div<{ color: string; }>`
 
       .h5 {
         margin-bottom: 0;
+        color: ${({ background }) => tinycolor(background).isDark() ? "#FFFFFF" : "#000000"};
       }
     }
 
@@ -603,7 +608,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
           </div>
         </div>
       </MontageCarousel>
-      <HighlightsGrid>
+      <HighlightsGrid background={theme.colors.background}>
         <h2>Our Picks</h2>
         <p className="mobile-only">Tap to see more.</p>
         <div className="grid">
@@ -642,12 +647,12 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
           {link.label}
         </Link>
       </div>
-      <TagList>
+      <TagList background={theme.colors.background}>
         {tags.map((tag) => (
           <Link href={`/search?query=${tag}`} key={tag}><div className="h2 tag">{tag}</div></Link>
         ))}
       </TagList>
-      <Footer color={theme.colors.primary}>
+      <Footer color={theme.colors.primary} background={theme.colors.background}>
         <div className="flex">
           <div className="footer-content">
             <div className="h5">Have a brand in mind?</div>
