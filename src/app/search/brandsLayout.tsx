@@ -21,13 +21,13 @@ const Container = styled.div`
     margin: 2rem auto;
     display: flex;
     align-items: stretch;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.33);
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.33); */
     transition: border-bottom 0.25s ease-in-out;
     padding: 0 0.5rem;
 
-    &:focus-within {
+    /* &:focus-within {
       border-bottom: 2px solid rgba(0, 0, 0, 1);
-    }
+    } */
 
     input {
       width: 100%;
