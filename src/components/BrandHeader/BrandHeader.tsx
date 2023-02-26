@@ -45,7 +45,7 @@ const BrandHeader = ({
   const logo = tinycolor(background).isDark() ? "/logo-white.svg" : "/logo.svg"
   return (
     <Header hasHref={href!==""} background={background}>
-      <Link href="/search">
+      <Link href="/">
         <div className="img-container">
           <Image src={logo} width={50} height={50} alt="Spaced" />
         </div>
