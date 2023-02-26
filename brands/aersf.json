@@ -7,8 +7,8 @@
     },
     "theme": {
         "colors": {
-            "primary": "#000000",
-            "background": "#FFFFFF"
+            "primary": "#FFFFFF",
+            "background": "#000000"
         }
     },
     "headerImage": "aersf/AER21047_citypackpro_lifestyle_18.jpg",
