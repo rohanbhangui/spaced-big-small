@@ -1,0 +1,185 @@
+{
+    "title": "Autodromo",
+    "path": "autodromo",
+    "link": {
+      "url": "https://autodromo.com/",
+      "label": "autodromo.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#000000",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "autodromo/AUTODROMO_GROUP_B_GROUP_slider2.jpg",
+    "description": "Autodromo is a company that designs and creates high-quality watches with a vintage racing-inspired aesthetic. Handcrafted in Brooklyn, New York, they feature high-quality materials with each watch designed with precision and careful attention to detail.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "autodromo/Autodromo-56979-1211.jpg",
+        "img_alt": "autodromo image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "autodromo/nassau_persp__4_1600x1600-1.jpg",
+        "img_alt": "autodromo image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "autodromo/autodromo.jpg",
+        "img_alt": "autodromo image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "autodromo/L1110367.avif",
+        "img_alt": "autodromo image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "autodromo/L1110367.avif",
+        "img_alt": "autodromo image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Vallelunga Automatic",
+        "hover_subtitle": "Gray",
+        "hover_thumbnail": "autodromo/Valle_Gray_FRONT-342x500-1.jpg",
+        "hover_link": "https://www.unimaticwatches.com/uc1/",
+        "img": "autodromo/6a011278-bb0d-4c4e-9897-bd20e0474235.13225b67f4d96bfcf2fe8f07dd54f7a1.jpeg",
+        "img_alt": "Vallelunga Automatic",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "23%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Group B Series 2",
+        "hover_subtitle": "Aqua",
+        "hover_thumbnail": "autodromo/GroupBS2_White_Front.jpg",
+        "hover_link": "https://autodromo.com/product/group-b-white/",
+        "img": "autodromo/wts-autodromo-group-b-series-2-aqua-full-kit-v0-5rtj5wug0r3a1.webp",
+        "img_alt": "Group B Series 2",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Prototipo Chronograph",
+        "hover_subtitle": "Vic Elford 1969 Edition",
+        "hover_thumbnail": "autodromo/Proto_Elford69_FRONT-342x500-1.jpeg",
+        "hover_link": "https://autodromo.com/product/prototipo-chronograph/",
+        "img": "autodromo/Autodromo-Prototipo-Chronograph---Vic-Elford-1969-Edition-5.webp",
+        "img_alt": "Prototipo Chronograph",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "28%",
+            "top": "55%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Stringback Driving Gloves",
+        "hover_subtitle": "Cognac",
+        "hover_thumbnail": "autodromo/Cognac_Gloves_FRONT1.jpg",
+        "hover_link": "https://autodromo.com/product/stringback-gloves/",
+        "img": "autodromo/cognac3-1500x1000.jpg",
+        "img_alt": "Stringback Driving Gloves",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "20mm Leather Rally Straps",
+        "hover_subtitle": "Orange",
+        "hover_thumbnail": "autodromo/Rally-Strap_colors-1-jpg.webp",
+        "hover_link": "https://autodromo.com/product/20mm-rally-straps-2/",
+        "img": "autodromo/VUci5Cko0p_autodromo_20mm_rally_strap_1_original.avif",
+        "img_alt": "20mm Leather Rally Straps",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "'Time Flies' Poster",
+        "hover_subtitle": "",
+        "hover_thumbnail": "autodromo/Dino_Poster_website-1.jpg",
+        "hover_link": "https://autodromo.com/product/time-flies-poster/",
+        "img": "autodromo/293370866_7780833668656361_6065128092041433881_n.jpg",
+        "img_alt": "'Time Flies' Poster",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "minimal",
+      "watch",
+      "racing",
+      "fashion",
+      "tech",
+      "pockets",
+      "wearable",
+      "autodromo",
+      "watches"
+    ]
+  }
