@@ -251,7 +251,7 @@ const HomeLayout = ({ data }: { data: BrandDataProps[]}) => {
             <Image src={logo} width={50} height={50} alt="Spaced" />
           </div>
         </Link>
-        <Link className="button" href="/search" rel="noopener noreferrer" target="_blank">
+        <Link className="button" href="/search">
           Get App
         </Link>
       </Header>
