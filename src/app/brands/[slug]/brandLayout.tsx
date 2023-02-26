@@ -152,6 +152,10 @@ const Container = styled.main<{ background: string; color: string; }>`
       width: 80%;
       margin: 6rem 0 10rem;
     }
+
+    @media ${({ theme }) => theme.mediaQuery.desktopFHD} {
+      width: 60%;
+    }
   }
 
   .flex-center {
@@ -580,27 +584,29 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
             {description}
           </div>
         </RestrictContainer>
-        <MontageCarousel>
-          <div className="content">
-            <div className="inner swiper-restrict">
-              <Swiper
-                modules={[Scrollbar]}
-                scrollbar={{ draggable: true }}
-                spaceBetween={0}
-                slidesPerView={montageSlidesToShow}
-              >
-                {montageItems.map(({ img, id, img_alt }) => (
-                  <SwiperSlide key={id}>
-                    <div className="img-container">
-                      <Image
-                        src={JSON.parse(img)} alt={img_alt} placeholder="blur" />
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
+      </div>
+      <MontageCarousel>
+        <div className="content">
+          <div className="inner swiper-restrict">
+            <Swiper
+              modules={[Scrollbar]}
+              scrollbar={{ draggable: true }}
+              spaceBetween={0}
+              slidesPerView={montageSlidesToShow}
+            >
+              {montageItems.map(({ img, id, img_alt }) => (
+                <SwiperSlide key={id}>
+                  <div className="img-container">
+                    <Image
+                      src={JSON.parse(img)} alt={img_alt} placeholder="blur" />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
-        </MontageCarousel>
+        </div>
+      </MontageCarousel>
+      <div className="inner-wrapper">
         <HighlightsGrid background={theme.colors.background}>
           <h2>Our Picks</h2>
           <p className="mobile-only">Tap to see more.</p>
