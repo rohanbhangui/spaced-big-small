@@ -1,0 +1,177 @@
+{
+    "title": "Branch Furniture",
+    "path": "branch-furniture",
+    "link": {
+      "url": "https://www.branchfurniture.ca/",
+      "label": "branchfurniture.ca"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#314438",
+        "background": "#FFFFFF"
+      }
+    },
+    "headerImage": "branchfurniture/220127100331-hero.jpg",
+    "description": "Branch Furniture is a contemporary office furniture company that specializes in creating eco-friendly and sustainable products. Their furniture collections feature sleek, modern designs that are optimized for comfort and functionality.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "branchfurniture/Erg_2_-_Min.webp",
+        "img_alt": "branch furniture image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "branchfurniture/62a12dfdad6501f4cbf33a7b_2e015e1b8f5d30e51f91cf6230d1d72f.jpeg",
+        "img_alt": "branch furniture image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "branchfurniture/PacerPackage2-resized_98080809-9e3d-453e-b0e8-d91ec03c6271_2048x.webp",
+        "img_alt": "branch furniture image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "branchfurniture/BLBBranch20.jpg",
+        "img_alt": "branch furniture image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Standing Desk",
+        "hover_subtitle": "Woodgrain/White",
+        "hover_thumbnail": "branchfurniture/custom_resized_0c2cad61-c306-422e-bd4a-682e5336d268.jpg",
+        "hover_link": "https://www.branchfurniture.ca/products/standing-desk",
+        "img": "branchfurniture/1a1b147dad4eac8a7876bb383a8044df.jpg",
+        "img_alt": "U1 Classic",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Ergonomic Chair",
+        "hover_subtitle": "Black/White",
+        "hover_thumbnail": "branchfurniture/custom_resized_d83993e9-9ae8-40c4-be5a-545cfe07e0ad.jpg",
+        "hover_link": "https://www.branchfurniture.ca/collections/office-chairs/products/ergonomic-chair",
+        "img": "branchfurniture/102078ba05f00ead3aec6f240ab7ebaf.jpg",
+        "img_alt": "Ergonomic Chair",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Small Filing Cabinet",
+        "hover_subtitle": "White",
+        "hover_thumbnail": "branchfurniture/57_82f15054-505a-4894-9f3d-fec59d3cba77.jpg",
+        "hover_link": "https://www.branchfurniture.ca/products/small-filing-cabinet",
+        "img": "branchfurniture/smallfilingcabinet.jpg",
+        "img_alt": "Small Filing Cabinet",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "30%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Credenza",
+        "hover_subtitle": "Woodgrain",
+        "hover_thumbnail": "branchfurniture/3.jpg",
+        "hover_link": "https://www.branchfurniture.ca/products/credenza",
+        "img": "branchfurniture/hero_woodgrain_credenza.jpg",
+        "img_alt": "Credenza",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Saddle Chair",
+        "hover_subtitle": "Forest",
+        "hover_thumbnail": "branchfurniture/ILOAComfort-forestfront.jpg",
+        "hover_link": "https://www.branchfurniture.ca/products/saddle-chair",
+        "img": "branchfurniture/ILOAPlus01_5c0a4f42-7b2b-4e29-8b85-e6a6a24fb53c.jpg",
+        "img_alt": "Saddle Chair",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "75%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Daily Chair",
+        "hover_subtitle": "Slate/White",
+        "hover_thumbnail": "branchfurniture/custom_resized_8239f59e-099f-4778-b8c4-ee96360bed5a.jpg",
+        "hover_link": "https://www.branchfurniture.ca/products/daily-chair",
+        "img": "branchfurniture/DCSlateHero.jpg",
+        "img_alt": "Daily Chair",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "minimal",
+      "watch",
+      "seiko",
+      "fashion",
+      "tech",
+      "pockets",
+      "wearable",
+      "unimatic",
+      "watches"
+    ]
+  }

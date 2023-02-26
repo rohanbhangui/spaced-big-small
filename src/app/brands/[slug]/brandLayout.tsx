@@ -385,7 +385,6 @@ const StyledPopup = styled(Popup)`
 
     a {
       outline: none;
-      text-decoration: underline;
     }
 
     .flex {
@@ -416,6 +415,7 @@ const StyledPopup = styled(Popup)`
 
         .title {
           font-weight: 600;
+          text-decoration: underline;
         }
 
         .subtitle {
@@ -633,7 +633,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
                     }
                     position={tooltip?.placement ?? 'top center'}
                   >
-                    <a href={hover_link} className="flex">
+                    <a href={hover_link} className="flex" target="_blank" rel="noopener noreferrer">
                       <div className="img-container">
                         <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
                       </div>
