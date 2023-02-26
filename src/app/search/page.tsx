@@ -99,7 +99,7 @@ const Layout = async (): Promise<JSX.Element> => {
     )
 
     return (
-      <PageLayout brands={brands} />
+      <PageLayout brands={brands.sort((a, b) => 0.5 - Math.random())} />
     )
 }
 
