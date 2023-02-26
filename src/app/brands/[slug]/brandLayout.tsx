@@ -354,20 +354,22 @@ const HighlightsGrid = styled.div<{ background: string; }>`
   }
 `
 
-const ToolTipButton = styled.div<{ position?: Position }>`
-  background: white;
-  height: 1rem;
-  width: 1rem;
-  border-radius: 5rem;
-  box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.3);
-  cursor: pointer;
-
+const ToolTipPoint = styled(Link)<{ position?: Position }>`
   position: absolute;
   transform: translateX(-50%) translateY(-50%);
   ${({ position }) => position ? `
     left: ${position.left};
     top: ${position.top};
   ` : ``}
+`
+
+const ToolTipButton = styled.div`
+  background: white;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 5rem;
+  box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 `
 
 const StyledPopup = styled(Popup)`
@@ -383,6 +385,7 @@ const StyledPopup = styled(Popup)`
 
     a {
       outline: none;
+      text-decoration: underline;
     }
 
     .flex {
@@ -616,7 +619,20 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
             <div className={`img ${id}`} key={id}>
               {isSmallTabletUp ? (
                 <>
-                  <StyledPopup on={['hover']} trigger={<ToolTipButton position={hover_position.smallTablet} />} position={tooltip?.placement ?? 'top center'}>
+                  <StyledPopup 
+                    on={['hover']}
+                    trigger={
+                      <ToolTipPoint
+                        href={hover_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        position={hover_position.smallTablet}
+                      >
+                        <ToolTipButton />
+                      </ToolTipPoint>
+                    }
+                    position={tooltip?.placement ?? 'top center'}
+                  >
                     <a href={hover_link} className="flex">
                       <div className="img-container">
                         <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
