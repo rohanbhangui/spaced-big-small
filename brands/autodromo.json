@@ -46,7 +46,7 @@
         "hover_name": "Vallelunga Automatic",
         "hover_subtitle": "Gray",
         "hover_thumbnail": "autodromo/Valle_Gray_FRONT-342x500-1.jpg",
-        "hover_link": "https://www.unimaticwatches.com/uc1/",
+        "hover_link": "https://autodromo.com/product/vallelunga/?variant=gray-dial",
         "img": "autodromo/6a011278-bb0d-4c4e-9897-bd20e0474235.13225b67f4d96bfcf2fe8f07dd54f7a1.jpeg",
         "img_alt": "Vallelunga Automatic",
         "hover_position": {
@@ -180,6 +180,9 @@
       "pockets",
       "wearable",
       "autodromo",
-      "watches"
+      "watches",
+      "cars",
+      "f1",
+      "formula"
     ]
   }
