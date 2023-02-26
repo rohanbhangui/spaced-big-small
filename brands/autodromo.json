@@ -31,12 +31,12 @@
       },
       {
         "id": "3",
-        "img": "autodromo/L1110367.avif",
+        "img": "autodromo/L1110367.webp",
         "img_alt": "autodromo image montage shot"
       },
       {
         "id": "4",
-        "img": "autodromo/L1110367.avif",
+        "img": "autodromo/Corsica_Blue_3.jpg",
         "img_alt": "autodromo image montage shot"
       }
     ],
@@ -135,7 +135,7 @@
         "hover_subtitle": "Orange",
         "hover_thumbnail": "autodromo/Rally-Strap_colors-1-jpg.webp",
         "hover_link": "https://autodromo.com/product/20mm-rally-straps-2/",
-        "img": "autodromo/VUci5Cko0p_autodromo_20mm_rally_strap_1_original.avif",
+        "img": "autodromo/VUci5Cko0p_autodromo_20mm_rally_strap_1_original.webp",
         "img_alt": "20mm Leather Rally Straps",
         "hover_position": {
           "default": {
