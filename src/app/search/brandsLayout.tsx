@@ -193,7 +193,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
       return item !== null
     }) as BrandOrder[];
 
-    const brandList = filterBrands.sort((a, b) => a.count - b.count)
+    const brandList = filterBrands.sort((a, b) => a.count - b.count);
 
     setFilteredBrands(terms.length > 0 ? brandList : brands);
 
