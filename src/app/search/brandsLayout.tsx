@@ -16,14 +16,14 @@ type BrandOrder = BrandDataProps & {
 
 const Container = styled.div`
   .search-bar {
-    max-width: ${smallTablet}px;
+    max-width: ${largeDesktop}px;
     width: 100%;
     margin: 2rem auto;
     display: flex;
     align-items: stretch;
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.33); */
     transition: border-bottom 0.25s ease-in-out;
-    padding: 0 0.5rem;
+    padding: 0 1.5rem;
 
     /* &:focus-within {
       border-bottom: 2px solid rgba(0, 0, 0, 1);
