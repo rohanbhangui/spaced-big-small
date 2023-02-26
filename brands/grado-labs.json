@@ -1,0 +1,179 @@
+{
+    "title": "Grado Labs",
+    "path": "grado-labs",
+    "link": {
+      "url": "https://gradolabs.com/",
+      "label": "gradolabs.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#FFFFFF",
+        "background": "#111111"
+      }
+    },
+    "headerImage": "gradolabs/Hero-Desktop-Prestige.jpg",
+    "description": "Grado Labs is a family-owned and operated company that produces high-end headphones and cartridges for vinyl records. Based in Brooklyn, New York, the company is known for its handcrafted, audiophile-grade products and has been in operation since the 1950s.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "gradolabs/Screen_Shot_2018-08-19_at_5.56.24_pm.png",
+        "img_alt": "grado labs image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "gradolabs/Grado_Labs_SR60.jpg",
+        "img_alt": "grado labs image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "gradolabs/20150722-Grado-Labs-42.jpg",
+        "img_alt": "grado labs image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "gradolabs/Grado_Labs_headphones.jpg",
+        "img_alt": "grado labs image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "SR80x",
+        "hover_subtitle": "",
+        "hover_thumbnail": "gradolabs/grado-80x-transparent-thumb-resized.jpg",
+        "hover_link": "https://gradolabs.com/headphones/prestige-series/item/128-sr80x",
+        "img": "gradolabs/hero-desktop-sr80x.jpg",
+        "img_alt": "SR80x",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "25%",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "GR10e",
+        "hover_subtitle": "",
+        "hover_thumbnail": "gradolabs/gr10e-side-trans.png",
+        "hover_link": "https://gradolabs.com/headphones/in-ear-series/item/46-gr10e",
+        "img": "gradolabs/editorial-1-gr10e.jpg",
+        "img_alt": "GR10e",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "60%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "GW100x",
+        "hover_subtitle": "",
+        "hover_thumbnail": "gradolabs/4e-wh1-2.jpg",
+        "hover_link": "https://gradolabs.com/headphones/wireless/item/137-gw100x",
+        "img": "gradolabs/hero-desktop-gw100x.jpg",
+        "img_alt": "GW100x",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "35%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Sonata3",
+        "hover_subtitle": "",
+        "hover_thumbnail": "gradolabs/statement2-master2.png",
+        "hover_link": "https://gradolabs.com/cartridges/timbre-series/item/121-sonata3",
+        "img": "gradolabs/statement-desktop-hero2.jpg",
+        "img_alt": "Sonata3",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "PS2000e",
+        "hover_subtitle": "",
+        "hover_thumbnail": "gradolabs/ps2000e-3quarter-trans.png",
+        "hover_link": "https://gradolabs.com/headphones/professional-series/item/69-ps2000e",
+        "img": "gradolabs/editorial-1-ps200e.jpg",
+        "img_alt": "PS2000e",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "43%",
+            "top": "40%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "GS3000x",
+        "hover_subtitle": "",
+        "hover_thumbnail": "gradolabs/gs3000x-3q.jpg",
+        "hover_link": "https://gradolabs.com/headphones/statement-series/item/136-gs3000x",
+        "img": "gradolabs/editorial-01-gs3000x.jpg",
+        "img_alt": "GS3000x",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "minimal",
+      "new",
+      "york",
+      "brooklyn",
+      "tech",
+      "headphones",
+      "earbuds",
+      "turntable",
+      "record",
+      "player",
+      "wood"
+    ]
+  }
