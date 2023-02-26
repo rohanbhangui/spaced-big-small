@@ -111,6 +111,12 @@ const Title = styled.h1<{ color: string; }>`
 const Container = styled.main<{ background: string; color: string; }>`
   background: ${({ background }) => background};
   overflow:hidden;
+  
+  .inner-wrapper {
+    max-width: ${desktopFHD}px;
+    margin: 0 auto;
+    width: 100%;
+  }
 
   .invisible-text {
     pointer-events: none;
@@ -430,7 +436,7 @@ const StyledPopup = styled(Popup)`
 const TagList = styled.div<{ background: string; }>`
   margin: 2rem auto 0;
   padding: 0 1rem;
-  max-width: ${tablet}px;
+  max-width: ${smallDesktop}px;
   text-align: center;
 
   @media ${({ theme }) => theme.mediaQuery.tablet} {
@@ -571,114 +577,116 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
 
   return (
     <Container background={theme.colors.background} color={theme.colors.primary}>
-      <BrandHeader background={theme.colors.background} href={`${link.url}?ref=spaced`} />
-      <Title color={theme.colors.primary}>{title}</Title>
-      <div className="invisible-text">
-        <div className="inner">{title}</div>
-      </div>
-      <RestrictContainer>
-        <div className="header-image">
-          <Image
-            src={JSON.parse(headerImage)}
-            alt={title}
-            width={1400}
-            placeholder="blur"
-            priority
-          />
+      <div className="inner-wrapper">
+        <BrandHeader background={theme.colors.background} href={`${link.url}?ref=spaced`} />
+        <Title color={theme.colors.primary}>{title}</Title>
+        <div className="invisible-text">
+          <div className="inner">{title}</div>
         </div>
-        <div className="content h3">
-          {description}
-        </div>
-      </RestrictContainer>
-      <MontageCarousel>
-        <div className="content">
-          <div className="inner swiper-restrict">
-            <Swiper
-              modules={[Scrollbar]}
-              scrollbar={{ draggable: true }}
-              spaceBetween={0}
-              slidesPerView={montageSlidesToShow}
-            >
-              {montageItems.map(({ img, id, img_alt }, index) => (
-                <SwiperSlide key={id}>
-                  <div className="img-container">
-                    <Image
-                      src={JSON.parse(img)} alt={img_alt} placeholder="blur" />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+        <RestrictContainer>
+          <div className="header-image">
+            <Image
+              src={JSON.parse(headerImage)}
+              alt={title}
+              width={1400}
+              placeholder="blur"
+              priority
+            />
           </div>
-        </div>
-      </MontageCarousel>
-      <HighlightsGrid background={theme.colors.background}>
-        <h2>Our Picks</h2>
-        <p className="mobile-only">Tap to see more.</p>
-        <div className="grid">
-          {highlightGrid.map(({id, img, img_alt, hover_name, hover_subtitle = "", hover_link, hover_thumbnail, hover_position, tooltip}, index) => (
-            <div className={`img ${id}`} key={id}>
-              {isSmallTabletUp ? (
-                <>
-                  <StyledPopup 
-                    on={['hover']}
-                    trigger={
-                      <ToolTipPoint
-                        href={hover_link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        position={hover_position.smallTablet}
-                      >
-                        <ToolTipButton />
-                      </ToolTipPoint>
-                    }
-                    position={tooltip?.placement ?? 'top center'}
-                  >
-                    <a href={hover_link} className="flex" target="_blank" rel="noopener noreferrer">
-                      <div className="img-container">
-                        <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
-                      </div>
-                      <div className="overlay-content">
-                        <div className="title">{hover_name}</div>
-                        { hover_subtitle ? (
-                          <div className="subtitle">{hover_subtitle}</div>
-                        ): null }
-                      </div>
-                    </a>
-                  </StyledPopup>
-                  <Image
-                    src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
-                </>
-              ): (
-                <a href={hover_link} className="flex">
-                  <Image
-                    src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
-                </a>
-              )}
+          <div className="content h3">
+            {description}
+          </div>
+        </RestrictContainer>
+        <MontageCarousel>
+          <div className="content">
+            <div className="inner swiper-restrict">
+              <Swiper
+                modules={[Scrollbar]}
+                scrollbar={{ draggable: true }}
+                spaceBetween={0}
+                slidesPerView={montageSlidesToShow}
+              >
+                {montageItems.map(({ img, id, img_alt }, index) => (
+                  <SwiperSlide key={id}>
+                    <div className="img-container">
+                      <Image
+                        src={JSON.parse(img)} alt={img_alt} placeholder="blur" />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
             </div>
+          </div>
+        </MontageCarousel>
+        <HighlightsGrid background={theme.colors.background}>
+          <h2>Our Picks</h2>
+          <p className="mobile-only">Tap to see more.</p>
+          <div className="grid">
+            {highlightGrid.map(({id, img, img_alt, hover_name, hover_subtitle = "", hover_link, hover_thumbnail, hover_position, tooltip}, index) => (
+              <div className={`img ${id}`} key={id}>
+                {isSmallTabletUp ? (
+                  <>
+                    <StyledPopup 
+                      on={['hover']}
+                      trigger={
+                        <ToolTipPoint
+                          href={hover_link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          position={hover_position.smallTablet}
+                        >
+                          <ToolTipButton />
+                        </ToolTipPoint>
+                      }
+                      position={tooltip?.placement ?? 'top center'}
+                    >
+                      <a href={hover_link} className="flex" target="_blank" rel="noopener noreferrer">
+                        <div className="img-container">
+                          <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
+                        </div>
+                        <div className="overlay-content">
+                          <div className="title">{hover_name}</div>
+                          { hover_subtitle ? (
+                            <div className="subtitle">{hover_subtitle}</div>
+                          ): null }
+                        </div>
+                      </a>
+                    </StyledPopup>
+                    <Image
+                      src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
+                  </>
+                ): (
+                  <a href={hover_link} className="flex">
+                    <Image
+                      src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        </HighlightsGrid>
+        <div className="flex-center">
+          <Link href={`${link.url}?ref=spaced`} target="_blank" rel="noopener noreferrer" className="h5 brand-link-button">
+            {link.label}
+          </Link>
+        </div>
+        <TagList background={theme.colors.background}>
+          {tags.map((tag) => (
+            <Link href={`/search?query=${tag}`} key={tag}><div className="h2 tag">{tag}</div></Link>
           ))}
-        </div>
-      </HighlightsGrid>
-      <div className="flex-center">
-        <Link href={`${link.url}?ref=spaced`} target="_blank" rel="noopener noreferrer" className="h5 brand-link-button">
-          {link.label}
-        </Link>
+        </TagList>
+        <Footer color={theme.colors.primary} background={theme.colors.background}>
+          <div className="flex">
+            <div className="footer-content">
+              <div className="h5">Have a brand in mind?</div>
+              <div className="h5">Drop us a note!</div>
+            </div>
+            <div className="button">
+              <a href="mailto:hello@plaen.co" className="h6">Message Us</a>
+            </div>
+          </div>
+        </Footer>
       </div>
-      <TagList background={theme.colors.background}>
-        {tags.map((tag) => (
-          <Link href={`/search?query=${tag}`} key={tag}><div className="h2 tag">{tag}</div></Link>
-        ))}
-      </TagList>
-      <Footer color={theme.colors.primary} background={theme.colors.background}>
-        <div className="flex">
-          <div className="footer-content">
-            <div className="h5">Have a brand in mind?</div>
-            <div className="h5">Drop us a note!</div>
-          </div>
-          <div className="button">
-            <a href="mailto:hello@plaen.co" className="h6">Message Us</a>
-          </div>
-        </div>
-      </Footer>
     </Container>
     
   )

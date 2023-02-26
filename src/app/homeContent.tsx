@@ -1,6 +1,6 @@
 'use client';
 
-import { phone, smallDesktop, smallTablet, ThemeType } from "@/assets/styles/themeConfig";
+import { desktop, phone, smallDesktop, smallTablet, ThemeType } from "@/assets/styles/themeConfig";
 import Link from "next/link";
 import styled, { useTheme } from "styled-components";
 import tinycolor from "tinycolor2";
@@ -11,11 +11,11 @@ import Marquee from "react-fast-marquee";
 import { BrandDataProps } from "./brands/[slug]/brandLayout";
 import Img1 from "@/assets/img/home-moft-img-1.png";
 import Img2 from "@/assets/img/home-moft-img-2.png";
-import MoftLabel from "@/assets/img/home-moft-label.png";
 import FooterArrow from "@/assets/img/home-arrow-footer.svg";
 
 const Container = styled.div`
   background: ${({ theme }) => theme.colors.background};
+  overflow: hidden;
 `
 
 const Header = styled.header`
@@ -86,6 +86,10 @@ const BrandMarquee = styled.section`
       width: 40vw;
     }
 
+    @media ${({ theme }) => theme.mediaQuery.largeDesktop} {
+      width: 33vw;
+    }
+
     .overlay {
       position: absolute;
       display: flex;
@@ -143,6 +147,11 @@ const ExplainationSection = styled.section`
     max-width: ${smallDesktop}px;
     width: 100%;
     margin: 0rem 0 0 auto;
+
+    @media ${({ theme }) => theme.mediaQuery.largeDesktop} {
+      margin: 0rem auto;
+      max-width: ${desktop}px;
+    }
 
     .img-1, .img-2 {
       img {
