@@ -270,7 +270,7 @@ const HomeLayout = ({ data }: { data: BrandDataProps[]}) => {
       </TitleSection>
       <BrandMarquee>
         <Marquee pauseOnHover gradient={false}>
-          {data.map(item => (
+          {data.sort((a, b) => 0.5 - Math.random()).map(item => (
             <Link href={`/brands/${item.path}`} className="brand-tile" key={item.title}>
               <div className="overlay">
                 <div className="titling">{item.title}</div>
