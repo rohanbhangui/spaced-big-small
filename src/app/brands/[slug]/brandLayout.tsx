@@ -435,7 +435,7 @@ const TagList = styled.div<{ background: string; }>`
   }
 
   .tag {
-    color: ${({ background }) => tinycolor(background).isDark() ? "rgba(255, 255, 255, 0.5)" : "rgba(0, 0, 0, 0.5)"};
+    color: ${({ background }) => tinycolor(background).isDark() ? "rgba(255, 255, 255, 0.33)" : "rgba(0, 0, 0, 0.33)"};
     font-weight: 600;
     display: inline-block;
     margin: 0 0.6rem;
