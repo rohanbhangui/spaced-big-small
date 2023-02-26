@@ -12,6 +12,45 @@ export interface PageProps {
   searchParams?: Record<string, string | string[]>;
 }
 
+export const generateMetadata = async ({ params }: { params: PageProps["params"]}) => {
+  const data = await fetchData(params);
+
+  return { 
+    title: `Spacd - ${data.title}`,
+    description: data.description,
+    applicationName: `Spacd - ${data.title}`,
+    keywords: data.tags,
+    icons: {
+      icon: '/icon.png',
+      shortcut: '/shortcut-icon.png',
+      apple: '/apple-icon.png',
+      other: {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/apple-touch-icon-precomposed.png',
+      },
+    },
+    openGraph: {
+      title: `Spacd - ${data.title}`,
+      description: data.description,
+      url: `https://google.com`,
+      siteName: 'Spacd',
+      images: [
+        {
+          url: `${process.env.NEXT_PUBLIC_HOST}/img/${data.headerImage.split("/").at(-1)}`,
+        },
+      ],
+      locale: 'en-US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Spacd - ${data.title}`,
+      description: data.description,
+      images: [`/img/${data.headerImage}`],
+    },
+  }
+}
+
 
 export const generateStaticParams = async (): Promise<PageParams[]> => {
   const files = fs.readdirSync("brands");
