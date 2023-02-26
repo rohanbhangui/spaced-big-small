@@ -35,7 +35,7 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
     openGraph: {
       title: title,
       description: data.description,
-      url: `https://google.com`,
+      url: `${process.env.NEXT_PUBLIC_HOST}/brands/${data.path}`,
       siteName: 'Spacd',
       images: [
         {
