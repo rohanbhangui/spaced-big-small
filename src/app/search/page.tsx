@@ -1,6 +1,5 @@
 import NotFound from '@/components/NotFound';
 import fs from 'fs';
-import { BrandDataProps } from '../brands/[slug]/brandLayout';
 
 import PageLayout from './brandsLayout';
 
@@ -10,9 +9,9 @@ const fetchBrands = async () => {
 
   // get each json
   const brandFiles = files.map((fileName) => {
-      const slug = fileName.replace('.json', '');
       const readFile = fs.readFileSync(`brands/${fileName}`, 'utf-8');
 
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { montageItems, highlightGrid, ...rest } = JSON.parse(readFile);
 
       return {
@@ -88,6 +87,7 @@ const Layout = async (): Promise<JSX.Element> => {
 
     const brands = await Promise.all(
       brandsData.map(async(item) => {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
         const headerImage = await import(`@/assets/img/${headerImg}`);
 

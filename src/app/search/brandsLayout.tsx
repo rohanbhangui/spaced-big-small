@@ -1,6 +1,6 @@
 'use client';
 
-import { largeDesktop, smallTablet } from "@/assets/styles/themeConfig";
+import { largeDesktop } from "@/assets/styles/themeConfig";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { BrandDataProps } from "../brands/[slug]/brandLayout";
@@ -195,13 +195,14 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
 
     const brandList = filterBrands.sort((a, b) => a.count - b.count)
 
-    setFilteredBrands(terms.length > 0 ? filterBrands : brands);
+    setFilteredBrands(terms.length > 0 ? brandList : brands);
 
     if(debouncedSearch) {
       router.replace(`search?query=${debouncedSearch}`);
     } else {
       router.replace(`search`);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debouncedSearch])
 
   useEffect(() => {

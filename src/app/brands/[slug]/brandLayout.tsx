@@ -1,12 +1,11 @@
 'use client';
 
 import { desktop, smallTablet, tablet, desktopFHD, largeDesktop, phone, smallDesktop, ThemeType } from "@/assets/styles/themeConfig";
-import CustomTooltip from "@/components/Tooltip";
 import { useMediaQuery, useWindowDimensions } from "@/utils/hooks";
 import Image from "next/image";
-import { useRef, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styled, { useTheme } from "styled-components";
-import { Navigation, Pagination, Scrollbar } from 'swiper';
+import { Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
 import Popup from 'reactjs-popup';
@@ -14,22 +13,6 @@ import { PopupPosition } from "reactjs-popup/dist/types";
 import Link from "next/link";
 import BrandHeader from "@/components/BrandHeader";
 import tinycolor from "tinycolor2";
-
-enum tooltipPositions {
-  'top left',
-  'top center',
-  'top right',
-  'right top',
-  'right center',
-  'right bottom',
-  'bottom left',
-  'bottom center',
-  'bottom right',
-  'left top',
-  'left center',
-  'left bottom',
-  'center center',
-};
 
 
 export type Position = {
@@ -606,7 +589,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
                 spaceBetween={0}
                 slidesPerView={montageSlidesToShow}
               >
-                {montageItems.map(({ img, id, img_alt }, index) => (
+                {montageItems.map(({ img, id, img_alt }) => (
                   <SwiperSlide key={id}>
                     <div className="img-container">
                       <Image
@@ -622,7 +605,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
           <h2>Our Picks</h2>
           <p className="mobile-only">Tap to see more.</p>
           <div className="grid">
-            {highlightGrid.map(({id, img, img_alt, hover_name, hover_subtitle = "", hover_link, hover_thumbnail, hover_position, tooltip}, index) => (
+            {highlightGrid.map(({id, img, img_alt, hover_name, hover_subtitle = "", hover_link, hover_thumbnail, hover_position, tooltip}) => (
               <div className={`img ${id}`} key={id}>
                 {isSmallTabletUp ? (
                   <>
