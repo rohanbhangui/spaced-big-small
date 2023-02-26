@@ -11,22 +11,22 @@
         "background": "#1e2825"
       }
     },
-    "headerImage": "unimaticwatches/m01.avif",
+    "headerImage": "unimaticwatches/m01.webp",
     "description": "Unimatic Watches is an Italian watch brand that produces minimalist and functional timepieces. Their watches are known for their sleek design, high-quality materials, and attention to detail, and are often favored by enthusiasts of both fashion and horology.",
     "montageItems": [
       {
         "id": "0",
-        "img": "unimaticwatches/m11.avif",
+        "img": "unimaticwatches/m11.webp",
         "img_alt": "unimatic watches image montage shot"
       },
       {
         "id": "1",
-        "img": "unimaticwatches/w2000_q80.avif",
+        "img": "unimaticwatches/w2000_q80.webp",
         "img_alt": "unimatic watches image montage shot"
       },
       {
         "id": "2",
-        "img": "unimaticwatches/w2000_q80 (1).avif",
+        "img": "unimaticwatches/w2000_q80 (1).webp",
         "img_alt": "unimatic watches image montage shot"
       },
       {
@@ -61,7 +61,7 @@
         "hover_subtitle": "",
         "hover_thumbnail": "unimaticwatches/U2S-T-MP-Hero.png.webp",
         "hover_link": "https://www.unimaticwatches.com/u2s-t-mp/",
-        "img": "unimaticwatches/w2000_q80 (2).avif",
+        "img": "unimaticwatches/w2000_q80 (2).webp",
         "img_alt": "U2S-T-MP",
         "hover_position": {
           "default": {
