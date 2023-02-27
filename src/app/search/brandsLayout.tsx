@@ -1,6 +1,6 @@
 'use client';
 
-import { desktopFHD, largeDesktop, phone, smallDesktop, smallPhone, smallTablet, ThemeType } from "@/assets/styles/themeConfig";
+import { desktopFHD, largeDesktop, smallDesktop, ThemeType } from "@/assets/styles/themeConfig";
 import { useEffect, useRef, useState } from "react";
 import styled, { useTheme } from "styled-components";
 import { BrandDataProps } from "../brands/[slug]/brandLayout";
@@ -19,6 +19,7 @@ type BrandOrder = BrandDataProps & {
 const Container = styled.div`
 
   .link-button.collapse {
+    z-index: 120;
     cursor: pointer;
     position: absolute;
     right: 1rem;
@@ -311,7 +312,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
 
   const [index, setIndex] = useState(0);
-  const [collapse, setCollapse] = useState(false);
+  const [collapse, setCollapse] = useState(JSON.parse(localStorage.getItem("spacd:headerCollapse") ?? 'false'));
 
   useEffect(() => {
     const intervalId = setInterval(() =>
@@ -334,6 +335,10 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
       });
     }
   }
+
+  useEffect(() => {
+    localStorage.setItem("spacd:headerCollapse", JSON.stringify(collapse));
+  }, [collapse]);
 
   useEffect(() => {
     const terms = debouncedSearch.trim().split(" ").filter(Boolean).map(item => item.toLowerCase());
