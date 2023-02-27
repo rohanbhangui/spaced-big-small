@@ -3,7 +3,7 @@
 import { desktopFHD, largeDesktop, smallDesktop, ThemeType } from "@/assets/styles/themeConfig";
 import { useEffect, useRef, useState } from "react";
 import styled, { useTheme } from "styled-components";
-import { BrandDataProps } from "../brands/[slug]/brandLayout";
+import { BrandDataProps } from "./brands/[slug]/brandLayout";
 import Image from "next/image";
 import Link from 'next/link';
 import { useDebounce, useMediaQuery } from "@/utils/hooks";
@@ -320,13 +320,15 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
 
   const [index, setIndex] = useState(0);
-  const [collapse, setCollapse] = useState(JSON.parse(localStorage.getItem("spacd:headerCollapse") ?? 'false'));
+  const [collapse, setCollapse] = useState(false);
 
   useEffect(() => {
     const intervalId = setInterval(() =>
       setIndex(index => index + 1),
       3000 // every 3 seconds
     );
+
+    
     return () => clearTimeout(intervalId);
   }, []);
 
