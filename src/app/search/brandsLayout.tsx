@@ -404,7 +404,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   
   return (
     <Container>
-      <button onClick={() => setCollapse(prev => !prev)} className="link-button collapse">
+      <button onClick={() => setCollapse((prev: boolean) => !prev)} className="link-button collapse">
         {collapse ? 'Open' : 'Close' } {isDesktop ? 'Header': ''}
       </button>
       <Hero>
