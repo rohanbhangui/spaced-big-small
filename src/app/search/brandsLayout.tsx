@@ -38,7 +38,7 @@ const Container = styled.div`
   .search-bar {
     max-width: ${largeDesktop}px;
     width: 100%;
-    margin: 1rem auto 0;
+    margin: 0 auto;
     display: flex;
     align-items: stretch;
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.33); */
@@ -105,7 +105,7 @@ const Hero = styled.div`
   .wrapper {
     max-width: ${smallDesktop}px;
     width: 100%;
-    margin: 0 auto;
+    margin: 4rem auto 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 
@@ -134,7 +134,11 @@ const Hero = styled.div`
 
       .inner {
         width: 100%;
-        padding-left: 1rem;
+        padding-left: 0rem;
+
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          padding-left: 1rem;
+        }
       }
 
       h1 {
@@ -169,9 +173,13 @@ const Hero = styled.div`
         border-radius: 0.6rem;
         border: none;
         cursor: pointer;
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 3rem;
         font-size: 1.05rem;
+
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          margin-top: 2rem;
+        }
 
         &.subscribe-button {
           background: black;
