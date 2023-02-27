@@ -1,20 +1,23 @@
 'use client';
 
-import { largeDesktop } from "@/assets/styles/themeConfig";
+import { desktopFHD, largeDesktop, phone, smallDesktop, smallPhone, smallTablet, ThemeType } from "@/assets/styles/themeConfig";
 import { useEffect, useState } from "react";
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 import { BrandDataProps } from "../brands/[slug]/brandLayout";
 import Image from "next/image";
 import Link from 'next/link';
-import { useDebounce } from "@/utils/hooks";
+import { useDebounce, useMediaQuery } from "@/utils/hooks";
 import { useRouter, useSearchParams } from "next/navigation";
 import BrandHeader from "@/components/BrandHeader";
+import TextTransition, { presets } from "react-text-transition";
+import HeroImage from "@/assets/img/hero-image.png";
 
 type BrandOrder = BrandDataProps & {
   count: number;
 }
 
 const Container = styled.div`
+  
   .search-bar {
     max-width: ${largeDesktop}px;
     width: 100%;
@@ -64,6 +67,120 @@ const Container = styled.div`
       &:hover {
         color: rgba(0, 0, 0, 1);
       }
+    }
+  }
+`
+
+const Hero = styled.div`
+  background: #F1F1F1;
+
+  .header {
+    position: sticky;
+    top: 0.5rem;
+    z-index: 100;
+  }
+
+  .wrapper {
+    max-width: ${smallDesktop}px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+      grid-template-columns: repeat(12, 1fr);
+    }
+
+    @media ${({ theme }) => theme.mediaQuery.desktopFHD} {
+      max-width: ${desktopFHD}px;
+    }
+  }
+
+  .content {
+    grid-column: 1/13;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+      text-align: left;
+      grid-column: 1/6;
+    }
+
+    .inner {
+      width: 100%;
+      padding-left: 1rem;
+    }
+
+    h1 {
+      display: block;
+      max-width: 20rem;
+      width: 100%;
+      margin: 0 auto;
+      color: rgba(0, 0, 0, 0.5);
+
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        max-width: 30rem;
+        margin: 0;
+      }
+
+      em {
+        color: rgba(0, 0, 0, 1);
+        font-style: normal;
+        overflow: hidden;
+
+        > div {
+          justify-content: center;
+
+          @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+            justify-content: flex-start;
+          }
+        }
+      }
+    }
+
+    button {
+      font-weight: 500;
+      padding: 0.5rem 1.75rem;
+      border-radius: 0.6rem;
+      border: none;
+      cursor: pointer;
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+
+      &.subscribe-button {
+        background: black;
+        color: white;
+        border: 2px solid black;
+        margin-right: 0.5rem;
+      }
+
+      &.go-to-app {
+        border: 2px solid black;
+        color: black;
+      }
+    }
+  }
+
+  .img-container.hero {
+    grid-column: 1/13;
+    max-width: 20rem;
+    width: 100%;
+    margin: 0 auto;
+
+    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+      max-width: none;
+      grid-column: 6/13;
+    }
+    
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
     }
   }
 `
@@ -144,12 +261,35 @@ const Grid = styled.div`
   }
 `
 
+const Text = [
+  "Living Room",
+  "Bedroom",
+  "Kitchen",
+  "Pockets",
+  "Car",
+  "Wardrobe",
+  "Night Out",
+]
+
 const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const theme = useTheme() as ThemeType;
+  const isDesktop = useMediaQuery(`${theme.mediaQuery.smallTablet}`);
   const [ search, setSearch ] = useState(searchParams?.get('query') ?? '');
   const debouncedSearch = useDebounce(search, 500);
+  
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      3000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
 
   const onClear = () => {
     setSearch('');
@@ -211,7 +351,36 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   
   return (
     <Container>
-      <BrandHeader background={"#FFFFFF"} />
+      <Hero>
+        <BrandHeader className="header" background={"#FFFFFF"} />
+        <div className="wrapper">
+          <div className="content">
+            <div className="inner">
+              <h1 className="h3">
+                Currated products for your&nbsp;
+                <em>
+                  { isDesktop ? (
+                    <TextTransition inline springConfig={presets.gentle}>
+                      {Text[index % Text.length]}
+                    </TextTransition>
+                  ) : (
+                    <TextTransition springConfig={presets.gentle}>
+                      {Text[index % Text.length]}
+                    </TextTransition>
+                  )}
+                </em>
+              </h1>
+              <div className="actions">
+                <button className="subscribe-button">Subscribe</button>
+                <button className="go-to-app">Go to App</button>
+              </div>
+            </div>
+          </div>
+          <div className="img-container hero">
+            <Image src={HeroImage} alt="hero image" placeholder="blur" />
+          </div>
+        </div>
+      </Hero>
       <div className="search-bar">
         <i className="fa-regular fa-magnifying-glass" />
         <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
