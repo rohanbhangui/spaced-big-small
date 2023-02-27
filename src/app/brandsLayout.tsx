@@ -393,9 +393,9 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
     setFilteredBrands(terms.length > 0 ? brandList : brands);
 
     if(debouncedSearch) {
-      router.replace(`search?query=${debouncedSearch}`);
+      router.replace(`?query=${debouncedSearch}`);
     } else {
-      router.replace(`search`);
+      router.replace(`/`);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debouncedSearch])
