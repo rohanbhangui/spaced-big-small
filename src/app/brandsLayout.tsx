@@ -1,0 +1,480 @@
+'use client';
+
+import { desktopFHD, largeDesktop, smallDesktop, ThemeType } from "@/assets/styles/themeConfig";
+import { useEffect, useRef, useState } from "react";
+import styled, { useTheme } from "styled-components";
+import { BrandDataProps } from "./brands/[slug]/brandLayout";
+import Image from "next/image";
+import Link from 'next/link';
+import { useDebounce, useMediaQuery } from "@/utils/hooks";
+import { useRouter, useSearchParams } from "next/navigation";
+import BrandHeader from "@/components/BrandHeader";
+import TextTransition, { presets } from "react-text-transition";
+import HeroImage from "@/assets/img/hero-image.png";
+
+type BrandOrder = BrandDataProps & {
+  count: number;
+}
+
+const Container = styled.div`
+
+  .link-button.collapse {
+    z-index: 120;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    background: none;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.1s ease-in-out;
+    border: none;
+    
+    &:hover {
+      text-decoration: underline;
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+  
+  .search-bar {
+    max-width: ${largeDesktop}px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    /* border-bottom: 2px solid rgba(0, 0, 0, 0.33); */
+    transition: border-bottom 0.25s ease-in-out;
+    padding: 0 1.5rem;
+
+    @media ${({ theme }) => theme.mediaQuery.tablet} {
+      margin: 1rem auto 2rem;
+    }
+
+    /* &:focus-within {
+      border-bottom: 2px solid rgba(0, 0, 0, 1);
+    } */
+
+    input {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      border: none;
+      outline: none;
+
+      @media ${({ theme }) => theme.mediaQuery.tablet} {
+        font-size: 2rem;
+      }
+
+    }
+
+    i.fa-xmark, i.fa-magnifying-glass {
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+
+      @media ${({ theme }) => theme.mediaQuery.tablet} {
+        font-size: 1.5rem;
+      }
+    }
+
+    i.fa-xmark {
+      color: rgba(0, 0, 0, 0.33);
+      cursor: pointer;
+      margin-left: 0.5rem;
+
+      @media ${({ theme }) => theme.mediaQuery.tablet} {
+        margin-left: 1rem;
+      }
+
+      &:hover {
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+  }
+`
+
+const Hero = styled.div`
+  background: #F1F1F1;
+  margin-top: -4rem;
+
+  .header {
+    position: sticky;
+    top: 0rem;
+    z-index: 100;
+  }
+
+  .wrapper {
+    max-width: ${smallDesktop}px;
+    width: 100%;
+    margin: 4rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+      grid-template-columns: repeat(12, 1fr);
+    }
+
+    @media ${({ theme }) => theme.mediaQuery.desktopFHD} {
+      max-width: ${desktopFHD}px;
+    }
+
+    .content {
+      grid-column: 1/13;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        text-align: left;
+        grid-column: 1/6;
+      }
+
+      .inner {
+        width: 100%;
+        padding-left: 0rem;
+
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          padding-left: 1rem;
+        }
+      }
+
+      h1 {
+        display: block;
+        max-width: 20rem;
+        width: 100%;
+        margin: 0 auto;
+        color: rgba(0, 0, 0, 0.5);
+
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          max-width: 30rem;
+          margin: 0;
+        }
+
+        em {
+          color: rgba(0, 0, 0, 1);
+          font-style: normal;
+          overflow: hidden;
+
+          > div {
+            justify-content: center;
+
+            @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+              justify-content: flex-start;
+            }
+          }
+        }
+      }
+
+      button {
+        padding: 0.5rem 1.75rem;
+        border-radius: 0.6rem;
+        border: none;
+        cursor: pointer;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        font-size: 1.05rem;
+
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          margin-top: 2rem;
+        }
+
+        &.subscribe-button {
+          background: black;
+          color: white;
+          border: 2px solid black;
+          margin-right: 0.5rem;
+        }
+
+        &.go-to-app {
+          border: 2px solid black;
+          color: black;
+        }
+      }
+    }
+
+    .img-container.hero {
+      grid-column: 1/13;
+      max-width: 20rem;
+      width: 100%;
+      margin: 0 auto;
+
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        max-width: none;
+        grid-column: 6/13;
+      }
+      
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+  }
+
+  .white-bar {
+    height: 4rem;
+    width: 100%;
+    background: white;
+  }
+`
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0.8rem;
+  max-width: ${largeDesktop}px;
+  width: 100%;
+  margin: 1rem auto 2rem;
+  padding: 0 0.8rem;
+
+  @media ${({ theme }) => theme.mediaQuery.phone} {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media ${({ theme }) => theme.mediaQuery.tablet} {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem auto;
+  }
+
+  @media ${({ theme }) => theme.mediaQuery.desktop} {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .brand-tile {
+    aspect-ratio: 4/3;
+    position: relative;
+    transition: border-radius 0.25s ease-in-out;
+    border-radius: 0rem;
+    overflow: hidden;
+
+    &:hover {
+      border-radius: 1rem;
+
+      .direct {
+        display: inline-flex;
+      }
+    }
+
+    .overlay {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.25);
+
+      .titling {
+        color: white;
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .direct {
+      position: absolute;
+      right: 0.75rem;
+      top: 0.75rem;
+      color: white;
+      border-radius: 2rem;
+      height: 2rem;
+      width: 2rem;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      transition: 0.1s ease-in-out;
+
+      &:hover {
+        background: rgba(255, 255, 255, 1);
+        color: black;
+      }
+    }
+  }
+`
+
+const Text = [
+  "Living Room",
+  "Bedroom",
+  "Kitchen",
+  "Pockets",
+  "Car",
+  "Wardrobe",
+  "Night Out",
+]
+
+const Search = ({ brands }: { brands: BrandDataProps[] }) => {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const theme = useTheme() as ThemeType;
+  const searchRef = useRef<HTMLDivElement | null>(null);
+
+  const isDesktop = useMediaQuery(`${theme.mediaQuery.smallTablet}`);
+  const [ search, setSearch ] = useState(searchParams?.get('query') ?? '');
+  const debouncedSearch = useDebounce(search, 500);
+  
+  const [ filteredBrands, setFilteredBrands ] = useState(brands);
+
+  const [index, setIndex] = useState(0);
+  const [collapse, setCollapse] = useState(false);
+
+  useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      3000 // every 3 seconds
+    );
+
+    
+    return () => clearTimeout(intervalId);
+  }, []);
+
+  const onClear = () => {
+    setSearch('');
+  }
+
+  const handleGoToApp = () =>{
+    if(searchRef?.current) {
+      window.scrollTo({
+        top: searchRef.current?.offsetTop,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
+  }
+
+  useEffect(() => {
+    localStorage.setItem("spacd:headerCollapse", JSON.stringify(collapse));
+  }, [collapse]);
+
+  useEffect(() => {
+    const terms = debouncedSearch.trim().split(" ").filter(Boolean).map(item => item.toLowerCase());
+    
+    const filterBrands = brands.map((brand) => {
+
+      // check the tags count
+      const tagsCount = brand.tags.filter(elem => terms.includes(elem.toLowerCase())).length;
+
+      // check the description instance counts
+      const descriptionInstanceCount = terms.reduce((acc, curr) => {
+        const matches = brand.description.toLowerCase().split(curr).length - 1;
+        return acc + matches;
+      }, 0);
+
+      //check the title
+      const titleInstanceCount = terms.reduce((acc, curr) => {
+        const matches = brand.title.toLowerCase().split(curr).length - 1;
+        return acc + matches;
+      }, 0);
+
+      //check the url
+      const urlInstanceCount = terms.reduce((acc, curr) => {
+        const matches = brand.link.url.split(curr).length - 1;
+        return acc + matches;
+      }, 0);
+
+      const keywordCount = tagsCount + descriptionInstanceCount + titleInstanceCount + urlInstanceCount;
+
+      if(keywordCount === 0) return null;
+
+      return { 
+        ...brand,
+        count: keywordCount
+      };
+    }).filter((item) => {
+      return item !== null
+    }) as BrandOrder[];
+
+    const brandList = filterBrands.sort((a, b) => a.count - b.count);
+
+    setFilteredBrands(terms.length > 0 ? brandList : brands);
+
+    if(debouncedSearch) {
+      router.replace(`?query=${debouncedSearch}`);
+    } else {
+      router.replace(`/`);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [debouncedSearch])
+
+  useEffect(() => {
+    setSearch(searchParams?.get("query") ?? "")
+  }, [searchParams])
+  
+  return (
+    <Container>
+      <button onClick={() => setCollapse((prev: boolean) => !prev)} className="link-button collapse">
+        {collapse ? 'Open' : 'Close' } {isDesktop ? 'Header': ''}
+      </button>
+      <Hero>
+        <BrandHeader className="header" background={"#FFFFFF"} />
+        {collapse ? null : (
+          <div className="wrapper">
+            <div className="content">
+              <div className="inner">
+                <h1 className="h3">
+                  Currated products for your&nbsp;
+                  <em>
+                    { isDesktop ? (
+                      <TextTransition inline springConfig={presets.gentle}>
+                        {Text[index % Text.length]}
+                      </TextTransition>
+                    ) : (
+                      <TextTransition springConfig={presets.gentle}>
+                        {Text[index % Text.length]}
+                      </TextTransition>
+                    )}
+                  </em>
+                </h1>
+                <div className="actions">
+                  <button className="subscribe-button">Subscribe</button>
+                  <button className="go-to-app" onClick={handleGoToApp}>Go to App</button>
+                </div>
+              </div>
+            </div>
+            <div className="img-container hero">
+              <Image src={HeroImage} alt="hero image" placeholder="blur" />
+            </div>
+          </div>
+        )}
+        <div className="white-bar" ref={searchRef} />
+      </Hero>
+      <div className="search-bar">
+        <i className="fa-regular fa-magnifying-glass" />
+        <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
+        { search.trim() === "" ? (
+          null
+        ): (
+          <i onClick={onClear} className="fa-regular fa-xmark" />
+        )}
+      </div>
+      <Grid>
+        {
+          filteredBrands.map(item => (
+            <div className="brand-tile" key={item.title}>
+              <Link className="direct" href={item.link.url } rel="noopener noreferrer" target="_blank">
+                <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
+              </Link>
+              <Link href={`/brands/${item.path}`}>
+                <div className="overlay">
+                  <div className="titling">{item.title}</div>
+                </div>
+              </Link>
+              <Image width={480} src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" quality={50} />
+            </div>
+            
+          ))
+        }
+      </Grid>
+    </Container>
+  )
+}
+
+export default Search;

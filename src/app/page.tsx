@@ -1,6 +1,27 @@
-import HomeLayout from "./homeContent";
+import NotFound from '@/components/NotFound';
 import fs from 'fs';
-import NotFound from "@/components/NotFound";
+
+import PageLayout from './brandsLayout';
+
+const fetchBrands = async () => {
+  // get list of files from the brands folder
+  const files = fs.readdirSync('brands');
+
+  // get each json
+  const brandFiles = files.map((fileName) => {
+      const readFile = fs.readFileSync(`brands/${fileName}`, 'utf-8');
+
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const { montageItems, highlightGrid, ...rest } = JSON.parse(readFile);
+
+      return {
+        ...rest,
+      }
+  });
+
+  // Return the pages static props
+  return brandFiles;
+}
 
 export const generateMetadata = async () => {
 
@@ -54,51 +75,31 @@ export const generateMetadata = async () => {
   }
 }
 
-const fetchBrands = async () => {
-  // get list of files from the brands folder
-  const files = fs.readdirSync('brands');
+const Layout = async (): Promise<JSX.Element> => {
+    let brandsData;
 
-  // get each json
-  const brandFiles = files.map((fileName) => {
-      const readFile = fs.readFileSync(`brands/${fileName}`, 'utf-8');
+    try {
+      brandsData = await fetchBrands();
+    } catch (err) {
+      return <NotFound />;
+    }
 
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const { montageItems, highlightGrid, ...rest } = JSON.parse(readFile);
+    const brands = await Promise.all(
+      brandsData.map(async(item) => {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
+        const headerImage = await import(`@/assets/img/${headerImg}`);
 
-      return {
-        ...rest,
-      }
-  });
+        return {
+          ...rest,
+          headerImage: JSON.stringify(headerImage)
+        }
+      })
+    )
 
-  // Return the pages static props
-  return brandFiles;
+    return (
+      <PageLayout brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} />
+    )
 }
 
-const Home = async (): Promise<JSX.Element> => {
-  let brandsData;
-
-  try {
-    brandsData = await fetchBrands();
-  } catch (err) {
-    return <NotFound />;
-  }
-
-  const brands = await Promise.all(
-    brandsData.map(async(item) => {
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
-      const headerImage = await import(`@/assets/img/${headerImg}`);
-
-      return {
-        ...rest,
-        headerImage: JSON.stringify(headerImage)
-      }
-    })
-  )
-
-  return (
-    <HomeLayout data={brands} />
-  )
-}
-
-export default Home;
+export default Layout;
