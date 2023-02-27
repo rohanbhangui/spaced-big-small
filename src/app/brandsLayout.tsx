@@ -239,6 +239,10 @@ const Grid = styled.div`
     margin: 2rem auto;
   }
 
+  @media ${({ theme }) => theme.mediaQuery.desktop} {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
   .brand-tile {
     aspect-ratio: 4/3;
     position: relative;
