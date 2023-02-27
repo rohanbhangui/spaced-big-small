@@ -1,7 +1,7 @@
 'use client';
 
 import { desktopFHD, largeDesktop, phone, smallDesktop, smallPhone, smallTablet, ThemeType } from "@/assets/styles/themeConfig";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styled, { useTheme } from "styled-components";
 import { BrandDataProps } from "../brands/[slug]/brandLayout";
 import Image from "next/image";
@@ -17,6 +17,22 @@ type BrandOrder = BrandDataProps & {
 }
 
 const Container = styled.div`
+
+  .link-button.collapse {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    background: none;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.1s ease-in-out;
+    border: none;
+    
+    &:hover {
+      text-decoration: underline;
+      color: rgba(0, 0, 0, 1);
+    }
+  }
   
   .search-bar {
     max-width: ${largeDesktop}px;
@@ -29,7 +45,7 @@ const Container = styled.div`
     padding: 0 1.5rem;
 
     @media ${({ theme }) => theme.mediaQuery.tablet} {
-      margin: 2rem auto;
+      margin: 1rem auto 2rem;
     }
 
     /* &:focus-within {
@@ -50,9 +66,13 @@ const Container = styled.div`
     }
 
     i.fa-xmark, i.fa-magnifying-glass {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       display: flex;
       align-items: center;
+
+      @media ${({ theme }) => theme.mediaQuery.tablet} {
+        font-size: 1.5rem;
+      }
     }
 
     i.fa-xmark {
@@ -73,10 +93,11 @@ const Container = styled.div`
 
 const Hero = styled.div`
   background: #F1F1F1;
+  margin-top: -4rem;
 
   .header {
     position: sticky;
-    top: 0.5rem;
+    top: 0rem;
     z-index: 100;
   }
 
@@ -94,94 +115,100 @@ const Hero = styled.div`
     @media ${({ theme }) => theme.mediaQuery.desktopFHD} {
       max-width: ${desktopFHD}px;
     }
-  }
 
-  .content {
-    grid-column: 1/13;
-    align-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-
-    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
-      text-align: left;
-      grid-column: 1/6;
-    }
-
-    .inner {
-      width: 100%;
-      padding-left: 1rem;
-    }
-
-    h1 {
-      display: block;
-      max-width: 20rem;
-      width: 100%;
-      margin: 0 auto;
-      color: rgba(0, 0, 0, 0.5);
+    .content {
+      grid-column: 1/13;
+      align-self: center;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
 
       @media ${({ theme }) => theme.mediaQuery.smallTablet} {
-        max-width: 30rem;
-        margin: 0;
+        text-align: left;
+        grid-column: 1/6;
       }
 
-      em {
-        color: rgba(0, 0, 0, 1);
-        font-style: normal;
-        overflow: hidden;
+      .inner {
+        width: 100%;
+        padding-left: 1rem;
+      }
 
-        > div {
-          justify-content: center;
+      h1 {
+        display: block;
+        max-width: 20rem;
+        width: 100%;
+        margin: 0 auto;
+        color: rgba(0, 0, 0, 0.5);
 
-          @media ${({ theme }) => theme.mediaQuery.smallTablet} {
-            justify-content: flex-start;
+        @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+          max-width: 30rem;
+          margin: 0;
+        }
+
+        em {
+          color: rgba(0, 0, 0, 1);
+          font-style: normal;
+          overflow: hidden;
+
+          > div {
+            justify-content: center;
+
+            @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+              justify-content: flex-start;
+            }
           }
+        }
+      }
+
+      button {
+        padding: 0.5rem 1.75rem;
+        border-radius: 0.6rem;
+        border: none;
+        cursor: pointer;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        font-size: 1.05rem;
+
+        &.subscribe-button {
+          background: black;
+          color: white;
+          border: 2px solid black;
+          margin-right: 0.5rem;
+        }
+
+        &.go-to-app {
+          border: 2px solid black;
+          color: black;
         }
       }
     }
 
-    button {
-      font-weight: 500;
-      padding: 0.5rem 1.75rem;
-      border-radius: 0.6rem;
-      border: none;
-      cursor: pointer;
-      margin-top: 1rem;
-      margin-bottom: 3rem;
+    .img-container.hero {
+      grid-column: 1/13;
+      max-width: 20rem;
+      width: 100%;
+      margin: 0 auto;
 
-      &.subscribe-button {
-        background: black;
-        color: white;
-        border: 2px solid black;
-        margin-right: 0.5rem;
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        max-width: none;
+        grid-column: 6/13;
       }
-
-      &.go-to-app {
-        border: 2px solid black;
-        color: black;
+      
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
       }
     }
   }
 
-  .img-container.hero {
-    grid-column: 1/13;
-    max-width: 20rem;
+  .white-bar {
+    height: 4rem;
     width: 100%;
-    margin: 0 auto;
-
-    @media ${({ theme }) => theme.mediaQuery.smallTablet} {
-      max-width: none;
-      grid-column: 6/13;
-    }
-    
-    img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+    background: white;
   }
 `
 
@@ -275,6 +302,8 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const theme = useTheme() as ThemeType;
+  const searchRef = useRef<HTMLDivElement | null>(null);
+
   const isDesktop = useMediaQuery(`${theme.mediaQuery.smallTablet}`);
   const [ search, setSearch ] = useState(searchParams?.get('query') ?? '');
   const debouncedSearch = useDebounce(search, 500);
@@ -282,6 +311,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
 
   const [index, setIndex] = useState(0);
+  const [collapse, setCollapse] = useState(false);
 
   useEffect(() => {
     const intervalId = setInterval(() =>
@@ -293,6 +323,16 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
 
   const onClear = () => {
     setSearch('');
+  }
+
+  const handleGoToApp = () =>{
+    if(searchRef?.current) {
+      window.scrollTo({
+        top: searchRef.current?.offsetTop,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
   }
 
   useEffect(() => {
@@ -351,35 +391,41 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
   
   return (
     <Container>
+      <button onClick={() => setCollapse(prev => !prev)} className="link-button collapse">
+        {collapse ? 'Open' : 'Close' } {isDesktop ? 'Header': ''}
+      </button>
       <Hero>
         <BrandHeader className="header" background={"#FFFFFF"} />
-        <div className="wrapper">
-          <div className="content">
-            <div className="inner">
-              <h1 className="h3">
-                Currated products for your&nbsp;
-                <em>
-                  { isDesktop ? (
-                    <TextTransition inline springConfig={presets.gentle}>
-                      {Text[index % Text.length]}
-                    </TextTransition>
-                  ) : (
-                    <TextTransition springConfig={presets.gentle}>
-                      {Text[index % Text.length]}
-                    </TextTransition>
-                  )}
-                </em>
-              </h1>
-              <div className="actions">
-                <button className="subscribe-button">Subscribe</button>
-                <button className="go-to-app">Go to App</button>
+        {collapse ? null : (
+          <div className="wrapper">
+            <div className="content">
+              <div className="inner">
+                <h1 className="h3">
+                  Currated products for your&nbsp;
+                  <em>
+                    { isDesktop ? (
+                      <TextTransition inline springConfig={presets.gentle}>
+                        {Text[index % Text.length]}
+                      </TextTransition>
+                    ) : (
+                      <TextTransition springConfig={presets.gentle}>
+                        {Text[index % Text.length]}
+                      </TextTransition>
+                    )}
+                  </em>
+                </h1>
+                <div className="actions">
+                  <button className="subscribe-button">Subscribe</button>
+                  <button className="go-to-app" onClick={handleGoToApp}>Go to App</button>
+                </div>
               </div>
             </div>
+            <div className="img-container hero">
+              <Image src={HeroImage} alt="hero image" placeholder="blur" />
+            </div>
           </div>
-          <div className="img-container hero">
-            <Image src={HeroImage} alt="hero image" placeholder="blur" />
-          </div>
-        </div>
+        )}
+        <div className="white-bar" ref={searchRef} />
       </Hero>
       <div className="search-bar">
         <i className="fa-regular fa-magnifying-glass" />

@@ -6,6 +6,7 @@ import tinycolor from "tinycolor2";
 
 const Header = styled.header<{ hasHref: boolean; background: string; }>`
   max-width: ${smallDesktop}px;
+  height: 4rem;
   margin: 0 auto;
   width: 100%;
   padding: 0.5rem;
