@@ -295,6 +295,7 @@ const HighlightsGrid = styled.div<{ background: string; }>`
 
         @media ${({ theme }) => theme.mediaQuery.smallTablet} {
           aspect-ratio: auto;
+          grid-row: 1 / 3;
         }
       }
 
@@ -303,6 +304,7 @@ const HighlightsGrid = styled.div<{ background: string; }>`
         aspect-ratio: 3/2;
         @media ${({ theme }) => theme.mediaQuery.smallTablet} {
           aspect-ratio: 730/580;
+          grid-row: 1/2;
         }
       }
 
@@ -311,6 +313,7 @@ const HighlightsGrid = styled.div<{ background: string; }>`
         aspect-ratio: 3/2;
         @media ${({ theme }) => theme.mediaQuery.smallTablet} {
           aspect-ratio: 730/580;
+          grid-row: 2/3;
         }
       }
 
