@@ -47,7 +47,7 @@
         "hover_subtitle": "Love",
         "hover_thumbnail": "nuuna/Frame 6.png",
         "hover_link": "https://nuuna.com/notebook-graphic-s-love",
-        "img": "nuuna/Slanted-nuuna-notebooks-01.jpg",
+        "img": "nuuna/Slanted-nuuna-notebooks-01 1.png",
         "img_alt": "Notebook Graphic S",
         "hover_position": {
           "default": {
@@ -56,7 +56,7 @@
           },
           "smallTablet": {
             "left": "23%",
-            "top": "47%"
+            "top": "68%"
           }
         },
         "tooltip": {
