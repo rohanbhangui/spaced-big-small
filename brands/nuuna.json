@@ -1,0 +1,188 @@
+{
+    "title": "Nuuna",
+    "path": "nuuna",
+    "link": {
+      "url": "https://nuuna.com/home",
+      "label": "nuuna.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#000000",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "nuuna/2500_auto_header-slanted-special-editaion-los-angeles-la-journal-notizbuch-brandbook-produktion.webp",
+    "description": "Nuuna offers a variety of high-quality notebooks and stationery products. Their products are known for their unique designs and use of high-quality materials.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "nuuna/img_1014.jpeg",
+        "img_alt": "nuuna image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "nuuna/Graphic_L_happybook_brandbook_nuuna_notebook_Notizbuch_yellow_gelb_53375_ambiente_2048@2x.webp",
+        "img_alt": "nuuna image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "nuuna/28476-47c4289ee54c06.jpg",
+        "img_alt": "nuuna image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "nuuna/Moon_others_NUUNA_Notebook_Notizbuch_Mond_black_white_schwarz_weiss_ambiente_2048_534c6fab-77ae-4bc6-9ef2-42773019d57a@2x.webp",
+        "img_alt": "nuuna image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "nuuna/20170223_114618.jpg",
+        "img_alt": "nuuna image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Notebook Graphic S",
+        "hover_subtitle": "Love",
+        "hover_thumbnail": "nuuna/Frame 6.png",
+        "hover_link": "https://nuuna.com/notebook-graphic-s-love",
+        "img": "nuuna/Slanted-nuuna-notebooks-01.jpg",
+        "img_alt": "Notebook Graphic S",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "23%",
+            "top": "47%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Notebook Break The Grid S",
+        "hover_subtitle": "Blue",
+        "hover_thumbnail": "nuuna/Frame 5.png",
+        "hover_link": "https://nuuna.com/notebook-break-the-grid-s-blue",
+        "img": "nuuna/2_1920_1920_r_nuuna_notizbuch_break_the_grid.jpg",
+        "img_alt": "Notebook Break The Grid S",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Notebook Not White L Light",
+        "hover_subtitle": "Yellow",
+        "hover_thumbnail": "nuuna/Frame 4.png",
+        "hover_link": "https://nuuna.com/notebook-not-white-l-light-yellow",
+        "img": "nuuna/55966_notizbuch-not-white-l-light-gelb.jpg",
+        "img_alt": "Notebook Not White L Light",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "28%",
+            "top": "50%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Notebook Graphic L",
+        "hover_subtitle": "Millimeter",
+        "hover_thumbnail": "nuuna/Frame 3.png",
+        "hover_link": "https://nuuna.com/notebook-graphic-l-millimeter",
+        "img": "nuuna/52118_notizbuch-graphic-l-millimeter_3.jpg",
+        "img_alt": "Notebook Graphic L",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Notebook Graphic L",
+        "hover_subtitle": "Analog",
+        "hover_thumbnail": "nuuna/Frame 2.png",
+        "hover_link": "https://nuuna.com/notebook-graphic-l-analog",
+        "img": "nuuna/Slanted-nuuna-notebooks-09.jpg",
+        "img_alt": "Notebook Graphic L",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "63%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Notebook Graphic L",
+        "hover_subtitle": "Best Plan - No Plan",
+        "hover_thumbnail": "nuuna/Frame 1.png",
+        "hover_link": "https://nuuna.com/notebook-graphic-l-best-plan-no-plan",
+        "img": "nuuna/54426_notizbuch-graphic-l-best-plan-no-plan_4.jpg",
+        "img_alt": "Notebook Graphic L",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "minimal",
+      "watch",
+      "racing",
+      "fashion",
+      "tech",
+      "pockets",
+      "wearable",
+      "autodromo",
+      "watches",
+      "cars",
+      "f1",
+      "formula"
+    ]
+  }
