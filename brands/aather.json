@@ -1,0 +1,181 @@
+{
+    "title": "Aather",
+    "path": "aather",
+    "link": {
+      "url": "https://aather.com/",
+      "label": "aather.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#714c4c",
+        "background": "#fffbee"
+      }
+    },
+    "headerImage": "aather/AATHER_CandlePeople_17_2x_c1af8eb6-ebad-4296-8651-ef682c34210f.jpg",
+    "description": "Aather is a Candle company that focuses on making limited run products that accent a space and bring people together, through their unique scents.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "aather/Aather_4x5AAc10_AMeetingofMinds_1840x.jpg",
+        "img_alt": "aather image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "aather/AATHER-AS-THE-SUN-RISES-CANDLE---220G_AW21_GOODHOOD_2116.webp",
+        "img_alt": "aather image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "aather/Aather_4x5AAc03_TheWandererReturns_e3a50497-6ac2-45e0-80a2-3a54ca51551c_1200x.webp",
+        "img_alt": "aather image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "aather/AATHER_PackagingPeople_0_Crop.webp",
+        "img_alt": "aather image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "aather/Aather-Brand_2x_5e32268d-30a2-4be4-b230-3846ad9da6bb_1800x.webp",
+        "img_alt": "aather image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "The Wanderer Returns",
+        "hover_subtitle": "Black Fig & Berries",
+        "hover_thumbnail": "aather/Aather_AAc03_TheWandererReturns.png",
+        "hover_link": "https://aather.com/collections/candles/products/the-wanderer-returns-scented-candle",
+        "img": "aather/Fonts In Use - Aather Gestura - 1.jpeg",
+        "img_alt": "The Wanderer Returns",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "23%",
+            "top": "68%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Midnight Dance",
+        "hover_subtitle": "Dark Amber & Musk",
+        "hover_thumbnail": "aather/Aather_AAc09_MidnightDance.png",
+        "hover_link": "https://aather.com/collections/candles/products/midnight-dance-scented-candle",
+        "img": "aather/Aather_4x5AAc09_MidnightDance_1840x.jpg",
+        "img_alt": "Midnight Dance",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "A Meeting of Minds",
+        "hover_subtitle": "Leather & Black Cedar",
+        "hover_thumbnail": "aather/Aather_AAc10_AMeetingofMinds.png",
+        "hover_link": "https://aather.com/collections/candles/products/a-meeting-of-minds-scented-candle",
+        "img": "aather/Aather_4x5AAc10_AMeetingofMinds_1840x.jpg",
+        "img_alt": "A Meeting of Minds",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "28%",
+            "top": "50%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "As The Sun Sets",
+        "hover_subtitle": "Bergamot & Sage",
+        "hover_thumbnail": "aather/Aather_AAc02_AstheSunSets.png",
+        "hover_link": "https://aather.com/collections/candles/products/as-the-sun-sets-scented-candle",
+        "img": "aather/Aather_4x5AAc02_AstheSunSets_1840x.jpg",
+        "img_alt": "As The Sun Sets",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "As The Sun Rises",
+        "hover_subtitle": "Grape Fruit & Sweet Citrus",
+        "hover_thumbnail": "aather/Aather_AAc01_AsTheSunRises.png",
+        "hover_link": "https://aather.com/collections/candles/products/as-the-sun-rises-scented-candle",
+        "img": "aather/Aather_4x5AAc01_AsTheSunRises.jpg",
+        "img_alt": "As The Sun Rises",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "63%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Garden of Words",
+        "hover_subtitle": "Lemon & Jasmine",
+        "hover_thumbnail": "aather/Aather_AAc04_GardenofWords.png",
+        "hover_link": "https://nuuna.com/notebook-graphic-l-best-plan-no-plan",
+        "img": "aather/IMG_1925.webp",
+        "img_alt": "Garden of Words",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "candles",
+      "minimal",
+      "scent",
+      "home",
+      "homeware"
+    ]
+  }
