@@ -292,6 +292,11 @@ const Grid = styled.div`
       justify-content: center;
       z-index: 10;
       transition: 0.1s ease-in-out;
+      display: inline-flex;
+
+      @media ${({ theme }) => theme.mediaQuery.phone} {
+        display: none;
+      }
 
       &:hover {
         background: rgba(255, 255, 255, 1);

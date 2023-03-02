@@ -261,6 +261,15 @@ const HighlightsGrid = styled.div<{ background: string; }>`
       display: none;
     }
   }
+
+  .overlay-mobile-text {
+    position: absolute;
+    bottom: 2rem;
+    left: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.33);
+  }
   
   .grid {
     margin-top: 2rem;
@@ -361,11 +370,23 @@ const ToolTipPoint = styled(Link)<{ position?: Position }>`
 
 const ToolTipButton = styled.div`
   background: white;
+  position: relative;
   height: 1rem;
   width: 1rem;
   border-radius: 5rem;
   box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.3);
   cursor: pointer;
+
+  &:after {
+    z-index: 10;
+    position: absolute;
+    content: ' ';
+    padding: 2rem;
+    border-radius: 3rem;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+  }
 `
 
 const StyledPopup = styled(Popup)`
@@ -649,6 +670,9 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
                   </>
                 ): (
                   <a href={hover_link} className="flex">
+                    <div className="overlay-mobile-text">
+                      {hover_name}
+                    </div>
                     <Image
                       src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
                   </a>
