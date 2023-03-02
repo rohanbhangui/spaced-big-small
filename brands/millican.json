@@ -1,0 +1,177 @@
+{
+    "title": "Millican",
+    "path": "millican",
+    "link": {
+        "url": "https://www.homeofmillican.com/",
+        "label": "homeofmillican.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#0e3fb5",
+            "background": "#d9d8d6"
+        }
+    },
+    "headerImage": "millican/DtBkGMMX4AEiuyI.jpg",
+    "description": "Home of Millican is an online store that offers a variety of sustainable and ethically-made backpacks, bags, and accessories for outdoor adventurers and travelers. Their products are designed to last a lifetime and are inspired by the founder's travels and love for nature.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "millican/image-asset.jpeg",
+            "img_alt": "millican image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "millican/Millican-Backpack-Gear-Patrol-Slide-7.jpg",
+            "img_alt": "millican image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "millican/Millican-Fraser-the-Rucksack-Review-2016-2017-best-backpacks-for-outdoor-activities-3.jpg",
+            "img_alt": "millican image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "millican/IMG_8038.jpeg",
+            "img_alt": "millican image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "millican/50881328397_e85cbe0878_h.jpg",
+            "img_alt": "millican image montage shot"
+        },
+        {
+            "id": "5",
+            "img": "millican/Were-Super-Into-these-Bags.-And-You-Should-Be-Too-Gear-Patrol-Full-Lead2.jpg",
+            "img_alt": "millican image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "The Core Roll Pack",
+            "hover_subtitle": "Sunset/20L",
+            "hover_thumbnail": "millican/13831158-7904967762807280.webp",
+            "hover_link": "https://www.homeofmillican.com/the-core-roll-pack-20l-in-sunset/13831158.html",
+            "img": "millican/FKBOV99XEAUmWXj.jpeg",
+            "img_alt": "The Core Roll Pack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "The Core Zip Pack",
+            "hover_subtitle": "Forest/15L",
+            "hover_thumbnail": "millican/13996135-1095013103323477.webp",
+            "hover_link": "https://www.homeofmillican.com/bags/the-core-zip-pack-15l-in-forest/13996135.html",
+            "img": "millican/13996135-1205013103474206.webp",
+            "img_alt": "The Core Zip Pack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Miles The Duffle Bag",
+            "hover_subtitle": "Moss/28L",
+            "hover_thumbnail": "millican/13831134-2344967761391145.jpg",
+            "hover_link": "https://www.homeofmillican.com/miles-the-duffle-bag-28l-in-moss/13831134.html",
+            "img": "millican/5fagvqxn14s51.webp",
+            "img_alt": "Miles The Duffle Bag",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "85%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Smith The Roll Pack",
+            "hover_subtitle": "Gorse/15L",
+            "hover_thumbnail": "millican/13831093-2105014650776259.webp",
+            "hover_link": "https://www.homeofmillican.com/smith-the-roll-pack-15l-with-pockets-in-gorse/13831093.html",
+            "img": "millican/millican-smith-the-roll-pack-15l-gorse-567964_2000x.jpg",
+            "img_alt": "Smith The Roll Pack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Utility Pouch",
+            "hover_subtitle": "Ocean/Small",
+            "hover_thumbnail": "millican/13831206-1164967766231417.webp",
+            "hover_link": "https://www.homeofmillican.com/utility-pouch-small-in-ocean/13831206.html",
+            "img": "millican/13831206-6624975485349824.webp",
+            "img_alt": "Utility Pouch",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "55%",
+                    "top": "55%"
+                }
+            },
+            "tooltip": {
+                "placement": "bottom center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Fraser The Rucksack",
+            "hover_subtitle": "Rust/32L",
+            "hover_thumbnail": "millican/13831112-1804967758603089.webp",
+            "hover_link": "https://www.homeofmillican.com/fraser-the-rucksack-32l-in-rust/13831112.html",
+            "img": "millican/817kY0T-4yL._AC_UL1500_.jpg",
+            "img_alt": "Fraser The Rucksack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": ["productivity", "aer", "travel", "minimalist", "modern", "sustainable", "backpack", "duffel", "travel", "office"]
+}
