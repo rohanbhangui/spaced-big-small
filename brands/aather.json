@@ -77,8 +77,8 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "53%",
-            "top": "40%"
+            "left": "56%",
+            "top": "20%"
           }
         },
         "tooltip": {
@@ -99,7 +99,7 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "28%",
+            "left": "50%",
             "top": "50%"
           }
         },
@@ -121,7 +121,7 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "70%",
+            "left": "60%",
             "top": "65%"
           }
         },
@@ -143,8 +143,8 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "40%",
-            "top": "63%"
+            "left": "56%",
+            "top": "25%"
           }
         }
       },
@@ -153,7 +153,7 @@
         "hover_name": "Garden of Words",
         "hover_subtitle": "Lemon & Jasmine",
         "hover_thumbnail": "aather/Aather_AAc04_GardenofWords.png",
-        "hover_link": "https://nuuna.com/notebook-graphic-l-best-plan-no-plan",
+        "hover_link": "https://aather.com/products/garden-of-words-scented-candle",
         "img": "aather/IMG_1925.webp",
         "img_alt": "Garden of Words",
         "hover_position": {
@@ -162,7 +162,7 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "55%",
+            "left": "30%",
             "top": "33%"
           }
         },

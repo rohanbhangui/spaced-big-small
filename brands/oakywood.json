@@ -1,0 +1,186 @@
+{
+    "title": "Oakywood",
+    "path": "oakywood",
+    "link": {
+      "url": "https://oakywood.shop/",
+      "label": "oakywood.shop"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#111111",
+        "background": "#e5e5e5"
+      }
+    },
+    "headerImage": "oakywood/de9df5b87517fc383812a3dc4e70515f.webp",
+    "description": "Oakywood is a Polish brand creating unique wooden accessories and furniture to help reinvent the workspace by making organizing your office a breeze, ergonomic and redefining workplace comfort.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "oakywood/Kopia_220808_Oakywood_D1_1023_1_1d1e53f7-983c-4bfc-8361-0881e0bfef9a.webp",
+        "img_alt": "oakywood image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "oakywood/220808_Oakywood_D1_1215_1_0e8d2e90-4a32-4aa9-9a60-dd0343325745.webp",
+        "img_alt": "oakywood image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "oakywood/IMG_0010.webp",
+        "img_alt": "oakywood image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "oakywood/il_fullxfull.4369079578_p74k.avif",
+        "img_alt": "oakywood image montage shot"
+      },
+      {
+        "id": "5",
+        "img": "oakywood/10.webp",
+        "img_alt": "oakywood image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Desk Shelf",
+        "hover_subtitle": "Oak veneer",
+        "hover_thumbnail": "oakywood/220812_Oakywood_D5_0833_54b6f46e-b8cf-42a6-9421-65aa3ddff261.jpg",
+        "hover_link": "https://oakywood.shop/products/desk-shelf-dual-monitor-stand",
+        "img": "oakywood/220810_Oakywood_D3_3153.webp",
+        "img_alt": "Desk Shelf",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "23%",
+            "top": "60%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Triple Dock",
+        "hover_subtitle": "Oak",
+        "hover_thumbnail": "oakywood/IMG_0068_1_1f4d7382-4b89-462c-b543-94d4a44b7abd.jpg",
+        "hover_link": "https://oakywood.shop/products/triple-dock-iphone-watch-airpods-charger",
+        "img": "oakywood/img-6.jpg",
+        "img_alt": "Triple Dock",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "83%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Laptop Stand",
+        "hover_subtitle": "Walnut",
+        "hover_thumbnail": "oakywood/220812_Oakywood_D5_0941.jpg",
+        "hover_link": "https://oakywood.shop/products/solid-wood-laptop-stand?variant=3488742146076",
+        "img": "oakywood/Kopia220810_Oakywood_D3_2540_ad17ed16-8572-4dd9-a8e8-c5ced8733eb6.jpg",
+        "img_alt": "Laptop Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "MagSafe iPhone Stand",
+        "hover_subtitle": "Walnut",
+        "hover_thumbnail": "oakywood/1_a239491d-f82c-482a-9808-39f9a01692b7.jpg",
+        "hover_link": "https://oakywood.shop/products/magsafe-iphone-stand?variant=40384532742205",
+        "img": "oakywood/220808_Oakywood_D1_1246.jpg",
+        "img_alt": "MagSafe iPhone Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Felt MacBook Sleeve",
+        "hover_subtitle": "Anthracite",
+        "hover_thumbnail": "oakywood/IMG_0041.jpg",
+        "hover_link": "https://oakywood.shop/products/felt-macbook-sleeve",
+        "img": "oakywood/IMG_0073_1_e7ff6322-e235-4da7-bfdf-192c3b71bca1.jpg",
+        "img_alt": "Felt MacBook Sleeve",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "38%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "AirPods Case",
+        "hover_subtitle": "Oak/Airpods Pro",
+        "hover_thumbnail": "oakywood/oakopenairpodspro_16af6498-7da7-4dd3-a284-024b8a8a492d.jpg",
+        "hover_link": "https://oakywood.shop/products/wooden-airpods-case?variant=40335640264765",
+        "img": "oakywood/220808_Oakywood_D1_1167_1.jpg",
+        "img_alt": "AirPods Case",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "35%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "wood",
+      "tech",
+      "macbook",
+      "sleeve",
+      "office",
+      "iphone",
+      "magsafe",
+      "charging",
+      "desk",
+      "shelf"
+    ]
+  }
