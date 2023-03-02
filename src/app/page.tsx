@@ -57,11 +57,7 @@ export const generateMetadata = async () => {
       description,
       url,
       siteName: 'Spacd',
-      images: [
-        {
-          url: seo_img,
-        },
-      ],
+      image: [seo_img],
       locale: 'en-US',
       type: 'website',
     },
@@ -71,6 +67,9 @@ export const generateMetadata = async () => {
       description,
       images: [seo_img],
       url
+    },
+    other: {
+      "og:image": seo_img,
     },
   }
 }

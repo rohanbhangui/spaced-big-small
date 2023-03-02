@@ -53,6 +53,9 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
       images: [seo_img],
       url
     },
+    other: {
+      "og:image": seo_img,
+    },
   }
 }
 
