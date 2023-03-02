@@ -154,7 +154,7 @@
                 },
                 "smallTablet": {
                     "left": "50%",
-                    "top": "25%"
+                    "top": "70%"
                 }
             },
             "tooltip": {
