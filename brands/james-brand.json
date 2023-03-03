@@ -1,0 +1,189 @@
+{
+    "title": "The James Brand",
+    "path": "the-james-brand",
+    "link": {
+      "url": "https://thejamesbrand.com/",
+      "label": "thejamesbrand.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#111111",
+        "background": "#e5e5e5"
+      }
+    },
+    "headerImage": "thejamesbrand/James_redstone_coral_turqoise_8998-v1638473388771.jpg",
+    "description": "The James Brand is a lifestyle brand that specializes in designing and crafting high-quality, minimalist knives, tools, and accessories for everyday carry. They focus on creating products that are both functional and aesthetically pleasing.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "thejamesbrand/TJB_22_Ellis_Hero_100522_03.webp",
+        "img_alt": "the james brand image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "thejamesbrand/ScreenShot2018-11-07at4.28.27PM.webp",
+        "img_alt": "the james brand image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "thejamesbrand/James_the_pike_OD_Green_005.webp",
+        "img_alt": "the james brand image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "thejamesbrand/james-brand-pike-aww-2-1605281711.jpg",
+        "img_alt": "the james brand image montage shot"
+      },
+      {
+        "id": "5",
+        "img": "thejamesbrand/TJB_About_Image_03.jpg",
+        "img_alt": "the james brand image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "The Abbey",
+        "hover_subtitle": "Rosewood/Stainless",
+        "hover_thumbnail": "thejamesbrand/TJB_23S1_Abbey_Rosewood_01.jpg",
+        "hover_link": "https://thejamesbrand.com/products/the-abbey?variant=40512170360902",
+        "img": "thejamesbrand/acf.TJB_23S1_Abbey_Rosewood_02.jpg",
+        "img_alt": "The Abbey",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "23%",
+            "top": "60%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "James & DDC: The Ellis",
+        "hover_subtitle": "Orange/Black",
+        "hover_thumbnail": "thejamesbrand/TJB_22_Ellis_DDC_Soldier_OnWhite_PDP_1600x1296_288e8208-a80c-460c-a463-1b44d0812665.jpg",
+        "hover_link": "https://thejamesbrand.com/products/james-ddc-the-ellis?variant=40423517814854",
+        "img": "thejamesbrand/acf.TJB_22_Ellis_DDC_Lifestyle_Close_InHand_PDP_1600x1296.jpg",
+        "img_alt": "James & DDC: The Ellis",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "83%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "James & Topo Designs: Utility Capsule",
+        "hover_subtitle": "Red/Black",
+        "hover_thumbnail": "thejamesbrand/TJB_22_TOPO_BagAndKnife_SoldierOnWhite_PDP_1600x1296_55aa4879-48f5-4dba-838f-1405a73fda28.jpg",
+        "hover_link": "https://thejamesbrand.com/products/james-topo-utility-capsule",
+        "img": "thejamesbrand/TJB_22_Topo_Lifestyle_04.webp",
+        "img_alt": "James & Topo Designs: Utility Capsule",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "The Cambro Tray Set",
+        "hover_subtitle": "Tessellated Gray/Black",
+        "hover_thumbnail": "thejamesbrand/TJB_23S1_CambroTray_Set_01.jpg",
+        "hover_link": "https://thejamesbrand.com/products/the-cambro-tray-set?variant=40502053470278",
+        "img": "thejamesbrand/acf.TJB_23S1_CambroTray_Set_04.jpg",
+        "img_alt": "The Cambro Tray Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "The Mehlville",
+        "hover_subtitle": "Brass",
+        "hover_thumbnail": "thejamesbrand/James_The-Mehlville---Brass_HEADER-v1628696207590.jpg",
+        "hover_link": "https://thejamesbrand.com/products/the-mehlville?variant=12247124967525",
+        "img": "thejamesbrand/James_The-Mehlville---Brass_HEADER-v1628696207590.jpg",
+        "img_alt": "The Mehlville",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "38%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "The Stilwell",
+        "hover_subtitle": "Oak/Airpods Pro",
+        "hover_thumbnail": "thejamesbrand/TJB_STILWELL_Soldier_Black.jpg",
+        "hover_link": "https://thejamesbrand.com/products/the-stilwell?variant=29553800675398",
+        "img": "thejamesbrand/acf.TJB_STILWELL_Product_Black_005.jpg",
+        "img_alt": "The Stilwell",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "35%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "metal",
+      "edc",
+      "pockets",
+      "knife",
+      "minimal",
+      "tools",
+      "everyday"
+    ],
+    "hiddenTags": [
+      "tool",
+      "every",
+      "day",
+      "carry"
+    ]
+  }
