@@ -166,11 +166,14 @@
     "tags": [
       "furniture",
       "minimal",
-      "canadian",
+      "canada",
       "chair",
       "desk",
       "standing",
       "branch",
       "wood"
+    ],
+    "hiddenTags": [
+      "canadian"
     ]
   }

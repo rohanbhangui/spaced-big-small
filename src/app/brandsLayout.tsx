@@ -368,6 +368,9 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
       // check the tags count
       const tagsCount = brand.tags.filter(elem => terms.includes(elem.toLowerCase())).length;
 
+      //check the hidden tag count
+      const hiddenTagsCount = brand.hiddenTags?.filter(elem => terms.includes(elem.toLowerCase())).length ?? 0;
+
       // check the description instance counts
       const descriptionInstanceCount = terms.reduce((acc, curr) => {
         const matches = brand.description.toLowerCase().split(curr).length - 1;
@@ -386,7 +389,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
         return acc + matches;
       }, 0);
 
-      const keywordCount = tagsCount + descriptionInstanceCount + titleInstanceCount + urlInstanceCount;
+      const keywordCount = tagsCount + descriptionInstanceCount + titleInstanceCount + urlInstanceCount + hiddenTagsCount;
 
       if(keywordCount === 0) return null;
 

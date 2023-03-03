@@ -169,7 +169,6 @@
       "clothing",
       "apparel",
       "shirt",
-      "tee",
       "bag",
       "duffle",
       "train",
@@ -180,5 +179,8 @@
       "outdoor",
       "shoe",
       "hightops"
+    ],
+    "hiddenTags": [
+      "tee"
     ]
   }

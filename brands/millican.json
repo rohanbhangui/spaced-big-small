@@ -173,5 +173,19 @@
             }
         }
     ],
-    "tags": ["productivity", "millican", "travel", "minimalist", "modern", "sustainable", "backpack", "duffel", "travel", "office"]
+    "tags": [
+        "productivity",
+        "millican",
+        "travel",
+        "minimal",
+        "modern",
+        "sustainable",
+        "backpack",
+        "duffel",
+        "travel",
+        "office"
+    ],
+    "hiddenTags": [
+        "minimalist"
+    ]
 }

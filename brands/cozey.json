@@ -171,7 +171,6 @@
     "tags": [
       "furniture",
       "minimal",
-      "canadian",
       "chair",
       "desk",
       "standing",
@@ -180,5 +179,8 @@
       "oak",
       "walnut",
       "canada"
+    ],
+    "hiddenTags": [
+      "canadian"
     ]
   }

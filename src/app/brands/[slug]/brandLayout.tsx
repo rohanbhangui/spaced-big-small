@@ -57,6 +57,7 @@ export type BrandDataProps = {
     }
   }[],
   tags: string[];
+  hiddenTags?: string[];
 }
 
 const RestrictContainer = styled.div`
