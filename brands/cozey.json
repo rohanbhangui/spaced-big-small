@@ -1,0 +1,184 @@
+{
+    "title": "Cozey",
+    "path": "cozey",
+    "link": {
+      "url": "https://www.cozey.ca/",
+      "label": "cozey.ca"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#2b2c6e",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "cozey/211977342_554569745899178_2574093660946591467_n.jpg",
+    "description": "Cozey is a Canadian furniture company that offers a range of modern and stylish furniture products for various spaces, including living rooms, bedrooms, and offices, as well as outdoor furniture options.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "cozey/COZEY_0679-copy.webp",
+        "img_alt": "cozey image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "cozey/DarkGreyTraversin.jpg",
+        "img_alt": "cozey image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "cozey/Featured-Image-Cozey-copy.jpg",
+        "img_alt": "cozey image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "cozey/Celestial_StyleSet_Lead.webp",
+        "img_alt": "cozey image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "cozey/NavyLumbar.jpg",
+        "img_alt": "cozey image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Cielo 3 Seater with Left Corner",
+        "hover_subtitle": "Beige",
+        "hover_thumbnail": "cozey/CLOUD 4 SEATER.JPG",
+        "hover_link": "https://www.cozey.ca/collections/ciello",
+        "img": "cozey/012Cozey_Cloud__High_Res.webp",
+        "img_alt": "Cielo 3 Seater with Left Corner",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Stella Coffee Table",
+        "hover_subtitle": "Oak",
+        "hover_thumbnail": "cozey/STELLA LIFT-TOP 2 CLOSED CONFIG 2.jpg",
+        "hover_link": "https://www.cozey.ca/product/tables/stella-lift-top-table/table-oak-lift-top-stella-2",
+        "img": "cozey/PDP-Stella-Lift-Top1.webp",
+        "img_alt": "Stella Coffee Table",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Original",
+        "hover_subtitle": "Dark Grey/Oak",
+        "hover_thumbnail": "cozey/3 SEATER CORNER OG LEFT.JPG",
+        "hover_link": "https://www.cozey.ca/product/seating/original/dark-grey-3-seater-with-corner-l-arms-bloc?legs=cozey-dark-oak",
+        "img": "cozey/frames.jpeg",
+        "img_alt": "Original",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Solis Adjustable Table",
+        "hover_subtitle": "Twilight",
+        "hover_thumbnail": "cozey/SOLIS CLOSED.jpg",
+        "hover_link": "https://www.cozey.ca/product/tables/solis-table/table-metal-grey-solis",
+        "img": "cozey/Tables_Shop_Page__COMP5.webp",
+        "img_alt": "Solis Adjustable Table",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "78%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Stella Media Unit",
+        "hover_subtitle": "Oak",
+        "hover_thumbnail": "cozey/STELLA TV 3 DOOR-HOLE-DOOR.jpg",
+        "hover_link": "https://www.cozey.ca/product/tables/stella-media-unit-table/stella-table-oak-tv-stand-2-door-1-nodoor",
+        "img": "cozey/Tables-Ciollection-LP3.webp",
+        "img_alt": "Stella Media Unit",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "65%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Pillow Set",
+        "hover_subtitle": "Sunshine",
+        "hover_thumbnail": "cozey/Sunshine_StyleSet_top.png",
+        "hover_link": "https://www.cozey.ca/product/accessories/style-set/sunshine-style-set",
+        "img": "cozey/Sunshine_StyleSet_Lead.webp",
+        "img_alt": "Pillow Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "furniture",
+      "minimal",
+      "canadian",
+      "chair",
+      "desk",
+      "standing",
+      "cozey",
+      "wood",
+      "oak",
+      "walnut",
+      "canada"
+    ]
+  }
