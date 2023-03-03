@@ -49,7 +49,8 @@ const BrandHeader = ({
   text?: string;
   className?: string;
 }) => {
-  const logo = tinycolor(background).isDark() ? "/logo-white.svg" : "/logo.svg"
+  const logo = tinycolor(background).isDark() ? "/logo-white.svg" : "/logo.svg";
+
   return (
     <Header className={className} hasHref={href!==""} background={background}>
       <Link href="/">

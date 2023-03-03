@@ -100,7 +100,6 @@ const Hero = styled.div`
     position: sticky;
     top: 0rem;
     z-index: 100;
-    mix-blend-mode: difference;
   }
 
   .wrapper {
