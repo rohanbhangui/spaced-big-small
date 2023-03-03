@@ -100,6 +100,7 @@ const Hero = styled.div`
     position: sticky;
     top: 0rem;
     z-index: 100;
+    mix-blend-mode: difference;
   }
 
   .wrapper {
@@ -422,7 +423,7 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
         {collapse ? 'Open' : 'Close' } {isDesktop ? 'Header': ''}
       </button>
       <Hero>
-        <BrandHeader className="header" background={"#FFFFFF"} />
+        <BrandHeader className="header" background={"#000000"} />
         {collapse ? null : (
           <div className="wrapper">
             <div className="content">
