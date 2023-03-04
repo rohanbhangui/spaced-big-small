@@ -1,0 +1,177 @@
+{
+    "title": "Sol'ace",
+    "path": "solace",
+    "link": {
+      "url": "https://solace-store.com/",
+      "label": "solace.store"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#645832",
+        "background": "#d1c7a3"
+      }
+    },
+    "headerImage": "solace/SolaceEnv07.webp",
+    "description": "Sol'ace features timeless furniture, with natural fabrics, curved lines, plenty of mirrors and classic design, which can be incorporated into any decor project.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "solace/SolaceEnv06.webp",
+        "img_alt": "solace image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "solace/SolaceEnv09.webp",
+        "img_alt": "solace image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "solace/aaron-huber-G7sE2S4Lab4-unsplash.webp",
+        "img_alt": "solace image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "solace/DECOR_H.jpg",
+        "img_alt": "solace image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Onyx Wood Chair",
+        "hover_subtitle": "",
+        "hover_thumbnail": "solace/CHARA1.png",
+        "hover_link": "https://solace-store.com/collections/chairs/products/onyx-wood-chair",
+        "img": "solace/Video-Frame-Mockup-Creator-2.webp",
+        "img_alt": "Onyx Wood Chair",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Sanberge Ceramic",
+        "hover_subtitle": "",
+        "hover_thumbnail": "solace/DECORC1.jpg",
+        "hover_link": "https://solace-store.com/collections/ceramic/products/sanbege-ceramic",
+        "img": "solace/DECORC.jpg",
+        "img_alt": "Sanberge Ceramic",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "68%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Native Light Chair",
+        "hover_subtitle": "",
+        "hover_thumbnail": "solace/CHARE1.png",
+        "hover_link": "https://solace-store.com/collections/chairs/products/native-light-chair",
+        "img": "solace/CHARE.png",
+        "img_alt": "Native Light Chair",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Fraxinus Dashe",
+        "hover_subtitle": "",
+        "hover_thumbnail": "solace/DECORB1_3e0e173b-c5e4-4031-a150-89f490946fff.jpg",
+        "hover_link": "https://solace-store.com/collections/decor/products/fraxinus-dashe",
+        "img": "solace/SCENE03_1_dd69ec72-492e-4855-bb76-058cc3875199.jpg",
+        "img_alt": "Fraxinus Dashe",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "64%",
+            "top": "48%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Paola Wood Chair",
+        "hover_subtitle": "",
+        "hover_thumbnail": "solace/CHARB2.png",
+        "hover_link": "https://solace-store.com/collections/chairs/products/paola-wood-chair",
+        "img": "solace/CHARB.png",
+        "img_alt": "Paola Wood Chair",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "58%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Mommy Lamp",
+        "hover_subtitle": "Sunshine",
+        "hover_thumbnail": "solace/LIGHTA1.png",
+        "hover_link": "https://solace-store.com/collections/lamp/products/mommy-lamp",
+        "img": "solace/LIGHTA.png",
+        "img_alt": "Mommy Lamp",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "furniture",
+      "minimal",
+      "chair",
+      "solace",
+      "wood",
+      "ceramic"
+    ],
+    "hiddenTags": [
+      
+    ]
+  }
