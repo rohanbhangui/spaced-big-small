@@ -230,6 +230,7 @@ const Grid = styled.div`
   width: 100%;
   margin: 1rem auto 2rem;
   padding: 0 0.8rem;
+  min-height: calc(100vh - 4rem);
 
   @media ${({ theme }) => theme.mediaQuery.phone} {
     grid-template-columns: repeat(2, 1fr);
