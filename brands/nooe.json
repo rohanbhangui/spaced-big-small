@@ -1,0 +1,187 @@
+{
+    "title": "NOOE",
+    "path": "nooe",
+    "link": {
+      "url": "https://us.nooe.co/",
+      "label": "us.nooe.co"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#d5c7bf",
+        "background": "#13171a"
+      }
+    },
+    "headerImage": "nooe/config01-desk-set-nooe-dezeen-showroom_dezeen_2364_col_4.webp",
+    "description": "NOOE makes carefully crafted desk accessories. Designed in Copenhagen, they use Grade-A walnut and space grade grade aluminum to craft desk essentials.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "nooe/03bf92117800789.61b767f448611.jpg",
+        "img_alt": "nooe image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "nooe/03_P_d6638a1d-34f5-4d99-9b2b-2e7e5a61c1f5_zoblym.webp",
+        "img_alt": "nooe image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "nooe/3c0032117800789.61b767f44c804.jpg",
+        "img_alt": "nooe image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "nooe/02.webp",
+        "img_alt": "nooe image montage shot"
+      },
+      {
+        "id": "5",
+        "img": "nooe/nooe-walnut-exhibit-desk-organizer_1.avif",
+        "img_alt": "nooe image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Anywhere Laptop Stand",
+        "hover_subtitle": "Walnut/Anthracite",
+        "hover_thumbnail": "nooe/1_a0f379d3-9227-4753-b231-573e0e83c542.png",
+        "hover_link": "https://us.nooe.co/collections/all/products/anywhere-laptop-stand?variant=43717929861397",
+        "img": "nooe/04_01_P_bj2ybh.webp",
+        "img_alt": "Anywhere Laptop Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "23%",
+            "top": "57%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Exhibit Desk Organizer",
+        "hover_subtitle": "Walnut/Anthracite",
+        "hover_thumbnail": "nooe/2_5ee36815-e309-4e2d-ad6d-1b21bdbf4fde.png",
+        "hover_link": "https://us.nooe.co/collections/all/products/exhibit-desk-organiser?variant=43717930254613",
+        "img": "nooe/config01-desk-set-nooe-dezeen-showroom_dezeen_2364_col_6.webp",
+        "img_alt": "Exhibit Desk Organizer",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "83%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Wire Governor",
+        "hover_subtitle": "Walnut/Anthracite",
+        "hover_thumbnail": "nooe/1_da2cbf36-d132-4276-bada-3b2edab48a57.png",
+        "hover_link": "https://us.nooe.co/collections/all/products/wire-governor?variant=43717931008277",
+        "img": "nooe/4_0a6eb566-bbc4-4be1-863f-afdc6e8eb092.png",
+        "img_alt": "Wire Governor",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Hands-on Stand",
+        "hover_subtitle": "Walnut/Anthracite",
+        "hover_thumbnail": "nooe/2_31f05aba-b0c0-4fd3-bf99-197e39455fff.png",
+        "hover_link": "https://us.nooe.co/collections/all/products/hands-on-mobile-stand?variant=43717930418453",
+        "img": "nooe/2_31f05aba-b0c0-4fd3-bf99-197e39455fff.png",
+        "img_alt": "Hands-on Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "73%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Suede Desk Rug",
+        "hover_subtitle": "Charcoal",
+        "hover_thumbnail": "nooe/2.png",
+        "hover_link": "https://us.nooe.co/collections/all/products/suede-desk-rug?variant=43717930680597",
+        "img": "nooe/3_deb9262e-733a-4d72-96b5-c1c544de361b.png",
+        "img_alt": "Suede Desk Rug",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "28%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Config 01 - Complete Set",
+        "hover_subtitle": "Walnut/Anthracite",
+        "hover_thumbnail": "nooe/2_f1ceb310-6101-4dbe-8d0a-9c9e54e0a8ef.png",
+        "hover_link": "https://us.nooe.co/collections/all/products/config-01-complete-set?variant=43717930123541",
+        "img": "nooe/1_12d799c4-e052-4072-8f75-b3bc03f26d5a.png",
+        "img_alt": "Config 01 - Complete Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "35%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "wood",
+      "tech",
+      "macbook",
+      "office",
+      "iphone",
+      "magsafe",
+      "charging",
+      "desk",
+      "aluminum",
+      "nooe",
+      "accessories"
+    ]
+  }
