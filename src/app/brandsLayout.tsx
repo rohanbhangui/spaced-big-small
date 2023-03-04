@@ -241,7 +241,7 @@ const Grid = styled.div`
     margin: 2rem auto;
   }
 
-  @media ${({ theme }) => theme.mediaQuery.desktop} {
+  @media ${({ theme }) => theme.mediaQuery.largeDesktop} {
     grid-template-columns: repeat(4, 1fr);
   }
 
