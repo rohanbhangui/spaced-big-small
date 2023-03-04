@@ -1,0 +1,184 @@
+{
+    "title": "Seneca",
+    "path": "seneca",
+    "link": {
+      "url": "https://thinkseneca.com/",
+      "label": "thinkseneca.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#ff5534",
+        "background": "#f0f0f0"
+      }
+    },
+    "headerImage": "seneca/SENECA_Vanta_Pant_Made_in_Italy_2_1920x.jpg",
+    "description": "Seneca is a New York-based clothing brand that offers a variety of clothing items, including t-shirts, hoodies, and hats. The brand's aesthetic is influenced by New York City streetwear and culture, and their designs often feature bold graphics and typography.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "seneca/res-seneca-founder.webp",
+        "img_alt": "think senenca image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "seneca/SENECA_Terra_Jacket_9.jpg",
+        "img_alt": "think senenca image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "seneca/SENECA_Vanta_Pant_Made_in_Italy_2_1920x.jpg",
+        "img_alt": "think senenca image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "seneca/SENECA_Homepage_Fall_2022_3.jpg",
+        "img_alt": "think senenca image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "seneca/FabricOliveBlack1.jpg",
+        "img_alt": "think senenca image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Terra Jacket",
+        "hover_subtitle": "Reversible Cream/Grey",
+        "hover_thumbnail": "seneca/18_LOOK_0036.jpg",
+        "hover_link": "https://thinkseneca.com/products/terra-jacket-reversible-cream-grey",
+        "img": "seneca/SENECA_Terra_Jacket_0d106ca6-2626-4c78-8642-117e31423b04_1.jpg",
+        "img_alt": "Terra Jacket",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "33%",
+            "top": "53%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "VantaGPT Pant",
+        "hover_subtitle": "Khaki",
+        "hover_thumbnail": "seneca/SENECAVantaGPTPantChinoKhaki1.jpg",
+        "hover_link": "https://thinkseneca.com/products/vanta-gpt-pant-khaki",
+        "img": "seneca/230130_Seneca_Laydowns_0059.jpg",
+        "img_alt": "VantaGPT Pant",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "63%",
+            "top": "74%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Forma Jacket 2",
+        "hover_subtitle": "Charcoal Donegal",
+        "hover_thumbnail": "seneca/SENECAFormaJacketDonegal1.jpg",
+        "hover_link": "https://thinkseneca.com/products/forma-jacket-2-charcoal-donegal",
+        "img": "seneca/SENECAFormaJacketDonegal8.jpg",
+        "img_alt": "Forma Jacket 2",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Vanta Pant Pro",
+        "hover_subtitle": "Navy TechWool",
+        "hover_thumbnail": "seneca/SENECA-VantaPantPro-NavyTechwool-Front.jpg",
+        "hover_link": "https://thinkseneca.com/products/vanta-pro-pant-navy-techwool",
+        "img": "seneca/SENECA_Vanta_Flats_11_670x.jpg",
+        "img_alt": "Vanta Pant Pro",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "57%"
+          }
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Visionary Hat",
+        "hover_subtitle": "Khaki",
+        "hover_thumbnail": "seneca/E17A0072.jpg",
+        "hover_link": "https://thinkseneca.com/products/visionary-cap-khaki",
+        "img": "seneca/E17A0073.jpg",
+        "img_alt": "Visionary Hat",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "47%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Vanta Pant",
+        "hover_subtitle": "Navy Pinstripe",
+        "hover_thumbnail": "seneca/SENECAVantaPantNavyPinstripe1.jpg",
+        "hover_link": "https://thinkseneca.com/products/vanta-pant-navy-pinstripe",
+        "img": "seneca/SENECAVantaPantNavyPinstripe5.jpg",
+        "img_alt": "Vanta Pant",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "68%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "senenca",
+      "new york",
+      "apparel",
+      "jackets",
+      "pants",
+      "hats"
+    ],
+    "hiddenTags": [
+      "new",
+      "york",
+      "clothing"
+    ]
+  }
