@@ -1,0 +1,171 @@
+{
+    "title": "Lofree",
+    "path": "lofree",
+    "link": {
+      "url": "https://www.lofree.co/",
+      "label": "lofree.co"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#000000",
+        "background": "#f0f0f0"
+      }
+    },
+    "headerImage": "lofree/DSC_6038.webp",
+    "description": "Lofree offers stylish and retro-designed tech gadgets such as keyboards, wireless earbuds, and speakers. Their products feature a combination of modern technology and vintage aesthetics, catering to consumers who value both form and function.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "lofree/DSC_6007.webp",
+        "img_alt": "lofree image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "lofree/DSC00889-2.webp",
+        "img_alt": "lofree image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "lofree/FlD6mlMXkAA2AeB.jpeg",
+        "img_alt": "lofree image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "lofree/1_6.webp",
+        "img_alt": "lofree image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "1% Transparent Mechanical Keyboard",
+        "hover_thumbnail": "lofree/lofree_1__1_750x750.jpg",
+        "hover_link": "https://www.lofree.co/products/lofree-1-transparent-mechanical-keyboard",
+        "img": "lofree/lofree_details_2.jpg",
+        "img_alt": "1% Transparent Mechanical Keyboard",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Dot “Milk Tea” Mechanical Keyboard",
+        "hover_thumbnail": "lofree/13_750x750.jpg",
+        "hover_link": "https://www.lofree.co/products/lofree-milk-tea-keyboard-1?_pos=1&_sid=6d929b140&_ss=r",
+        "img": "lofree/DSC00883-2.webp",
+        "img_alt": "Dot “Milk Tea” Mechanical Keyboard",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "80%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Loflick Halloween - Limited Edition Keyboard",
+        "hover_thumbnail": "lofree/lofree_loflick_halloween_1_750x750.jpg",
+        "hover_link": "https://www.lofree.co/products/lofree-loflick-halloween",
+        "img": "lofree/FCv3IKYX0AU-yiu.jpeg",
+        "img_alt": "Loflick Halloween - Limited Edition Keyboard",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "'Wavy Chips' Bluetooth Mouse",
+        "hover_thumbnail": "lofree/lofree_bluetooth_mouse_1_750x750.jpg",
+        "hover_link": "https://www.lofree.co/products/ep115-bluetooth-mouse",
+        "img": "lofree/lofree_wavy_chip_bluetooth_mouse_5.png",
+        "img_alt": "'Wavy Chips' Bluetooth Mouse",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Touch Triple Mode Mechanical Keyboard",
+        "hover_subtitle": "Pilot Edition",
+        "hover_thumbnail": "lofree/lofree_touch_pilot_750x750.jpg",
+        "hover_link": "https://www.lofree.co/collections/maker-2/products/lofree-touch-triple-mode-mechanical-keyboard-pilot-edition",
+        "img": "lofree/lofree_touch_keyboard_dark_blue_6_2048x2048.webp",
+        "img_alt": "Touch Triple Mode Mechanical Keyboard",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "65%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Blanketing Travel Tote Bag",
+        "hover_thumbnail": "lofree/lofree_tote_bag_1.jpg",
+        "hover_link": "https://www.lofree.co/collections/outdoor-2/products/lofree-blanketing-travel-tote-bag",
+        "img": "lofree/lofree_tote_bag_4_1024x1024.jpg",
+        "img_alt": "Blanketing Travel Tote Bag",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "30%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "tech",
+      "keyboard",
+      "lofree",
+      "transparent"
+    ],
+    "hiddenTags": [
+      "technology",
+      "milk tea"
+    ]
+  }
