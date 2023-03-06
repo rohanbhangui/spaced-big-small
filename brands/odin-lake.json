@@ -1,0 +1,184 @@
+{
+    "title": "OdinLake",
+    "path": "odin-lake",
+    "link": {
+      "url": "https://www.odinlake.com/",
+      "label": "odinlake.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#103f36",
+        "background": "#f2f2f2"
+      }
+    },
+    "headerImage": "odinlake/OdinLake-Ergonomic-Chair-With-Breathable-Mesh-Ergo-PLUS-Chair-743_6.webp",
+    "description": "OdinLake desires to break the convention and explore the artistic office and bring the ergonomic office furniture that combines fabulous design and practicality.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "odinlake/FgtEdjaUcAANT-w.jpeg",
+        "img_alt": "odin lake image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "odinlake/FgtGVmZUYAAgFrg.jpeg",
+        "img_alt": "odin lake image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "odinlake/OdinLake-Monitor-Stand-1205_1.webp",
+        "img_alt": "odin lake image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "odinlake/OdinLake-Ergonomic-Chair-With-Breathable-Mesh-Ergo-PLUS-Chair-743_8.webp",
+        "img_alt": "odin lake image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "odinlake/odinlake-mesh-ergonomic-task-chair-with-synchro-reclining-4d-adjustable-armrests.webp",
+        "img_alt": "odin lake image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Ergo Art 643",
+        "hover_subtitle": "",
+        "hover_thumbnail": "odinlake/ergonomic-office-highback-chair-odinlake-ergo-art-643-1130_1.jpg",
+        "hover_link": "https://www.odinlake.com/products/ergo-art-odinlake-643",
+        "img": "odinlake/odinlake-ergo-chair-art-643-homeofficechair-2.png",
+        "img_alt": "Ergo Art 643",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Ergo Pro 633",
+        "hover_subtitle": "",
+        "hover_thumbnail": "odinlake/ergonomic-office-chair-with-footrest-odinlake-ergo-pro-633-1130_2.jpg",
+        "hover_link": "https://www.odinlake.com/products/ergo-pro-odinlake-633",
+        "img": "odinlake/OdinlakeErgonomicOfficeChairWithFootrestErgoPROChair633_2.jpg",
+        "img_alt": "Ergo Pro 633",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Electric Standing Desk S450",
+        "hover_subtitle": "White",
+        "hover_thumbnail": "odinlake/odinlake-Electric-smart-standing-desk-s450-1201_9.jpg",
+        "hover_link": "https://www.odinlake.com/products/odinlake-electric-standing-desk-s450?variant=42672069607592",
+        "img": "odinlake/odinlake-electric-standing-desk-s450-wood_3_d2a1844b-a707-453d-956f-c57eefacbed5.jpg",
+        "img_alt": "Electric Standing Desk S450",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "42%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Ergo Core 625",
+        "hover_subtitle": "",
+        "hover_thumbnail": "odinlake/ergonomic-offcie-mesh-chair-odinlake-ergo-core-625-1130_1.jpg",
+        "hover_link": "https://www.odinlake.com/products/ergo-core-odinlake-625",
+        "img": "odinlake/ergonomic-offcie-mesh-chair-odinlake-ergo-core-625-1102_6.jpg",
+        "img_alt": "Ergo Core 625",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Dual Arm Monitor Stand + Laptop Stand",
+        "hover_subtitle": "",
+        "hover_thumbnail": "odinlake/OdinLake-Dual-Arm-Monitor-Stand-and-Laptop-Stand-1205_1.jpg",
+        "hover_link": "https://www.odinlake.com/products/odinlake-dual-arm-monitor-stand-laptop-stand",
+        "img": "odinlake/OdinLake-Dual-Arm-Monitor-Stand-and-Laptop-Stand-1205_1.jpg",
+        "img_alt": "Dual Arm Monitor Stand + Laptop Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "38%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Power Dock",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "odinlake/OdinLake-Power-Dock-Black-1206_1_07dd78cd-3e3b-46b3-8848-15c9ab3c050b.jpg",
+        "hover_link": "https://www.odinlake.com/products/odinlake-power-dock-black",
+        "img": "odinlake/OdinLake-Power-Dock-Black-1206_4.jpg",
+        "img_alt": "Power Dock",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "furniture",
+      "minimal",
+      "canada",
+      "chair",
+      "desk",
+      "standing",
+      "branch",
+      "wood"
+    ],
+    "hiddenTags": [
+      "canadian"
+    ]
+  }

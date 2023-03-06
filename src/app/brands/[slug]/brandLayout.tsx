@@ -367,6 +367,7 @@ const ToolTipPoint = styled(Link)<{ position?: Position }>`
     left: ${position.left};
     top: ${position.top};
   ` : ``}
+  cursor: pointer;
 `
 
 const ToolTipButton = styled.div`
