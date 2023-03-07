@@ -1,0 +1,184 @@
+{
+    "title": "Carl Friedrik",
+    "path": "carl-friedrik",
+    "link": {
+        "url": "https://www.carlfriedrik.com/",
+        "label": "carlfriendrik.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#f7c3a8",
+            "background": "#704732"
+        }
+    },
+    "headerImage": "carlfriedrik/170405Oppermann167_V2.jpg",
+    "description": "Carl Friedrik is a British brand that designs and produces luxury leather goods, including wallets, briefcases, and bags. Their products are known for their minimalist designs, high-quality materials, and attention to detail.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "carlfriedrik/download.webp",
+            "img_alt": "carl friedrik image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "carlfriedrik/170405Oppermann333_V1.jpg",
+            "img_alt": "carl friedrik image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "carlfriedrik/180130CarlFriedrik404_V2.jpg",
+            "img_alt": "carl friedrik image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "carlfriedrik/259716c8-9f02-4d4d-ae29-1e4e35939ff6_rw_3840.jpg",
+            "img_alt": "carl friedrik image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "carlfriedrik/bowen_2.webp",
+            "img_alt": "carl friedrik image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "The Carry-on",
+            "hover_subtitle": "Cognac",
+            "hover_thumbnail": "carlfriedrik/carry-on-suitcase-cognac-1e.jpg",
+            "hover_link": "https://www.carlfriedrik.com/products/the-carry-on-suitcase?colour=cognac",
+            "img": "carlfriedrik/carl-friedrik-carry-on-suitcase-lifestyle-4.jpg",
+            "img_alt": "The Carry-on",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Palissy Briefcase",
+            "hover_subtitle": "Black",
+            "hover_thumbnail": "carlfriedrik/leather-palissy-briefcase-bag-black-grey-2b.jpg",
+            "hover_link": "https://www.carlfriedrik.com/products/palissy-briefcase-slim-leather-briefcase?colour=black",
+            "img": "carlfriedrik/DsYyt9lWwAEwcD9.jpg",
+            "img_alt": "Palissy Briefcase",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "58%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "City-hopper Backpack",
+            "hover_subtitle": "Chocolate",
+            "hover_thumbnail": "carlfriedrik/city-hopper-backpack-chocolate-2a.jpg",
+            "hover_link": "https://www.carlfriedrik.com/products/city-hopper-backpack?colour=chocolate",
+            "img": "carlfriedrik/city-hopper-backpack-chocolate-1_2660x.jpg",
+            "img_alt": "City-hopper Backpack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "30%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Hatton",
+            "hover_subtitle": "Cognac",
+            "hover_thumbnail": "carlfriedrik/carl-friedrik-hatton-cognac-2.jpg",
+            "hover_link": "https://www.carlfriedrik.com/products/hatton-slim-leather-cardholder?colour=cognac",
+            "img": "carlfriedrik/leather-hatton-wallet-cognac-1_ea38d4cb-3773-4b6a-9447-89a3cdb9ae63.jpg",
+            "img_alt": "Hatton",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Ashby",
+            "hover_subtitle": "Cognac",
+            "hover_thumbnail": "carlfriedrik/zipped-leather-tote-ashby-cognac-4.jpg",
+            "hover_link": "https://www.carlfriedrik.com/products/ashby-zipped-leather-tote?colour=cognac&lining=grey",
+            "img": "carlfriedrik/zipped-leather-tote-ashby-cognac-2.jpg",
+            "img_alt": "Ashby",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "55%",
+                    "top": "55%"
+                }
+            },
+            "tooltip": {
+                "placement": "bottom center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Bowen",
+            "hover_thumbnail": "carlfriedrik/leather-backpack-bowen-cognac-2.jpeg",
+            "hover_link": "https://www.carlfriedrik.com/products/leather-backpack-bowen?colour=cognac&lining=grey",
+            "img": "carlfriedrik/leather-backpack-bowen-cognac-2.jpg",
+            "img_alt": "Bowen",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "productivity",
+        "leather",
+        "travel",
+        "minimal",
+        "modern",
+        "sustainable",
+        "laptop",
+        "carry-on",
+        "office"
+    ],
+    "hiddenTags": [
+        "minimalist"
+    ]
+}

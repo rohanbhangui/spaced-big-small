@@ -166,12 +166,14 @@
         "productivity",
         "aer",
         "travel",
-        "minimalist",
+        "minimal",
         "modern",
         "sustainable",
         "backpack",
         "duffel",
-        "travel",
         "office"
+    ],
+    "hiddenTags": [
+        "minimalist"
     ]
 }
