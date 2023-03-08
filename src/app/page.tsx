@@ -1,5 +1,6 @@
 import NotFound from '@/components/NotFound';
 import fs from 'fs';
+import { countBy } from 'lodash';
 
 import PageLayout from './brandsLayout';
 
@@ -83,21 +84,31 @@ const Layout = async (): Promise<JSX.Element> => {
       return <NotFound />;
     }
 
+    let rawTags: string[] = [];
+
     const brands = await Promise.all(
       brandsData.map(async(item) => {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
         const headerImage = await import(`@/assets/img/${headerImg}`);
 
+        console.log(rest.tags)
+
+        rawTags = [...rawTags, ...rest.tags];
+
         return {
           ...rest,
           headerImage: JSON.stringify(headerImage)
         }
       })
-    )
+    );
+
+    const tags = countBy(rawTags)
+
+    console.log("DEBUG", tags);
 
     return (
-      <PageLayout brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} />
+      <PageLayout brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} tags={tags} />
     )
 }
 

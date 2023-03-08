@@ -308,6 +308,41 @@ const Grid = styled.div`
   }
 `
 
+const TagsList = styled.section`
+  height: 2rem;
+  overflow: hidden;
+  margin: 0 1rem;
+
+  .inner {
+    overflow: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    height: 4rem;
+    align-items: flex-start;
+
+    .tag {
+      padding: 0.3rem 0.6rem;
+      border: 1px solid #999;
+      border-radius: 5rem;
+      color: black;
+      font-size: 0.9rem;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      white-space: nowrap;
+
+      span {
+        font-size: 0.9rem;
+        color: #a3a3a3;
+        display: inline-block;
+        margin-right: 0.25rem;
+      }
+    }
+  }
+`
+
 const Text = [
   "Living Room",
   "Bedroom",
@@ -318,7 +353,7 @@ const Text = [
   "Night Out",
 ]
 
-const Search = ({ brands }: { brands: BrandDataProps[] }) => {
+const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<string,number> }) => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const theme = useTheme() as ThemeType;
@@ -465,6 +500,15 @@ const Search = ({ brands }: { brands: BrandDataProps[] }) => {
           <i onClick={onClear} className="fa-regular fa-xmark" />
         )}
       </div>
+      <TagsList>
+        <div className="inner">
+          { Object.keys(tags).map((tag) => (
+            <div className="tag" key={tag}>
+              <span>({tags[tag]})</span> {tag}
+            </div>
+          ))}
+        </div>
+      </TagsList>
       <Grid>
         {
           filteredBrands.map(item => (
