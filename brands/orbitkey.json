@@ -176,11 +176,12 @@
       "desk",
       "pockets",
       "minimal",
-      "key",
+      "keys",
       "organize",
       "tools",
       "everyday",
-      "sustainable"
+      "sustainable",
+      "mat"
     ],
     "hiddenTags": [
       "tool",
@@ -188,6 +189,7 @@
       "day",
       "carry",
       "eco-friendly",
-      "organization"
+      "organization",
+      "key"
     ]
   }
