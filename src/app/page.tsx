@@ -92,8 +92,6 @@ const Layout = async (): Promise<JSX.Element> => {
         const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
         const headerImage = await import(`@/assets/img/${headerImg}`);
 
-        console.log(rest.tags)
-
         rawTags = [...rawTags, ...rest.tags];
 
         return {
@@ -104,8 +102,6 @@ const Layout = async (): Promise<JSX.Element> => {
     );
 
     const tags = countBy(rawTags)
-
-    console.log("DEBUG", tags);
 
     return (
       <PageLayout brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} tags={tags} />

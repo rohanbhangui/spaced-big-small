@@ -502,10 +502,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       </div>
       <TagsList>
         <div className="inner">
-          { Object.keys(tags).map((tag) => (
-            <div className="tag" key={tag}>
-              <span>({tags[tag]})</span> {tag}
-            </div>
+          { Object.keys(tags).sort((key1, key2) => tags[key2] - tags[key1]).map((tag) => (
+            <Link className="tag" key={tag} href={`/?query=${tag}`}><span>({tags[tag]})</span> {tag}</Link>
           ))}
         </div>
       </TagsList>
