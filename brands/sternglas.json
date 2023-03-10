@@ -1,0 +1,177 @@
+{
+    "title": "Sternglas",
+    "path": "sternglas",
+    "link": {
+      "url": "https://www.sternglas.com/",
+      "label": "sternglas.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#000000",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "sternglas/sternglas-naos-12.jpg",
+    "description": "Sternglas sells high-quality and stylish watches. Their watches are inspired by classic designs but feature modern updates and are crafted with precision and attention to detail.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "sternglas/85AD05AF-233D-43FE-A354-AFE70A04F53B.jpeg",
+        "img_alt": "sternglas watch image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "sternglas/download.webp",
+        "img_alt": "sternglas watch image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "sternglas/image7.jpeg",
+        "img_alt": "sternglas watch image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "sternglas/Bronze_hero_mobile-01_1500x.webp",
+        "img_alt": "sternglas watch image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Naos white",
+        "hover_subtitle": "",
+        "hover_thumbnail": "sternglas/SNQ01104_Naos_weiss_silber_premium_dunkelbraun_frontal.jpg",
+        "hover_link": "https://www.sternglas.com/collections/men/products/naos-white",
+        "img": "sternglas/Naos_Weiss_Premium_Dunkelbraun_flatlay.jpg",
+        "img_alt": "Naos white",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "80%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Tachkymeter black",
+        "hover_subtitle": "",
+        "hover_thumbnail": "sternglas/S01-TY03-MO11_tachymeter_schwarz_modena_20_braun_frontal.jpg",
+        "hover_link": "https://www.sternglas.com/collections/men/products/tachymeter-black-modena-brown",
+        "img": "sternglas/S01-TY03-MO11_tachymeter_schwarz_modena_20_braun_pers_5aa5e6b2-beee-44f5-9c4e-dad1579ee7e3.jpg",
+        "img_alt": "Tachkymeter black",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "48%",
+            "top": "80%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Naos blue",
+        "hover_subtitle": "",
+        "hover_thumbnail": "sternglas/SNQ21403_naos_sonnenschliff_blau_milanaise_frontal.jpg",
+        "hover_link": "https://www.sternglas.com/collections/men/products/naos-blue",
+        "img": "sternglas/SNQ21403_naos_sonnenschliff_blau_milanaise_45.jpg",
+        "img_alt": "Naos blue",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Hamburg Graphite",
+        "hover_subtitle": "",
+        "hover_thumbnail": "sternglas/SHH42317_Hamburg_graphit-satiniert_silber_vintage_nero_frontal_69ccef4f-f6c8-47a2-865b-a8cabd62eafd.jpg",
+        "hover_link": "https://www.sternglas.com/collections/men/products/hamburg-graphite",
+        "img": "sternglas/HamburgQ_Graphit_Wristshot.jpg",
+        "img_alt": "Hamburg Graphite",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Naos XS Edition Flora",
+        "hover_subtitle": "Terracotta",
+        "hover_thumbnail": "sternglas/S01-NDF21-KL11_naos_xs_edition_flora_terracotta_gold_klassik_terracotta_frontal.jpg",
+        "hover_link": "https://www.sternglas.com/collections/women/products/naos-xs-edition-flora-terracotta",
+        "img": "sternglas/S01-NDF21-KL11_naos_xs_edition_flora_terracotta_gold_klassik_terracotta_mood_1.jpg",
+        "img_alt": "Naos XS Edition Flora",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Taiga GMT",
+        "hover_subtitle": "Field black",
+        "hover_thumbnail": "sternglas/S01-TA11-NA04_taiga_gmt_anthrazit_silber_nato_schwarz_beige_front.jpg",
+        "hover_link": "https://www.sternglas.com/collections/men/products/taiga-gmt-nato-black",
+        "img": "sternglas/IMG_6144.jpg",
+        "img_alt": "Taiga GMT",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "minimal",
+      "watch",
+      "seiko",
+      "fashion",
+      "tech",
+      "pockets",
+      "wearable",
+      "unimatic",
+      "watches"
+    ]
+  }
