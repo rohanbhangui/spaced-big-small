@@ -1,0 +1,189 @@
+{
+    "title": "ASRV",
+    "path": "asrv",
+    "link": {
+      "url": "https://asrv.com/",
+      "label": "asrv"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#878787",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "asrv/download.webp",
+    "description": "ASRV is a sports and fitness apparel brand that creates high-performance activewear for serious athletes and fitness enthusiasts. The brand is known for its use of technical fabrics, innovative design features, and commitment to sustainability and social responsibility.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "asrv/Silver-Lite_Lookbook-2_19aeb350-6c84-4494-bf6b-9b93857a2850.progressive.jpg",
+        "img_alt": "asrv image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "asrv/ASRV_Spring_22-10.progressive.png.jpg",
+        "img_alt": "asrv image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "asrv/1794045_2048x.webp",
+        "img_alt": "asrv image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "asrv/jwp-0417-r.jpeg",
+        "img_alt": "asrv image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "asrv/download-outfit.webp",
+        "img_alt": "asrv image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "0680. Tech-Terry Weatherproof Hoodie",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "asrv/0680Hoodie_Black.jpg",
+        "hover_link": "https://asrv.com/products/0680-rainplus-tech-terry-hoodie-black?_pos=1&_sid=910918ef2&_ss=r",
+        "img": "asrv/ASRVE-Comm-375-Edit.jpg",
+        "img_alt": "0680. Tech-Terry™ Weatherproof Hoodie",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "33%",
+            "top": "53%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "0652. Tetra-Lite 7\" Liner Short",
+        "hover_subtitle": "Bone",
+        "hover_thumbnail": "asrv/0652Shorts_Bone.jpg",
+        "hover_link": "https://asrv.com/products/0652-tetra-lite-7-liner-short-bone?_pos=29&_sid=cce0f89b3&_ss=r",
+        "img": "asrv/jwp-8351-r.jpeg",
+        "img_alt": "0652. Tetra-Lite 7\" Liner Short",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "63%",
+            "top": "74%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "0579. Waterproof 2-in-1 Travel Duffle",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "asrv/Duffle-Main_bak_06996449-370b-4a07-b9eb-abf2c1707d2e.jpg",
+        "hover_link": "https://asrv.com/products/0579-2-in-1-travel-duffle-black",
+        "img": "asrv/Duffle-On_Model.jpg",
+        "img_alt": "0579. Waterproof 2-in-1 Travel Duffle",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "0477. Tetra-Lite High Rib Joger",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "asrv/0477JoggersNew_Black.jpg",
+        "hover_link": "https://asrv.com/products/0477-tetra-lite-high-rib-jogger-black?_pos=9&_fid=efae0ef93&_ss=c",
+        "img": "asrv/Fall21E-Comm-144.jpg",
+        "img_alt": "0477. Tetra-Lite High Rib Joger",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "47%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "0660. Silver-Lite 2.0 Established Tee",
+        "hover_subtitle": "Light Sky",
+        "hover_thumbnail": "asrv/0660Tee_LightNavy.jpg",
+        "hover_link": "https://asrv.com/products/0660-silver-lite-2-0-established-tee-light-navy-winter",
+        "img": "asrv/LightSky_0002_2.jpg",
+        "img_alt": "0660. Silver-Lite 2.0 Established Tee",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "53%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "0658. Silver-Lite 2.0 Tank Top",
+        "hover_subtitle": "Olive",
+        "hover_thumbnail": "asrv/0658Tank_Hunter.jpg",
+        "hover_link": "https://asrv.com/products/0658-silver-lite-2-0-tank-top-hunter-green",
+        "img": "asrv/CC2-E-Comm-172.jpg",
+        "img_alt": "0658. Silver-Lite 2.0 Tank Top",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "68%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "workout",
+      "clothing",
+      "apparel",
+      "shirt",
+      "bag",
+      "duffle",
+      "train",
+      "run",
+      "hightop",
+      "shorts",
+      "gym",
+      "outdoor",
+      "fitness"
+    ],
+    "hiddenTags": [
+      "tee"
+    ]
+  }
