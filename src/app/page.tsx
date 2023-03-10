@@ -27,7 +27,7 @@ const fetchBrands = async () => {
 export const generateMetadata = async () => {
 
   const title = `ProjectSpce - Find Small Business Brands`;
-  const seo_img = `${process.env.NEXT_PUBLIC_HOST}/social-sharing.png`;
+  const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/social-sharing.png`;
   const url = `${process.env.NEXT_PUBLIC_HOST}`;
   const description = "We collect the best products for all of the spaces in your home. We do this by sourcing far and wide: Magazines, Blogs, TikTok, Instagram."
   const tags = [
