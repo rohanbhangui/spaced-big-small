@@ -73,6 +73,7 @@ export const generateMetadata = async () => {
     },
     other: {
       "og:image": seo_img,
+      "og:image:secure_url": seo_img
     },
   }
 }
