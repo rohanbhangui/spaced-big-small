@@ -390,7 +390,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
 
   const [index, setIndex] = useState(0);
-  const [collapse, setCollapse] = useState(JSON.parse(localStorage.getItem("projectspce:headerCollapse") ?? "") ?? false);
+  const [collapse, setCollapse] = useState(JSON.parse(localStorage.getItem("projectspce:headerCollapse") ?? "{}") ?? false);
 
   useEffect(() => {
     const intervalId = setInterval(() =>
@@ -417,7 +417,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
   }
 
   useEffect(() => {
-    localStorage.setItem("projectspce:headerCollapse", JSON.stringify(collapse));
+    localStorage.setItem("projectspce:headerCollapse", JSON.stringify({ collapse }));
   }, [collapse]);
 
   useEffect(() => {
@@ -505,7 +505,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
                   </em>
                 </h1>
                 <div className="actions">
-                  <button className="subscribe-button">Subscribe</button>
+                  {/* <button className="subscribe-button">Subscribe</button> */}
                   <button className="go-to-app" onClick={handleGoToApp}>Go to App</button>
                 </div>
               </div>
