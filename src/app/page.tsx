@@ -4,7 +4,6 @@ import { countBy } from 'lodash';
 
 import PageLayout from './brandsLayout';
 
-
 const title = `ProjectSpce - Find Small Business Brands`;
 const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/social-sharing.png`;
 const url = `${process.env.NEXT_PUBLIC_HOST}`;
