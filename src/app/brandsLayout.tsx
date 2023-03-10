@@ -514,7 +514,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
                 </h1>
                 <div className="actions">
                   {/* <button className="subscribe-button">Subscribe</button> */}
-                  <button className="go-to-app" onClick={handleGoToApp}>Go to App</button>
+                  <button className="go-to-app" onClick={handleGoToApp}>Go Explore</button>
                 </div>
               </div>
             </div>
