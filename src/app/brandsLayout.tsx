@@ -73,7 +73,7 @@ const Container = styled.div`
         color: #999;
         flex: 1;
         white-space: nowrap;
-        border: 4rem;
+        border-radius: 4rem;
       }
     }
 
