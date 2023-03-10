@@ -406,7 +406,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       3000 // every 3 seconds
     );
 
-    setCollapse((JSON.parse(localStorage.getItem("projectspce:headerCollapse") ?? "{}") ?? false))
+    debugger;
+    setCollapse((JSON.parse(localStorage.getItem("projectspce:headerCollapse") ?? "{}").collapse ?? false))
     
     return () => clearTimeout(intervalId);
   }, []);
