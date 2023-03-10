@@ -60,7 +60,6 @@ export const generateMetadata = async () => {
       description,
       url,
       siteName: 'ProjectSpce',
-      image: [seo_img],
       locale: 'en-US',
       type: 'website',
     },
