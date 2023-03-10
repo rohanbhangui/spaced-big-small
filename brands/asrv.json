@@ -74,8 +74,8 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "63%",
-            "top": "74%"
+            "left": "50%",
+            "top": "58%"
           }
         },
         "tooltip": {
@@ -96,8 +96,8 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "50%",
-            "top": "45%"
+            "left": "58%",
+            "top": "65%"
           }
         },
         "tooltip": {
