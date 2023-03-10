@@ -67,6 +67,11 @@ const Container = styled.div`
     }
 
     .pick-random {
+      color: #999;
+      
+      i {
+        color: #999;
+      }
       @media ${({ theme }) => theme.mediaQuery.tablet} {
         font-size: 0.8rem;
         border: 1px solid #999;
@@ -520,7 +525,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       <div className="search-bar">
         <i className="fa-regular fa-magnifying-glass" />
         <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
-        <Link href={`/brands/${randomBrand.path}`} className="pick-random">Random Brand</Link>
+        <Link href={`/brands/${randomBrand.path}`} className="pick-random">{isDesktop ? 'Random Brand' : <i className="fa-sharp fa-solid fa-shuffle" />}</Link>
         { search.trim() === "" ? (
           null
         ): (
