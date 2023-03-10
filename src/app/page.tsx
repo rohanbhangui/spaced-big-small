@@ -24,9 +24,7 @@ const fetchBrands = async () => {
   return brandFiles;
 }
 
-export const generateMetadata = async () => {
-
-  const title = `ProjectSpce - Find Small Business Brands`;
+const title = `ProjectSpce - Find Small Business Brands`;
   const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/social-sharing.png`;
   const url = `${process.env.NEXT_PUBLIC_HOST}`;
   const description = "We collect the best products for all of the spaces in your home. We do this by sourcing far and wide: Magazines, Blogs, TikTok, Instagram."
@@ -40,49 +38,48 @@ export const generateMetadata = async () => {
     "gift ideas",
     "plaen",
   ]
-  
-  return { 
+
+export const metadata = { 
+  title,
+  description,
+  applicationName: title,
+  keywords: tags,
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/shortcut-icon.png',
+    apple: '/apple-icon.png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/apple-touch-icon-precomposed.png',
+    },
+  },
+  openGraph: {
     title,
     description,
-    applicationName: title,
-    keywords: tags,
-    icons: {
-      icon: '/icon.png',
-      shortcut: '/shortcut-icon.png',
-      apple: '/apple-icon.png',
-      other: {
-        rel: 'apple-touch-icon-precomposed',
-        url: '/apple-touch-icon-precomposed.png',
+    url,
+    siteName: 'ProjectSpce',
+    images: [
+      {
+        url: seo_img,
+        width: 1200,
+        height: 630,
       },
-    },
-    openGraph: {
-      title,
-      description,
-      url,
-      siteName: 'ProjectSpce',
-      images: [
-        {
-          url: seo_img,
-          width: 1200,
-          height: 630,
-        },
-      ],
-      locale: 'en-US',
-      type: 'website',
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [seo_img],
-      url
-    },
-    // other: {
-    //   "og:image": seo_img,
-    //   "og:image:secure_url": seo_img
-    // },
-  }
+    ],
+    locale: 'en-US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [seo_img],
+  },
+  // other: {
+  //   "og:image": seo_img,
+  //   "og:image:secure_url": seo_img
+  // },
 }
+
 
 const Layout = async (): Promise<JSX.Element> => {
     let brandsData;
