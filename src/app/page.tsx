@@ -4,40 +4,21 @@ import { countBy } from 'lodash';
 
 import PageLayout from './brandsLayout';
 
-const fetchBrands = async () => {
-  // get list of files from the brands folder
-  const files = fs.readdirSync('brands');
-
-  // get each json
-  const brandFiles = files.map((fileName) => {
-      const readFile = fs.readFileSync(`brands/${fileName}`, 'utf-8');
-
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      const { montageItems, highlightGrid, ...rest } = JSON.parse(readFile);
-
-      return {
-        ...rest,
-      }
-  });
-
-  // Return the pages static props
-  return brandFiles;
-}
 
 const title = `ProjectSpce - Find Small Business Brands`;
-  const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/social-sharing.png`;
-  const url = `${process.env.NEXT_PUBLIC_HOST}`;
-  const description = "We collect the best products for all of the spaces in your home. We do this by sourcing far and wide: Magazines, Blogs, TikTok, Instagram."
-  const tags = [
-    "spce",
-    "project",
-    "space",
-    "buy small",
-    "small business",
-    "gift",
-    "gift ideas",
-    "plaen",
-  ]
+const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/social-sharing.png`;
+const url = `${process.env.NEXT_PUBLIC_HOST}`;
+const description = "We collect the best products for all of the spaces in your home. We do this by sourcing far and wide: Magazines, Blogs, TikTok, Instagram."
+const tags = [
+  "spce",
+  "project",
+  "space",
+  "buy small",
+  "small business",
+  "gift",
+  "gift ideas",
+  "plaen",
+]
 
 export const metadata = { 
   title,
@@ -78,6 +59,26 @@ export const metadata = {
   //   "og:image": seo_img,
   //   "og:image:secure_url": seo_img
   // },
+}
+
+const fetchBrands = async () => {
+  // get list of files from the brands folder
+  const files = fs.readdirSync('brands');
+
+  // get each json
+  const brandFiles = files.map((fileName) => {
+      const readFile = fs.readFileSync(`brands/${fileName}`, 'utf-8');
+
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const { montageItems, highlightGrid, ...rest } = JSON.parse(readFile);
+
+      return {
+        ...rest,
+      }
+  });
+
+  // Return the pages static props
+  return brandFiles;
 }
 
 
