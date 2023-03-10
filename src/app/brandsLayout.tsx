@@ -556,7 +556,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
                   <div className="titling">{item.title}</div>
                 </div>
               </Link>
-              <Image width={480} src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" quality={50} />
+              <Image width={480} loading="lazy" src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" quality={50} />
             </div>
             
           ))
