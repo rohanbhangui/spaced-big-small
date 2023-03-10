@@ -357,9 +357,12 @@ const TagsList = styled.section`
 
       span {
         font-size: 0.9rem;
-        color: #a3a3a3;
+        color: #ffffff;
+        background: #a3a3a3;
         display: inline-block;
         margin-right: 0.25rem;
+        padding: 0 0.35rem;
+        border-radius: 5rem;
       }
 
       &.active {
@@ -368,7 +371,8 @@ const TagsList = styled.section`
         color: white;
         
         span {
-          color: #a3a3a3;
+          color: white;
+          background: rgba(255, 255, 255, 0.33);
         }
       }
     }
@@ -540,7 +544,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       <TagsList>
         <div className="inner">
           { Object.keys(tags).sort((key1, key2) => tags[key2] - tags[key1]).map((tag) => (
-            <Link className={`tag ${search === tag ? "active" : ""}`} key={tag} href={`/?query=${tag}`}><span>({tags[tag]})</span> {tag}</Link>
+            <Link className={`tag ${search === tag ? "active" : ""}`} key={tag} href={`/?query=${tag}`}><span>{tags[tag]}</span> {tag}</Link>
           ))}
         </div>
       </TagsList>
