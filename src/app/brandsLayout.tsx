@@ -68,17 +68,20 @@ const Container = styled.div`
 
     .pick-random {
       color: #999;
-      
+
       i {
         color: #999;
+        margin-right: 1rem;
       }
-      @media ${({ theme }) => theme.mediaQuery.tablet} {
-        font-size: 0.8rem;
+
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        font-size: 0.7rem;
         border: 1px solid #999;
         color: #999;
         flex: 1;
         white-space: nowrap;
         border-radius: 4rem;
+        padding: 0.25rem 0.5rem;
       }
     }
 
