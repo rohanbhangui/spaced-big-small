@@ -397,7 +397,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
 
   const isDesktop = useMediaQuery(`${theme.mediaQuery.smallTablet}`);
   const [ search, setSearch ] = useState(searchParams?.get('query') ?? '');
-  const debouncedSearch = useDebounce(search, 500);
+  const debouncedSearch = useDebounce(search, 1000);
   
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
 
