@@ -35,6 +35,7 @@ const RootLayout = ({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
+      
       <head />
       <body style={{ visibility: "hidden" }}>
         <ThemeProvider theme={theme as ThemeType}>

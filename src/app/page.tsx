@@ -60,6 +60,13 @@ export const generateMetadata = async () => {
       description,
       url,
       siteName: 'ProjectSpce',
+      images: [
+        {
+          url: seo_img,
+          width: 1200,
+          height: 630,
+        },
+      ],
       locale: 'en-US',
       type: 'website',
     },
@@ -70,10 +77,10 @@ export const generateMetadata = async () => {
       images: [seo_img],
       url
     },
-    other: {
-      "og:image": seo_img,
-      "og:image:secure_url": seo_img
-    },
+    // other: {
+    //   "og:image": seo_img,
+    //   "og:image:secure_url": seo_img
+    // },
   }
 }
 
