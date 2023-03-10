@@ -11,6 +11,7 @@ const Header = styled.header<{ hasHref: boolean; background: string; }>`
   width: 100%;
   padding: 0.5rem;
   display: flex;
+  align-items: center;
   justify-content: ${({ hasHref }) => hasHref ? "space-between" : "center"};
 
   @media ${({ theme }) => theme.mediaQuery.desktopFHD} {
@@ -55,7 +56,7 @@ const BrandHeader = ({
     <Header className={className} hasHref={href!==""} background={background}>
       <Link href="/">
         <div className="img-container">
-          <Image src={logo} width={50} height={50} alt="Spaced" />
+          <Image src={logo} width={50} height={25} alt="Spaced" />
         </div>
       </Link>
       { href === "" ?

@@ -40,7 +40,7 @@ const Container = styled.div`
     width: 100%;
     margin: 0 auto;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.33); */
     transition: border-bottom 0.25s ease-in-out;
     padding: 0 1.5rem;
@@ -64,6 +64,17 @@ const Container = styled.div`
         font-size: 2rem;
       }
 
+    }
+
+    .pick-random {
+      @media ${({ theme }) => theme.mediaQuery.tablet} {
+        font-size: 0.8rem;
+        border: 1px solid #999;
+        color: #999;
+        flex: 1;
+        white-space: nowrap;
+        border: 4rem;
+      }
     }
 
     i.fa-xmark, i.fa-magnifying-glass {
@@ -139,6 +150,7 @@ const Hero = styled.div`
 
         @media ${({ theme }) => theme.mediaQuery.smallTablet} {
           padding-left: 1rem;
+          width: auto;
         }
       }
 
@@ -311,7 +323,9 @@ const Grid = styled.div`
 const TagsList = styled.section`
   height: 2rem;
   overflow: hidden;
-  margin: 0 1rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: ${largeDesktop}px;
 
   .inner {
     overflow: scroll;
@@ -338,6 +352,16 @@ const TagsList = styled.section`
         color: #a3a3a3;
         display: inline-block;
         margin-right: 0.25rem;
+      }
+
+      &.active {
+        background: #111111;
+        border: 1px solid #111111;
+        color: white;
+        
+        span {
+          color: #a3a3a3;
+        }
       }
     }
   }
@@ -366,7 +390,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
   const [ filteredBrands, setFilteredBrands ] = useState(brands);
 
   const [index, setIndex] = useState(0);
-  const [collapse, setCollapse] = useState(false);
+  const [collapse, setCollapse] = useState(JSON.parse(localStorage.getItem("projectspce:headerCollapse") ?? "") ?? false);
 
   useEffect(() => {
     const intervalId = setInterval(() =>
@@ -393,7 +417,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
   }
 
   useEffect(() => {
-    localStorage.setItem("spacd:headerCollapse", JSON.stringify(collapse));
+    localStorage.setItem("projectspce:headerCollapse", JSON.stringify(collapse));
   }, [collapse]);
 
   useEffect(() => {
@@ -451,7 +475,9 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
 
   useEffect(() => {
     setSearch(searchParams?.get("query") ?? "")
-  }, [searchParams])
+  }, [searchParams]);
+
+  const randomBrand = brands[Math.floor(Math.random()*brands.length)];
   
   return (
     <Container>
@@ -494,6 +520,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       <div className="search-bar">
         <i className="fa-regular fa-magnifying-glass" />
         <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
+        <Link href={`/brands/${randomBrand.path}`} className="pick-random">Random Brand</Link>
         { search.trim() === "" ? (
           null
         ): (
@@ -503,7 +530,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       <TagsList>
         <div className="inner">
           { Object.keys(tags).sort((key1, key2) => tags[key2] - tags[key1]).map((tag) => (
-            <Link className="tag" key={tag} href={`/?query=${tag}`}><span>({tags[tag]})</span> {tag}</Link>
+            <Link className={`tag ${search === tag ? "active" : ""}`} key={tag} href={`/?query=${tag}`}><span>({tags[tag]})</span> {tag}</Link>
           ))}
         </div>
       </TagsList>
