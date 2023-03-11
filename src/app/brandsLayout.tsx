@@ -245,6 +245,7 @@ const Hero = styled.div`
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: min-content;
   grid-gap: 0.8rem;
   max-width: ${largeDesktop}px;
   width: 100%;
