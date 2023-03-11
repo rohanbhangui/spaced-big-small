@@ -380,6 +380,18 @@ const TagsList = styled.section`
   }
 `
 
+const NoResult = styled.div`
+  width: 100%;
+  margin: 2rem auto;
+  max-width: ${largeDesktop}px;
+  padding: 0 1rem;
+
+  h2 {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+  }
+`
+
 const Text = [
   "Living Room",
   "Bedroom",
@@ -547,24 +559,30 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
           ))}
         </div>
       </TagsList>
-      <Grid>
-        {
-          filteredBrands.map(item => (
-            <div className="brand-tile" key={item.title}>
-              <Link className="direct" href={item.link.url } rel="noopener noreferrer" target="_blank">
-                <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
-              </Link>
-              <Link href={`/brands/${item.path}`}>
-                <div className="overlay">
-                  <div className="titling">{item.title}</div>
-                </div>
-              </Link>
-              <Image width={480} loading="lazy" src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" quality={50} />
-            </div>
-            
-          ))
-        }
-      </Grid>
+      { search === "" || filteredBrands.length > 0 ? (
+        <Grid>
+          {
+            filteredBrands.map(item => (
+              <div className="brand-tile" key={item.title}>
+                <Link className="direct" href={item.link.url } rel="noopener noreferrer" target="_blank">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
+                </Link>
+                <Link href={`/brands/${item.path}`}>
+                  <div className="overlay">
+                    <div className="titling">{item.title}</div>
+                  </div>
+                </Link>
+                <Image width={480} loading="lazy" src={JSON.parse(item.headerImage)} alt={item.title} placeholder="blur" quality={50} />
+              </div>
+              
+            ))
+          }
+        </Grid>
+      ) : (
+        <NoResult>
+          <h2>No Results Found for &quot;{search}&quot;</h2>
+        </NoResult>
+      )}
     </Container>
   )
 }
