@@ -347,7 +347,7 @@ const TagsList = styled.section`
 
     .tag {
       padding: 0.3rem 0.6rem;
-      border: 1px solid #999;
+      border: 1px solid #bbbbbb;
       border-radius: 5rem;
       color: black;
       font-size: 0.9rem;
@@ -359,7 +359,7 @@ const TagsList = styled.section`
       span {
         font-size: 0.9rem;
         color: #ffffff;
-        background: #a3a3a3;
+        background: #bbbbbb;
         display: inline-block;
         margin-right: 0.25rem;
         padding: 0 0.35rem;
@@ -534,9 +534,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       <div className="search-bar">
         <i className="fa-regular fa-magnifying-glass" />
         <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
-        <Link href={`/brands/${randomBrand.path}`} className="pick-random">{isDesktop ? 'Random Brand' : <i className="fa-sharp fa-solid fa-shuffle" />}</Link>
         { search.trim() === "" ? (
-          null
+          <Link href={`/brands/${randomBrand.path}`} className="pick-random">{isDesktop ? 'Random Brand' : <i className="fa-sharp fa-solid fa-shuffle" />}</Link>
         ): (
           <i onClick={onClear} className="fa-regular fa-xmark" />
         )}
