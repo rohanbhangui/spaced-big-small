@@ -427,10 +427,10 @@ const StyledPopup = styled(Popup)`
 
       .overlay-content {
         flex: 1;
-        margin: 0 1rem 0;
-        white-space: nowrap;
+        margin: 0.5rem 1rem;
         font-size: 1rem;
         color: black;
+        max-width: 15rem;
 
         .title {
           font-weight: 600;
