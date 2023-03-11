@@ -350,14 +350,14 @@ const TagsList = styled.section`
       border: 1px solid #bbbbbb;
       border-radius: 5rem;
       color: black;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       display: flex;
       flex-wrap: nowrap;
       align-items: center;
       white-space: nowrap;
 
       span {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #ffffff;
         background: #bbbbbb;
         display: inline-block;
