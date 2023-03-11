@@ -1,7 +1,7 @@
 'use client';
 
 import { desktopFHD, largeDesktop, smallDesktop, ThemeType } from "@/assets/styles/themeConfig";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, MouseEvent } from "react";
 import styled, { useTheme } from "styled-components";
 import { BrandDataProps } from "./brands/[slug]/brandLayout";
 import Image from "next/image";
@@ -38,7 +38,7 @@ const Container = styled.div`
   .search-bar {
     max-width: ${largeDesktop}px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0.5rem auto 1rem;
     display: flex;
     align-items: center;
     /* border-bottom: 2px solid rgba(0, 0, 0, 0.33); */
