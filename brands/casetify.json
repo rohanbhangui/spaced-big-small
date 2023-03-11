@@ -1,0 +1,196 @@
+{
+    "title": "Casetify",
+    "path": "casetify",
+    "link": {
+      "url": "https://www.casetify.com/",
+      "label": "casetify.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#FB5B48",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "casetify/09fb43ea77fce47082fa251230163d62.jpg",
+    "description": "Casetify specializes in customizable phone cases, watch bands, and other tech accessories. They offer a range of designs created by independent artists and designers, as well as the option to create your own custom designs using personal photos and graphics.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "casetify/castify-1.webp",
+        "img_alt": "casetify image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "casetify/a4b2c0149511969.632d0967bfbba.jpg",
+        "img_alt": "casetify image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "casetify/42eeeda2aacd54f976f732e4ed27b738.jpg.webp",
+        "img_alt": "casetify image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "casetify/casetify_bounce_01B.jpg",
+        "img_alt": "casetify image montage shot"
+      },
+      {
+        "id": "5",
+        "img": "casetify/02_IG-Story.jpg",
+        "img_alt": "casetify image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Black Kingsnake",
+        "hover_subtitle": "",
+        "hover_thumbnail": "casetify/26435159x2_iphone-14-pro-max_16004759.png.1000x1000-w.m80.jpg",
+        "hover_link": "https://www.casetify.com/product/black-kingsnake/iphone-14-pro-max/bounce-case?color=deep-purple#/16004759",
+        "img": "casetify/CASETIFY-Black-Snake-King-Magnetic-Magsafe-Wireless-Charging-Cases-for-IPhone-11-12-13-14-Pro.jpg",
+        "img_alt": "Black Kingsnake",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "42%",
+            "top": "42%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "The meadows / petit floral on black",
+        "hover_subtitle": "",
+        "hover_thumbnail": "casetify/4715273x2_apple-watch-42_16004653.png.1000x1000-w.m80.jpg",
+        "hover_link": "https://www.casetify.com/product/bVsgq_the-meadows---petit--floral-on-black/apple-watch-42/recasetify-essential-watch-band#/16004653",
+        "img": "casetify/bbcd66c964b7d53de3528d4c1e7d7578.jpg",
+        "img_alt": "The meadows / petit floral on black",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "27%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "PP-0008",
+        "hover_subtitle": "",
+        "hover_thumbnail": "casetify/7057674x2_iphone13-pro-max_16005145.png.1000x1000-w.m80.jpg",
+        "hover_link": "https://www.casetify.com/product/AHjlc_pp-0008/iphone13-pro-max/clear-case?color=deep-purple#/16005145",
+        "img": "casetify/casetify_impact_for_iphone_13__1639198259_009d1dd2_progressive.jpg",
+        "img_alt": "PP-0008",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "80%",
+            "top": "60%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Clouds",
+        "hover_subtitle": "",
+        "hover_thumbnail": "casetify/12332179x2_iphone12-pro_16002701.png.1000x1000-w.m80.jpg",
+        "hover_link": "https://www.casetify.com/product/Pkefu_clouds/iphone-14-pro-max/magsafe-compatible-impact-case?color=deep-purple#/16005551",
+        "img": "casetify/2BB5DNqxukWRDtXohRwD6G.jpg",
+        "img_alt": "Clouds",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "43%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Bounce Case",
+        "hover_subtitle": "",
+        "hover_thumbnail": "casetify/6c28ebcd04060ec41af6f083743773f9.png",
+        "hover_link": "https://www.casetify.com/product/phone-case-customization?utm_term=bounce&keyword=bounce#/16004399",
+        "img": "casetify/casetify_bounce_08.jpg",
+        "img_alt": "Bounce Case",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "35%",
+            "top": "65%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Color Cloud: A New Thing Is On The Way - by Jessica Poundstone",
+        "hover_subtitle": "",
+        "hover_thumbnail": "casetify/15523580x2_google-pixel-6_16004299.png.1000x1000-w.m80.jpg",
+        "hover_link": "https://www.casetify.com/product/color-cloud--a-new-thing-is-on-the-way---by-jessica-poundstone/google-pixel-6/impact-case-with-black-camera-ring#/16004299",
+        "img": "casetify/kxzVz53XTdxe2dvgJvLJmN.jpg",
+        "img_alt": "Color Cloud: A New Thing Is On The Way - by Jessica Poundstone",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "64%",
+            "top": "50%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "iphone",
+      "android",
+      "phone",
+      "case",
+      "sustainable"
+    ],
+    "hiddenTags": [
+      "tool",
+      "every",
+      "day",
+      "carry",
+      "eco-friendly",
+      "organization",
+      "key",
+      "pixel",
+      "samsung",
+      "oneplus",
+      "watch",
+      "ipad",
+      "macbook"
+    ]
+  }
