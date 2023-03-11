@@ -1,0 +1,186 @@
+{
+    "title": "Our Place",
+    "path": "our-place",
+    "link": {
+      "url": "https://fromourplace.ca/",
+      "label": "fromourplace.ca"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#af593c",
+        "background": "#f5f3eb"
+      }
+    },
+    "headerImage": "ourplace/20201102_JStotz_OurPlace_Setup5_0038.webp",
+    "description": "Our Place offers high-quality cookware, dinnerware, and kitchen accessories inspired by traditional cultures from around the world. Their products are ethically sourced and aim to empower and celebrate the diverse communities that influence their designs.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "ourplace/OurPan_HERO_012920_226.webp",
+        "img_alt": "our place image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "ourplace/our-place-always-pan-1-scaled.jpg",
+        "img_alt": "our place image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "ourplace/Our-Place-Set-the-Table-Bundle-EMBED-2022.webp",
+        "img_alt": "our place image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "ourplace/22450003.webp",
+        "img_alt": "our place image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "ourplace/10506601.webp",
+        "img_alt": "our place image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Always Pan",
+        "hover_subtitle": "Spice",
+        "hover_thumbnail": "ourplace/Always_Pan_-_Spice.jpg",
+        "hover_link": "https://fromourplace.ca/products/always-essential-cooking-pan",
+        "img": "ourplace/always-pan.png",
+        "img_alt": "Always Pan",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Perfect Pot",
+        "hover_subtitle": "Azul",
+        "hover_thumbnail": "ourplace/Perfect_Pot_-_Azul.jpg",
+        "hover_link": "https://fromourplace.ca/products/perfect-pot?variant=42876541239470",
+        "img": "ourplace/our-place-perfect-pot-launch-2021.webp",
+        "img_alt": "Perfect Pot",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Set the Table",
+        "hover_subtitle": "Spice/Terracotta/Char",
+        "hover_thumbnail": "ourplace/Tableware_Bundle_SetTheTable_Mixed_1.png",
+        "hover_link": "https://fromourplace.ca/products/set-the-table?variant=43306512515246",
+        "img": "ourplace/220927143205-our-place-tableware-lead.jpg",
+        "img_alt": "Set the Table",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "35%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Night + Day Glasses",
+        "hover_subtitle": "Dawn",
+        "hover_thumbnail": "ourplace/Glasses_Dawn_1_9a654e29-329d-4fa5-9759-2e2e4ec30d32.png",
+        "hover_link": "https://fromourplace.ca/products/night-day-glasses?variant=39252382285998",
+        "img": "ourplace/Glasses_Dawn_4_5fd8d40f-f274-41ae-92f0-7da665084889.png",
+        "img_alt": "Night + Day Glasses",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Fully Prepped Bundle",
+        "hover_subtitle": "Blue Salt",
+        "hover_thumbnail": "ourplace/FullyPrepped_Blue_1.png",
+        "hover_link": "https://fromourplace.ca/products/prepped-bundle?variant=40648614903982",
+        "img": "ourplace/our-place-knife-cutting-board-review.webp",
+        "img_alt": "Fully Prepped Bundle",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "75%",
+            "top": "75%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Container Collection",
+        "hover_subtitle": "Sunset",
+        "hover_thumbnail": "ourplace/ContainerCollection_sunset_1.png",
+        "hover_link": "https://fromourplace.ca/products/container-collection?variant=43297891025070",
+        "img": "ourplace/k_Our-Place-Container_Collection_launch.jpeg",
+        "img_alt": "Container Collection",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "cookware",
+      "kitchen",
+      "glassware",
+      "pan",
+      "pot",
+      "amber",
+      "canada"
+    ],
+    "hiddenTags": [
+      "glass",
+      "cast",
+      "iron",
+      "canadian"
+    ]
+  }
