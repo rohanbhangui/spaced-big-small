@@ -3,6 +3,7 @@ import NotFound from '@/components/NotFound';
 
 import SpacesLayout from './spacesLayout';
 import { lowerCase, startCase } from 'lodash';
+import path from 'path';
 
 export const config = {
   dynamicParams: true
@@ -70,20 +71,9 @@ export const metadata = {
   // },
 }
 
-export const generateStaticParams = async (): Promise<PageParams[]> => {
-  const files = fs.readdirSync("brands");
-  // Generate a path for each one
-  const paths = files.map((fileName) => ({
-    slug: fileName.replace(".json", ""),
-  }));
-
-  // return list of paths
-  return paths;
-}
-
 const fetchBrands = async () => {
   // get list of files from the brands folder
-  const files = fs.readdirSync('brands');
+  const files = fs.readdirSync(path.resolve(process.cwd(), 'brands'));
 
   // get each json
   const brandFiles = files.map((fileName) => {
@@ -125,7 +115,7 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     if(!slug) return <NotFound />
 
     const brands = await Promise.all(
-      brandsData.map(async(item) => {
+      isInSpace(brandsData, slug).map(async(item) => {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
         const headerImage = await import(`@/assets/img/${headerImg}`);
