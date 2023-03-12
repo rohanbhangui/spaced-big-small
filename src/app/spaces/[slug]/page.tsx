@@ -27,7 +27,7 @@ const tags = [
   "gift",
   "gift ideas",
   "plaen",
-]
+];
 
 export const metadata = { 
   title,
