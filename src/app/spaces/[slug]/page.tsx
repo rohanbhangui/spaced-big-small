@@ -73,7 +73,6 @@ export const metadata = {
 const fetchBrands = async (params: PageProps["params"]) => {
   // get list of files from the brands folder
   const files = fs.readdirSync('brands');
-  const slug = decodeURIComponent(params?.slug as string);
 
   // get each json
   const brandFiles = files.map((fileName) => {
@@ -87,7 +86,7 @@ const fetchBrands = async (params: PageProps["params"]) => {
   });
 
   // Return the pages static props
-  return isInSpace(brandFiles, slug);
+  return brandFiles;
 }
 
 
@@ -106,13 +105,14 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     } catch (err) {
       return <NotFound />;
     }
+    
 
     // if slug is not a string show not found
-    const slug = params?.slug === "edc" ? "EDC" : startCase(lowerCase(decodeURIComponent(params?.slug as string)));
+    const slug = lowerCase(decodeURIComponent(params?.slug as string));
     if(!slug) return <NotFound />
 
     const brands = await Promise.all(
-      brandsData.map(async(item) => {
+      isInSpace(brandsData, slug).map(async(item) => {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
         const headerImage = await import(`@/assets/img/${headerImg}`);
@@ -124,8 +124,10 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
       })
     );
 
+    const title = slug === "edc" ? "EDC" : startCase(slug)
+
     return (
-      <SpacesLayout title={slug} brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} />
+      <SpacesLayout title={title} brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} />
     )
 }
 

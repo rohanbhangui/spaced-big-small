@@ -1,7 +1,7 @@
 'use client';
 
 import { desktopFHD, largeDesktop, smallDesktop, ThemeType } from "@/assets/styles/themeConfig";
-import { useEffect, useRef, useState, MouseEvent } from "react";
+import { useEffect, useRef, useState } from "react";
 import styled, { useTheme } from "styled-components";
 import { BrandDataProps } from "./brands/[slug]/brandLayout";
 import Image from "next/image";
