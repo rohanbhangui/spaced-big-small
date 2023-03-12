@@ -69,8 +69,8 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "53%",
-            "top": "40%"
+            "left": "60%",
+            "top": "75%"
           }
         },
         "tooltip": {
@@ -91,8 +91,8 @@
             "top": "15%"
           },
           "smallTablet": {
-            "left": "45%",
-            "top": "30%"
+            "left": "53%",
+            "top": "53%"
           }
         },
         "tooltip": {
@@ -155,7 +155,7 @@
           },
           "smallTablet": {
             "left": "55%",
-            "top": "33%"
+            "top": "80%"
           }
         },
         "tooltip": {
@@ -171,10 +171,12 @@
       "walk",
       "play",
       "toys",
-      "bed"
+      "bed",
+      "minimal"
     ],
     "hiddenTags": [
       "canadian",
       "room",
+      "minimalist"
     ]
   }

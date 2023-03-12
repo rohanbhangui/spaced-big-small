@@ -705,7 +705,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
               <div className="h5">Drop us a note!</div>
             </div>
             <div className="button">
-              <a href="mailto:hello@plaen.co" className="h6">Message Us</a>
+              <a href="mailto:hello@plaen.co?subject=ProjectSpce%3A%20New%20Brand&body=Hi%20ProjectSpce%20Team!%0D%0A%0D%0AI%20have%20a%20new%20brands%20for%20your%20consideration%3A%0D%0A%0D%0AHere%20is%20the%20link%20to%20their%20site%3A%0D%0A%0D%0A" className="h6">Message Us</a>
             </div>
           </div>
         </Footer>
