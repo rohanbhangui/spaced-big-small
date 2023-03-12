@@ -16,8 +16,8 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
   const data = await fetchData(params);
 
   const title = `ProjectSpce - ${data.title}`;
-  const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/${data.headerImage.split("/").at(-1)}`;
-  const url = `${process.env.NEXT_PUBLIC_HOST}/brands/${data.path}`;
+  const seo_img = `${process.env.VERCEL_URL ?? process.env.NEXT_PUBLIC_HOST}/img/${data.headerImage.split("/").at(-1)}`;
+  const url = `${process.env.VERCEL_URL ?? process.env.NEXT_PUBLIC_HOST}/brands/${data.path}`;
 
   return { 
     title,
