@@ -43,7 +43,7 @@ const plugins = [
 ]
 
 export const analytics = analyticsInstance({
-  app: 'Borderless Web',
+  app: 'ProjectSpce',
   plugins: [
     ...(IS_BROWSER ? plugins : [])
   ],
