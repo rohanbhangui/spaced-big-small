@@ -72,7 +72,7 @@ export const metadata = {
 
 const fetchBrands = async () => {
   // get list of files from the brands folder
-  const files = fs.readdirSync('brands');
+  const files = fs.readdirSync('brands/');
 
   // get each json
   const brandFiles = files.map((fileName) => {
