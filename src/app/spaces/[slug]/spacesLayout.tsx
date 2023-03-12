@@ -18,6 +18,7 @@ const Container = styled.div`
 const Hero = styled.div<{ background: string; }>`
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${({ background }) => background });
   background-size: cover;
+  background-position: center center;
   height: 15rem;
   display: flex;
   flex-direction: column;
