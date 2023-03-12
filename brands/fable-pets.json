@@ -1,0 +1,180 @@
+{
+    "title": "Fabel",
+    "path": "fable-pets",
+    "link": {
+      "url": "https://fablepets.com/",
+      "label": "fabelpets.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#030e28",
+        "background": "#fefdfd"
+      }
+    },
+    "headerImage": "fablepets/COMITA_221101_FABLE_Ecomm_17_Lifestyle_Evergreen_026_A2_Homepage.jpg",
+    "description": "Fable designs gear that solves problems for you and your pet, so the two of you can enjoy exploring the world together.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "fablepets/Fable-Wooden-Dog-Crate.webp",
+        "img_alt": "fable pets image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "fablepets/T-zYF9TO-2.jpg",
+        "img_alt": "fable pets image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "fablepets/Ollieethecockapoo_magiclink.webp",
+        "img_alt": "fable pets image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "fablepets/5x4_2020_Canine_Credenza_Dog_Cra.webp",
+        "img_alt": "fable pets image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Rest Set",
+        "hover_subtitle": "Acrylic Gate/Dark Shadow",
+        "hover_thumbnail": "fablepets/rest_set_1164x1452_main_db0b4fdd-61c5-4b07-85e8-08d0936f96e4.png",
+        "hover_link": "https://fablepets.com/products/best-selling-rest-set?variant=39739584675958",
+        "img": "fablepets/minimalist-dog-crate-Fable-Crate-scaled 1.png",
+        "img_alt": "Rest Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Falcon Toy",
+        "hover_subtitle": "Light Blue",
+        "hover_thumbnail": "fablepets/falcon-blue-2_03e18ef0-89f8-4e3f-9c30-c4f1cd8f5b16_1.jpg",
+        "hover_link": "https://fablepets.com/products/toy?variant=29391882322018",
+        "img": "fablepets/falcon-blue-9lbs.jpg",
+        "img_alt": "Falcon Toy",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Signature Leash",
+        "hover_subtitle": "Light Grey",
+        "hover_thumbnail": "fablepets/leash-ltgray-3.jpg",
+        "hover_link": "https://fablepets.com/products/signature-leash?variant=31856405577846",
+        "img": "fablepets/leash-ltgray-5.jpg",
+        "img_alt": "Signature Leash",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "30%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Bed",
+        "hover_subtitle": "Rose Dust",
+        "hover_thumbnail": "fablepets/bed-Rose-Dust-2_f9353ea2-1da3-4460-9e2f-1847a66aa46e_A.jpg",
+        "hover_link": "https://fablepets.com/products/bed?variant=29391866822754",
+        "img": "fablepets/bed_040820_balithefrenchie2_A.jpg",
+        "img_alt": "Bed",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "The Game",
+        "hover_subtitle": "Forest",
+        "hover_thumbnail": "fablepets/game-green-2_cd9b5f83-34b9-4131-8888-6612d500f2d6_1.jpg",
+        "hover_link": "https://fablepets.com/products/the-game?variant=32129258258550",
+        "img": "fablepets/game-green-1_c7dce62f-c650-4aaa-b1f8-fdf43722aa71.jpg",
+        "img_alt": "The Game",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "75%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Home Essential Set",
+        "hover_subtitle": "Tofu",
+        "hover_thumbnail": "fablepets/home_essentials_set_1164x1452_main.png",
+        "hover_link": "https://fablepets.com/products/home-essentials-set?variant=39794697207926",
+        "img": "fablepets/home_essentials_set_1164x1452_alt_1.png",
+        "img_alt": "Home Essential Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "living room",
+      "pets",
+      "dog",
+      "cat",
+      "walk",
+      "play",
+      "toys",
+      "bed"
+    ],
+    "hiddenTags": [
+      "canadian",
+      "room",
+    ]
+  }

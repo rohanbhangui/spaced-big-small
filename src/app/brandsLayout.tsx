@@ -516,7 +516,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
 
   const onCollapse = () => {
     setCollapse((prev: boolean) => {
-      analytics.track(Event.COLLAPSE_HEADER, { isOpen: !prev })
+      analytics.track(Event.COLLAPSE_HEADER, { isOpen: !prev });
+
       return !prev
     })
   }
