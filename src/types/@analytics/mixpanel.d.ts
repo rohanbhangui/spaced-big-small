@@ -9,4 +9,3 @@ declare module '@analytics/mixpanel' {
     params: Params,
   ): Record<string, unknown>;
 }
-
