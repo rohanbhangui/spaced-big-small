@@ -1,9 +1,9 @@
 {
-    "title": "Fabel",
+    "title": "Fable",
     "path": "fable-pets",
     "link": {
       "url": "https://fablepets.com/",
-      "label": "fabelpets.com"
+      "label": "fablepets.com"
     },
     "theme": {
       "colors": {
