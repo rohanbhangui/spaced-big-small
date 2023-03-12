@@ -7,7 +7,6 @@ import { useEffect } from "react";
 import 'reactjs-popup/dist/index.css';
 import Script from "next/script";
 import { AnalyticsWrapper } from "./components/analytics";
-import { analytics, Event } from "@/utils/analytics";
 
 const RootLayout = ({
   children,

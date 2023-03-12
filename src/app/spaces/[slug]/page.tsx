@@ -1,9 +1,19 @@
-import NotFound from '@/components/NotFound';
 import fs from 'fs';
-import { countBy } from 'lodash';
+import NotFound from '@/components/NotFound';
+
+import SpacesLayout from './spacesLayout';
+import { lowerCase, startCase } from 'lodash';
 import path from 'path';
 
-import PageLayout from './brandsLayout';
+export const config = {
+  dynamicParams: true
+}
+
+export type PageParams = Record<string, string | string[]>;
+export interface PageProps {
+  params?: PageParams;
+  searchParams?: Record<string, string | string[]>;
+}
 
 const title = `ProjectSpce - Find Small Business Brands`;
 const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/social-sharing.png`;
@@ -18,7 +28,7 @@ const tags = [
   "gift",
   "gift ideas",
   "plaen",
-]
+];
 
 export const metadata = { 
   title,
@@ -71,7 +81,6 @@ const fetchBrands = async () => {
 
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { montageItems, highlightGrid, ...rest } = JSON.parse(readFile);
-
       return {
         ...rest,
       }
@@ -82,24 +91,34 @@ const fetchBrands = async () => {
 }
 
 
-const Layout = async (): Promise<JSX.Element> => {
+// filter brands that dont match the tags
+const isInSpace = (brands: any[], elem: string) => {
+  return brands.filter((brand) => {
+    return brand.tags.includes(elem.toLowerCase()) || (brand?.hiddenTags ?? []).includes(elem.toLowerCase());
+  });
+}
+
+const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     let brandsData;
 
     try {
       brandsData = await fetchBrands();
     } catch (err) {
+      console.error(err);
       return <NotFound />;
     }
+    
 
-    let rawTags: string[] = [];
+    // if slug is not a string show not found
+    const slug = lowerCase(decodeURIComponent(params?.slug as string));
+    console.warn("SLUG", slug);
+    if(!slug) return <NotFound />
 
     const brands = await Promise.all(
-      brandsData.map(async(item) => {
+      isInSpace(brandsData, slug).map(async(item) => {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
         const headerImage = await import(`@/assets/img/${headerImg}`);
-
-        rawTags = [...rawTags, ...rest.tags];
 
         return {
           ...rest,
@@ -108,10 +127,10 @@ const Layout = async (): Promise<JSX.Element> => {
       })
     );
 
-    const tags = countBy(rawTags)
+    const title = slug === "edc" ? "EDC" : startCase(slug)
 
     return (
-      <PageLayout brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} tags={tags} />
+      <SpacesLayout title={title} brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} />
     )
 }
 
