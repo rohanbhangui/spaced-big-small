@@ -1,9 +1,10 @@
 'use client'
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
 import styled from 'styled-components';
+import { analytics, Event } from '@/utils/analytics';
 
 const Main = styled.main`
   min-height: 100vh;
@@ -29,6 +30,10 @@ const Main = styled.main`
 `
 
 const NotFound = () => {
+
+  useEffect(() => {
+    analytics.track(Event.PAGE_NOT_FOUND);
+  }, [])
 
   return (
     <Main>

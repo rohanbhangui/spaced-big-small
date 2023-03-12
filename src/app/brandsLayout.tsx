@@ -11,6 +11,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import BrandHeader from "@/components/BrandHeader";
 import TextTransition, { presets } from "react-text-transition";
 import HeroImage from "@/assets/img/hero-image.png";
+import { analytics, Event } from "@/utils/analytics";
 
 type BrandOrder = BrandDataProps & {
   count: number;
@@ -493,6 +494,12 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
 
     if(debouncedSearch) {
       router.replace(`?query=${debouncedSearch}`);
+      
+      analytics.track(Event.SEARCH, {
+        searchTerm: debouncedSearch,
+        results: filterBrands.length,
+      });
+
     } else {
       router.replace(`/`);
     }

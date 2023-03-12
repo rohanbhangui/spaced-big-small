@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import 'reactjs-popup/dist/index.css';
 import Script from "next/script";
 import { AnalyticsWrapper } from "./components/analytics";
+import { analytics, Event } from "@/utils/analytics";
 
 const RootLayout = ({
   children,
@@ -26,6 +27,8 @@ const RootLayout = ({
       // Display body when DOM is loaded
       document.body.style.visibility = 'visible';
     });
+
+    analytics.track(Event.PAGE_VIEWED);
 
   }, [])
   

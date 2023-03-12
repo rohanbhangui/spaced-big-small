@@ -32,10 +32,12 @@
     "styled-components": "^5"
   },
   "devDependencies": {
+    "@analytics/mixpanel": "^0.4.0",
     "@types/lodash": "^4.14.191",
     "@types/styled-components": "^5.1.26",
     "@types/tinycolor2": "^1.4.3",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "analytics": "^0.8.1",
     "eslint-config-prettier": "^8.6.0"
   }
 }

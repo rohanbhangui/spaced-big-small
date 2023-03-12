@@ -7,4 +7,9 @@ declare global {
             'swiper-slide': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
         }
     }
+    interface Window {
+        mixpanel: any;
+    }
 }
+
+type Modify<T, R> = Omit<T, keyof R> & R;
