@@ -180,13 +180,11 @@
       "pockets",
       "wearable",
       "autodromo",
-      "car",
-      "f1",
-      "edc"
+      "cars",
+      "f1"
     ],
     "hidden_tags": [
       "formula",
-      "watches",
-      "cars"
+      "watches"
     ]
   }
