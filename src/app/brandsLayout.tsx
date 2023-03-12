@@ -381,6 +381,10 @@ const TagsList = styled.section`
   }
 `
 
+const SpacesTags = styled.div`
+
+`
+
 const NoResult = styled.div`
   width: 100%;
   margin: 2rem auto;
@@ -403,6 +407,21 @@ const Text = [
   "Wardrobe",
   "Night Out",
 ]
+
+const countOccurrences = (str: string, words: string[]) => {
+  const counts: Record<string, number> = {};
+  let totalCount = 0;
+
+  for (const word of words) {
+    const regex = new RegExp(word, "g");
+    const count = (str.match(regex) || []).length;
+    counts[word] = count;
+    totalCount += count;
+  }
+
+  return totalCount;
+};
+
 
 const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<string,number> }) => {
   const router = useRouter();
@@ -462,10 +481,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       const hiddenTagsCount = brand.hiddenTags?.filter(elem => terms.includes(elem.toLowerCase())).length ?? 0;
 
       // check the description instance counts
-      const descriptionInstanceCount = terms.reduce((acc, curr) => {
-        const matches = brand.description.toLowerCase().split(curr).length - 1;
-        return acc + matches;
-      }, 0);
+      const descriptionInstanceCount = countOccurrences(brand.description, terms);
 
       //check the title
       const titleInstanceCount = terms.reduce((acc, curr) => {
@@ -570,13 +586,20 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
           <i onClick={onClear} className="fa-regular fa-xmark" />
         )}
       </div>
-      <TagsList>
+      {/* <TagsList>
         <div className="inner">
           { Object.keys(tags).sort((key1, key2) => tags[key2] - tags[key1]).map((tag) => (
             <Link className={`tag ${search === tag ? "active" : ""}`} key={tag} href={`/?query=${tag}`}><span>{tags[tag]}</span> {tag}</Link>
           ))}
         </div>
-      </TagsList>
+      </TagsList> */}
+      <SpacesTags>
+        <div className="inner">
+          {Text.map((space) => (
+            <Link className={`tag ${search === space ? "active" : ""}`} key={space} href={`/?query=${space}`}><span>{tags[space]}</span> {space}</Link>
+          ))}
+        </div>
+      </SpacesTags>
       { search === "" || filteredBrands.length > 0 ? (
         <Grid>
           {
