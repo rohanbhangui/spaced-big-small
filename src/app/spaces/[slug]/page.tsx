@@ -103,12 +103,14 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     try {
       brandsData = await fetchBrands();
     } catch (err) {
+      console.error(err);
       return <NotFound />;
     }
     
 
     // if slug is not a string show not found
     const slug = lowerCase(decodeURIComponent(params?.slug as string));
+    console.warn("SLUG", slug);
     if(!slug) return <NotFound />
 
     const brands = await Promise.all(
