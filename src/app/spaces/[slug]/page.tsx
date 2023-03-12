@@ -70,7 +70,7 @@ export const metadata = {
   // },
 }
 
-const fetchBrands = async (params: PageProps["params"]) => {
+const fetchBrands = async () => {
   // get list of files from the brands folder
   const files = fs.readdirSync('brands');
 
@@ -93,7 +93,7 @@ const fetchBrands = async (params: PageProps["params"]) => {
 // filter brands that dont match the tags
 const isInSpace = (brands: any[], elem: string) => {
   return brands.filter((brand) => {
-    return brand.tags.includes(elem.toLowerCase()) || (brand.hiddenTags ?? []).includes(elem.toLowerCase());
+    return brand.tags.includes(elem.toLowerCase()) || (brand?.hiddenTags ?? []).includes(elem.toLowerCase());
   });
 }
 
@@ -101,7 +101,7 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     let brandsData;
 
     try {
-      brandsData = await fetchBrands(params);
+      brandsData = await fetchBrands();
     } catch (err) {
       return <NotFound />;
     }
