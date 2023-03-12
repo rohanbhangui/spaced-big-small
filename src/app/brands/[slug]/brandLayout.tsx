@@ -13,6 +13,7 @@ import { PopupPosition } from "reactjs-popup/dist/types";
 import Link from "next/link";
 import BrandHeader from "@/components/BrandHeader";
 import tinycolor from "tinycolor2";
+import { analytics, Event } from "@/utils/analytics";
 
 
 export type Position = {
@@ -583,6 +584,10 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
 
   const { width } = useWindowDimensions()
   const [montageSlidesToShow, setMontageSlidesToShow] = useState(renderNumberOfMontageSlides(width))
+
+  useEffect(() => {
+    analytics.track(Event.PAGE_VIEWED);
+  }, [])
 
   useEffect(() => {
     setMontageSlidesToShow(renderNumberOfMontageSlides(width))

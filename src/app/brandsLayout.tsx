@@ -425,6 +425,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
     );
 
     setCollapse((JSON.parse(localStorage.getItem("projectspce:headerCollapse") ?? "{}")?.collapse ?? false))
+
+    analytics.track(Event.PAGE_VIEWED);
     
     return () => clearTimeout(intervalId);
   }, []);
@@ -494,7 +496,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
 
     if(debouncedSearch) {
       router.replace(`?query=${debouncedSearch}`);
-      
+
       analytics.track(Event.SEARCH, {
         searchTerm: debouncedSearch,
         results: filterBrands.length,

@@ -28,8 +28,6 @@ const RootLayout = ({
       document.body.style.visibility = 'visible';
     });
 
-    analytics.track(Event.PAGE_VIEWED);
-
   }, [])
   
   return (
