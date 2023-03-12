@@ -1,6 +1,7 @@
 import fs from "fs";
 import NotFound from '@/components/NotFound';
 import BrandLayout, { BrandDataProps } from "./brandLayout";
+import path from "path";
 
 export const config = {
   dynamicParams: true
@@ -60,7 +61,7 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
 
 
 export const generateStaticParams = async (): Promise<PageParams[]> => {
-  const files = fs.readdirSync("brands");
+  const files = fs.readdirSync(path.resolve(process.cwd(), 'brands'));
   // Generate a path for each one
   const paths = files.map((fileName) => ({
     slug: fileName.replace(".json", ""),

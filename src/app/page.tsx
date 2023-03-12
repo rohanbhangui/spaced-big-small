@@ -1,6 +1,7 @@
 import NotFound from '@/components/NotFound';
 import fs from 'fs';
 import { countBy } from 'lodash';
+import path from 'path';
 
 import PageLayout from './brandsLayout';
 
@@ -62,7 +63,7 @@ export const metadata = {
 
 const fetchBrands = async () => {
   // get list of files from the brands folder
-  const files = fs.readdirSync('brands');
+  const files = fs.readdirSync(path.resolve(process.cwd(), 'brands'));
 
   // get each json
   const brandFiles = files.map((fileName) => {
