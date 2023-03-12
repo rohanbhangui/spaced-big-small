@@ -394,6 +394,7 @@ const NoResult = styled.div`
 `
 
 const Text = [
+  "Space",
   "Living Room",
   "Bedroom",
   "Kitchen",
