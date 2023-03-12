@@ -108,7 +108,7 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     }
 
     // if slug is not a string show not found
-    const slug = startCase(lowerCase(decodeURIComponent(params?.slug as string)));
+    const slug = params?.slug === "edc" ? "EDC" : startCase(lowerCase(decodeURIComponent(params?.slug as string)));
     if(!slug) return <NotFound />
 
     const brands = await Promise.all(
