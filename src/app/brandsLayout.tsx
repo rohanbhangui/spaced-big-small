@@ -412,11 +412,15 @@ const SpacesTags = styled.div`
       border: 2px solid #bbbbbb;
       border-radius: 5rem;
       color: black;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       display: flex;
       flex-wrap: nowrap;
       align-items: center;
       white-space: nowrap;
+
+      @media ${({ theme }) => theme.mediaQuery.smallTablet} {
+        font-size: 1.3rem;
+      }
 
       &.active {
         background: #111111;
