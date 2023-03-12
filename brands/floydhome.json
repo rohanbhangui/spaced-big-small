@@ -167,13 +167,18 @@
         "productivity",
         "floyd",
         "furniture",
-        "home decor",
         "minimalist",
         "modern",
         "sustainable",
         "affordable",
         "wood",
-        "workspace",
-        "modular"
+        "office",
+        "modular",
+        "bedroom",
+        "living room"
+    ],
+    "hiddenTags": [
+        "home decor",
+        "workspace"
     ]
 }

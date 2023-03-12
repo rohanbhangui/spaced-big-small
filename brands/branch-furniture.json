@@ -171,9 +171,12 @@
       "desk",
       "standing",
       "branch",
-      "wood"
+      "wood",
+      "home",
+      "office"
     ],
     "hiddenTags": [
-      "canadian"
+      "canadian",
+      "workspace"
     ]
   }

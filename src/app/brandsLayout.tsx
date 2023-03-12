@@ -12,10 +12,18 @@ import BrandHeader from "@/components/BrandHeader";
 import TextTransition, { presets } from "react-text-transition";
 import HeroImage from "@/assets/img/hero-image.png";
 import { analytics, Event } from "@/utils/analytics";
+import { SPACES } from "@/utils/constants";
+import { lowerCase } from "lodash";
 
 type BrandOrder = BrandDataProps & {
   count: number;
 }
+
+const Spaces = [
+  "Space",
+  ...(Object.keys(SPACES)),
+  "Night Out",
+]
 
 const Container = styled.div`
 
@@ -381,8 +389,42 @@ const TagsList = styled.section`
   }
 `
 
-const SpacesTags = styled.div`
+const TagsHeight = '3rem';
 
+const SpacesTags = styled.div`
+  height: ${TagsHeight};
+  overflow: hidden;
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: ${largeDesktop}px;
+
+  .inner {
+    overflow: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    height: calc(${TagsHeight} + 2rem);
+    align-items: flex-start;
+
+    .tag {
+      padding: 0.3rem 0.6rem;
+      border: 2px solid #bbbbbb;
+      border-radius: 5rem;
+      color: black;
+      font-size: 1.3rem;
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      white-space: nowrap;
+
+      &.active {
+        background: #111111;
+        border: 1px solid #111111;
+        color: white;
+      }
+    }
+  } 
 `
 
 const NoResult = styled.div`
@@ -396,17 +438,6 @@ const NoResult = styled.div`
     color: rgba(0, 0, 0, 0.5);
   }
 `
-
-const Text = [
-  "Space",
-  "Living Room",
-  "Bedroom",
-  "Kitchen",
-  "Pockets",
-  "Car",
-  "Wardrobe",
-  "Night Out",
-]
 
 const countOccurrences = (str: string, words: string[]) => {
   const counts: Record<string, number> = {};
@@ -526,7 +557,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
   }, [debouncedSearch])
 
   useEffect(() => {
-    setSearch(searchParams?.get("query") ?? "")
+    setSearch(decodeURIComponent(searchParams?.get("query") ?? ""))
   }, [searchParams]);
 
   const randomBrand = brands[Math.floor(Math.random()*brands.length)];
@@ -538,6 +569,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       return !prev
     })
   }
+
+
   
   return (
     <Container>
@@ -555,11 +588,11 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
                   <em>
                     { isDesktop ? (
                       <TextTransition inline springConfig={presets.gentle}>
-                        {Text[index % Text.length]}
+                        {Spaces[index % Spaces.length]}
                       </TextTransition>
                     ) : (
                       <TextTransition springConfig={presets.gentle}>
-                        {Text[index % Text.length]}
+                        {Spaces[index % Spaces.length]}
                       </TextTransition>
                     )}
                   </em>
@@ -595,8 +628,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       </TagsList> */}
       <SpacesTags>
         <div className="inner">
-          {Text.map((space) => (
-            <Link className={`tag ${search === space ? "active" : ""}`} key={space} href={`/?query=${space}`}><span>{tags[space]}</span> {space}</Link>
+          {Object.keys(SPACES).sort().map((space) => (
+            <Link key={space} className="tag" href={`/spaces/${lowerCase(space)}`}><span>{tags[space]}</span> {space}</Link>
           ))}
         </div>
       </SpacesTags>
@@ -605,7 +638,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
           {
             filteredBrands.map(item => (
               <div className="brand-tile" key={item.title}>
-                <Link className="direct" href={`${item.link.url}`} rel="noopener noreferrer" target="_blank">
+                <Link className="direct" href={`${item.link.url}?ref=projectspce`} rel="noopener noreferrer" target="_blank">
                   <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
                 </Link>
                 <Link href={`/brands/${item.path}`}>
