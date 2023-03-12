@@ -632,9 +632,13 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       </TagsList> */}
       <SpacesTags>
         <div className="inner">
-          {Object.keys(SPACES).sort().map((space) => (
-            <Link key={space} className="tag" href={`/spaces/${lowerCase(space)}`}><span>{tags[space]}</span> {space}</Link>
-          ))}
+          {Object.keys(SPACES).sort().map((space) => {
+            const slug = `${lowerCase(space)}`;
+
+            return (
+              <Link key={space} className="tag" href={`/spaces/${slug}`}><span>{tags[space]}</span> {space}</Link>
+            )
+          })}
         </div>
       </SpacesTags>
       { search === "" || filteredBrands.length > 0 ? (
