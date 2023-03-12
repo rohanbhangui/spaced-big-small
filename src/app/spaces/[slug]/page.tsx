@@ -70,9 +70,20 @@ export const metadata = {
   // },
 }
 
+export const generateStaticParams = async (): Promise<PageParams[]> => {
+  const files = fs.readdirSync("brands");
+  // Generate a path for each one
+  const paths = files.map((fileName) => ({
+    slug: fileName.replace(".json", ""),
+  }));
+
+  // return list of paths
+  return paths;
+}
+
 const fetchBrands = async () => {
   // get list of files from the brands folder
-  const files = fs.readdirSync('brands/');
+  const files = fs.readdirSync('brands');
 
   // get each json
   const brandFiles = files.map((fileName) => {
