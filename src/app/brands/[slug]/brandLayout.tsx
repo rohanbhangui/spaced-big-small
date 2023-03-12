@@ -596,7 +596,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
   return (
     <Container background={theme.colors.background} color={theme.colors.primary}>
       <div className="inner-wrapper">
-        <BrandHeader background={theme.colors.background} href={`${link.url}?ref=projectspce`} />
+        <BrandHeader background={theme.colors.background} href={`${link.url}?ref=spaced`} />
         <Title color={theme.colors.primary}>{title}</Title>
         <div className="invisible-text">
           <div className="inner">{title}</div>
@@ -689,7 +689,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
           </div>
         </HighlightsGrid>
         <div className="flex-center">
-          <Link href={`${link.url}?ref=projectspce`} target="_blank" rel="noopener noreferrer" className="h5 brand-link-button">
+          <Link href={`${link.url}?ref=spaced`} target="_blank" rel="noopener noreferrer" className="h5 brand-link-button">
             {link.label}
           </Link>
         </div>

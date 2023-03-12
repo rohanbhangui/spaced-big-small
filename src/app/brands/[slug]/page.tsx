@@ -1,5 +1,5 @@
 import fs from "fs";
-import NotFound from '@/components/NotFound';
+import NotFound from "../../../components/NotFound";
 import BrandLayout, { BrandDataProps } from "./brandLayout";
 
 export const config = {
