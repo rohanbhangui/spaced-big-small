@@ -513,10 +513,17 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
   }, [searchParams]);
 
   const randomBrand = brands[Math.floor(Math.random()*brands.length)];
+
+  const onCollapse = () => {
+    setCollapse((prev: boolean) => {
+      analytics.track(Event.COLLAPSE_HEADER, { isOpen: !prev })
+      return !prev
+    })
+  }
   
   return (
     <Container>
-      <button onClick={() => setCollapse((prev: boolean) => !prev)} className="link-button collapse">
+      <button onClick={onCollapse} className="link-button collapse">
         {collapse ? 'Open' : 'Close' } {isDesktop ? 'Header': ''}
       </button>
       <Hero>
@@ -573,7 +580,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
           {
             filteredBrands.map(item => (
               <div className="brand-tile" key={item.title}>
-                <Link className="direct" href={item.link.url } rel="noopener noreferrer" target="_blank">
+                <Link className="direct" href={`${item.link.url}`} rel="noopener noreferrer" target="_blank">
                   <i className="fa-sharp fa-solid fa-arrow-up-right-from-square" />
                 </Link>
                 <Link href={`/brands/${item.path}`}>

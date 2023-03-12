@@ -10,7 +10,8 @@ const IS_BROWSER = typeof window !== 'undefined'
 export enum Event {
   PAGE_VIEWED = 'Page Viewed',
   PAGE_NOT_FOUND = 'Page Not Found',
-  SEARCH = 'Search'
+  SEARCH = 'Search',
+  COLLAPSE_HEADER = 'Collapse Header'
 }
 
 type BasePlugins = BaseAnalyticsInstance['plugins'];
