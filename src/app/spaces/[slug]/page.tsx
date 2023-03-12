@@ -125,7 +125,7 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     if(!slug) return <NotFound />
 
     const brands = await Promise.all(
-      isInSpace(brandsData, slug).map(async(item) => {
+      brandsData.map(async(item) => {
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const { headerImage: headerImg, montageItems, highlightGrid, ...rest } = item;
         const headerImage = await import(`@/assets/img/${headerImg}`);
