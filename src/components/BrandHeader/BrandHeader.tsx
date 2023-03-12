@@ -20,6 +20,10 @@ const Header = styled.header<{ hasHref: boolean; background: string; }>`
 
   .img-container {
     position: relative;
+
+    img {
+      width: 7.5rem;
+    }
   }
 
   .link-button {
