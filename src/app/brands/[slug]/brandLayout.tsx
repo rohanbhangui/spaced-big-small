@@ -586,7 +586,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
   const [montageSlidesToShow, setMontageSlidesToShow] = useState(renderNumberOfMontageSlides(width))
 
   useEffect(() => {
-    analytics.track(Event.PAGE_VIEWED, { pageName: title });
+    analytics.track(Event.PAGE_VIEWED, { group: "brand", pageName: title });
   }, [])
 
   useEffect(() => {

@@ -481,7 +481,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
 
     setCollapse((JSON.parse(localStorage.getItem("projectspce:headerCollapse") ?? "{}")?.collapse ?? false))
 
-    analytics.track(Event.PAGE_VIEWED, { pageName: 'home'});
+    analytics.track(Event.PAGE_VIEWED, { pageName: 'home' });
     
     return () => clearTimeout(intervalId);
   }, []);

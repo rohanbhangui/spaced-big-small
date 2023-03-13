@@ -7,6 +7,8 @@ import Image from "next/image";
 import styled from "styled-components";
 import { largeDesktop } from "@/assets/styles/themeConfig";
 import { SPACES } from "@/utils/constants";
+import { useEffect } from "react";
+import { analytics, Event } from "@/utils/analytics";
 
 const Container = styled.div`
   .header {
@@ -144,6 +146,10 @@ type SpacesLayoutProps = {
 const Layout = ({ brands, title }: SpacesLayoutProps) => {
 
   const background = SPACES[title as keyof typeof SPACES];
+
+  useEffect(() => {
+    analytics.track(Event.PAGE_VIEWED, { group: "space", pageName: title });
+  }, [])
 
   return (
     <Container>
