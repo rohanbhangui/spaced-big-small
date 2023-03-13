@@ -1,0 +1,187 @@
+{
+    "title": "Monos",
+    "path": "monos",
+    "link": {
+        "url": "https://monos.com/",
+        "label": "monos.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#4d4d4d",
+            "background": "#ffffff"
+        }
+    },
+    "headerImage": "monos/Dossier_TerracottaColourStory_3.webp",
+    "description": "Monos offers a range of high-quality luggage products, including suitcases, backpacks, and travel accessories, designed with durability, functionality, and style in mind.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "monos/OQ6NER2WOZDBTFUOQWB2JNEGZI.jpeg",
+            "img_alt": "monos image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "monos/Monos+Carry-On+Plus+in+Ocean+Blue.jpeg",
+            "img_alt": "monos image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "monos/monos-new-metro-lifestyle-40-1660331324.jpg",
+            "img_alt": "monos image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "monos/Monos-Lifestyle-Photo-1-scaled.jpg",
+            "img_alt": "monos image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "monos/Fibp-m-WAAIrMLc.jpeg",
+            "img_alt": "monos image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Carry-on Pro",
+            "hover_subtitle": "Olive Green",
+            "hover_thumbnail": "monos/Product_CarryOn_Pro_OliveGreen_Front.jpg",
+            "hover_link": "https://monos.com/collections/carry-on-luggage/products/carry-on-pro?variant=32538695336010",
+            "img": "monos/Monos-Metro-Backpack-Review-2-1-scaled.jpeg",
+            "img_alt": "Carry-on Pro",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "55%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Checked-In Large",
+            "hover_subtitle": "Terrazzo",
+            "hover_thumbnail": "monos/Product_CheckIn_L_Terrazzo_Front_750x.jpg",
+            "hover_link": "https://monos.com/collections/check-in-luggage/products/check-in-large?variant=31167105925194",
+            "img": "monos/Monos-Check-In-Large.webp",
+            "img_alt": "Checked-In Large",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "78%",
+                    "top": "75%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Compressible Packing Cubes",
+            "hover_subtitle": "Grey",
+            "hover_thumbnail": "monos/Product_Accessories_PackingCubes_Set4_Grey_FullSet_750x.jpg",
+            "hover_link": "https://monos.com/products/packing-cubes?variant=32037068013642",
+            "img": "monos/DSC02294-rotated.webp",
+            "img_alt": "Compressible Packing Cubes",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "30%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Metro Duffel",
+            "hover_subtitle": "Juniper Green",
+            "hover_thumbnail": "monos/Metro-Duffel-JuniperGreen-3747.jpg",
+            "hover_link": "https://monos.com/products/metro-duffel?variant=32568039735370",
+            "img": "monos/Monos-Metro-Duffel-Review-5-scaled.jpeg",
+            "img_alt": "Metro Duffel",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "MEtro Toiletry Case",
+            "hover_subtitle": "Oxford Blue",
+            "hover_thumbnail": "monos/ToiletryKit-S-OxfordBlue-1.jpg",
+            "hover_link": "https://monos.com/products/metro-toiletry-case?variant=42880417661127",
+            "img": "monos/ToiletryKit-S-OxfordBlue-4.jpg",
+            "img_alt": "MEtro Toiletry Case",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "55%",
+                    "top": "55%"
+                }
+            },
+            "tooltip": {
+                "placement": "bottom center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Metro Weekender",
+            "hover_subtitle": "Saddle Tan",
+            "hover_thumbnail": "monos/Metro-Weekender-SaddleTan-1.jpg",
+            "hover_link": "https://monos.com/products/metro-weekender?variant=42858318004423",
+            "img": "monos/PDP_LifestyleCarousel-8_9dd9bdd3-4541-4ce4-af3c-9e16a100e6c8.jpg",
+            "img_alt": "Metro Weekender",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "leather",
+        "travel",
+        "minimal",
+        "modern",
+        "sustainable",
+        "carry-on",
+        "suitcase",
+        "luggage"
+    ],
+    "hiddenTags": [
+        "minimalist"
+    ]
+}
