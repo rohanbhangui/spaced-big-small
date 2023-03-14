@@ -81,7 +81,7 @@ const fetchBrands = async () => {
   return brandFiles;
 }
 
-
+export const dynamic = 'force-dynamic';
 const Layout = async (): Promise<JSX.Element> => {
     let brandsData;
 
