@@ -1,0 +1,182 @@
+{
+    "title": "Allbirds",
+    "path": "allbirds",
+    "link": {
+      "url": "https://www.allbirds.com/",
+      "label": "allbirds.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#000000",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "allbirds/Allbirds-wool-runners.jpg",
+    "description": "Allbirds is a footwear and apparel brand that focuses on sustainability and comfort. They are known for their eco-friendly materials, minimalist designs, and use of merino wool.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "allbirds/all-birds-voguebus-photographer-month-22-story.webp",
+        "img_alt": "allbirds image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "allbirds/FebLaunch20_lifestyle_global_Group_TBSucculent_WRUM_Cardamom_TRPoppy_00458.webp",
+        "img_alt": "allbirds image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "allbirds/ALLBIRDS-33.jpg",
+        "img_alt": "allbirds image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "allbirds/image.jpg",
+        "img_alt": "allbirds image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Wool Runners",
+        "hover_subtitle": "Natural Grey/Light Grey Sole",
+        "hover_thumbnail": "allbirds/Men_s_Wool_Runners_-_Natural_Grey__Light_Grey_Sole__-_imageAngle.jpeg",
+        "hover_link": "https://www.allbirds.com/products/mens-wool-runners",
+        "img": "allbirds/1568832011-shot-03-mizzlelaunch19-global-w-wr-natural-grey-0712-1568831988.jpg",
+        "img_alt": "Wool Runners",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "33%",
+            "top": "53%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Tree Loungers",
+        "hover_subtitle": "Navy Night/White Sole",
+        "hover_thumbnail": "allbirds/TL2MNNW080_SHOE_ANGLE_GLOBAL_MENS_TREE_LOUNGER_NAVY_NIGHT_WHITE_v2.png",
+        "hover_link": "https://www.allbirds.com/products/womens-tree-loungers-navy-night",
+        "img": "allbirds/Women-TL_2c62a085-160f-4b2f-9f97-098280b5fff0.jpg",
+        "img_alt": "Tree Loungers",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "55%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Wool Runner-up Mizzles",
+        "hover_subtitle": "Natural Black/Natural White Sole",
+        "hover_thumbnail": "allbirds/AB0072M_SHOE_ANGLE_GLOBAL_MENS_WOOL_RUNNER-UP_MIZZLE2_NATURAL_BLACK_NATURAL_WHITE.png",
+        "hover_link": "https://www.allbirds.com/products/mens-wool-runner-up-mizzles",
+        "img": "allbirds/WRUM-Men_662c5aa2-0660-4a40-9a15-89a7023a1627.jpg",
+        "img_alt": "Wool Runner-up Mizzles",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "35%",
+            "top": "80%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Tree Dasher Relay",
+        "hover_subtitle": "Natural Black/Blizzard Sole",
+        "hover_thumbnail": "allbirds/AA0020M_SHOE_ANGLE_GLOBAL_TREE_DASHER_RELAY_NATURAL_BLACK_BLIZZARD.png",
+        "hover_link": "https://www.allbirds.com/products/mens-tree-dasher-relay",
+        "img": "allbirds/Grid_On-Body_TDRelay_M_cfb80752-f4cd-46d5-a2e6-484bd678d843.webp",
+        "img_alt": "Tree Dasher Relay",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "80%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Tree Dasher 2",
+        "hover_subtitle": "Calm Teal/Forage Tan Sole",
+        "hover_thumbnail": "allbirds/AA004LW090_SHOE_45_GLOBAL_WOMENS_TREE_DASHER_CALM_TEAL_FORAGE-TAN.png",
+        "hover_link": "https://www.allbirds.com/products/womens-tree-dashers-calm-teal",
+        "img": "allbirds/AA004LW090_SHOE_BOTTOM_GLOBAL_WOMENS_TREE_DASHER_CALM_TEAL_FORAGE-TAN.png",
+        "img_alt": "Tree Dasher 2",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "50%"
+          }
+        },
+        "tooltip": {
+          "placement": "top center"
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Wool Runner Mizzles",
+        "hover_subtitle": "Natural Grey/Cream Sole",
+        "hover_thumbnail": "allbirds/WRM-Women_cb8dc3cd-4884-4a35-8312-2b713c7dff3b.jpg",
+        "hover_link": "https://www.allbirds.com/products/womens-wool-runner-mizzles-natural-grey",
+        "img": "allbirds/WRM-Women_cb8dc3cd-4884-4a35-8312-2b713c7dff3b.jpg",
+        "img_alt": "Wool Runner Mizzles",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "60%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "workout",
+      "shoes",
+      "clothing",
+      "apparel",
+      "train",
+      "run",
+      "outdoor",
+      "shoe",
+      "wardrobe"
+    ],
+    "hiddenTags": [
+    ]
+  }
