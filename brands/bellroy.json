@@ -1,0 +1,187 @@
+{
+    "title": "Bellroy",
+    "path": "bellroy",
+    "link": {
+        "url": "https://bellroy.com/",
+        "label": "bellroy.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#BD5F2A",
+            "background": "#FFFFFF"
+        }
+    },
+    "headerImage": "bellroy/range-guide-spread.jpg",
+    "description": "Bellroy designs and produces wallets, bags, and other accessories with a focus on combining function with style. Their products are known for their minimalist design, high-quality materials, and attention to detail.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "bellroy/IMG_1855.jpeg",
+            "img_alt": "bellroy image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "bellroy/7.jpeg",
+            "img_alt": "bellroy image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "bellroy/10.jpeg",
+            "img_alt": "bellroy image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "bellroy/12.jpeg",
+            "img_alt": "bellroy image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "bellroy/Untitled_design_-_2022-08-05T130830.288_2048x2048.webp",
+            "img_alt": "bellroy image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Apex Slim Sleeve",
+            "hover_subtitle": "Indigo",
+            "hover_thumbnail": "bellroy/2.jpeg",
+            "hover_link": "https://bellroy.com/products/apex-slim-sleeve?color=indigo&material=leather_rfid#slide-2",
+            "img": "bellroy/9.jpeg",
+            "img_alt": "Apex Slim Sleeve",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Tech Briefcase",
+            "hover_subtitle": "Navy",
+            "hover_thumbnail": "bellroy/0.jpeg",
+            "hover_link": "https://bellroy.com/products/tech-briefcase?color=navy&material=looma_weave&size=16in",
+            "img": "bellroy/11.jpeg",
+            "img_alt": "Tech Briefcase",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Sling Mini",
+            "hover_subtitle": "Bronze",
+            "hover_thumbnail": "bellroy/sling-mini.jpeg",
+            "hover_link": "https://bellroy.com/products/sling-mini?color=bronze&material=baida_nylon&size=sling_mini",
+            "img": "bellroy/9-mini-sling.jpeg",
+            "img_alt": "Sling Mini",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "70%",
+                    "top": "65%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Market Tote",
+            "hover_subtitle": "Ranger Green/15L",
+            "hover_thumbnail": "bellroy/0-market-tote.jpeg",
+            "hover_link": "https://bellroy.com/products/market-tote?color=ranger_green&material=canva_ripstop#slide-0",
+            "img": "bellroy/market-tote.jpeg",
+            "img_alt": "Market Tote",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Lite Duffel",
+            "hover_subtitle": "Chalk",
+            "hover_thumbnail": "bellroy/duffel.jpeg",
+            "hover_link": "https://bellroy.com/products/lite-duffel?color=chalk&material=diamond_ripstop",
+            "img": "bellroy/duffel-2.jpeg",
+            "img_alt": "Lite Duffel",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "45%",
+                    "top": "80%"
+                }
+            },
+            "tooltip": {
+                "placement": "top center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Phone Case - 3 Card",
+            "hover_subtitle": "Citrus",
+            "hover_thumbnail": "bellroy/yellow-phonecase.jpeg",
+            "hover_link": "https://bellroy.com/products/phone-case-3-card?color=citrus&material=leather_viroblock&size=i13pro",
+            "img": "bellroy/ptxc-feature-2.jpg",
+            "img_alt": "Phone Case - 3 Card",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "66%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "productivity",
+        "aer",
+        "travel",
+        "minimal",
+        "modern",
+        "sustainable",
+        "backpack",
+        "duffel",
+        "office",
+        "wardrobe",
+        "edc"
+    ],
+    "hiddenTags": [
+        "minimalist"
+    ]
+}
