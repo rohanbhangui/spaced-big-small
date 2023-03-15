@@ -84,7 +84,7 @@ const Container = styled.div`
       }
 
       @media ${({ theme }) => theme.mediaQuery.smallTablet} {
-        font-size: 1rem;
+        font-size: 0.8rem;
         border: 1px solid #999;
         color: #999;
         flex: 1;
