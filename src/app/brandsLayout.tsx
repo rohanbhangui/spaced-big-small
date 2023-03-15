@@ -198,7 +198,7 @@ const Hero = styled.div`
         }
       }
 
-      button {
+      button, a {
         padding: 0.5rem 1.75rem;
         border-radius: 0.6rem;
         border: none;
@@ -206,6 +206,7 @@ const Hero = styled.div`
         margin-top: 1rem;
         margin-bottom: 3rem;
         font-size: 1.05rem;
+        display: inline-block;
 
         @media ${({ theme }) => theme.mediaQuery.smallTablet} {
           margin-top: 2rem;
@@ -602,8 +603,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
                   </em>
                 </h1>
                 <div className="actions">
-                  {/* <button className="subscribe-button">Subscribe</button> */}
-                  <button className="go-to-app" onClick={handleGoToApp}>Go Explore</button>
+                  <button className="subscribe-button" onClick={handleGoToApp}>Go Explore</button>
+                  <Link className="go-to-app" href={`/brands/${randomBrand.path}`}>Surprise Me</Link>
                 </div>
               </div>
             </div>
@@ -618,7 +619,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
         <i className="fa-regular fa-magnifying-glass" />
         <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
         { search.trim() === "" ? (
-          <Link href={`/brands/${randomBrand.path}`} className="pick-random">{isDesktop ? 'Surprise Me' : <i className="fa-sharp fa-solid fa-shuffle" />}</Link>
+          // <Link href={`/brands/${randomBrand.path}`} className="pick-random">{isDesktop ? 'Surprise Me' : <i className="fa-sharp fa-solid fa-shuffle" />}</Link>
+          <></>
         ): (
           <i onClick={onClear} className="fa-regular fa-xmark" />
         )}
