@@ -84,7 +84,7 @@ const Container = styled.div`
       }
 
       @media ${({ theme }) => theme.mediaQuery.smallTablet} {
-        font-size: 0.7rem;
+        font-size: 1rem;
         border: 1px solid #999;
         color: #999;
         flex: 1;
@@ -618,7 +618,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
         <i className="fa-regular fa-magnifying-glass" />
         <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
         { search.trim() === "" ? (
-          <Link href={`/brands/${randomBrand.path}`} className="pick-random">{isDesktop ? 'Random Brand' : <i className="fa-sharp fa-solid fa-shuffle" />}</Link>
+          <Link href={`/brands/${randomBrand.path}`} className="pick-random">{isDesktop ? 'Surprise Me' : <i className="fa-sharp fa-solid fa-shuffle" />}</Link>
         ): (
           <i onClick={onClear} className="fa-regular fa-xmark" />
         )}
