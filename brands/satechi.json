@@ -1,0 +1,183 @@
+{
+    "title": "Satechi",
+    "path": "satechi",
+    "link": {
+      "url": "https://satechi.net/",
+      "label": "satechi.net"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#e94e1b",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "satechi/FpLreZFaEAIEJSf.jpeg",
+    "description": "Satechi designing and manufacturing innovative and sleek accessories, predominantly for Apple devices. They feature a wide range of products, such as wireless chargers, USB-C hubs, and stands, aimed at enhancing user experience and improving device functionality.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "satechi/6366583cv20d.jpg",
+        "img_alt": "satechi image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "satechi/SATECHI_Instagram_2019_08_15_IMG3_SLIM_ADAPTER_2048x2048.webp",
+        "img_alt": "satechi image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "satechi/77772337_4724962063.jpeg",
+        "img_alt": "satechi image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "satechi/7952b89c832feec2bbeb18a25e4fa5c2.jpg",
+        "img_alt": "satechi image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "satechi/2022_05_30_IMG7.webp",
+        "img_alt": "satechi image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Aluminum Type-C Mobile Pro Hub",
+        "hover_thumbnail": "satechi/aluminum-type-c-mobile-pro-hub-hubs-satechi-space-gray-702908_750x.jpg",
+        "hover_link": "https://satechi.net/products/aluminum-type-c-mobile-pro-hub?variant=15357088170072",
+        "img": "satechi/2022_08_17_IMG4_REV_2048x.webp",
+        "img_alt": "Aluminum Type-C Mobile Pro Hub",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "82%",
+            "top": "52%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Stand & Hub For Mac Mini With SSD Enclosure",
+        "hover_thumbnail": "satechi/stand-hub-for-mac-mini-with-ssd-enclosure-stands-hubs-satechi-895369_750x.jpg",
+        "hover_link": "https://satechi.net/products/stand-hub-for-mac-mini-with-ssd-enclosure",
+        "img": "satechi/2022_04_08_IMG4.webp",
+        "img_alt": "Stand & Hub For Mac Mini With SSD Enclosure",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "52%",
+            "top": "64%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "165W USB-C 4-Port PD GaN Charger",
+        "hover_thumbnail": "satechi/165w-usb-c-4-port-pd-gan-charger-wall-chargers-satechi-us-414152_750x.jpg",
+        "hover_link": "https://satechi.net/products/165w-usb-c-4-port-pd-gan-charger?variant=39787940905048",
+        "img": "satechi/2022_11_14_BLOG_IMG2.webp",
+        "img_alt": "165W USB-C 4-Port PD GaN Charger",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "47%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "3-in-1 Magnetic Wireless Charging Stand",
+        "hover_thumbnail": "satechi/3-in-1-magnetic-wireless-charging-stand-wireless-chargers-satechi-249747_750x.jpg",
+        "hover_link": "https://satechi.net/products/3-in-1-magnetic-wireless-charging-stand?variant=39719656685656",
+        "img": "satechi/319add79b159--2021-11-11-IMG2-aa500a.jpg",
+        "img_alt": "3-in-1 Magnetic Wireless Charging Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "54%",
+            "top": "66%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Trio Wireless Charger With Magnetic Pad",
+        "hover_thumbnail": "satechi/trio-wireless-charger-with-magnetic-pad-wireless-chargers-satechi-911308_750x.jpg",
+        "hover_link": "https://satechi.net/products/trio-wireless-charging-pad?variant=32008960573528",
+        "img": "satechi/c2aea66cd646--SATECHI-Trio-Charger-ENV-REV2-95749c.jpg",
+        "img_alt": "Trio Wireless Charger With Magnetic Pad",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "67%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Aluminum Monitor Stand",
+        "hover_subtitle": "Silver",
+        "hover_thumbnail": "satechi/aluminum-monitor-stand-stands-satechi-461432_750x.png",
+        "hover_link": "https://satechi.net/products/satechi-aluminum-monitor-stand?variant=27065614601",
+        "img": "satechi/81Dl64bWKwL.jpg",
+        "img_alt": "Aluminum Monitor Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "20%",
+            "top": "75%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "chargers",
+      "stands",
+      "minimal",
+      "technology",
+      "office",
+      "desk",
+      "iphone",
+      "apple",
+      "macbook",
+      "mac",
+      "ipad"
+    ],
+    "hiddenTags": [
+      "charging",
+      "tech"
+    ]
+  }
