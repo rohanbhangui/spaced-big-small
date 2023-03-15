@@ -694,7 +694,7 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
           </Link>
         </div>
         <TagList background={theme.colors.background}>
-          {tags.map((tag) => (
+          {tags.sort().map((tag) => (
             <Link href={`/?query=${tag}`} key={tag}><div className="h2 tag">{tag}</div></Link>
           ))}
         </TagList>
