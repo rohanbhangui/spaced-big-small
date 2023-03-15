@@ -206,7 +206,7 @@ const Hero = styled.div`
         margin-top: 1rem;
         margin-bottom: 3rem;
         font-size: 1.05rem;
-        display: inline-block
+        display: inline-block;
 
         @media ${({ theme }) => theme.mediaQuery.smallTablet} {
           margin-top: 2rem;

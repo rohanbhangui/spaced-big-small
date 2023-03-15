@@ -19,6 +19,7 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
   const title = `ProjectSpce - ${data.title}`;
   const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/${data.headerImage.split("/").at(-1)}`;
   const url = `${process.env.NEXT_PUBLIC_HOST}/brands/${data.path}`;
+  const color = data.theme.colors.background;
 
   return { 
     title,
@@ -55,6 +56,7 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
     },
     other: {
       "og:image": seo_img,
+      "theme-color": color,
     },
   }
 }

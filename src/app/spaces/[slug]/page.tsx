@@ -69,6 +69,9 @@ export const metadata = {
   //   "og:image": seo_img,
   //   "og:image:secure_url": seo_img
   // },
+  other: {
+    "theme-color": "#ffffff"
+  }
 }
 
 const fetchBrands = async () => {
