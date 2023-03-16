@@ -169,6 +169,17 @@ const Hero = styled.div`
           padding-left: 1rem;
           width: auto;
         }
+
+        .product-hunt {
+          margin: 0 0 0.5rem;
+          padding: 0;
+          width: 12rem;
+
+          @media ${({ theme }) => theme.mediaQuery.tablet} {
+            margin: 0 0 0.5rem;
+            width: 15rem;
+          }
+        }
       }
 
       h1 {
@@ -588,6 +599,13 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
           <div className="wrapper">
             <div className="content">
               <div className="inner">
+                <a className="product-hunt" href="https://www.producthunt.com/posts/projectspce?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-projectspce" target="_blank">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img 
+                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=384223&theme=neutral"
+                    alt="ProjectSpce - Hand&#0032;curated&#0032;products&#0032;from&#0032;the&#0032;best&#0032;parts&#0032;of&#0032;the&#0032;internet | Product Hunt"
+                  />
+                </a>
                 <h1 className="h3">
                   Currated products for your&nbsp;
                   <em>
