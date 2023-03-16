@@ -602,7 +602,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
                 <a className="product-hunt" href="https://www.producthunt.com/posts/projectspce?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-projectspce" target="_blank">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img 
-                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=384223&theme=neutral"
+                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=384223&theme=light"
                     alt="ProjectSpce - Hand&#0032;curated&#0032;products&#0032;from&#0032;the&#0032;best&#0032;parts&#0032;of&#0032;the&#0032;internet | Product Hunt"
                   />
                 </a>
