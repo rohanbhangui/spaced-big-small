@@ -1,0 +1,184 @@
+{
+    "title": "Easyplant",
+    "path": "easyplant",
+    "link": {
+        "url": "https://easyplant.com/",
+        "label": "easyplant.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#47634e",
+            "background": "#ffe9dc"
+        }
+    },
+    "headerImage": "easyplant/faq-banner.webp",
+    "description": "Easyplant is dedicated to helping gardening enthusiasts and plant lovers of all levels cultivate their green thumb by offering expert advice, and an extensive database of plants.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "easyplant/plants-on-vacation-easyplant-lifestyle-lead-pr-1122.jpg",
+            "img_alt": "easyplant image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "easyplant/staghorn-fern.jpg",
+            "img_alt": "easyplant image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "easyplant/297463816_385892260352476_4889262315796754604_n.jpg",
+            "img_alt": "easyplant image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "easyplant/calathea-trio-star.jpg",
+            "img_alt": "easyplant image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "easyplant/i-got-this-from-easyplant-delivery-was-delayed-and-heat-v0-mrwehauzij981.webp",
+            "img_alt": "easyplant image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "White Bird of Paradise",
+            "hover_subtitle": "Iron Gray",
+            "hover_thumbnail": "easyplant/WhitebirdofparadiseHuge_Iron_Gray_b0628caa-2733-4e7d-be5b-9422aeb4d021.jpg",
+            "hover_link": "https://easyplant.com/products/huge/white-bird-of-paradise-huge?variant=Iron%20Gray",
+            "img": "easyplant/WhiteBirdOfParadiseHuge_Iron_Gray.jpg",
+            "img_alt": "White Bird of Paradise",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "80%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Anthurium",
+            "hover_subtitle": "Cream",
+            "hover_thumbnail": "easyplant/Anthurium_Era_cream.jpg",
+            "hover_link": "https://easyplant.com/products/medium/anthurium-red-medium-era?variant=Cream",
+            "img": "easyplant/0032_M_03_C_01_IMG_leaves.jpg",
+            "img_alt": "Anthurium",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "80%",
+                    "top": "80%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Money Tree",
+            "hover_subtitle": "Mustard",
+            "hover_thumbnail": "easyplant/money_tree-Amber_medium_mustard_yellow.jpg",
+            "hover_link": "https://easyplant.com/products/medium/money-tree-medium-amber?variant=Mustard",
+            "img": "easyplant/Home_Amber_mustard_yellow_c3b8ec13-2155-4a53-9e35-dfd952129ece.jpg",
+            "img_alt": "Money Tree",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "45%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Fishbone Cactus",
+            "hover_subtitle": "Deep Navy",
+            "hover_thumbnail": "easyplant/FishbonecactusAmber_small_blue_ver02.jpg",
+            "hover_link": "https://easyplant.com/products/small/fishbone-cactus-small?variant=Deep%20Navy",
+            "img": "easyplant/Fishbone-Cactus-02.jpeg",
+            "img_alt": "Fishbone Cactus",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "25%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Cast Iron Plant",
+            "hover_subtitle": "Earth Red",
+            "hover_thumbnail": "easyplant/CastIronPlantLarge_Earth_Red.jpg",
+            "hover_link": "https://easyplant.com/products/large/cast-iron-plant-large?variant=Earth%20Red",
+            "img": "easyplant/Large_Earth_Red_04467f71-c310-4b12-8287-02d324c2cdc1.jpg",
+            "img_alt": "Cast Iron Plant",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "80%"
+                }
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Woodsy Wonders",
+            "hover_subtitle": "The Evening Sky Palette",
+            "hover_thumbnail": "easyplant/354386_03_7a5b2313-512d-4900-9b8f-9e4b647376a7.jpg",
+            "hover_link": "https://easyplant.com/products/collections/woodsy-wonders-2?variant=Evening%20Sky",
+            "img": "easyplant/356388_03_c69ff6c1-ebe1-4920-8809-40490735c011.jpg",
+            "img_alt": "Woodsy Wonders",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "83%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "minimalist",
+        "modern",
+        "sustainable",
+        "plants",
+        "bedroom",
+        "living room",
+        "home"
+    ],
+    "hiddenTags": [
+        "home decor",
+        "workspace"
+    ]
+}

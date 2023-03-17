@@ -585,8 +585,6 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       return !prev
     })
   }
-
-
   
   return (
     <Container>
