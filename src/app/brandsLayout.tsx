@@ -561,10 +561,12 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
     if(debouncedSearch) {
       router.replace(`?query=${debouncedSearch}`);
 
-      analytics.track(Event.SEARCH, {
-        searchTerm: debouncedSearch,
-        results: filterBrands.length,
-      });
+      if(debouncedSearch !== "") {
+        analytics.track(Event.SEARCH, {
+          searchTerm: debouncedSearch,
+          results: filterBrands.length,
+        });
+      }
 
     } else {
       router.replace(`/`);

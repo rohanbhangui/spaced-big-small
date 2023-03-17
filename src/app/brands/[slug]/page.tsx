@@ -16,6 +16,10 @@ export interface PageProps {
 export const generateMetadata = async ({ params }: { params: PageProps["params"]}) => {
   const data = await fetchData(params);
 
+  if(!data) {
+    return {}
+  }
+
   const title = `ProjectSpce - ${data.title}`;
   const seo_img = `${process.env.NEXT_PUBLIC_HOST}/img/${data.headerImage.split("/").at(-1)}`;
   const url = `${process.env.NEXT_PUBLIC_HOST}/brands/${data.path}`;
@@ -75,18 +79,26 @@ export const generateStaticParams = async (): Promise<PageParams[]> => {
 
 const fetchData = async (params: PageProps["params"]) => {
   const slug = params?.slug;
-  const fileName = JSON.parse(fs.readFileSync(`brands/${slug}.json`, 'utf-8'));
+  let fileName;
 
-  return fileName as BrandDataProps;
+  try {
+    fileName = fs.readFileSync(`brands/${slug}.json`, 'utf-8')
+  } catch (e) {
+    fileName=JSON.stringify(false)
+  }
+
+  return JSON.parse(fileName) as BrandDataProps;
 }
 
 const Layout = async ({params}: PageProps) => {
-  let data: BrandDataProps;
+  let data: BrandDataProps | boolean;
   try {
     data = await fetchData(params);
   } catch (err) {
     return <NotFound />;
   }
+  
+  if(!data) return <NotFound />
 
   // headerImage
   const headerImage = await import(`@/assets/img/${data.headerImage}`);

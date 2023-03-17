@@ -4,6 +4,7 @@ import NotFound from '@/components/NotFound';
 import SpacesLayout from './spacesLayout';
 import { lowerCase, startCase } from 'lodash';
 import path from 'path';
+import { SPACES } from '@/utils/constants';
 
 export const config = {
   dynamicParams: true
@@ -81,7 +82,7 @@ const fetchBrands = async () => {
   // get each json
   const brandFiles = files.map((fileName) => {
       const readFile = fs.readFileSync(`brands/${fileName}`, 'utf-8');
-
+      
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { montageItems, highlightGrid, ...rest } = JSON.parse(readFile);
       return {
@@ -115,7 +116,7 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     // if slug is not a string show not found
     const slug = lowerCase(decodeURIComponent(params?.slug as string));
     console.warn("SLUG", slug);
-    if(!slug) return <NotFound />
+    if(!slug || !Object.keys(SPACES).includes(slug)) return <NotFound />
 
     const brands = await Promise.all(
       isInSpace(brandsData, slug).map(async(item) => {
@@ -130,7 +131,7 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
       })
     );
 
-    const title = slug === "edc" ? "EDC" : startCase(slug)
+    const title = slug === "edc" ? "EDC" : startCase(slug);
 
     return (
       <SpacesLayout title={title} brands={brands.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()))} />
