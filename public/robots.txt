@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://projectspce.com
+
+# Sitemaps
+Sitemap: https://projectspce.com/sitemap.xml
