@@ -78,7 +78,7 @@ export const metadata = {
 export const generateStaticParams = async (): Promise<PageParams[]> => {
   // Generate a path for each one
   const paths = Object.keys(SPACES).map((space) => ({
-    slug: space,  
+    slug: space,
   }));
 
   // return list of paths
@@ -115,6 +115,7 @@ const isInSpace = (brands: any[], elem: string) => {
 const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     let brandsData;
 
+    debugger;
     try {
       brandsData = await fetchBrands();
     } catch (err) {
@@ -125,8 +126,9 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
 
     // if slug is not a string show not found
     const slug = lowerCase(decodeURIComponent(params?.slug as string));
-    console.warn("SLUG", slug);
-    if(!slug || !Object.keys(SPACES).includes(slug)) return <NotFound />
+    console.warn("SLUG", slug, Object.keys(SPACES));
+    debugger;
+    if(!slug || !Object.keys(SPACES).map(space => space.toLocaleLowerCase()).includes(slug)) return <NotFound />
 
     const brands = await Promise.all(
       isInSpace(brandsData, slug).map(async(item) => {
