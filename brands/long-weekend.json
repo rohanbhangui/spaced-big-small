@@ -1,0 +1,184 @@
+{
+    "title": "Long Weekend",
+    "path": "long-weekend",
+    "link": {
+        "url": "https://www.longweekendbrand.com/",
+        "label": "longweekendbrand.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#203c7f",
+            "background": "#efeeea"
+        }
+    },
+    "headerImage": "longweekend/longweekend-cover.jpeg",
+    "description": "Long Weekend makes in fashionable and comfortable gear that aims to inspire epic road trips, shooting film, and slowing down to take it all in.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "longweekend/633cac5779aae47a8ee8a7be_2016930-R1-E003-38 1.png",
+            "img_alt": "long weekend image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "longweekend/618eee2e5eec6fde73a8283c_LongWeekend040 1 (1).jpg",
+            "img_alt": "long weekend image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "longweekend/633cac9135b415392acd4672_Longweewee000162-R1-E015 1.png",
+            "img_alt": "long weekend image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "longweekend/619323487a6e4058b49d8a2b_LW Details.jpg",
+            "img_alt": "long weekend image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "longweekend/618dc997b61ae3a8c46c9621_LongWeekend013-Edit 1 (1).jpg",
+            "img_alt": "long weekend image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Sante Fe Shoulder Bag",
+            "hover_subtitle": "Creme-Multi",
+            "hover_thumbnail": "longweekend/resizer.jpeg",
+            "hover_link": "https://www.shopmoment.com/products/long-weekend-santa-fe-shoulder-bag/creme-multi",
+            "img": "longweekend/LongWeekend001-Edit-webres.jpg",
+            "img_alt": "Sante Fe Shoulder Bag",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Monterey Sling",
+            "hover_subtitle": "Black",
+            "hover_thumbnail": "longweekend/resizer-black.jpeg",
+            "hover_link": "https://www.shopmoment.com/products/long-weekend-monterey-sling/black",
+            "img": "longweekend/51c2ed9e-4moment-long-weekend-monterey-sling-fanny-pack.jpg",
+            "img_alt": "Monterey Sling",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Beacon Tote",
+            "hover_subtitle": "",
+            "hover_thumbnail": "longweekend/resizer.webp",
+            "hover_link": "https://www.shopmoment.com/products/long-weekend-beacon-tote/",
+            "img": "longweekend/NEW_Long_Weekend_Website_Images_Steven_Schultz-11-1_2023-03-16-165006_hlnr.jpg",
+            "img_alt": "Beacon Tote",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "30%",
+                    "top": "60%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Camera Wrist Strap",
+            "hover_subtitle": "Black",
+            "hover_thumbnail": "longweekend/resizer-straps.jpeg",
+            "hover_link": "https://www.shopmoment.com/products/long-weekend-camera-wrist-strap/black",
+            "img": "longweekend/DSCF0465-scaled.webp",
+            "img_alt": "Camera Wrist Strap",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "45%",
+                    "top": "50%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Film Pouch",
+            "hover_subtitle": "15 Rolls",
+            "hover_thumbnail": "longweekend/resizer-film.jpeg",
+            "hover_link": "https://www.shopmoment.com/products/long-weekend-film-pouch/15-rolls",
+            "img": "longweekend/Longweekend-film-pouch-15-rolls_thumb.jpg",
+            "img_alt": "Film Pouch",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "45%",
+                    "top": "80%"
+                }
+            },
+            "tooltip": {
+                "placement": "top center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Point and Shoot Camera Pouch",
+            "hover_subtitle": "Black",
+            "hover_thumbnail": "longweekend/resizer-case.jpeg",
+            "hover_link": "https://www.shopmoment.com/products/long-weekend-camera-pouch/black",
+            "img": "longweekend/Moment-Long-Weekend-213-022-Camera-Pouch-Black-lifestyle-22.jpg",
+            "img_alt": "Point and Shoot Camera Pouch",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "66%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "travel",
+        "minimal",
+        "modern",
+        "case",
+        "edc",
+        "tote",
+        "camera"
+    ],
+    "hiddenTags": [
+        "minimalist",
+        "bags"
+    ]
+}
