@@ -1,0 +1,190 @@
+{
+    "title": "Native Union",
+    "path": "native-union",
+    "link": {
+      "url": "https://www.nativeunion.com/",
+      "label": "nativeunion.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#000000",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "nativeunion/MicrosoftTeams-image_1.webp",
+    "description": "Native Union is a tech accessories brand that offers a range of stylish and functional products such as phone cases, charging cables, wireless chargers, and audio devices, designed with a combination of quality materials, innovative features, and contemporary aesthetics.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "nativeunion/dock-wireless-charger-tile-1.webp",
+        "img_alt": "native union montage shot"
+      },
+      {
+        "id": "1",
+        "img": "nativeunion/3_b8007728-ae81-4158-a88a-7262164c4200.webp",
+        "img_alt": "native union montage shot"
+      },
+      {
+        "id": "2",
+        "img": "nativeunion/native-union-usb-c-lightning-key-cable-iphone-copy.webp",
+        "img_alt": "native union montage shot"
+      },
+      {
+        "id": "3",
+        "img": "nativeunion/Fold_Home_banner.webp",
+        "img_alt": "native union montage shot"
+      },
+      {
+        "id": "4",
+        "img": "nativeunion/native-union-anchor-cable-product-design-technology-charger_dezeen_sq.webp",
+        "img_alt": "native union montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Drop XL Wireless Charger",
+        "hover_subtitle": "",
+        "hover_thumbnail": "nativeunion/DROPXL_W_Hero_withitems_Thumbnail_1_7f8e4925-d7bd-4902-a719-8ece7fbce4d8_800x.png",
+        "hover_link": "https://www.nativeunion.com/products/drop-xl-wireless-charger-watch-edition",
+        "img": "nativeunion/orig 1.png",
+        "img_alt": "Drop XL Wireless Charger",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "82%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Stow Organizer",
+        "hover_subtitle": "Slate",
+        "hover_thumbnail": "nativeunion/STOW_organizer_slate_55af5cd9-6fd3-4bc1-b25c-33396f788d11_800x.webp",
+        "hover_link": "https://www.nativeunion.com/products/stow-accessory-organizer",
+        "img": "nativeunion/Stow-Accessory-Organizer-by-Native-Union-01.jpg",
+        "img_alt": "Stow Organizer",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "52%",
+            "top": "64%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "(Re)Classic Case For iPhone 14",
+        "hover_subtitle": "Kraft",
+        "hover_thumbnail": "nativeunion/Icon_Kraft_14P_13103c83-721b-4a5d-abf9-3efed983b049_750x.png",
+        "hover_link": "https://www.nativeunion.com/products/clic-reclassic-iphone-14?variant=41158888784011",
+        "img": "nativeunion/MG_0712_m_f24460d3-bac8-4687-981a-7fd797698c20.webp",
+        "img_alt": "(Re)Classic Case For iPhone 14",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "47%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Stow Slim for Macbook",
+        "hover_subtitle": "Slate",
+        "hover_thumbnail": "nativeunion/STOW-Slim-MacBook-Thumbnails_13_front_slate_shadow_2cd8da9a-94b5-49c8-b241-099e546470f8_800x.webp",
+        "hover_link": "https://www.nativeunion.com/products/stow-slim-for-macbook-13",
+        "img": "nativeunion/139708-4-product-3x.jpg",
+        "img_alt": "Stow Slim for Macbook",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "54%",
+            "top": "66%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Night Cable (USB-A to Lightning)",
+        "hover_subtitle": "Cosmos",
+        "hover_thumbnail": "nativeunion/NIGHT_CABLE_cosmos_27dbb2b5-d60a-4165-b822-128b79ebce96_800x.webp",
+        "hover_link": "https://www.nativeunion.com/products/night-cable-usb-a-to-lightning?variant=34253245612171",
+        "img": "nativeunion/night-cable-3m-2.jpg",
+        "img_alt": "Night Cable (USB-A to Lightning)",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "67%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "City Sling",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "nativeunion/RecycleIcon_black_554d08c0-885e-4c81-9eb0-ce9430d26061_800x.png",
+        "hover_link": "https://www.nativeunion.com/products/city-sling",
+        "img": "nativeunion/MG_0648_m_tag.webp",
+        "img_alt": "City Sling",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "75%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "chargers",
+      "stands",
+      "minimal",
+      "technology",
+      "office",
+      "desk",
+      "iphone",
+      "apple",
+      "macbook",
+      "mac",
+      "ipad",
+      "case",
+      "sleeve"
+    ],
+    "hiddenTags": [
+      "charging",
+      "tech"
+    ]
+  }
