@@ -75,6 +75,16 @@ export const metadata = {
   }
 }
 
+export const generateStaticParams = async (): Promise<PageParams[]> => {
+  // Generate a path for each one
+  const paths = Object.keys(SPACES).map((space) => ({
+    slug: space,
+  }));
+
+  // return list of paths
+  return paths;
+}
+
 const fetchBrands = async () => {
   // get list of files from the brands folder
   const files = fs.readdirSync(path.resolve(process.cwd(), 'brands'));
