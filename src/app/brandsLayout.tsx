@@ -627,7 +627,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
               </div>
             </div>
             <div className="img-container hero">
-              <Image src={HeroImage} alt="hero image" placeholder="blur" />
+              <Image src={HeroImage} alt="hero image" placeholder="blur" priority />
             </div>
           </div>
         )}
