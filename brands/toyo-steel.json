@@ -1,0 +1,189 @@
+{
+    "title": "Toyo Steel",
+    "path": "toyo-steel",
+    "link": {
+        "url": "https://www.toyosteel.jp/en",
+        "label": "toyosteel.jp"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#2a5079",
+            "background": "#ffffff"
+        }
+    },
+    "headerImage": "toyosteel/img_top_mv_04.webp",
+    "description": "Toyo Steel Co. Ltd. is a Japanese company that specializes in the production of steel products such as toolboxes and other containers.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "toyosteel/img_top_mv_03.webp",
+            "img_alt": "toyo steel image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "toyosteel/160755_g.webp",
+            "img_alt": "toyo steel image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "toyosteel/ToolBox.jpg",
+            "img_alt": "toyo steel image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "toyosteel/FEjhjPCXwAQFWBA.jpeg",
+            "img_alt": "toyo steel image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "toyosteel/TO-Y280BU-Enviro_1024x1024@2x.webp",
+            "img_alt": "toyo steel image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "ST-350 B",
+            "hover_subtitle": "Blue",
+            "hover_thumbnail": "toyosteel/ST350.jpg",
+            "hover_link": "https://www.toyosteel.jp/collections/allitem/products/st-350-b",
+            "img": "toyosteel/toyo_78.jpg",
+            "img_alt": "ST-350 B",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "T-150 MG",
+            "hover_subtitle": "Military Green",
+            "hover_thumbnail": "toyosteel/T150MGTOYO.jpg",
+            "hover_link": "https://www.toyosteel.jp/collections/allitem/products/t-150-mg",
+            "img": "toyosteel/photo_00947 1.png",
+            "img_alt": "T-150 MG",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "T-190 R",
+            "hover_subtitle": "Red",
+            "hover_thumbnail": "toyosteel/T190R.jpg",
+            "hover_link": "https://www.toyosteel.jp/collections/allitem/products/t-190-r",
+            "img": "toyosteel/T190group.jpg",
+            "img_alt": "T-190 R",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "45%",
+                    "top": "60%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Y-280 SV",
+            "hover_subtitle": "Silver",
+            "hover_thumbnail": "toyosteel/Y-280_SV.jpg",
+            "hover_link": "https://www.toyosteel.jp/collections/allitem/products/y-280-sv",
+            "img": "toyosteel/photo_01517.jpg",
+            "img_alt": "Y-280 SV",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "45%",
+                    "top": "80%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "M-8 MG TOYO",
+            "hover_subtitle": "Military Green",
+            "hover_thumbnail": "toyosteel/M-8_MG_03_84019de5-359f-4617-a477-30233a9c2c3b.jpg",
+            "hover_link": "https://www.toyosteel.jp/collections/allitem/products/m-8-mg",
+            "img": "toyosteel/photo_00131.jpg",
+            "img_alt": "M-8 MG TOYO",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "20%",
+                    "top": "65%"
+                }
+            },
+            "tooltip": {
+                "placement": "top center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Konstella Pouch",
+            "hover_subtitle": "Champagne Gold",
+            "hover_thumbnail": "toyosteel/901e8d325efe5beea11e79a0df0e2b4a.jpg",
+            "hover_link": "https://www.toyosteel.jp/collections/allitem/products/konstella-pouch-c-gold",
+            "img": "toyosteel/079A0355_9f70fa93-a2cb-46cf-afae-00d28f5755bd.jpg",
+            "img_alt": "Konstella Pouch",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "66%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "travel",
+        "minimal",
+        "modern",
+        "case",
+        "japan",
+        "home",
+        "toolbox",
+        "storage",
+        "organize"
+    ],
+    "hiddenTags": [
+        "minimalist",
+        "japanese",
+        "box",
+        "container",
+        "organization"
+    ]
+}
