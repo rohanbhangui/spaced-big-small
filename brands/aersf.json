@@ -44,6 +44,7 @@
         {
             "id": "a",
             "hover_name": "Travel Pack 3",
+            "hover_subtitle": "",
             "hover_thumbnail": "aersf/AER21033_travelpack3small_black_34hero.jpg",
             "hover_link": "https://www.aersf.com/travel-pack-3-small-black",
             "img": "aersf/AER21033_travelpack3small_ls_6.jpg",

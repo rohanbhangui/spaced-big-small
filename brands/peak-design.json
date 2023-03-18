@@ -1,0 +1,186 @@
+{
+    "title": "Peak Design",
+    "path": "peak-design",
+    "link": {
+        "url": "https://www.peakdesign.com/",
+        "label": "peakdesign.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#c93831",
+            "background": "#ffffff"
+        }
+    },
+    "headerImage": "peakdesign/Peak-Everyday-Backpack-V2-3.webp",
+    "description": "Peak Design designs and produces innovative camera bags, backpacks, and accessories for photographers and travelers. Their products are known for their high quality, versatility, and functionality.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "peakdesign/backpacklifestyle6.jpg",
+            "img_alt": "peak design image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "peakdesign/Peak-Design-Everyday-Messenger-13L-v2-Black-0003.jpg",
+            "img_alt": "peak design image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "peakdesign/Peak_Design_3.jpeg",
+            "img_alt": "peak design image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "peakdesign/peak-design-slide-strap-review-03008.jpg",
+            "img_alt": "peak design image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "peakdesign/IMG_6760.jpg",
+            "img_alt": "peak design image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Everyday Backpack",
+            "hover_subtitle": "Charcoal",
+            "hover_thumbnail": "peakdesign/everyday-backpack-black-20-1_750x750.jpg",
+            "hover_link": "https://www.peakdesign.com/products/everyday-backpack?variant=29743300771884",
+            "img": "peakdesign/Peak-Design-Everyday-Backpack-Chrcl-Lfstyl4.jpg",
+            "img_alt": "Everyday Backpack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Everyday Sling",
+            "hover_subtitle": "Midnight",
+            "hover_thumbnail": "peakdesign/everyday-sling-midnight-6-1_750x750.jpg",
+            "hover_link": "https://www.peakdesign.com/products/everyday-sling?variant=31374294384717",
+            "img": "peakdesign/everyday-sling-midnight-6-5.jpg",
+            "img_alt": "Everyday Sling",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "25%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Leash",
+            "hover_subtitle": "Black",
+            "hover_thumbnail": "peakdesign/leash-black-pdp-1-HERO-1_750x750.jpg",
+            "hover_link": "https://www.peakdesign.com/products/leash",
+            "img": "peakdesign/1-LIGHTBOX-1024x1024-SLIDE-BLACK-05.jpg",
+            "img_alt": "Leash",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Tech Pouch",
+            "hover_subtitle": "Midnight",
+            "hover_thumbnail": "peakdesign/tech-pouch-midnight-1_750x750.jpg",
+            "hover_link": "https://www.peakdesign.com/products/tech-pouch?variant=33179386183757",
+            "img": "peakdesign/tech-pouch-midnight-7.jpg",
+            "img_alt": "Tech Pouch",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Everyday Totepack",
+            "hover_subtitle": "Bone",
+            "hover_thumbnail": "peakdesign/everyday-totepack-bone-20-1_750x750.jpg",
+            "hover_link": "https://www.peakdesign.com/products/everyday-totepack?variant=29741599883308",
+            "img": "peakdesign/everyday-totepack-bone-20-7.jpg",
+            "img_alt": "Everyday Totepack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "52%",
+                    "top": "50%"
+                }
+            },
+            "tooltip": {
+                "placement": "bottom center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Travel Tripod",
+            "hover_subtitle": "Aluminum",
+            "hover_thumbnail": "peakdesign/TTA-6-1_750x750.jpg",
+            "hover_link": "https://www.peakdesign.com/products/travel-tripod?variant=29420893274156",
+            "img": "peakdesign/TTA-3.jpg",
+            "img_alt": "Travel Tripod",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "productivity",
+        "travel",
+        "minimal",
+        "modern",
+        "sustainable",
+        "backpack",
+        "edc",
+        "camera",
+        "outdoor",
+        "tech"
+    ],
+    "hiddenTags": [
+        "minimalist"
+    ]
+}
