@@ -1,0 +1,185 @@
+{
+    "title": "Grovemade",
+    "path": "grovemade",
+    "link": {
+      "url": "https://grovemade.com/",
+      "label": "grovemade.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#111111",
+        "background": "#f8f8f8"
+      }
+    },
+    "headerImage": "grovemade/grovemade-brand-lead-1618947376.jpg",
+    "description": "Grovemade offers handcrafted accessories and furniture for tech products, such as laptops, phones, and watches, as well as for the home and office. Their products are made with high-quality materials like wood, leather, and metal, and are designed to be functional and stylish.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "grovemade/desk-shelf-walnut-147829.webp",
+        "img_alt": "grovemade image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "grovemade/DTXMPOYVoAAQw57.jpeg",
+        "img_alt": "grovemade image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "grovemade/grovemade-walnut-laptop-stand-2019-A4.webp",
+        "img_alt": "grovemade image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "grovemade/grovemade-pen-brass-galB-HR-C1-e1568663768923.jpg",
+        "img_alt": "grovemade image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "grovemade/com_uploads_coverB-desk-shelf-B1.jpg",
+        "img_alt": "grovemade image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Desk Shelf",
+        "hover_subtitle": "Walnut Plywood",
+        "hover_thumbnail": "grovemade/shelf-walnut.jpeg",
+        "hover_link": "https://grovemade.com/product/wood-desk-shelf/?initial=342",
+        "img": "grovemade/com_uploads_grovemade-desk-tray-dark-galB-C3.jpg",
+        "img_alt": "Desk Shelf",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "57%",
+            "top": "57%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Wood Magsafe Charger",
+        "hover_subtitle": "Brass",
+        "hover_thumbnail": "grovemade/brass-charger.jpeg",
+        "hover_link": "https://grovemade.com/product/magsafe-stand/?initial=665",
+        "img": "grovemade/brass-charger-1.jpg",
+        "img_alt": "Wood Magsafe Charger",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "78%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Wool Felt Desk Pad",
+        "hover_subtitle": "Light Grey",
+        "hover_thumbnail": "grovemade/mat.jpeg",
+        "hover_link": "https://grovemade.com/product/wool-felt-desk-pad/?initial=346",
+        "img": "grovemade/mat-1.jpg",
+        "img_alt": "Wool Felt Desk Pad",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Wood Headphone Stand",
+        "hover_subtitle": "Maple",
+        "hover_thumbnail": "grovemade/headphonestand.jpeg",
+        "hover_link": "https://grovemade.com/product/wood-headphone-stand/?initial=489",
+        "img": "grovemade/headphonestand-1.jpg",
+        "img_alt": "Wood Headphone Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Wood Pen Cup",
+        "hover_subtitle": "Maple",
+        "hover_thumbnail": "grovemade/pencil-holder-1.jpeg",
+        "hover_link": "https://grovemade.com/product/wood-pen-cup/?initial=72",
+        "img": "grovemade/pencil-holder.jpg",
+        "img_alt": "Wood Pen Cup",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "20%",
+            "top": "80%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Matte Notebook",
+        "hover_subtitle": "Navy/Slim/Ruled",
+        "hover_thumbnail": "grovemade/navy-notepad-1.jpeg",
+        "hover_link": "https://grovemade.com/product/matte-notebook/?initial=620",
+        "img": "grovemade/navy-notepad.jpg",
+        "img_alt": "Matte Notebook",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "35%",
+            "top": "60%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "wood",
+      "tech",
+      "macbook",
+      "office",
+      "iphone",
+      "magsafe",
+      "charging",
+      "desk",
+      "shelf"
+    ]
+  }
