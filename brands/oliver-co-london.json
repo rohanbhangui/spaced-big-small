@@ -1,0 +1,184 @@
+{
+    "title": "Oliver Co. London",
+    "path": "oliver-co-london",
+    "link": {
+        "url": "https://olivercompanylondon.com/",
+        "label": "olivercompanylondon.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#000000",
+            "background": "#e3e3e3"
+        }
+    },
+    "headerImage": "olivercolondon/Oliver-Co-HR2.jpg",
+    "description": "Oliver Company is a luxury lifestyle brand based in London, UK, that specializes in creating high-quality leather goods such as bags, wallets, and accessories. Their products are made using traditional techniques and fine materials, with a focus on timeless design and durability.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "olivercolondon/oliver-co-london-vegan-rfid-compact-wallet-28779887296598_2048x.jpg",
+            "img_alt": "oliver company london image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "olivercolondon/RFIDCompactNoteWallet02square_2048x.webp",
+            "img_alt": "oliver company london image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "olivercolondon/Oliver_Co-Slim-Cardholder-05.webp",
+            "img_alt": "oliver company london image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "olivercolondon/oliver-co-london-vegan-rfid-compact-wallet-gift-set-29100853657686_2048x.jpg",
+            "img_alt": "oliver company london image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "olivercolondon/oliver-co-london-vegan-rfid-compact-wallet-29295194603606_2048x.webp",
+            "img_alt": "oliver company london image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Premium Slim Card Holder",
+            "hover_subtitle": "Forest Green",
+            "hover_thumbnail": "olivercolondon/oliver-co-london-vegan-premium-slim-card-holder-30801749180502_750x750.jpg",
+            "hover_link": "https://olivercompanylondon.com/products/premium-card-holder?variant=40078056751190",
+            "img": "olivercolondon/IMG_0024_copy.jpg",
+            "img_alt": "Premium Slin Card Holder",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Slim Laptop Sleeve",
+            "hover_subtitle": "",
+            "hover_thumbnail": "olivercolondon/oliver-co-london-vegan-slim-laptop-sleeve-29181499146326_750x750.jpg",
+            "hover_link": "https://olivercompanylondon.com/collections/all-products/products/vegan-laptop-sleeve?variant=44159534465333",
+            "img": "olivercolondon/325728961_6859248220770570_2954820686966189413_n.jpg",
+            "img_alt": "Slim Laptop Sleeve",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "58%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Essentials Bag",
+            "hover_subtitle": "",
+            "hover_thumbnail": "olivercolondon/oliver-co-london-vegan-essentials-bag-30801057939542_750x750.jpg",
+            "hover_link": "https://olivercompanylondon.com/collections/all-products/products/the-essentials-bag?variant=40077750632534",
+            "img": "olivercolondon/oliver-co-london-vegan-essentials-bag-30800724787286.jpg",
+            "img_alt": "Essentials Bag",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "30%",
+                    "top": "62%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Keyring",
+            "hover_subtitle": "",
+            "hover_thumbnail": "olivercolondon/oliver-co-london-vegan-keyring-apple-leather-16166418317398_750x750.jpg",
+            "hover_link": "https://olivercompanylondon.com/collections/all-products/products/keyring-apple-leather?variant=39331512123478",
+            "img": "olivercolondon/oliver-co-london-vegan-keyring-apple-leather-16166418579542.jpg",
+            "img_alt": "Keyring",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "38%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Premium Note Wallet",
+            "hover_subtitle": "",
+            "hover_thumbnail": "olivercolondon/Premium-Note-Vegan-Wallet-Black-1-web_750x750.jpg",
+            "hover_link": "https://olivercompanylondon.com/collections/all-products/products/premium-note-wallet?variant=44377363022133",
+            "img": "olivercolondon/Premium-Note-Vegan-Wallet-Black-5-web.jpg",
+            "img_alt": "Premium Note Wallet",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "55%",
+                    "top": "55%"
+                }
+            },
+            "tooltip": {
+                "placement": "bottom center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Premium Compact Wallet",
+            "hover_subtitle": "Black Camo",
+            "hover_thumbnail": "olivercolondon/oliver-co-london-vegan-rfid-premium-compact-wallet-30890950656086_750x750.jpg",
+            "hover_link": "https://olivercompanylondon.com/collections/all-products/products/premium-compact-wallet?variant=40109311721558",
+            "img": "olivercolondon/oliver-co-london-vegan-rfid-premium-compact-wallet-30891237146710.jpg",
+            "img_alt": "Premium Compact Wallet",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "65%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "leather",
+        "minimal",
+        "modern",
+        "sustainable",
+        "laptop",
+        "office",
+        "edc",
+        "pockets"
+    ],
+    "hiddenTags": [
+        "minimalist"
+    ]
+}
