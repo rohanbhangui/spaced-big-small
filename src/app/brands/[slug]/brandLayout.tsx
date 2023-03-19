@@ -431,7 +431,7 @@ const StyledPopup = styled(Popup)`
         margin: 0.5rem 1rem;
         font-size: 1rem;
         color: black;
-        max-width: 15rem;
+        max-width: 15.2rem;
 
         .title {
           font-weight: 600;
