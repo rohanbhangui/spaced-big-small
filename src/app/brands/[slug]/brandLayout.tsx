@@ -593,6 +593,8 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
     setMontageSlidesToShow(renderNumberOfMontageSlides(width))
   }, [width])
 
+  console.log("DEBUG", highlightGrid);
+
   return (
     <Container background={theme.colors.background} color={theme.colors.primary}>
       <div className="inner-wrapper">
@@ -646,40 +648,44 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
               <div className={`img ${id}`} key={id}>
                 {isSmallTabletUp ? (
                   <>
-                    <StyledPopup 
-                      on={['hover']}
-                      trigger={
-                        <ToolTipPoint
-                          href={hover_link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          position={hover_position.smallTablet}
-                        >
-                          <ToolTipButton />
-                        </ToolTipPoint>
-                      }
-                      position={tooltip?.placement ?? 'top center'}
-                    >
-                      <a href={hover_link} className="flex" target="_blank" rel="noopener noreferrer">
-                        <div className="img-container">
-                          <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
-                        </div>
-                        <div className="overlay-content">
-                          <div className="title">{hover_name}</div>
-                          { hover_subtitle ? (
-                            <div className="subtitle">{hover_subtitle}</div>
-                          ): null }
-                        </div>
-                      </a>
-                    </StyledPopup>
+                    {JSON.parse(hover_thumbnail) ? (
+                       <StyledPopup 
+                       on={['hover']}
+                       trigger={
+                         <ToolTipPoint
+                           href={hover_link}
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           position={hover_position.smallTablet}
+                         >
+                           <ToolTipButton />
+                         </ToolTipPoint>
+                       }
+                       position={tooltip?.placement ?? 'top center'}
+                     >
+                       <a href={hover_link} className="flex" target="_blank" rel="noopener noreferrer">
+                         <div className="img-container">
+                           <Image quality={50} width={64} height={64} src={JSON.parse(hover_thumbnail)} alt={img_alt} />
+                         </div>
+                         <div className="overlay-content">
+                           <div className="title">{hover_name}</div>
+                           { hover_subtitle ? (
+                             <div className="subtitle">{hover_subtitle}</div>
+                           ): null }
+                         </div>
+                       </a>
+                     </StyledPopup>
+                    ): null}
                     <Image
                       src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
                   </>
                 ): (
                   <a href={hover_link} className="flex">
-                    <div className="overlay-mobile-text">
-                      {hover_name}
-                    </div>
+                    {JSON.parse(hover_thumbnail) ? (
+                      <div className="overlay-mobile-text">
+                        {hover_name}
+                      </div>
+                    ): null}
                     <Image
                       src={JSON.parse(img)} alt={img_alt} quality={90} placeholder="blur" />
                   </a>

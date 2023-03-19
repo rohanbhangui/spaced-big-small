@@ -1,0 +1,172 @@
+{
+    "title": "Opal",
+    "path": "opal-camera",
+    "link": {
+      "url": "https://opalcamera.com/",
+      "label": "opalcamera.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#8c8c8c",
+        "background": "#000000"
+      }
+    },
+    "headerImage": "opalcamera/two-cameras.jpeg",
+    "description": "Opal makes webcams with DSLR quality sensors, cutting edge features for conferencing and in a package that is sleek and minimal.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "opalcamera/cfaulkner_141231_4911_0002.jpg",
+        "img_alt": "opal camera image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "opalcamera/two-black.jpeg",
+        "img_alt": "opal camera image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "opalcamera/one-white.jpeg",
+        "img_alt": "opal camera image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "opalcamera/681590_2f6aed55da7f4f0eb2023c6ea6395c51.jpeg",
+        "img_alt": "opal camera image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Camera",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "opalcamera/one-black-1639595211858.jpeg",
+        "hover_link": "https://opalcamera.com/",
+        "img": "opalcamera/Fjw3EzgX0AELGsv.jpeg",
+        "img_alt": "Camera",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "55%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Camera",
+        "hover_subtitle": "White",
+        "hover_thumbnail": "opalcamera/one-white-1.jpeg",
+        "hover_link": "https://opalcamera.com/",
+        "img": "opalcamera/73d1b81d-a704-4bf7-804f-819b8ea208d9.jpg",
+        "img_alt": "Camera",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "60%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Camera",
+        "hover_thumbnail": "",
+        "hover_link": "https://opalcamera.com/",
+        "img": "opalcamera/four-black.jpeg",
+        "img_alt": "Camera",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "45%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Camera",
+        "hover_thumbnail": "",
+        "hover_link": "https://opalcamera.com/",
+        "img": "opalcamera/three-white.jpeg",
+        "img_alt": "Camera",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Camera",
+        "hover_thumbnail": "",
+        "hover_link": "https://opalcamera.com/",
+        "img": "opalcamera/id-c-thumbnail_opalcamera.png",
+        "img_alt": "Camera",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "65%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Camera",
+        "hover_thumbnail": "",
+        "hover_link": "https://opalcamera.com/",
+        "img": "opalcamera/photo-1650017067760-f115df08b271.webp",
+        "img_alt": "Camera",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "30%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "minimal",
+      "technology",
+      "office",
+      "camera",
+      "webcam"
+    ],
+    "hiddenTags": [
+      "tech"
+    ]
+  }
