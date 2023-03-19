@@ -1,5 +1,5 @@
-# ProjectSpce | Buying big from small businesses
-A collection of small businesses that makes some amazing products
+# ProjectSpce | Hand curated brands from across the internet
+A collection of hand curated brands from across the internet
 
 Link: https://spaced-big-small-rohanbhangui.vercel.app/
 
