@@ -1,0 +1,189 @@
+{
+    "title": "Craighill",
+    "path": "craighill",
+    "link": {
+      "url": "https://craighill.co/",
+      "label": "craighill.co"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#ff5f00",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "craighill/craighill-craighill-keyring-closed-helix-brass.jpg",
+    "description": "Craighill creates unique and functional products for everyday use, such as desk accessories, home goods, and tools. They prioritize high-quality materials and thoughtful design to create products that are both aesthetically pleasing and practical.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "craighill/110822_35_035_2048x2048.jpg",
+        "img_alt": "craighill image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "craighill/RookKnife-Tricolor-LS3_2048x2048.webp",
+        "img_alt": "craighill image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "craighill/110822_157_2048x2048.jpg",
+        "img_alt": "craighill image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "craighill/Craighill_Closed-Helix-Ring_Brass_HEADER-v1624916917387.jpg",
+        "img_alt": "craighill image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "craighill/craighill-slim-desk-knife-01.jpg",
+        "img_alt": "craighill image montage shot"
+      },
+      {
+        "id": "5",
+        "img": "craighill/IMG_7814.webp",
+        "img_alt": "craighill image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Nocturn Catch",
+        "hover_subtitle": "Walnut",
+        "hover_thumbnail": "craighill/nocturn-catch-walnut-2-4x5.jpg",
+        "hover_link": "https://craighill.co/collections/essentials/products/nocturn-catch",
+        "img": "craighill/Nocturn-Catch-Craighill-catch-all-Ablage-Schale-Walnut-Walnuss-mood2-2048.webp",
+        "img_alt": "Nocturn Catch",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "23%",
+            "top": "57%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Desk Knife",
+        "hover_subtitle": "Stainless Steel",
+        "hover_thumbnail": "craighill/desk-knife-stainless-ecom-4x5.jpg",
+        "hover_link": "https://craighill.co/products/desk-knife?_pos=2&_sid=7bded5ff4&_ss=r&variant=43466004267245",
+        "img": "craighill/desk-knife-handLS-4x5.webp",
+        "img_alt": "Desk Knife",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "50%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Headphone Stand",
+        "hover_subtitle": "",
+        "hover_thumbnail": "craighill/2023_1_30_Craighill_01_HeadphoneStand_0033_topAngle_withHP.jpg",
+        "hover_link": "https://craighill.co/products/headphone-stand?variant=43958169305325",
+        "img": "craighill/Headphone-stand-lifestyle-4x5-3.webp",
+        "img_alt": "Headphone Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Arris Tote",
+        "hover_subtitle": "Goldenrod",
+        "hover_thumbnail": "craighill/arris-tote-goldenrod-4x5.jpg",
+        "hover_link": "https://craighill.co/collections/daily-carry/products/arris-tote?variant=40163165634743",
+        "img": "craighill/arris-tote-goldenrod-2LS-4x5-bag.jpg",
+        "img_alt": "Arris Tote",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "73%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Lark Knife",
+        "hover_subtitle": "Tricolor",
+        "hover_thumbnail": "craighill/lark-knife-tricolor-1-4x5.jpg",
+        "hover_link": "https://craighill.co/collections/shop-all/products/lark-knife?variant=42396211118317",
+        "img": "craighill/lark-knife-group-4x5-LS-3.jpg",
+        "img_alt": "Lark Knife",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "18%",
+            "top": "35%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Sentry Doorstop",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "craighill/sentry-door-stop-black-4x5.jpg",
+        "hover_link": "https://craighill.co/collections/shop-all/products/sentry-doorstop?variant=42819177054445",
+        "img": "craighill/sentry-doorstop-blackLS-4x5.webp",
+        "img_alt": "Sentry Doorstop",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "43%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "tech",
+      "office",
+      "desk",
+      "aluminum",
+      "metal",
+      "wood",
+      "accessories",
+      "edc"
+    ]
+  }
