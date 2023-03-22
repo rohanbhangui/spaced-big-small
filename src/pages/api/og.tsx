@@ -12,7 +12,7 @@ const font = fetch(new URL('../../assets/BebasNeue-Regular.ttf', import.meta.url
 const ogImage = async (req: NextRequest) => {
   const fontData = await font;
   const { searchParams } = req.nextUrl;
-  const brandImage = searchParams.get('brand')?.split("/")[1];
+  const brandImage = searchParams.get('brand')?.split("/").at(-1);
   if (!brandImage) {
     return new ImageResponse(<img src="https://projectspce.com/img/social-sharing.png" />, {
       width: 1200,
