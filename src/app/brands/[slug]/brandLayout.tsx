@@ -593,8 +593,6 @@ const BrandLayout = ({data}: { data: BrandDataProps }) => {
     setMontageSlidesToShow(renderNumberOfMontageSlides(width))
   }, [width])
 
-  console.log("DEBUG", highlightGrid);
-
   return (
     <Container background={theme.colors.background} color={theme.colors.primary}>
       <div className="inner-wrapper">
