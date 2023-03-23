@@ -14,11 +14,13 @@ const ogImage = async (req: NextRequest) => {
   const { searchParams } = req.nextUrl;
   const brandImage = searchParams.get('brand')?.split("/").at(-1);
   if (!brandImage) {
-    return new ImageResponse(<img src="https://projectspce.com/img/social-sharing.png" />, {
+    return new ImageResponse(<img height="1200" width="630" src={`https://projectspce.com/img/social-sharing.png`} />, {
       width: 1200,
       height: 630,
     });
   }
+
+  console.log("reached generative image")
  
   return new ImageResponse(
     (
@@ -32,6 +34,8 @@ const ogImage = async (req: NextRequest) => {
       >
         <img
           src={`https://projectspce.com/img/${brandImage}`}
+          height="1200"
+          width="630" 
           style={{
             objectFit: "cover",
             width: '100%',
