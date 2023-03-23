@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { ImageResponse } from '@vercel/og';
 import { NextRequest } from 'next/server';
  
@@ -14,7 +15,7 @@ const ogImage = async (req: NextRequest) => {
   const { searchParams } = req.nextUrl;
   const brandImage = searchParams.get('brand')?.split("/").at(-1);
   if (!brandImage) {
-    return new ImageResponse(<img height="1200" width="630" src={`https://projectspce.com/img/social-sharing.png`} />, {
+    return new ImageResponse(<img height="1200" width="630" src={`https://projectspce.com/img/social-sharing.png`} alt="" />, {
       width: 1200,
       height: 630,
     });
@@ -34,6 +35,7 @@ const ogImage = async (req: NextRequest) => {
       >
         <img
           src={`https://projectspce.com/img/${brandImage}`}
+          alt=""
           height="1200"
           width="630" 
           style={{
