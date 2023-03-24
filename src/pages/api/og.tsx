@@ -15,7 +15,18 @@ const ogImage = async (req: NextRequest) => {
   const { searchParams } = req.nextUrl;
   const brandImage = searchParams.get('brand')?.split("/").at(-1);
   if (!brandImage) {
-    return new ImageResponse(<img height="1200" width="630" src={`https://projectspce.com/img/social-sharing.png`} alt="" />, {
+    return new ImageResponse(
+      <img
+        height="1200"
+        width="630"
+        src={`https://projectspce.com/img/social-sharing.png`}
+        alt=""
+        style={{
+          objectFit: "cover",
+          width: "100%",
+          height: "100%"
+        }}
+      />, {
       width: 1200,
       height: 630,
     });
