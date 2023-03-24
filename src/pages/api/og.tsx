@@ -56,7 +56,7 @@ const ogImage = async (req: NextRequest) => {
             filter: "brightness(0.75)",
             position: "absolute",
             inset: 0,
-            zIndex: 0
+            zIndex: "0"
           }}
         />
         <div
@@ -66,7 +66,7 @@ const ogImage = async (req: NextRequest) => {
             letterSpacing: '-0.025em',
             transform: "translateX(-50%) translateY(-50%)",
             color: 'white',
-            zIndex: 100,
+            zIndex: "100",
             position: "absolute",
             fontFamily: '"BebasNeue"',
             left: "50%",
