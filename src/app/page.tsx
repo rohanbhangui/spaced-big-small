@@ -24,6 +24,9 @@ export const metadata = {
   title,
   description,
   applicationName: title,
+  alternates: {
+    canonical: url
+  },
   keywords: tags,
   icons: {
     icon: '/icon.png',

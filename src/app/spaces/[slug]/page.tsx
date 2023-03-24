@@ -16,62 +16,69 @@ export interface PageProps {
   searchParams?: Record<string, string | string[]>;
 }
 
-const title = `ProjectSpce - Find Small Business Brands`;
-const seo_img = `${process.env.NEXT_PUBLIC_HOST}/api/og`;
-const url = `${process.env.NEXT_PUBLIC_HOST}`;
-const description = "We collect the best products for all of the spaces in your home. We do this by sourcing far and wide: Magazines, Blogs, TikTok, Instagram."
-const tags = [
-  "spce",
-  "project",
-  "space",
-  "buy small",
-  "small business",
-  "gift",
-  "gift ideas",
-  "plaen",
-];
+export const generateMetadata = async ({ params }: { params: PageProps["params"]}) => {
+  const title = `ProjectSpce - Find Small Business Brands`;
+  const seo_img = `${process.env.NEXT_PUBLIC_HOST}/api/og`;
+  const initialUrl = `${process.env.NEXT_PUBLIC_HOST}`;
+  const description = "We collect the best products for all of the spaces in your home. We do this by sourcing far and wide: Magazines, Blogs, TikTok, Instagram."
+  const tags = [
+    "spce",
+    "project",
+    "space",
+    "buy small",
+    "small business",
+    "gift",
+    "gift ideas",
+    "plaen",
+  ];
+  const canonical = `${initialUrl}/spaces/${params?.slug}`
+  const url = canonical;
 
-export const metadata = { 
-  title,
-  description,
-  applicationName: title,
-  keywords: tags,
-  icons: {
-    icon: '/icon.png',
-    shortcut: '/shortcut-icon.png',
-    apple: '/apple-icon.png',
-    other: {
-      rel: 'apple-touch-icon-precomposed',
-      url: '/apple-touch-icon-precomposed.png',
+  return { 
+    title,
+    description,
+    applicationName: title,
+    keywords: tags,
+    alternates: {
+      canonical,
     },
-  },
-  openGraph: {
-    title,
-    description,
-    url,
-    siteName: 'ProjectSpce',
-    images: [
-      {
-        url: seo_img,
-        width: 1200,
-        height: 630,
+    icons: {
+      icon: '/icon.png',
+      shortcut: '/shortcut-icon.png',
+      apple: '/apple-icon.png',
+      other: {
+        rel: 'apple-touch-icon-precomposed',
+        url: '/apple-touch-icon-precomposed.png',
       },
-    ],
-    locale: 'en-US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title,
-    description,
-    images: [seo_img],
-  },
-  // other: {
-  //   "og:image": seo_img,
-  //   "og:image:secure_url": seo_img
-  // },
-  other: {
-    "theme-color": "#ffffff"
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'ProjectSpce',
+      images: [
+        {
+          url: seo_img,
+          width: 1200,
+          height: 630,
+        },
+      ],
+      locale: 'en-US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [seo_img],
+    },
+    // other: {
+    //   "og:image": seo_img,
+    //   "og:image:secure_url": seo_img
+    // },
+    other: {
+      "theme-color": "#ffffff"
+    }
   }
 }
 
@@ -126,9 +133,8 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
 
     // if slug is not a string show not found
     const slug = lowerCase(decodeURIComponent(params?.slug as string));
-    console.warn("SLUG", slug, Object.keys(SPACES));
     debugger;
-    if(!slug || !Object.keys(SPACES).map(space => space.toLocaleLowerCase()).includes(slug)) return <NotFound />
+    if(!slug || !Object.keys(SPACES).map(space => space.toLowerCase()).includes(slug)) return <NotFound />
 
     const brands = await Promise.all(
       isInSpace(brandsData, slug).map(async(item) => {

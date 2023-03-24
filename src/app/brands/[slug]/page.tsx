@@ -31,6 +31,9 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
     description: data.description,
     applicationName: title,
     keywords: data.tags,
+    alternates: {
+      canonical: url,
+    },
     icons: {
       icon: '/icon.png',
       shortcut: '/shortcut-icon.png',
