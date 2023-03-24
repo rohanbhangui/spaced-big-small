@@ -1,0 +1,181 @@
+{
+    "title": "Ruggable",
+    "path": "ruggable",
+    "link": {
+      "url": "https://ruggable.com/",
+      "label": "ruggable.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#1f6473",
+        "background": "#ffffff"
+      }
+    },
+    "headerImage": "ruggable/ruggable-machine-washable-pr-0222.jpg",
+    "description": "Ruggable makes machine-washable rugs that come in a variety of styles, sizes, and colors. Their patented two-piece rug system includes a non-slip pad and a rug cover that can be easily removed and washed, making them a convenient and practical choice for busy households.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "ruggable/nestofpetals.webp",
+        "img_alt": "ruggable image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "ruggable/simplymodernliving_additional_images_Nov_29_2021_6400375489888256.webp",
+        "img_alt": "ruggable image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "ruggable/IMG_2366.jpg",
+        "img_alt": "ruggable image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "ruggable/81caGb6Ay7L.jpg",
+        "img_alt": "ruggable image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "ruggable/IMG_4763-scaled.jpg",
+        "img_alt": "ruggable image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Sarrah",
+        "hover_subtitle": "Hazel",
+        "hover_thumbnail": "ruggable/sarrah-hazel-rug-RUG-SYS-IND-RCT-CHN-NV004-05x07-A.jpg",
+        "hover_link": "https://ruggable.com/products/sarrah-hazel-rug?size=9x12",
+        "img": "ruggable/91Dk7Aaa8kL.jpg",
+        "img_alt": "Sarrah",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "80%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Jonathan Adler Inkdrop Rug",
+        "hover_subtitle": "Lapis Blue",
+        "hover_thumbnail": "ruggable/Jonathan_Adler_Inkdrop_Lapis_Blue_Rug_5x7.jpg",
+        "hover_link": "https://ruggable.com/products/jonathan-adler-inkdrop-lapis-blue-rug?size=9x12",
+        "img": "ruggable/screen-shot-2021-08-11-at-10-21-10-pm-1628781386.png",
+        "img_alt": "Jonathan Adler Inkdrop Rug",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "85%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Impasto Rug",
+        "hover_subtitle": "Slate Blue",
+        "hover_thumbnail": "ruggable/Impasto_Slate_Blue_Rug_5x7.jpg",
+        "hover_link": "https://ruggable.com/products/impasto-slate-blue-rug",
+        "img": "ruggable/a358169e99334610b04df7443a0d1b77.webp",
+        "img_alt": "Impasto Rug",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "80%",
+            "top": "80%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Plush Rug",
+        "hover_subtitle": "Morrocan Diamond",
+        "hover_thumbnail": "ruggable/Moroccan_Diamond_Plush_Rug_5x7.jpg",
+        "hover_link": "https://ruggable.com/products/moroccan-diamond-plush-rug",
+        "img": "ruggable/f869d2e64b454b11a6775bf11d477a4c.webp",
+        "img_alt": "Plush Rug",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "80%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Vintage Daisy Bordered Rug",
+        "hover_subtitle": "Tangerine/Runner",
+        "hover_thumbnail": "ruggable/Vintage_Daisy_Bordered_Tangerine_Rug_2-5x7.jpg",
+        "hover_link": "https://www.branchfurniture.ca/products/saddle-chair",
+        "img": "ruggable/1b125c07c28a4253b575b9e7197e2015.webp",
+        "img_alt": "Vintage Daisy Bordered Rug",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "37%",
+            "top": "75%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Minnie Trellis Rug",
+        "hover_subtitle": "Ash Grey",
+        "hover_thumbnail": "ruggable/Minnie_Trellis_Ash_Grey_Rug_5x7.jpg",
+        "hover_link": "https://ruggable.com/products/minnie-trellis-ash-grey-rug",
+        "img": "ruggable/Ruggable-1.jpeg",
+        "img_alt": "Minnie Trellis Rug",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "20%",
+            "top": "80%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "rug",
+      "runner",
+      "minimal",
+      "carpet",
+      "home"
+    ],
+    "hiddenTags": [
+      "furniture"
+    ]
+  }
