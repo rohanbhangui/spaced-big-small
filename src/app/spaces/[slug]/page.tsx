@@ -78,7 +78,7 @@ export const metadata = {
 export const generateStaticParams = async (): Promise<PageParams[]> => {
   // Generate a path for each one
   const paths = Object.keys(SPACES).map((space) => ({
-    slug: space,
+    slug: encodeURIComponent(space.toLowerCase()),
   }));
 
   // return list of paths
