@@ -31,8 +31,6 @@ const ogImage = async (req: NextRequest) => {
       height: 630,
     });
   }
-
-  console.log("reached generative image")
  
   return new ImageResponse(
     (

@@ -133,7 +133,6 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     // if slug is not a string show not found
     const rawSlug = params?.slug as string;
     const slug = lowerCase(decodeURIComponent(rawSlug));
-    console.log("DEBUG", params?.slug)
     if(!slug || !Object.keys(SPACES).map(space => encodeSpaceUrlParam(space)).includes(rawSlug)) return <NotFound />
 
     const brands = await Promise.all(
