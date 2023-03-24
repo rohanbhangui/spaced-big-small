@@ -86,7 +86,7 @@ export const generateMetadata = async ({ params }: { params: PageProps["params"]
 export const generateStaticParams = async (): Promise<PageParams[]> => {
   // Generate a path for each one
   const paths = Object.keys(SPACES).map((space) => ({
-    slug: encodeURIComponent(space.toLowerCase()),
+    slug: encodeSpaceUrlParam(space),
   }));
 
   // return list of paths
