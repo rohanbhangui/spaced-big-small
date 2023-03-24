@@ -13,7 +13,7 @@ import TextTransition, { presets } from "react-text-transition";
 import HeroImage from "@/assets/img/hero-image.png";
 import { analytics, Event } from "@/utils/analytics";
 import { SPACES } from "@/utils/constants";
-import { lowerCase } from "lodash";
+import { encodeSpaceUrlParam } from "@/utils/utils";
 
 type BrandOrder = BrandDataProps & {
   count: number;
@@ -653,7 +653,7 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       <SpacesTags>
         <div className="inner">
           {Object.keys(SPACES).sort().map((space) => {
-            const slug = `${lowerCase(space)}`;
+            const slug = `${encodeSpaceUrlParam(space)}`;
 
             return (
               <Link key={space} className="tag" href={`/spaces/${slug}`}><span>{tags[space]}</span> {space}</Link>

@@ -5,6 +5,7 @@ import SpacesLayout from './spacesLayout';
 import { lowerCase, startCase } from 'lodash';
 import path from 'path';
 import { SPACES } from '@/utils/constants';
+import { encodeSpaceUrlParam } from '@/utils/utils';
 
 export const config = {
   dynamicParams: true
@@ -121,8 +122,6 @@ const isInSpace = (brands: any[], elem: string) => {
 
 const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     let brandsData;
-
-    debugger;
     try {
       brandsData = await fetchBrands();
     } catch (err) {
@@ -132,9 +131,10 @@ const Layout = async ({params}: PageProps): Promise<JSX.Element> => {
     
 
     // if slug is not a string show not found
-    const slug = lowerCase(decodeURIComponent(params?.slug as string));
-    debugger;
-    if(!slug || !Object.keys(SPACES).map(space => space.toLowerCase()).includes(slug)) return <NotFound />
+    const rawSlug = params?.slug as string;
+    const slug = lowerCase(decodeURIComponent(rawSlug));
+    console.log("DEBUG", params?.slug)
+    if(!slug || !Object.keys(SPACES).map(space => encodeSpaceUrlParam(space)).includes(rawSlug)) return <NotFound />
 
     const brands = await Promise.all(
       isInSpace(brandsData, slug).map(async(item) => {
