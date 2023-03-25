@@ -1,0 +1,188 @@
+{
+    "title": "Urth",
+    "path": "urth",
+    "link": {
+        "url": "https://urth.co/",
+        "label": "urth.co"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#111111",
+            "background": "#f4f2ea"
+        }
+    },
+    "headerImage": "urth/59120fad8e1ec63d5c455eaf4d9cd81abae255d6-3000x2250.jpg",
+    "description": "Urth offers carry and camera gear offered through a wide range of sustainable and eco-friendly products for individuals who prioritize environmental consciousness in their consumption choices.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "urth/Navigation-18.webp",
+            "img_alt": "urth image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "urth/81SdBmXvwlL.jpg",
+            "img_alt": "urth image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "urth/2-Urth-Carry-2.jpg",
+            "img_alt": "urth image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "urth/1-Urth-Arkose-20L-Backpack-Black-1659404730292.jpg",
+            "img_alt": "urth image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "urth/2._About_Image.jpg",
+            "img_alt": "urth image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Arkose 20L Modular Backpack",
+            "hover_subtitle": "Ash",
+            "hover_thumbnail": "urth/1-urth-arkose-20l-backpack-grey.jpg",
+            "hover_link": "https://urth.co/collections/modular-backpacks/products/20l-backpack?variant=35380298678423",
+            "img": "urth/1-Urth-Arkose-20L-Backpack-1614574243810.jpg",
+            "img_alt": "Arkose 20L Modular Backpack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "65%",
+                    "top": "30%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Core Camera Strap Slim",
+            "hover_subtitle": "Ash",
+            "hover_thumbnail": "urth/0-Urth-Core-Nylon-Strap-Grey.jpg",
+            "hover_link": "https://urth.co/collections/camera-straps/products/20mm-nylon-camera-strap?variant=35380296908951",
+            "img": "urth/1Urth-Camera-Strap0003Urth-Camera-Straps-Still-Life-07-1648601531021.jpg",
+            "img_alt": "Core Camera Strap Slim",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "35%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Zeolite Tech Organizer",
+            "hover_subtitle": "Moss",
+            "hover_thumbnail": "urth/1-Urth-Zeolite-Tech-Pouch-Green.jpg",
+            "hover_link": "https://urth.co/collections/organisers/products/tech-organiser?variant=42747206205591",
+            "img": "urth/1-Urth-Zeolite-Tech-Pouch-Green_7fb967df-6b3c-4d97-9404-64e33bb69ea7.jpg",
+            "img_alt": "Zeolite Tech Organizer",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "45%",
+                    "top": "65%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Naos Laptop Sleeve",
+            "hover_subtitle": "Onyx",
+            "hover_thumbnail": "urth/1-Urth-Naos-Laptop-Sleeve-Small-Black_90092aef-d24a-42fd-911e-10330915f70e.jpg",
+            "hover_link": "https://urth.co/collections/laptop-sleeves/products/13-inch-laptop-sleeve",
+            "img": "urth/1-Urth-Naos-13-Laptop-Sleeve-1614583190112.jpg",
+            "img_alt": "Naos Laptop Sleeve",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "The Magnetic Essentials Filter Kit Plus+",
+            "hover_subtitle": "",
+            "hover_thumbnail": "urth/01-Urth-Magnetic-Essentials-Filter-Kit-Plus.jpg",
+            "hover_link": "https://urth.co/collections/lens-filters/products/the-magnetic-essentials-filter-kit-plus",
+            "img": "urth/1-Urth-Magnetic-Essentials-Filter-Kit-Plus-Description-1669960040319.jpg",
+            "img_alt": "The Magnetic Essentials Filter Kit Plus+",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "52%",
+                    "top": "50%"
+                }
+            },
+            "tooltip": {
+                "placement": "bottom center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Arkose Small Camera Insert",
+            "hover_subtitle": "Sand",
+            "hover_thumbnail": "urth/1-Urth-Arkose-Insert-Small-Cube-Beige_cbcc7d55-a63c-4ee2-8a32-5f7fa1e3d636.jpg",
+            "hover_link": "https://urth.co/collections/camera-carry/products/small-camera-insert?variant=42747205615767",
+            "img": "urth/2-Urth-Arkose-Camera-Insert-1614580044869.jpg",
+            "img_alt": "Arkose Small Camera Insert",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "productivity",
+        "travel",
+        "minimal",
+        "modern",
+        "sustainable",
+        "backpack",
+        "edc",
+        "camera",
+        "outdoor",
+        "tech"
+    ],
+    "hiddenTags": [
+        "minimalist",
+        "B-corp",
+        "b corp"
+    ]
+}
