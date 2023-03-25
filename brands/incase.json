@@ -1,0 +1,188 @@
+{
+    "title": "Incase",
+    "path": "incase",
+    "link": {
+        "url": "https://incase.com/",
+        "label": "incase.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#000000",
+            "background": "#e2e2e2"
+        }
+    },
+    "headerImage": "incase/7WffzmukvkZg_laFZE3mldLNjZr-DIgZ_tY69usQmdQ.jpg",
+    "description": "Incase specializes in selling bags, cases, and accessories for Apple products, including MacBooks, iPhones, iPads, and Apple Watches. The website offers a wide range of products that are designed to protect and enhance the functionality of Apple devices, with a focus on sleek and stylish design.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "incase/incase-rc-travel-bags.jpg",
+            "img_alt": "incase image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "incase/1.jpeg",
+            "img_alt": "incase image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "incase/incase-textured-hardshell-macbook-pro.webp",
+            "img_alt": "incase image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "incase/74f1ed67-incase-compact-sleeve-with-bionic-in-workspace-3.jpg",
+            "img_alt": "incase image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "incase/IncaseCompassBackpack-9.jpg",
+            "img_alt": "incase image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Hardshell Case Dots",
+            "hover_subtitle": "Black",
+            "hover_thumbnail": "incase/hardshell_case_macbook_pro_13_dots-_black-_a_1024x1024.webp",
+            "hover_link": "https://incase.com/products/hardshell-case-for-13-inch-macbook-pro-dots-2020",
+            "img": "incase/6430130cv27d.jpg",
+            "img_alt": "Hardshell Case Dots",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Twill & Leather Backpack",
+            "hover_subtitle": "",
+            "hover_thumbnail": "incase/inbp100622-blk_incase_apacbags21_122220_304_750x750.jpg",
+            "hover_link": "https://incase.com/products/twill-leather-backpack-2021",
+            "img": "incase/inbp100622-blk_incase_apacbags21_122220_327.jpg",
+            "img_alt": "Twill & Leather Backpack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "City Market Tote",
+            "hover_subtitle": "Black",
+            "hover_thumbnail": "incase/city_market_tote_with_cordura-_black-_a1_750x.jpg",
+            "hover_link": "https://incase.com/products/city-market-tote-with-cordura",
+            "img": "incase/Incase_Cordura_PDP_Layout.jpg",
+            "img_alt": "City Market Tote",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "80%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Slip Sleeve with Performance Knit",
+            "hover_subtitle": "Burst",
+            "hover_thumbnail": "incase/INMB100654-BUR_Incase_SlipSleevewithPerformaKnit_MacBookPro13Inch_A_3de962e4-724f-45f9-a5a2-cfd616a5ab8e_750x.jpg",
+            "hover_link": "https://incase.com/products/slip-sleeve-with-performaknit-for-13-inch-macbook-pro-thunderbolt-3-usb-c-13-inch-macbook-air-with-retina-display?_pos=7&_sid=ecab940c6&_ss=r",
+            "img": "incase/Incase-Slip-Sleeve-PerformaKnit.webp",
+            "img_alt": "Slip Sleeve with Performance Knit",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "City Compact Backpack",
+            "hover_subtitle": "Heather Black",
+            "hover_thumbnail": "incase/city_compact_backpack-_heather_black-_i_1024x1024.webp",
+            "hover_link": "https://incase.com/products/city-compact-backpack",
+            "img": "incase/Photo-2015-12-30-15-52-qSzTPUxEPTT.jpg",
+            "img_alt": "City Compact Backpack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "55%",
+                    "top": "55%"
+                }
+            },
+            "tooltip": {
+                "placement": "bottom center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Hipsack with BIONIC",
+            "hover_subtitle": "Baltic Sea",
+            "hover_thumbnail": "incase/INOM200671-BSE_Incase_Bionic_Hipsack_A_1024x1024.webp",
+            "hover_link": "https://incase.com/products/hipsack-w-bionic",
+            "img": "incase/MicrosoftTeams-image_13.jpg",
+            "img_alt": "Hipsack with BIONIC",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "productivity",
+        "travel",
+        "minimal",
+        "modern",
+        "sustainable",
+        "backpack",
+        "case",
+        "sleeve",
+        "airpods",
+        "macbook",
+        "ipad",
+        "office"
+    ],
+    "hiddenTags": [
+        "minimalist"
+    ]
+}
