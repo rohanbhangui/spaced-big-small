@@ -1,0 +1,178 @@
+{
+    "title": "Farer",
+    "path": "farer",
+    "link": {
+      "url": "https://farer.com/",
+      "label": "farer.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#f6f6f6",
+        "background": "#0e5b96"
+      }
+    },
+    "headerImage": "farer/FARER-Resolute-Sorbet-36MM-Wrist5-scaled.jpg",
+    "description": "Farer is an independent British watch company driven by a horological passion for detail, design and difference.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "farer/farer-gmt-lead-1598620601.jpg",
+        "img_alt": "farer watches image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "farer/FARER-MOONPHASE-Burbridge3-scaled.jpg",
+        "img_alt": "farer watches image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "farer/worldtimer-aldrich5.jpg",
+        "img_alt": "farer watches image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "farer/FARER-MANSFIELD5-scaled.jpg",
+        "img_alt": "farer watches image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Thurso",
+        "hover_subtitle": "Steel Bracelet",
+        "hover_thumbnail": "farer/SILVER-AQUAMATIC-BRACELET_750x750.jpg",
+        "hover_link": "https://usd.farer.com/products/thurso",
+        "img": "farer/L1100788.jpeg",
+        "img_alt": "Thurso",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "58%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Morgan",
+        "hover_subtitle": "Pilot Blue Granolo",
+        "hover_thumbnail": "farer/Morgan-GRANOLO-Blue_922x922.jpg",
+        "hover_link": "https://usd.farer.com/products/morgan",
+        "img": "farer/PILOTSLIDES_0009_LUME.jpg",
+        "img_alt": "Morgan",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "53%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Halley",
+        "hover_subtitle": "Milanese Bracelet",
+        "hover_thumbnail": "farer/Halley-MESH_922x922.jpg",
+        "hover_link": "https://www.unimaticwatches.com/u1s-fai/",
+        "img": "farer/FARER-MOONPHASE-Hayley-wrist-scaled.jpg",
+        "img_alt": "Halley",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "28%",
+            "top": "55%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Aldrich",
+        "hover_subtitle": "Tan St. Venere",
+        "hover_thumbnail": "farer/Aldrich-tan_922x922.webp",
+        "hover_link": "https://usd.farer.com/products/aldrich",
+        "img": "farer/4e51a8be439b82791fe73c0b538a81fe.jpg",
+        "img_alt": "Aldrich",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Mansfield",
+        "hover_subtitle": "Avacado Green Granolo",
+        "hover_thumbnail": "farer/Mansfield-Granolo-GREEN_922x922.webp",
+        "hover_link": "https://usd.farer.com/products/mansfield",
+        "img": "farer/e9G0HrbCC2KQLMS8gTQSe4Yy0Z9Aick9Hd11AT12.webp",
+        "img_alt": "Mansfield",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Bernina",
+        "hover_subtitle": "Black St. Venere",
+        "hover_thumbnail": "farer/BERNINA-STV-black_922x922.webp",
+        "hover_link": "https://usd.farer.com/products/bernina-chronograph-sport",
+        "img": "farer/FARER_BERNINA_1_2500.jpg",
+        "img_alt": "Bernina",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "minimal",
+      "watch",
+      "automatic",
+      "quartz",
+      "fashion",
+      "tech",
+      "pockets",
+      "wearable",
+      "watches",
+      "edc"
+    ]
+  }
