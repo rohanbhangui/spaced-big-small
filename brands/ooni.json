@@ -1,0 +1,186 @@
+{
+    "title": "Ooni",
+    "path": "ooni",
+    "link": {
+        "url": "https://ooni.com/",
+        "label": "ooni.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#293034",
+            "background": "#ffc530"
+        }
+    },
+    "headerImage": "ooni/Ooni-Koda-Grill-08052019.jpg",
+    "description": "Ooni makes pizza ovens for outdoor use that are designed to cook authentic Neapolitan-style pizza in just 60 seconds.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "ooni/71U-wtekpxL.jpg",
+            "img_alt": "ooni image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "ooni/Pellets.webp",
+            "img_alt": "ooni image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "ooni/ooni-karu-16-pizza-oven-review-lead-1669743252.jpg",
+            "img_alt": "ooni image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "ooni/ooni-koda-16-gas-powered-pizza-oven-lead-1669067086.jpg",
+            "img_alt": "ooni image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "ooni/ooni-volt-pizza-oven-lead-6401023b4eeac.jpg",
+            "img_alt": "ooni image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Karu 12 Multi Fuel Pizza Oven",
+            "hover_subtitle": "",
+            "hover_thumbnail": "ooni/KaruOven-sideview.jpg",
+            "hover_link": "https://ooni.com/products/ooni-karu",
+            "img": "ooni/karu122_5000x.webp",
+            "img_alt": "Karu 12 Multi Fuel Pizza Oven",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Ooni Volt 12 Electric Pizza Oven",
+            "hover_subtitle": "",
+            "hover_thumbnail": "ooni/Volt_Studio_Right_2048.jpg",
+            "hover_link": "https://ooni.com/products/ooni-volt",
+            "img": "ooni/Volt_Lifestyle_Setup1_2048.jpg",
+            "img_alt": "Ooni Volt 12 Electric Pizza Oven",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Perforated Pizza Peel",
+            "hover_subtitle": "12inch",
+            "hover_thumbnail": "ooni/Peel2_caf163a7-e256-4ce3-ada7-1fcd2acedb0e.jpg",
+            "hover_link": "https://ooni.com/collections/pizza-peels/products/ooni-perforated-pizza-peel",
+            "img": "ooni/NewPerfPeel1.jpg",
+            "img_alt": "Perforated Pizza Peel",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "90%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Cast Iron Sizzler Pan",
+            "hover_subtitle": "",
+            "hover_thumbnail": "ooni/Ooni-Sizzler-Pan-1.jpg",
+            "hover_link": "https://ooni.com/collections/cast-iron-cookware/products/sizzler-pan",
+            "img": "ooni/CastIronSizler.jpg",
+            "img_alt": "Cast Iron Sizzler Pan",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "45%",
+                    "top": "80%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Frya 12 Wood Pellet Pizza Oven",
+            "hover_subtitle": "",
+            "hover_thumbnail": "ooni/newFyra.jpg",
+            "hover_link": "https://ooni.com/products/ooni-fyra",
+            "img": "ooni/OoniFyra-Lifestyle1-72dpi.jpg",
+            "img_alt": "Frya 12 Wood Pellet Pizza Oven",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "80%",
+                    "top": "65%"
+                }
+            },
+            "tooltip": {
+                "placement": "top center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Make Pizza Slice Tote Bag",
+            "hover_subtitle": "",
+            "hover_thumbnail": "ooni/Tote-Studio-2048.jpg",
+            "hover_link": "https://ooni.com/collections/clothing/products/make-pizza-tote-bag",
+            "img": "ooni/Tote-Lifestyle-2048.jpg",
+            "img_alt": "Make Pizza Slice Tote Bag",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "66%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "cookware",
+        "kitchen",
+        "pan",
+        "pizza",
+        "oven",
+        "wood",
+        "burn"
+    ],
+    "hiddenTags": [
+        "glass",
+        "cast",
+        "iron",
+        "food"
+    ]
+}
