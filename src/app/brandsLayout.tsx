@@ -1,7 +1,7 @@
 'use client';
 
 import { desktopFHD, largeDesktop, smallDesktop, ThemeType } from "@/assets/styles/themeConfig";
-import { useEffect, useRef, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
 import styled, { useTheme } from "styled-components";
 import { BrandDataProps } from "./brands/[slug]/brandLayout";
 import Image from "next/image";
@@ -62,12 +62,18 @@ const Container = styled.div`
       border-bottom: 2px solid rgba(0, 0, 0, 1);
     } */
 
+    form {
+      width: 100%;
+      background: transparent;
+    }
+
     input {
       width: 100%;
       padding: 0.5rem 1rem;
       font-size: 1.2rem;
       border: none;
       outline: none;
+      background: transparent;
 
       @media ${({ theme }) => theme.mediaQuery.tablet} {
         font-size: 2rem;
@@ -635,7 +641,16 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       </Hero>
       <div className="search-bar">
         <i className="fa-regular fa-magnifying-glass" />
-        <input onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
+        <form
+          action=""
+          onSubmit={(e: FormEvent) => {
+            const target = e.target as HTMLFormElement;
+            const input = target[0] as HTMLInputElement;
+            input.blur();
+            e.preventDefault()
+          }}>
+          <input type="search" onChange={(e) => setSearch(e.target.value)} value={search} placeholder="Space, Brand or Keyword" />
+        </form>
         { search.trim() === "" ? (
           // <Link href={`/brands/${randomBrand.path}`} className="pick-random">{isDesktop ? 'Surprise Me' : <i className="fa-sharp fa-solid fa-shuffle" />}</Link>
           <></>
