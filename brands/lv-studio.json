@@ -1,0 +1,180 @@
+{
+    "title": "LV Studio",
+    "path": "lv-studio",
+    "link": {
+        "url": "https://lisavuong.com.au/",
+        "label": "lisavuong.com.au"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#242424",
+            "background": "#f3f4f3"
+        }
+    },
+    "headerImage": "lvstudio/main-image.jpeg",
+    "description": "LV Studio makes unique and impactful art pieces from skateboard decks.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "lvstudio/LED_28af3d78-f285-4474-bc9f-0cd7766bb1e0.webp",
+            "img_alt": "lv studio image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "lvstudio/IMG_5020.webp",
+            "img_alt": "lv studio image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "lvstudio/CB0CCB51-E9A7-4B8C-B3F4-285044CE7C9F.jpg",
+            "img_alt": "lv studio image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "lvstudio/0c8a50e653d84f19b453d1afb74b5b34.thumbnail.0000000_2048x2048.webp",
+            "img_alt": "lv studio image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "I Am A Rich Man",
+            "hover_subtitle": "",
+            "hover_thumbnail": "lvstudio/il_1588xN.3154686857_igfo.jpeg",
+            "hover_link": "https://lisavuong.com.au/products/i-am-a-rich-man-skateboard-deck-wall-art-cher-inspired-quote-feminism",
+            "img": "lvstudio/il_1588xN.3154687057_68n3.webp",
+            "img_alt": "I Am A Rich Man",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "68%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "More Life",
+            "hover_subtitle": "",
+            "hover_thumbnail": "lvstudio/il_1588xN.3712112962_mkyb.jpeg",
+            "hover_link": "https://lisavuong.com.au/products/more-life-skateboard-deck-wall-art-drake-inspired-music-hiphop-rap-tiktok",
+            "img": "lvstudio/LED.jpg",
+            "img_alt": "More Life",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "80%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "FLWR BOY",
+            "hover_subtitle": "",
+            "hover_thumbnail": "lvstudio/FLWR-BOY-4X5_750x750.jpeg",
+            "hover_link": "https://lisavuong.com.au/products/flwr-boy-skateboard-deck-wall-art-tyler-the-creator-inspired-flowerboy-music-home-decor",
+            "img": "lvstudio/AB90CCD4-AA90-4E5C-A9B0-CA6E05813C28.jpg",
+            "img_alt": "FLWR BOY",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "42%",
+                    "top": "45%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Love Yourz",
+            "hover_subtitle": "",
+            "hover_thumbnail": "lvstudio/LOVE-YOURZ-4X5-v2.jpg",
+            "hover_link": "https://lisavuong.com.au/products/love-yourz-skateboard-deck-wall-art-j-cole-inspired-music-hiphop-rap-tiktok",
+            "img": "lvstudio/135f3dc07e724575a713cc56b91d025a.thumbnail.0000000000.jpg",
+            "img_alt": "Love Yourz",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "65%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Swimming",
+            "hover_subtitle": "",
+            "hover_thumbnail": "lvstudio/il_1588xN.3154797991_k6tw.jpg",
+            "hover_link": "https://lisavuong.com.au/products/swimming-skateboard-deck-wall-art-mac-miller-inspired-music-hiphop-rap",
+            "img": "lvstudio/il_794xN.3135893542_5x35_fa940c01-e85c-41e2-8243-95f6f588e03a.jpg",
+            "img_alt": "Swimming",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "78%"
+                }
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "I Don't Chase I Attract",
+            "hover_subtitle": "",
+            "hover_thumbnail": "lvstudio/IMG_6524-2.jpg",
+            "hover_link": "https://lisavuong.com.au/products/i-dont-chase-i-attract-skateboard-deck-wall-art-affirmation-manifest-law-of-attraction-tiktok",
+            "img": "lvstudio/il_1588xN.3488114155_jb9m.jpg",
+            "img_alt": "I Don't Chase I Attract",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "82%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "minimalist",
+        "modern",
+        "sustainable",
+        "art",
+        "skateboard",
+        "office",
+        "bedroom",
+        "living room"
+    ],
+    "hiddenTags": [
+        "home decor",
+        "workspace"
+    ]
+}

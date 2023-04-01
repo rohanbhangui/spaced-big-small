@@ -459,6 +459,18 @@ const NoResult = styled.div`
     width: 100%;
     color: rgba(0, 0, 0, 0.5);
   }
+
+  a {
+    margin-top: 0.5rem;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    
+    &:hover {
+      color: rgba(0, 0, 0, 0.66);
+    }
+  }
 `
 
 const countOccurrences = (str: string, words: string[]) => {
@@ -698,6 +710,8 @@ const Search = ({ brands, tags }: { brands: BrandDataProps[], tags: Record<strin
       ) : (
         <NoResult>
           <h2>No Results Found for &quot;{search}&quot;</h2>
+          <p>Feel free to send us a message if you have a brand in mind!</p>
+          <a href="mailto:hello@plaen.co?subject=ProjectSpce%3A%20New%20Brand&body=Hi%20ProjectSpce%20Team!%0D%0A%0D%0AI%20have%20a%20new%20brands%20for%20your%20consideration%3A%0D%0A%0D%0AHere%20is%20the%20link%20to%20their%20site%3A%0D%0A%0D%0A">Message Us</a>
         </NoResult>
       )}
     </Container>
