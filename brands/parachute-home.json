@@ -1,0 +1,184 @@
+{
+    "title": "Parachute Home",
+    "path": "parachute-home",
+    "link": {
+        "url": "https://www.parachutehome.com/",
+        "label": "floydhome.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#9BABB5",
+            "background": "#FFFFFF"
+        }
+    },
+    "headerImage": "parachutehome/221102_ParachuteHome_2023_Q1_2195.jpg",
+    "description": "Parachute Home makes high-quality bedding, bath, and home essentials that are designed in Los Angeles and manufactured in Europe using premium materials.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "parachutehome/221102_ParachuteHome_2023_Q1_4196.jpg",
+            "img_alt": "parachute home image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "parachutehome/221102_ParachuteHome_2023_Q1_4344.jpg",
+            "img_alt": "parachute home image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "parachutehome/221102_ParachuteHome_2023_Q1_4802.jpg",
+            "img_alt": "parachute home image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "parachutehome/220803_ParachuteHome_Furniture_4176.jpg",
+            "img_alt": "parachute home image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "parachutehome/warmer-temp-change-parachute-home-zoching-output-selects-25.jpeg",
+            "img_alt": "parachute home image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Linen Sheet Set",
+            "hover_subtitle": "Melon",
+            "hover_thumbnail": "parachutehome/linen-sheet-set_melon_lightbox_7805.webp",
+            "hover_link": "https://www.parachutehome.com/en-CA/products/linen-sheet-set/color-sheet:melon",
+            "img": "parachutehome/linen-sheet-set_melon_studio_8759.webp",
+            "img_alt": "Linen Sheet Set",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "37%",
+                    "top": "52%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Waffle Towels",
+            "hover_subtitle": "Grey",
+            "hover_thumbnail": "parachutehome/waffle-towels_grey_lightbox_0220.webp",
+            "hover_link": "https://www.parachutehome.com/en-CA/products/waffle-bath-towel/color:grey",
+            "img": "parachutehome/waffle-towel-cotton-grey-000-3.webp",
+            "img_alt": "Waffle Towels",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "78%",
+                    "top": "43%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Organic Cloud Cotton Quilt",
+            "hover_subtitle": "Wave",
+            "hover_thumbnail": "parachutehome/organic-cloud-cotton-quilt_wave_lightbox_.webp",
+            "hover_link": "https://www.parachutehome.com/en-CA/products/organic-cloud-cotton-quilt/color:wave",
+            "img": "parachutehome/organic-cloud-cotton-quilt_wave_detail_640.webp",
+            "img_alt": "Organic Cloud Cotton Quilt",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "45%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Classic Turkish Cotton Slippers",
+            "hover_subtitle": "Mineral",
+            "hover_thumbnail": "parachutehome/classic-turkish-cotton-slipper_mineral_studio_8702.webp",
+            "hover_link": "https://www.parachutehome.com/en-CA/products/classic-slippers/color:mineral",
+            "img": "parachutehome/classic-turkish-cotton-slipper_mineral_studio_8702.webp",
+            "img_alt": "Classic Turkish Cotton Slippers",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "76%",
+                    "top": "70%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "Vintage Linen Body Pillow Cover",
+            "hover_subtitle": "Pecan",
+            "hover_thumbnail": "parachutehome/vintage-linen-body-pillow-cover_pecan_lightbox_5719.webp",
+            "hover_link": "https://www.parachutehome.com/en-CA/products/body-pillow-cover-vintage-linen/color:pecan",
+            "img": "parachutehome/vintage-linen-body-pillow-cover_pecan_studio_8458.webp",
+            "img_alt": "Vintage Linen Body Pillow Cover",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Organic Cloud Cotton Sham Set",
+            "hover_subtitle": "Natural",
+            "hover_thumbnail": "parachutehome/cloud-cotton-sham-set_natural_lightbox_13174.webp",
+            "hover_link": "https://www.parachutehome.com/en-CA/products/organic-cloud-cotton-sham-set/color:natural",
+            "img": "parachutehome/organic-cloud-cotton-duvet-cover-set_natural_studio_.webp",
+            "img_alt": "Organic Cloud Cotton Sham Set",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "50%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "minimalist",
+        "modern",
+        "sustainable",
+        "linen",
+        "bedroom",
+        "living room",
+        "bathroom"
+    ],
+    "hiddenTags": [
+        "home decor",
+        "fabric"
+    ]
+}
