@@ -1,0 +1,187 @@
+{
+    "title": "Manual",
+    "path": "manual",
+    "link": {
+      "url": "https://www.manual.is/",
+      "label": "manual.is"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#333333",
+        "background": "#f7f7f7"
+      }
+    },
+    "headerImage": "manual/SlowSystem-28.jpg",
+    "description": "Manual is a boutique located in Chicago that makes purposefully crafted homewares that delight in shape, color and function.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "manual/20190917_Manual_Coffee-NO5-409.jpg",
+        "img_alt": "manual image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "manual/image-asset.jpeg",
+        "img_alt": "manual image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "manual/BarStoolNo1_Selects-0007.jpg",
+        "img_alt": "manual image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "manual/wythe_cf095911.jpg",
+        "img_alt": "manual image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "manual/Manual_Selects_010819-0035b.jpg",
+        "img_alt": "manual image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Mugs",
+        "hover_subtitle": "Amber",
+        "hover_thumbnail": "manual/DSC_4534.jpg",
+        "hover_link": "https://www.manual.is/selling/960t2ixewkg4ewb90s5rc5uimcplp4-7y6t6-gkjnz",
+        "img": "manual/SlowSystem-23.jpg",
+        "img_alt": "Mugs",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Spirit Tea",
+        "hover_subtitle": "Ambrosia Black",
+        "hover_thumbnail": "manual/DSC_4598.jpg",
+        "hover_link": "https://www.manual.is/selling/spirit-ambrosia-black",
+        "img": "manual/SlowSystem-14.jpg",
+        "img_alt": "Spirit Tea",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "80%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Framework Plant Stand",
+        "hover_subtitle": "Green",
+        "hover_thumbnail": "manual/DSC_4544.jpg",
+        "hover_link": "https://www.manual.is/selling/framework-med-bk-pfr3p",
+        "img": "manual/DSC_4331.jpg",
+        "img_alt": "Framework Plant Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "35%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Burn Plate",
+        "hover_subtitle": "",
+        "hover_thumbnail": "manual/DSC_4577-2.jpg",
+        "hover_link": "https://www.manual.is/selling/burn-plate",
+        "img": "manual/Manual_Ceramic_Selects_HighRes-24.jpg",
+        "img_alt": "Burn Plate",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "65%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Bookend",
+        "hover_subtitle": "",
+        "hover_thumbnail": "manual/DSC_4570-2.jpg",
+        "hover_link": "https://www.manual.is/selling/bookends",
+        "img": "manual/330A3138-1.jpg",
+        "img_alt": "Bookend",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "50%",
+            "top": "83%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Manual Towel",
+        "hover_subtitle": "White",
+        "hover_thumbnail": "manual/DSC_4583-2.jpg",
+        "hover_link": "https://www.manual.is/selling/manual-utility-towel",
+        "img": "manual/DSC_4588-2.jpg",
+        "img_alt": "Manual Towel",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "33%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "cookware",
+      "homeware",
+      "glassware",
+      "plants",
+      "pot",
+      "amber",
+      "kitchen"
+    ],
+    "hiddenTags": [
+      "glass",
+      "cast",
+      "iron",
+      "canadian",
+      "food"
+    ]
+  }
