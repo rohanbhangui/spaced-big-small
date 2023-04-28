@@ -1,0 +1,187 @@
+{
+    "title": "Hast",
+    "path": "hast",
+    "link": {
+      "url": "https://hast.co/",
+      "label": "hast.co"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#ffffff",
+        "background": "#b3c7d3"
+      }
+    },
+    "headerImage": "hast/HAST-EDITION-OPENHOUSE-MAGAZINE-SALVA-LOPEZ-8.jpg",
+    "description": "Hast creates modern kitchen products that make cooking more fun, creative, and adventurous.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "hast/81Nau5FDvDL.jpg",
+        "img_alt": "hast image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "hast/how-to-look-after-your-kitchen-knives-1656415420.jpg",
+        "img_alt": "hast image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "hast/71pgI9h5qaL.jpg",
+        "img_alt": "hast image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "hast/71n5r3Zx6JL.jpg",
+        "img_alt": "hast image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "hast/HastSelectionJapaneseCarbonsteel5.3-inchUtilityKnife-3_1024x1024@2x.webp",
+        "img_alt": "hast image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Selection Series 7-piece minimalist Knife Set",
+        "hover_subtitle": "Matte Silver",
+        "hover_thumbnail": "hast/Design-Knife-Set-by-Hast-Matte8-honing-g_14e2d78a-13b4-4173-9583-f7d10a875be0_750x750.jpg",
+        "hover_link": "https://www.hast.co/collections/design-kitchen-knives/products/hast-selection-series-7-piece-minimalist-knife-set",
+        "img": "hast/dd4eba12-9415-4059-b839-d87516dcc0bf-photo_of_your_product_or_your_service-Hast-Selection-Series-Japanese-carbon-steel-knife-hero-knife-set-matte-bright.jpg",
+        "img_alt": "Selection Series 7-piece minimalist Knife Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "70%"
+          }
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Mag-nect Camping Knife Set with A 6-inch Chef Knife",
+        "hover_subtitle": "Matte Silver",
+        "hover_thumbnail": "hast/HastMag-nectCampingcuttingboard_knifebox-04_750x750.jpg",
+        "hover_link": "https://www.hast.co/products/hast-mag-nect-camping-knife-set-with-6-inch-chef-knife",
+        "img": "hast/HastMag-nectCampingcuttingboard_knifebox-03..jpg",
+        "img_alt": "Mag-nect Camping Knife Set with A 6-inch Chef Knife",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "70%",
+            "top": "42%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Edition Series Bread Knife",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "hast/Hasthighperformancedesignknife-breadknife-Titaniumblack_jpg_750x750.jpg",
+        "hover_link": "https://www.hast.co/collections/design-kitchen-knives/products/edition-design-bread-knife?variant=36988972400826",
+        "img": "hast/Design-Bread-Knife-by-Hast-Black-Bread_8bc5853e-ed71-4e2d-ad63-b2c3df67bfab.jpg",
+        "img_alt": "Edition Series Bread Knife",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "75%",
+            "top": "75%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Edition Series Boning Knife 5\"",
+        "hover_subtitle": "Gold",
+        "hover_thumbnail": "hast/Hasthighperformancedesignknife-boningknife-Tianiumgold_750x750.jpg",
+        "hover_link": "https://www.hast.co/collections/design-kitchen-knives/products/design-boning-knife?variant=36989030924474",
+        "img": "hast/Design-Boning-Knife-by-Hast-gold-fish_c28ed7d0-d63f-4eab-9cd2-83222ceecb26.jpg",
+        "img_alt": "Edition Series Boning Knife 5\"",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "1000 Grit Ceramic Honing Rod",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "hast/Minimalist-Design-Ceraminc-Honing-rod-by-Hast-2_png_750x750.png",
+        "hover_link": "https://www.hast.co/products/ceramic-honing-rod-by-hast",
+        "img": "hast/Minimalist-kitchen-knife-set-by-Hast-black-sharp_d79a44d7-bff7-4160-8aa6-e89e0edf7191.jpg",
+        "img_alt": "1000 Grit Ceramic Honing Rod",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "65%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Edition Series 4P Modern Knife Set",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "hast/Hasthighperformancedesignknifeset4p-chef-bread-utility-paring--01_750x750.png",
+        "hover_link": "https://www.hast.co/products/design-kitchen-knife-set-4p",
+        "img": "hast/Design-Santoku-Knife-by-Hast-Blackgreen_db464daa-b00d-48fb-99d0-df27c120da4e.jpg",
+        "img_alt": "Edition Series 4P Modern Knife Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "55%",
+            "top": "43%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "cookware",
+      "kitchen",
+      "tools",
+      "knife"
+    ],
+    "hiddenTags": [
+      "glass",
+      "cast",
+      "knives",
+      "iron",
+      "food",
+      "bread",
+      "chef",
+      "set"
+    ]
+  }
