@@ -1,0 +1,190 @@
+{
+    "title": "Sidio Crate",
+    "path": "sidio-crate",
+    "link": {
+        "url": "https://sidiocrate.com/",
+        "label": "sidiocrate.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "##262626",
+            "background": "#f2f0ee"
+        }
+    },
+    "headerImage": "sidiocrate/sidio-milk-crate-lead-1667231630.jpg",
+    "description": "Sidio Crate is an American company that makes a custom organization system for the versatility and toughness of a Milk Crate.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "sidiocrate/screen-shot-2022-11-01-at-7-36-01-am-1667313375.png",
+            "img_alt": "SidioCrate image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "sidiocrate/6397b3a4b5ebe949623f6673_Sidio Crate Review-18.webp",
+            "img_alt": "SidioCrate image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "sidiocrate/6397b42774de34a5c4556c3b_Sidio Crate Review-06.webp",
+            "img_alt": "SidioCrate image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "sidiocrate/Sidio3_1307x2048.webp",
+            "img_alt": "SidioCrate image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "sidiocrate/stack-of-midi-crates-scaled.webp",
+            "img_alt": "SidioCrate image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Full Size Builder",
+            "hover_subtitle": "Sidio Blue",
+            "hover_thumbnail": "sidiocrate/FullSbluestd.140_900x900.jpg",
+            "hover_link": "https://sidiocrate.com/collections/full-size-sidiocrate/products/copy-of-sidiocrate-bundle-pack?variant=41052840460347",
+            "img": "sidiocrate/295243779_759456262068721_6816853345122282737_n.jpg",
+            "img_alt": "Full Size SidioCrate Builder",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "SidioSkate",
+            "hover_subtitle": "",
+            "hover_thumbnail": "sidiocrate/69576245405__EA120263-41C2-43F9-9DDD-84B4544F48ED.jpeg",
+            "hover_link": "https://sidiocrate.com/collections/full-size-sidiocrate/products/sidiocrate-dolly",
+            "img": "sidiocrate/69576253928__82BEF079-1C84-4DCB-9727-BB5809098F4E.jpeg",
+            "img_alt": "SidioSkate",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "60%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "2 Sided Silicone Coated Foat Mat",
+            "hover_subtitle": "",
+            "hover_thumbnail": "sidiocrate/IMG_1957-2_750x750.jpg",
+            "hover_link": "https://sidiocrate.com/collections/full-size-sidiocrate/products/2-sided-silicone-coated-foam-mat",
+            "img": "sidiocrate/IMG_1957-2.jpg",
+            "img_alt": "2 Sided Silicone Coated Foat Mat",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "45%",
+                    "top": "60%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "PRO Pack",
+            "hover_subtitle": "Sidio Variety Pack",
+            "hover_thumbnail": "sidiocrate/sidiopropck.203_750x750.jpg",
+            "hover_link": "https://sidiocrate.com/collections/full-size-sidiocrate/products/pro-pack",
+            "img": "sidiocrate/image_81b90cb8-0b83-4aab-b19d-54171b0c4b4f.jpg",
+            "img_alt": "PRO Pack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "80%",
+                    "top": "50%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "1/4 Inch Full Size Premium Divider",
+            "hover_subtitle": "Green Acrylic",
+            "hover_thumbnail": "sidiocrate/image_a6554ae3-b62a-40b6-854c-6ec87aeb4d87_750x750.png",
+            "hover_link": "https://sidiocrate.com/collections/full-size-sidiocrate/products/full-size-premium-dividers?variant=40105787392059",
+            "img": "sidiocrate/PremiumDividers.318.png",
+            "img_alt": "1/4 Inch Full Size Premium Divider",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "20%",
+                    "top": "65%"
+                }
+            },
+            "tooltip": {
+                "placement": "top center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Half Size Builder",
+            "hover_subtitle": "White",
+            "hover_thumbnail": "sidiocrate/HalfCratewhitebuilderstd.123_750x750.jpg",
+            "hover_link": "https://sidiocrate.com/products/sidiocrate?variant=41052826730555",
+            "img": "sidiocrate/image_75b5afd7-05b9-4b13-bb5c-0772b1d2013f.jpg",
+            "img_alt": "Half Size Builder",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "15%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "minimal",
+        "modern",
+        "case",
+        "usa",
+        "home",
+        "storage",
+        "organize",
+        "edc"
+    ],
+    "hiddenTags": [
+        "minimalist",
+        "japanese",
+        "american",
+        "america",
+        "box",
+        "container",
+        "organization"
+    ]
+}
