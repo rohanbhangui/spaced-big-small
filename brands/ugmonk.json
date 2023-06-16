@@ -1,0 +1,189 @@
+{
+    "title": "Ugmonk",
+    "path": "ugmonk",
+    "link": {
+      "url": "https://ugmonk.com/",
+      "label": "ugmonk.com"
+    },
+    "theme": {
+      "colors": {
+        "primary": "#2a2a2a",
+        "background": "#e0e7cf"
+      }
+    },
+    "headerImage": "ugmonk/9N3A9745.webp",
+    "description": "Ugmonk is a lifestyle brand known for its minimalist and high-quality products such as accessories, and home goods. Their designs prioritize clean aesthetics, functionality, and attention to detail, appealing to individuals who appreciate simplicity and lasting quality.",
+    "montageItems": [
+      {
+        "id": "0",
+        "img": "ugmonk/9N3A9797.jpeg",
+        "img_alt": "ugmonk image montage shot"
+      },
+      {
+        "id": "1",
+        "img": "ugmonk/starter-kit-plain-new-small.jpg",
+        "img_alt": "ugmonk image montage shot"
+      },
+      {
+        "id": "2",
+        "img": "ugmonk/gather-mobile3.webp",
+        "img_alt": "ugmonk image montage shot"
+      },
+      {
+        "id": "3",
+        "img": "ugmonk/hero-office.webp",
+        "img_alt": "ugmonk image montage shot"
+      },
+      {
+        "id": "4",
+        "img": "ugmonk/Complete-Set_fcd71dcb-92c5-46b1-b705-c9f5c74f992f.jpg",
+        "img_alt": "ugmonk image montage shot"
+      },
+      {
+        "id": "5",
+        "img": "ugmonk/9N3A9832.jpeg",
+        "img_alt": "ugmonk image montage shot"
+      }
+    ],
+    "highlightGrid": [
+      {
+        "id": "a",
+        "hover_name": "Analog",
+        "hover_subtitle": "Walnut",
+        "hover_thumbnail": "ugmonk/analog-starter-kit-walnut_750x750_crop_center.jpg",
+        "hover_link": "https://ugmonk.com/collections/analog/products/analog-starter-kit?variant=36903475150998&selling_plan=937066646",
+        "img": "ugmonk/card-holder-16_3c47f95b-52a8-40db-b19f-040d550d3e2a.jpg",
+        "img_alt": "Analog",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "23%",
+            "top": "57%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "b",
+        "hover_name": "Gather Small Monitor Stand",
+        "hover_subtitle": "Black/Maple",
+        "hover_thumbnail": "ugmonk/Small-Monitor-3_94789e1f-1c64-4b9a-a36e-be366196fd5a_750x750_crop_center.jpg",
+        "hover_link": "https://ugmonk.com/collections/the-gather-collection/products/gather-small-monitor-stand-black-maple?variant=42414469251222",
+        "img": "ugmonk/Small-Monitor-1_4980x3000_crop_center.jpg",
+        "img_alt": "Gather Small Monitor Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "45%",
+            "top": "50%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "c",
+        "hover_name": "Gather MagSafe Phone Stand",
+        "hover_subtitle": "White/Walnut",
+        "hover_thumbnail": "ugmonk/MagSafe-7_750x750_crop_center.jpg",
+        "hover_link": "https://ugmonk.com/collections/the-gather-collection/products/gather-magsafe-phone-stand-white-walnut?variant=42414429339798",
+        "img": "ugmonk/MagSafe-9.jpg",
+        "img_alt": "Gather MagSafe Phone Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "60%",
+            "top": "70%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      },
+      {
+        "id": "d",
+        "hover_name": "Gather Laptop Stand",
+        "hover_subtitle": "Black/Maple",
+        "hover_thumbnail": "ugmonk/Laptop-Stand-4_4026e5f8-7c1c-43de-a696-8b3eb122e958_750x750_crop_center.jpg",
+        "hover_link": "https://ugmonk.com/collections/the-gather-collection/products/gather-laptop-stand-black-maple?variant=42414457815190",
+        "img": "ugmonk/Laptop-Stand.jpg",
+        "img_alt": "Gather Laptop Stand",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "40%",
+            "top": "73%"
+          }
+        },
+        "tooltip": {
+          "placement": "right center"
+        }
+      },
+      {
+        "id": "e",
+        "hover_name": "Gather Organizer Set",
+        "hover_subtitle": "Black",
+        "hover_thumbnail": "ugmonk/organizer-set-black_750x750_crop_center.jpg",
+        "hover_link": "https://ugmonk.com/collections/the-gather-collection/products/gather-organizer-set-black?variant=42414519582870",
+        "img": "ugmonk/Organizer-Set.jpg",
+        "img_alt": "Gather Organizer Set",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "18%",
+            "top": "35%"
+          }
+        }
+      },
+      {
+        "id": "f",
+        "hover_name": "Gather Wood Zigzag Tray",
+        "hover_subtitle": "Walnut",
+        "hover_thumbnail": "ugmonk/zigzag-walnut_750x750_crop_center.jpg",
+        "hover_link": "https://ugmonk.com/collections/the-gather-collection/products/gather-zigzag-tray-walnut?variant=42414409121942",
+        "img": "ugmonk/Wood-ZigZag-Tray.jpg",
+        "img_alt": "Gather Wood Zigzag Tray",
+        "hover_position": {
+          "default": {
+            "left": "10%",
+            "top": "15%"
+          },
+          "smallTablet": {
+            "left": "43%",
+            "top": "40%"
+          }
+        },
+        "tooltip": {
+          "placement": "left center"
+        }
+      }
+    ],
+    "tags": [
+      "tech",
+      "office",
+      "desk",
+      "aluminum",
+      "metal",
+      "wood",
+      "accessories",
+      "edc"
+    ]
+  }
