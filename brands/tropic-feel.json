@@ -1,0 +1,191 @@
+{
+    "title": "Tropic Feel",
+    "path": "tropic-feel",
+    "link": {
+        "url": "https://shop.tropicfeel.com/",
+        "label": "shop.tropicfeel.com"
+    },
+    "theme": {
+        "colors": {
+            "primary": "#262626",
+            "background": "#eeeee6"
+        }
+    },
+    "headerImage": "tropicfeel/9_16_DSC01239-scaled.jpg",
+    "description": "TropicFeel is a travel gear company that offers innovative and versatile products designed for travelers. They are known for their lightweight, waterproof backpacks, modular designs, and a range of travel essentials that prioritize functionality and sustainability.",
+    "montageItems": [
+        {
+            "id": "0",
+            "img": "tropicfeel/Tropicfeel-Shell-Featured-Image.webp",
+            "img_alt": "tropicfeel image montage shot"
+        },
+        {
+            "id": "1",
+            "img": "tropicfeel/tropicfeel-sustainable-vegan-sneaker-review.jpg",
+            "img_alt": "tropicfeel image montage shot"
+        },
+        {
+            "id": "2",
+            "img": "tropicfeel/01_tropicfeel_shell_backpack_14.jpg",
+            "img_alt": "tropicfeel image montage shot"
+        },
+        {
+            "id": "3",
+            "img": "tropicfeel/Fidlock-Buttons-Tropicfeel-Shell.webp",
+            "img_alt": "tropicfeel image montage shot"
+        },
+        {
+            "id": "4",
+            "img": "tropicfeel/58920.jpg",
+            "img_alt": "tropicfeel image montage shot"
+        },
+        {
+            "id": "5",
+            "img": "tropicfeel/img-0937.jpg",
+            "img_alt": "tropicfeel image montage shot"
+        }
+    ],
+    "highlightGrid": [
+        {
+            "id": "a",
+            "hover_name": "Shell Backpack",
+            "hover_subtitle": "Cypress Green",
+            "hover_thumbnail": "tropicfeel/Backpacks-Shell-20-42L-Backpack-SS23-Cypress-Green-3.jpg",
+            "hover_link": "https://shop.tropicfeel.com/pages/shell-backpack-ss23",
+            "img": "tropicfeel/Shell-Cypress-Green-Outdoor-2.jpg",
+            "img_alt": "Shell Backpack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "40%",
+                    "top": "65%"
+                }
+            }
+        },
+        {
+            "id": "b",
+            "hover_name": "Canyon",
+            "hover_subtitle": "Space Navy",
+            "hover_thumbnail": "tropicfeel/Footwear-ATS-WF-Canyon-SS23-Space-Navy-3.jpg",
+            "hover_link": "https://shop.tropicfeel.com/products/canyon-space-navy",
+            "img": "tropicfeel/Canyon-Space-Navy-Outdoor-3.jpg",
+            "img_alt": "Canyon",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "id": "c",
+            "hover_name": "Coolmax Socks",
+            "hover_subtitle": "",
+            "hover_thumbnail": "tropicfeel/tropicfeel-socks-ecommerce-01_1_810x.jpg",
+            "hover_link": "https://shop.tropicfeel.com/products/3x-coolmax-travel-socks",
+            "img": "tropicfeel/tropicfeel-socks-lifestyle-01_fd47cb3a-d2a6-4ba7-8757-2e73aabae42a.jpg",
+            "img_alt": "Coolmax Socks",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "30%",
+                    "top": "50%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        },
+        {
+            "id": "d",
+            "hover_name": "Bergen Beanie",
+            "hover_subtitle": "Olive Green",
+            "hover_thumbnail": "tropicfeel/Apparel-Everyday-Essentials-Beanie-Bergen-AW22-Olive-Green-1.jpg",
+            "hover_link": "https://shop.tropicfeel.com/products/bergen-beanie-olive-green",
+            "img": "tropicfeel/Beanis-3.jpg",
+            "img_alt": "Bergen Beanie",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "30%"
+                }
+            },
+            "tooltip": {
+                "placement": "right center"
+            }
+        },
+        {
+            "id": "e",
+            "hover_name": "FidLock Pouch",
+            "hover_subtitle": "Fog Grey",
+            "hover_thumbnail": "tropicfeel/Packing-accessories-Fidlock-Pouch-SS23-Fog-Grey-1.jpg",
+            "hover_link": "https://shop.tropicfeel.com/products/fidlock-pouch-ss23?variant=40520621260883",
+            "img": "tropicfeel/Fidlock-Pouch-Fog-Grey-Outdoor-1.jpg",
+            "img_alt": "FidLock Pouch",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "55%",
+                    "top": "55%"
+                }
+            },
+            "tooltip": {
+                "placement": "bottom center"
+            }
+        },
+        {
+            "id": "f",
+            "hover_name": "Packable Daypack",
+            "hover_subtitle": "",
+            "hover_thumbnail": "tropicfeel/Backpacks-Packable-Daypack-SS23-All-Black-4_750x.jpg",
+            "hover_link": "https://shop.tropicfeel.com/products/packable-daypack",
+            "img": "tropicfeel/Packable-Daypack-Outdoor-1.jpg",
+            "img_alt": "Packable Daypack",
+            "hover_position": {
+                "default": {
+                    "left": "10%",
+                    "top": "15%"
+                },
+                "smallTablet": {
+                    "left": "50%",
+                    "top": "68%"
+                }
+            },
+            "tooltip": {
+                "placement": "left center"
+            }
+        }
+    ],
+    "tags": [
+        "productivity",
+        "millican",
+        "travel",
+        "minimal",
+        "modern",
+        "sustainable",
+        "backpack",
+        "duffel",
+        "travel",
+        "office"
+    ],
+    "hiddenTags": [
+        "minimalist"
+    ]
+}
